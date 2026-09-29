@@ -1,0 +1,1422 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:01:38.998Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "customers",
+  "url": "https://www.playbook.com/customers/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:01:38.998Z",
+  "finalUrl": "https://www.playbook.com/customers/",
+  "title": "Customer Stories — Brands & Agencies on Playbook",
+  "description": "Less searching. More shipping, together. Discover how brands, agencies, and production teams are using Playbook no matter what the work is.",
+  "og": {
+    "title": "Customer Stories — Brands & Agencies on Playbook",
+    "description": "Less searching. More shipping, together. Discover how brands, agencies, and production teams are using Playbook no matter what the work is.",
+    "image": "https://storage.ghost.io/c/0d/b2/0db24546-8866-4db6-b770-424195b8c5f9/content/images/2025/08/website-cover-3.jpg",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Product"
+    },
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h1",
+      "text": "Less searching.More shipping, together."
+    },
+    {
+      "tag": "h5",
+      "text": "Trusted by teams & 2M+ creatives"
+    },
+    {
+      "tag": "h3",
+      "text": "Case studies"
+    },
+    {
+      "tag": "h2",
+      "text": "Built for creative teamsaround the world."
+    },
+    {
+      "tag": "h6",
+      "text": "Consumer Wellness"
+    },
+    {
+      "tag": "h3",
+      "text": "How Shakti Mat ran a global rebrand without losing control of a single asset."
+    },
+    {
+      "tag": "h6",
+      "text": "Outdoor Living"
+    },
+    {
+      "tag": "h3",
+      "text": "Why Outdoor Living Today switched from Air to Playbook."
+    },
+    {
+      "tag": "h6",
+      "text": "Stock Media Platform"
+    },
+    {
+      "tag": "h3",
+      "text": "How The Vault Stock rebuilt and scaled their stock platform with better search and workflows."
+    },
+    {
+      "tag": "h6",
+      "text": "Brand Marketing"
+    },
+    {
+      "tag": "h3",
+      "text": "How Wilderdog manages creator partners and a 400K+ Instagram following."
+    },
+    {
+      "tag": "h6",
+      "text": "Social Media Agency"
+    },
+    {
+      "tag": "h3",
+      "text": "Dorst & Lesser united 75+ creators in one workspace, enabling large campaigns without downtime."
+    },
+    {
+      "tag": "h6",
+      "text": "Nonprofit"
+    },
+    {
+      "tag": "h3",
+      "text": "YMCA saves up to 10 hours/week during camp season and shares photos across 6 branches."
+    },
+    {
+      "tag": "h6",
+      "text": "Brand Marketing"
+    },
+    {
+      "tag": "h3",
+      "text": "Opendoor scales brand assets from 100 to 2,500 employees with Playbook."
+    },
+    {
+      "tag": "h6",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h3",
+      "text": "How Warner Brothers Sports keeps global campaigns moving with Playbook."
+    },
+    {
+      "tag": "h6",
+      "text": "Brand Marketing"
+    },
+    {
+      "tag": "h3",
+      "text": "SuperMush turns thousands of assets into 15-20 campaigns monthly from one central hub."
+    },
+    {
+      "tag": "h6",
+      "text": "Media Production"
+    },
+    {
+      "tag": "h3",
+      "text": "Jennifer keeps Playbook as one of her top 3 tabs for instant access when it matters."
+    },
+    {
+      "tag": "h6",
+      "text": "Retail Brand"
+    },
+    {
+      "tag": "h3",
+      "text": "How BlendJet manages 17TB of files and streamlines creation process."
+    },
+    {
+      "tag": "h6",
+      "text": "Brand Marketing"
+    },
+    {
+      "tag": "h3",
+      "text": "Dyla Brands cut manual exports while launching a new flavor every 2 weeks."
+    },
+    {
+      "tag": "h6",
+      "text": "Brand Marketing"
+    },
+    {
+      "tag": "h3",
+      "text": "Block Renovation moved off Google Drive (like ~53% of users) and gained cleaner discoverability and tagging."
+    },
+    {
+      "tag": "h6",
+      "text": "Social Media"
+    },
+    {
+      "tag": "h3",
+      "text": "How SAE University manages 3+ partner brands from one single workspace."
+    }
+  ],
+  "body": [
+    "Product Product Playbook 101 The next era of media storage Visual storage Dynamic space for all type of media. Smart search GPT-powered for results you can trust. Review & approval Comment & react in real-time Publish sites Create sites from stored files Mini-apps Supercharge your creative workflow Desktop sync Two-way file syncing Take a quick tour! See Playbook in action with our interactive product tour.",
+    "API/SDK",
+    "Solutions Use cases Enterprise Marketing Manage creative ops at scale with smart workflows. Media & Entertainment Manage production assets at scale with smart workflows. Creative Agency Collaborate with clients and streamline creative reviews. Consumer Brands Centralize brand assets and keep every team on brand. Game Studios Organize large game assets without paying twice for storage.",
+    "Manage creative ops at scale with smart workflows.",
+    "Manage production assets at scale with smart workflows.",
+    "Collaborate with clients and streamline creative reviews.",
+    "Centralize brand assets and keep every team on brand.",
+    "Organize large game assets without paying twice for storage.",
+    "Resources Resources Help center & tutorials Quick start guides and tutorials Customer stories Real examples. Real results. Portfolio showcase Featured creatives and projects Free giveaway 500+ illustrations from our community More to explore About us Story of Playbook Blog Privacy & ownership Browse template gallery 100+ stunning templates and featured examples from our community.",
+    "Pricing",
+    "Discover how brands, agencies, and production teams are using Playbook no matter what the work is.",
+    "Digital asset management",
+    "Playbook Intelligence",
+    "MCP for creative teams",
+    "Developer API",
+    "Tools and integrations",
+    "Pricing",
+    "Enterprise",
+    "Media and entertainment",
+    "Creative agencies",
+    "Consumer brands",
+    "Game studios",
+    "Blog",
+    "Customer stories",
+    "Help center",
+    "Discord community",
+    "For students",
+    "About us",
+    "Story of Playbook",
+    "Contact us",
+    "Playbook vs Plytix",
+    "Playbook vs Air",
+    "Playbook vs Tagbox",
+    "Playbook vs Dropbox",
+    "Playbook vs Google Drive"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Playbook 101 The next era of media storage",
+      "href": "/product/"
+    },
+    {
+      "label": "Visual storage Dynamic space for all type of media.",
+      "href": "/smarter-storage/"
+    },
+    {
+      "label": "Smart search GPT-powered for results you can trust.",
+      "href": "/gpt/"
+    },
+    {
+      "label": "Review & approval Comment & react in real-time",
+      "href": "/collaboration-editing/"
+    },
+    {
+      "label": "Publish sites Create sites from stored files",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Mini-apps Supercharge your creative workflow",
+      "href": "/p/integrations-all/"
+    },
+    {
+      "label": "Desktop sync Two-way file syncing",
+      "href": "/desktop/"
+    },
+    {
+      "label": "Take a quick tour! See Playbook in action with our interactive product tour.",
+      "href": "https://playbook-assets.navattic.com/7kh00ao"
+    },
+    {
+      "label": "API/SDK",
+      "href": "https://dev.playbook.com/"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/p/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Get started for free",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "Try for free",
+      "href": "https://www.playbook.com/sign-up/"
+    },
+    {
+      "label": "Book a demo",
+      "href": "#"
+    },
+    {
+      "label": "CEO at Shakti Mat",
+      "href": "https://www.shaktimats.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/blog/shakti-mat/"
+    },
+    {
+      "label": "Marketing Manager at Outdoor Living Today",
+      "href": "https://www.outdoorlivingtoday.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/blog/outdoor-living-today/"
+    },
+    {
+      "label": "Creative 2IC at The Vault Stock",
+      "href": "https://www.thevaultstock.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/the-vault-stock/"
+    },
+    {
+      "label": "Co-founder at Wilderdog",
+      "href": "https://www.wilderdog.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/wilderdog/"
+    },
+    {
+      "label": "Co-founder at Dorst & Lesser",
+      "href": "https://dorstenlesser.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/dorst-and-lesser/"
+    },
+    {
+      "label": "Director of Technology & Business Intelligence at YMCA",
+      "href": "https://www.ymca-snoco.org/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/ymca-snoco/"
+    },
+    {
+      "label": "Senior Designer at Opendoor",
+      "href": "https://sell.opendoor.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/opendoor/"
+    },
+    {
+      "label": "VP of Marketing at WBD Sports",
+      "href": "https://wbdsports.com/about-warner-bros-discovery-sports"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/wbd-sports/"
+    },
+    {
+      "label": "VP of Growth at SuperMush",
+      "href": "https://supermush.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/supermush/"
+    },
+    {
+      "label": "Founder & Creative Director at Invictus Media",
+      "href": "#"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/invictus-media"
+    },
+    {
+      "label": "Digital Marketing Manager at BlendJet",
+      "href": "https://blendjet.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/blendjet/"
+    },
+    {
+      "label": "Senior Design Manager at Dyla Brands",
+      "href": "#"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/dyla-brands/"
+    },
+    {
+      "label": "Brand Design Lead at Block Renovation",
+      "href": "https://www.blockrenovation.com/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/block-renovation/"
+    },
+    {
+      "label": "Social Media Strategist at SAE UAE",
+      "href": "https://dubai.sae.edu/"
+    },
+    {
+      "label": "See their story",
+      "href": "/p/sae-university/"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "/school/"
+    },
+    {
+      "label": "About us",
+      "href": "/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com/"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/?p=home",
+    "https://www.playbook.com/product/",
+    "https://www.playbook.com/smarter-storage/",
+    "https://www.playbook.com/gpt/",
+    "https://www.playbook.com/collaboration-editing/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/p/integrations-all/",
+    "https://www.playbook.com/desktop/",
+    "https://playbook-assets.navattic.com/7kh00ao",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/p/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/contact",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/demo/",
+    "https://www.playbook.com/partnership/",
+    "https://www.playbook.com/p/enterprise/",
+    "https://www.playbook.com/sign-up/",
+    "https://www.playbook.com/customers/#",
+    "https://wbdsports.com/",
+    "https://www.rudyprojectna.com/",
+    "https://opendoor.com/",
+    "https://www.blockrenovation.com/",
+    "https://literati.com/",
+    "https://folxhealth.com/",
+    "https://bungalow.com/",
+    "https://www.ymca-snoco.org/",
+    "https://www.stubhub.com/",
+    "https://supermush.com/",
+    "https://www.shaktimats.com/",
+    "https://www.playbook.com/blog/shakti-mat/",
+    "https://www.outdoorlivingtoday.com/",
+    "https://www.playbook.com/blog/outdoor-living-today/",
+    "https://www.thevaultstock.com/",
+    "https://www.playbook.com/p/the-vault-stock/",
+    "https://www.wilderdog.com/",
+    "https://www.playbook.com/p/wilderdog/",
+    "https://dorstenlesser.com/",
+    "https://www.playbook.com/p/dorst-and-lesser/",
+    "https://www.playbook.com/p/ymca-snoco/",
+    "https://sell.opendoor.com/",
+    "https://www.playbook.com/p/opendoor/",
+    "https://wbdsports.com/about-warner-bros-discovery-sports",
+    "https://www.playbook.com/p/wbd-sports/",
+    "https://www.playbook.com/p/supermush/",
+    "https://www.playbook.com/p/invictus-media",
+    "https://blendjet.com/",
+    "https://www.playbook.com/p/blendjet/",
+    "https://www.playbook.com/p/dyla-brands/",
+    "https://www.playbook.com/p/block-renovation/",
+    "https://dubai.sae.edu/",
+    "https://www.playbook.com/p/sae-university/",
+    "https://playbook.com/sign-up/",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/zcveVri5NpeisH6a8jmb_Smw2eZCh3oGpUyDFTyaEmU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VlYjA1NTRh/LTMyNmEtNDU5Mi1h/ZWM3LTFhNzQzMWI5/MTA3Yg",
+        "alt": "",
+        "w": 453,
+        "h": 483
+      },
+      {
+        "src": "https://img.playbook.com/A_4CV_Surfc7AolimubolhVYxjddbZdHzCJBFkqamm8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU0NzkwYzI2/LTNjNjQtNGZlYi1h/NDI0LTZlMjJlMjdk/YjQ3YQ",
+        "alt": "",
+        "w": 453,
+        "h": 483
+      },
+      {
+        "src": "https://img.playbook.com/dD37r08pDPeZT3jPPejqJdBnb0bL8uewH0F833dIPFs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1NDUwYTM5/LTMwZTUtNDBkZi1h/ZWNkLWRmYmZjMDhm/NmRkZg",
+        "alt": "",
+        "w": 453,
+        "h": 483
+      },
+      {
+        "src": "https://img.playbook.com/dWndnjz45HQ0WMsOIKjkxlTSSDIUkSph4xpJShkQKfg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y1YjU3NzYz/LTc1MjEtNDI1My1i/MGRmLTA4MzBkYzli/ZWYwMA",
+        "alt": "",
+        "w": 196,
+        "h": 200
+      },
+      {
+        "src": "https://img.playbook.com/akW4ht9Ej9MJIR9NPANLGw8Jm7k805Ko63jr0alCrOw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2U0NjljZjQw/LTAwNjktNGIwNi1h/ZmQ5LWRkMmQ5ZmE1/Y2NiYw",
+        "alt": "",
+        "w": 488,
+        "h": 188
+      },
+      {
+        "src": "https://img.playbook.com/PO49JlsXVwQlfjEbskOWkb4LyD91aSV8xl4vXjt-jAw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I2YzNiNzM2/LTYzMTUtNGQ1NC1h/MWQzLTQ0MDc1Yjgy/ZmU4Yw",
+        "alt": "",
+        "w": 820,
+        "h": 176
+      },
+      {
+        "src": "https://img.playbook.com/68Hu1Pf7h1PWcwn5b47ngwIQIuaXokrT3mIFpJOZ0Eo/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Q4ZTE0YjYy/LTU1NjctNDQxNy04/ZTA0LTc1MzkwOGI3/M2MwYg",
+        "alt": "",
+        "w": 292,
+        "h": 160
+      },
+      {
+        "src": "https://img.playbook.com/itnrgU3wo6yutrJHzadTxEV3IRD4AXpMTuN0j_Ffx30/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzgxNzA5YjJm/LTZhNWUtNGE5ZC05/OThkLTY4YWIwMmI5/MDM3Mw",
+        "alt": "",
+        "w": 540,
+        "h": 147
+      },
+      {
+        "src": "https://img.playbook.com/DTZE81-RhYhqzftIHFsj2Av4FLaFMcVdWa2BgonJG0U/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzkxZDJkODA1/LTBmNjktNDI1Ni1i/NmMyLTA4MDRhMGZj/Zjk1Yw",
+        "alt": "",
+        "w": 810,
+        "h": 228
+      },
+      {
+        "src": "https://img.playbook.com/7InwaZgi9Dy7EdfBxW5zb0n78vVlaMu3mEXhcFN1zxQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2U2YjhkOGIw/LTU1N2UtNDM4MS04/MzM2LTg3YzMwYmE0/NmIwMw",
+        "alt": "",
+        "w": 600,
+        "h": 68
+      },
+      {
+        "src": "https://img.playbook.com/JGQRq4jd0rILUx4E1cR-XCs_X1puMnmBLdDow420dW8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYwNjVkYzlj/LTk5N2QtNDkwMS05/YTNhLTBhNmViODQ3/ODM4ZQ",
+        "alt": "",
+        "w": 1003,
+        "h": 768
+      },
+      {
+        "src": "https://img.playbook.com/lo_iWaGM5fpngj0PFJ1Mm7NApK6SkDVKIpSpwZbqkbk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM5YTRjNTI0/LTJmY2UtNDgwMi1i/ZjQxLWVmNTFhOTli/NDQ1OQ",
+        "alt": "",
+        "w": 1024,
+        "h": 512
+      },
+      {
+        "src": "https://img.playbook.com/R4eWRop1M_3ac_btqXofsP4HgMPpn1Qx-cXnx79Ergc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y3MGIwNDg5/LTNmZDMtNDU4OS04/Yjc2LTY0ZGViY2I5/NWYzNA",
+        "alt": "",
+        "w": 953,
+        "h": 502
+      },
+      {
+        "src": "https://img.playbook.com/O3lFq655t2CJLjkjWVPnpO3gg5Udq99RBCQH3ZxRw0o/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NzVkOTVj/LTM3YzMtNGRiNi04/MWJlLWE4ZjJkOTA1/MTMzOA",
+        "alt": "Shakti Mat",
+        "w": 198,
+        "h": 149
+      },
+      {
+        "src": "https://img.playbook.com/-RdLSltb5M7i3ClRbdC1fhYCYEycH9kmU1_xa0kiHaA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzhiYTExMDA4/LTE0NjktNDIwMi04/NjBlLWNmYzRjNjA5/OWUyNg",
+        "alt": "Glynn Ryland",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://img.playbook.com/CcSwHTPoibip7-VT516P8gawFOkcMx056v5ofTP7hnQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyY2YwNTY5/LWUwY2EtNGI1Zi05/Y2E4LWY3NTc4Yzdm/ZDcwMw",
+        "alt": "Outdoor Living Today Logo",
+        "w": 738,
+        "h": 219
+      },
+      {
+        "src": "https://img.playbook.com/3Aw_Kq5Ih8wffGmqHhTfaD9nKX8AECOW6tO-PVvTLxA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzExZDk2MGMy/LThiMGItNGMxYi05/ZWE0LTA3OWM2NjMw/ZWUzMw",
+        "alt": "Austin Gray",
+        "w": 1254,
+        "h": 1254
+      },
+      {
+        "src": "https://img.playbook.com/3Glrspvbw5wgnE5Yy_l-CG-q9blc60OlUmv0HzWRdow/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNmZWNmYmQx/LTU2ODMtNDEwYi05/N2ZjLWE0OTdhYzJj/NzgzMA",
+        "alt": "The Vault Stock Logo",
+        "w": 322,
+        "h": 375
+      },
+      {
+        "src": "https://img.playbook.com/G_PlSuuGjFcXiPMJknfDSWTOnyiBQLE4hlhP1YbxYck/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzgxZmJmYTll/LWE3NzUtNDhlNS04/NTY0LTEyY2FlYzI4/YmEyOQ",
+        "alt": "Anna Hamilton",
+        "w": 683,
+        "h": 1024
+      },
+      {
+        "src": "https://img.playbook.com/vG1x-rB2WmiNPJSWFABWlBTiolnSuICQIGCurdAOtXw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzBjYTg5ZmVk/LThhOTItNGE0ZS04/OWFkLTllMDQxODc5/MzUxYg",
+        "alt": "Wilderdog Logo",
+        "w": 714,
+        "h": 115
+      },
+      {
+        "src": "https://img.playbook.com/WUbPZAv_RXPcNVUzLaBNIoWFoEGk_cqLFxPOMpEa9OE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzVkZmMwOGI1/LWVjNDMtNGU0NS1h/ZDA4LTBlNzY2Njlj/MGE5Nw",
+        "alt": "Rachel Friedline",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://img.playbook.com/y_06gSQ5LkvejtZYfoN1inDSd4CpPSZv2qJqPq4NIJ0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2YyZmM3MzA1/LTJlZDYtNGVmNS1i/MjFiLTc5YWZjZmY1/MjIzZQ",
+        "alt": "Dorst & Lesser Logo",
+        "w": 519,
+        "h": 258
+      },
+      {
+        "src": "https://img.playbook.com/x-UQdp3tNUKN-bjWVgNPMJe9yPpCctObruA7raxf9DE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM1YzZiODBi/LTk3OTktNGMxOS05/Mjc2LWMxODY2NjA5/MTc3OQ",
+        "alt": "Robert Withagen",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://img.playbook.com/JGQRq4jd0rILUx4E1cR-XCs_X1puMnmBLdDow420dW8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYwNjVkYzlj/LTk5N2QtNDkwMS05/YTNhLTBhNmViODQ3/ODM4ZQ",
+        "alt": "YMCA Customer Story",
+        "w": 1003,
+        "h": 768
+      },
+      {
+        "src": "https://img.playbook.com/CFwz_O7y4o8VqDoMda_KmeFsjVidWWdnzzo85YQxboM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzEzNGQ3MmMz/LTY3NmQtNDIyZC05/NmM0LWYwMTBlZTk3/MjhiMg",
+        "alt": "Michael Rinner",
+        "w": 749,
+        "h": 749
+      },
+      {
+        "src": "https://img.playbook.com/PO49JlsXVwQlfjEbskOWkb4LyD91aSV8xl4vXjt-jAw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I2YzNiNzM2/LTYzMTUtNGQ1NC1h/MWQzLTQ0MDc1Yjgy/ZmU4Yw",
+        "alt": "Opendoor Customer Story",
+        "w": 820,
+        "h": 176
+      },
+      {
+        "src": "https://img.playbook.com/V8U4iNuGnv3hUXRI4rLFdKNsX4SftJSlSWGGWDAdZ-M/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2E1NDJhNjI2/LTkwNzYtNDIwYy1i/NWRjLTA5YTlmN2M2/ODlhMA",
+        "alt": "Nicolas Solerieu",
+        "w": 1600,
+        "h": 1107
+      },
+      {
+        "src": "https://img.playbook.com/dWndnjz45HQ0WMsOIKjkxlTSSDIUkSph4xpJShkQKfg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y1YjU3NzYz/LTc1MjEtNDI1My1i/MGRmLTA4MzBkYzli/ZWYwMA",
+        "alt": "Opendoor Customer Story",
+        "w": 196,
+        "h": 200
+      },
+      {
+        "src": "https://img.playbook.com/4TnIV4YQ5fB0RVBm8MwVcFG7OMEuZ5HwHhuIgqxevP8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzFlY2M2OTZi/LWM0YmEtNDEzNi04/NWI5LWZiMWVjN2U2/YjQyYw",
+        "alt": "David Bret",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://img.playbook.com/R4eWRop1M_3ac_btqXofsP4HgMPpn1Qx-cXnx79Ergc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y3MGIwNDg5/LTNmZDMtNDU4OS04/Yjc2LTY0ZGViY2I5/NWYzNA",
+        "alt": "SuperMush Customer Story",
+        "w": 953,
+        "h": 502
+      },
+      {
+        "src": "https://img.playbook.com/fgoc85RC4_oKk_RcpDPUpHbI_V90w_dw4CuItzXZZl8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JlZjBlMjQ5/LTgyNTAtNGEzNS04/M2RjLTIxMzI4NzNj/MTBlMQ",
+        "alt": "Silas Bush",
+        "w": 402,
+        "h": 402
+      },
+      {
+        "src": "https://img.playbook.com/maFXhBQNv2uVIuT3q9TgKGKUaiI41NoHEvxw7ZZFlUU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE4Zjk0ZGMy/LTRkZTAtNDBlNS05/YTQxLTc2Y2M1MTQ4/YThjMg",
+        "alt": "Invictus Media Customer Story",
+        "w": 864,
+        "h": 1056
+      },
+      {
+        "src": "https://img.playbook.com/6fzN32ya_kBkjObR4Uqg5s8bC0zIncVKdvdc_f6SdEc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M1YmQ5M2U2/LTQwOWMtNGE0NC04/M2RjLTg0ZmViMGFh/NWQ0OA",
+        "alt": "JenniferKathryn King",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://img.playbook.com/47_zdqPdC-aSmunAuU-jIeYTr33MIf4Bk177D9vE_ik/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk5YWQ1Y2Nm/LTMxOTQtNDQ5Yi1i/ZWNjLWIzODczZDNk/YzU5Zg",
+        "alt": "BlendJet Customer Story",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://img.playbook.com/sjPXAm2NVcEeKA_z0lf_KNZCco6CVMHDsxfC-95Wt34/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzFhNDNjNzFl/LTFkZTEtNGRlNy1i/Y2NmLWNmZmM5MWYx/N2FhNA",
+        "alt": "Zoe Patchin",
+        "w": 547,
+        "h": 521
+      },
+      {
+        "src": "https://img.playbook.com/HkMrvaeorHgTI0NIv68GlTejDZteth7lx7Xe-CNBC0A/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYwOWE5NzQz/LTIzOGItNGQxNy1i/MzgxLWFlZjIzNDg3/MjA1NA",
+        "alt": "Dyla Brands Customer Story",
+        "w": 462,
+        "h": 279
+      },
+      {
+        "src": "https://img.playbook.com/qxwmTJiNcc5lyBdHoTvdT8R71D8Cf79y7yf3g_F-gsI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Q3ZjE1MTJh/LTU2MzUtNDY5NC04/NGRlLTg4NDVlZGYw/YzBjOA",
+        "alt": "Emma Madia",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://img.playbook.com/bedYFdzHHh_sj4sPv3DHpmyLOV5HO9qyVqe3beojY6E/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdmMTYyMmFk/LTQ0MTktNGE5Yy05/Yjg5LTkzMmNjZDQ4/MTAzOQ",
+        "alt": "Block Renovation Customer Story",
+        "w": 1149,
+        "h": 383
+      },
+      {
+        "src": "https://img.playbook.com/zwN402ZjM4M4cj2sqlRFmS7OAi7ycEw_kg20RIj8N6A/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzMzNzFkM2Jm/LTliNGItNDYwNS05/MDU4LTA4MDNkZTU5/NDRmYQ",
+        "alt": "Molly Desmond",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://img.playbook.com/ULwNxO_ZlOHRs0T9ROWHpVzrR60y4Pt1S024JvyHtQQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2UyNTZhYzVl/LTliYzQtNGQ2Mi1i/ZWNiLWMxZGI0ZDhl/MDVmZQ",
+        "alt": "SAE University Customer Story",
+        "w": 350,
+        "h": 350
+      },
+      {
+        "src": "https://img.playbook.com/pqt1dYseZ2bN8Iis2_Qf7cOIdLvgCr9fjmmzoTTSCNQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzZkM2UyMGIw/LTBlODgtNDE2NS05/MzQ0LTZjNzk2N2Qz/OGIxMA",
+        "alt": "Rami Zaki",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      }
+    ],
+    "allImgCount": 85,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--ghost-accent-color": "#15171A"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 36,
+    "mainTextLen": 58500,
+    "realImageCount": 73,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/members/api/member/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/members/api/member/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/settings/",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2955,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/settings/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/tiers/",
+        "query": [
+          "include",
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 333,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/tiers/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/newsletters/",
+        "query": [
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 408,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/newsletters/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "o362445.ingest.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 3,
+        "example": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.playbook.com",
+        "path": "/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 4
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "chat-assets.frontapp.com",
+        "count": 2
+      },
+      {
+        "host": "app.termly.io",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "data-open-demo-modal",
+        "href": "#"
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 6,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/customers.png",
+  "renderedHtml": "pages/customers.html",
+  "slots": {
+    "index-headline": "Less searching.More shipping, together.",
+    "filter-controls": null,
+    "card-grid": {
+      "count": 86,
+      "card": {
+        "image": "image",
+        "title": "text",
+        "excerpt": "text",
+        "link": "link"
+      }
+    },
+    "modules": [
+      "logo-marquee"
+    ]
+  }
+}

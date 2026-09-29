@@ -1,0 +1,1248 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:02:00.449Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "blog-client-approval-software-for-creative-teams",
+  "url": "https://www.playbook.com/blog/client-approval-software-for-creative-teams/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:02:00.449Z",
+  "finalUrl": "https://www.playbook.com/blog/client-approval-software-for-creative-teams/",
+  "title": "Client Approval Software for Creative Teams in 2026",
+  "description": "Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.",
+  "og": {
+    "title": "Client Approval Software for Creative Teams in 2026",
+    "description": "Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.",
+    "image": "https://img.playbook.com/ouxEc3QZtzuWdg-Yv-r0NB_kuDPJe8Y8jyk6peUnD8A/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RkNzM4NmU3/LTU2MWItNDUxYy05/MjA0LTdiNjEyZTRk/MTlmZg",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Product"
+    },
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h1",
+      "text": "Client Approval Software for Creative Teams in 2026"
+    },
+    {
+      "tag": "h2",
+      "text": "How we ordered this list"
+    },
+    {
+      "tag": "h2",
+      "text": "Quick comparison"
+    },
+    {
+      "tag": "h2",
+      "text": "1. Playbook: best for teams who want approval inside the asset library"
+    },
+    {
+      "tag": "h2",
+      "text": "2. Filestage: best for marketing teams running fixed review rounds"
+    },
+    {
+      "tag": "h2",
+      "text": "3. Ziflow: best for enterprise proofing with compliance needs"
+    },
+    {
+      "tag": "h2",
+      "text": "4. Frame.io: best for video and post production"
+    },
+    {
+      "tag": "h2",
+      "text": "5. PageProof: best for regulated work needing strict audit trails"
+    },
+    {
+      "tag": "h2",
+      "text": "How to choose client approval software"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently asked questions"
+    },
+    {
+      "tag": "h3",
+      "text": "What is client approval software?"
+    },
+    {
+      "tag": "h3",
+      "text": "What is the best client approval software for creative teams?"
+    },
+    {
+      "tag": "h3",
+      "text": "Is online proofing software the same as client approval software?"
+    },
+    {
+      "tag": "h3",
+      "text": "Do I still need proofing software if I have a DAM?"
+    },
+    {
+      "tag": "h3",
+      "text": "How much does client approval software cost?"
+    },
+    {
+      "tag": "h3",
+      "text": "Can clients leave feedback without creating an account?"
+    }
+  ],
+  "body": [
+    "How we ordered this list",
+    "Quick comparison",
+    "1. Playbook: best for teams who want approval inside the asset library",
+    "2. Filestage: best for marketing teams running fixed review rounds",
+    "3. Ziflow: best for enterprise proofing with compliance needs",
+    "4. Frame.io: best for video and post production",
+    "5. PageProof: best for regulated work needing strict audit trails",
+    "How to choose client approval software",
+    "Frequently asked questions",
+    "Client approval software is a tool that collects structured feedback on creative work and records a formal sign-off, so that approvals live on the asset itself instead of scattered across email, Slack, and meeting notes. If your team is still chasing \"looks good to me\" replies across four channels, that is the problem this category exists to solve.",
+    "This guide compares five tools creative teams actually use for client approval in 2026, and it asks one question most comparisons skip: what happens to the asset after someone approves it? Review is a moment. The library is forever. A tool that nails the moment and drops the asset afterwards has solved half your problem.",
+    "Want to see approvals and the asset library in one place? Schedule a demo.",
+    "Five criteria, applied in this order:",
+    "Does the client need an account? Every login you require is feedback you do not get.",
+    "Is the feedback anchored to the work? A comment pinned to a timestamp or a coordinate beats a paragraph describing a region of the image.",
+    "Is sign-off a record, or a vibe? Approval should be an auditable event with a name and a date attached.",
+    "What file types does it actually handle? Video, PDF, and layered design files behave very differently under review.",
+    "Where does the asset live afterwards? This is the criterion that separates a proofing tool from a system of record.",
+    "Playbook is a visual home for creative work where client approval is one motion inside the library rather than a separate product. You share a board or a single asset by link, the client comments directly on the work without creating an account, and the approved file stays exactly where the rest of your library lives.",
+    "Strengths",
+    "Per-second comments on video and pinned comments on stills, so feedback points at the frame instead of describing it",
+    "Guests never take a paid seat, and they are unlimited on Pro and above",
+    "Role-based permissions, so a client sees one board and not your whole library",
+    "Published brand portals that update once and serve every market",
+    "The approved asset is already filed, tagged, and searchable the moment it is approved",
+    "Limitations",
+    "Playbook is not a dedicated compliance proofing suite, so teams in pharma or regulated finance may still need a specialist tool alongside it",
+    "Playbook Intelligence starts on the Team plan, not on Free or Pro",
+    "WBD Sports, the marketing engine behind TNT Sports, Eurosport, and Bleacher Report, runs legal review this way across a 10,000-asset library. Before Playbook, assets sat in SharePoint and Google Drive while promo scripts moved by email. VP of Marketing David Bret described the old process simply: \"There was a lot of wasted time and energy.\" Timestamped video comments turned legal review into something precise and asynchronous.",
+    "Dorst & Lesser, a 75-person social agency in Amsterdam, moves roughly 400 assets a week across 40 clients and 30 influencers, with the conversations tab carrying feedback between team, client, and creator.",
+    "The reason this matters: the filing problem and the approval problem are the same problem. Playbook's board rules tag and place every new upload automatically, so an approved asset does not need a human to remember where it belongs. See how review and collaboration work together for more.",
+    "At the time of writing, Playbook is free to start, Pro is $18 per member per month or $120 per year, Team is $25 per member per month or $240 per year, and Business is a flat $500 per month or $4,800 per year with unlimited members, SSO, and API access. Current tiers are on the pricing page.",
+    "Filestage is online proofing software built around explicit review steps, where each round has named reviewers and a due date. It is a good fit for marketing teams whose approval process is genuinely sequential: creative reviews, then brand, then legal.",
+    "Strengths",
+    "Review steps with due dates make the status of a round unambiguous",
+    "Reviewers comment without an account",
+    "Handles video, PDF, and web content in one review surface",
+    "Automated reminders reduce the chasing",
+    "Limitations",
+    "It is a proofing tool, so approved files still need a home somewhere else",
+    "Per-seat pricing gets expensive as the internal reviewer list grows",
+    "Pricing is published per seat on the Filestage pricing page and is worth checking directly, since tiers change.",
+    "Ziflow is enterprise-grade online proofing with automated workflow routing, built for organizations where a review path has to be enforced rather than suggested. If your approvals need to follow the same documented route every time, this is the category leader for that job.",
+    "Strengths",
+    "Automated routing sends a proof to the next stage without anyone remembering to",
+    "Very broad file type support, including packaging and print formats",
+    "Detailed audit trails suited to regulated review",
+    "Integrations with the major work management platforms",
+    "Limitations",
+    "More setup than a small team needs, and the workflow builder rewards a dedicated owner",
+    "Like other proofing suites, it manages the approval and not the library behind it",
+    "See the Ziflow pricing page for current tiers.",
+    "Frame.io is a video-first review platform, now part of Adobe, with frame-accurate commenting and tight integration into Premiere Pro and After Effects. For teams whose approvals are mostly moving pictures, the editorial integration is the strongest on this list.",
+    "Strengths",
+    "Frame-accurate comments and drawing tools built for editorial review",
+    "Camera to Cloud gets footage into review while the shoot is still running",
+    "Deep Adobe integration for teams already in Creative Cloud",
+    "Generous free tier for small teams",
+    "Limitations",
+    "Strongest on video, less natural for stills, packaging, and static campaign work",
+    "Organized around projects, so assets tend to stay locked to the job they were made for rather than becoming a reusable library",
+    "At the time of writing, Frame.io lists a free tier, Pro at $15 per month, Team at $25 per month, and custom Enterprise pricing on the Frame.io pricing page.",
+    "PageProof is proofing software with an emphasis on security and a complete, defensible record of who approved what. Teams in pharma, finance, and other regulated categories choose it for exactly that reason.",
+    "Strengths",
+    "Encrypted proofs and a rigorous approval record",
+    "Smart compare highlights what changed between versions",
+    "Reviewers do not need an account",
+    "Works alongside Adobe tools",
+    "Limitations",
+    "Entry pricing is high for small teams relative to the rest of this list",
+    "Again, a proofing specialist rather than a place your assets live",
+    "At the time of writing, published plans start at $249 per month or $2,499 per year, with a higher tier at $499 per month or $4,999 per year. Check the PageProof pricing page for current figures.",
+    "Work through these in order and the shortlist tends to pick itself.",
+    "If most of your work is video, weight frame-accurate commenting and editorial integration highest.",
+    "If your review path is legally mandated, weight audit trails and enforced routing highest.",
+    "If clients ignore your review links, weight no-account access highest. This is the single most common reason approval tools fail to get adopted.",
+    "If you keep re-shooting things you already own, the bottleneck is not approval at all. It is that approved work disappears into a project folder. Fix the library first.",
+    "If you are an agency juggling many clients, weight per-client permissions and guest pricing, because seat-based tools punish you for the thing you do most. Our agency guide covers that math.",
+    "The honest summary: if you need deep compliance proofing, buy a proofing specialist. If your real problem is that approved work vanishes, buy a library that happens to do approvals. Schedule a demo and we will tell you which one you are.",
+    "Client approval software collects structured feedback on creative work and records a formal sign-off. Reviewers comment directly on the asset, usually without an account, and the approval is stored as a dated, attributable event rather than an email reply.",
+    "It depends on the file type that dominates your work. Video-heavy teams tend to choose Frame.io. Teams needing enforced compliance routing choose Ziflow or PageProof. Teams who want approvals and their asset library in one system choose Playbook.",
+    "Mostly yes. \"Online proofing\" is the older term from print and packaging, where a proof was a physical artifact. Both describe tools for marking up creative work and recording sign-off.",
+    "Often not. A DAM with per-second video comments, pinned annotations, and role-based sharing covers the majority of approval workflows. Keep a dedicated proofing tool if you have regulated, multi-stage routing that must be enforced by the system.",
+    "Most tools price per seat, which is why guest access matters so much. At the time of writing, entry points on this list range from free tiers up to $249 per month, with enterprise proofing suites quoted individually.",
+    "With most tools on this list, yes. Playbook, Filestage, and PageProof all support reviewing by link without an account. Requiring a login is the fastest way to reduce the amount of feedback you actually receive.",
+    "Approvals should not be the reason work sits still, and an approved asset should not be the last time anyone sees it. Schedule a demo to see review and the library working as one system."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Playbook 101 The next era of media storage",
+      "href": "/product/"
+    },
+    {
+      "label": "Visual storage Dynamic space for all type of media.",
+      "href": "/smarter-storage/"
+    },
+    {
+      "label": "Smart search GPT-powered for results you can trust.",
+      "href": "/gpt/"
+    },
+    {
+      "label": "Review & approval Comment & react in real-time",
+      "href": "/collaboration-editing/"
+    },
+    {
+      "label": "Publish sites Create sites from stored files",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Mini-apps Supercharge your creative workflow",
+      "href": "/p/integrations-all/"
+    },
+    {
+      "label": "Desktop sync Two-way file syncing",
+      "href": "/desktop/"
+    },
+    {
+      "label": "Take a quick tour! See Playbook in action with our interactive product tour.",
+      "href": "https://playbook-assets.navattic.com/7kh00ao"
+    },
+    {
+      "label": "API/SDK",
+      "href": "https://dev.playbook.com/"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/p/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Get started for free",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "How we ordered this list",
+      "href": "#how-we-ordered-this-list"
+    },
+    {
+      "label": "Quick comparison",
+      "href": "#quick-comparison"
+    },
+    {
+      "label": "1. Playbook: best for teams who want approval inside the asset library",
+      "href": "#1-playbook-best-for-teams-who-want-approval-inside-the-asset-library"
+    },
+    {
+      "label": "2. Filestage: best for marketing teams running fixed review rounds",
+      "href": "#2-filestage-best-for-marketing-teams-running-fixed-review-rounds"
+    },
+    {
+      "label": "3. Ziflow: best for enterprise proofing with compliance needs",
+      "href": "#3-ziflow-best-for-enterprise-proofing-with-compliance-needs"
+    },
+    {
+      "label": "4. Frame.io: best for video and post production",
+      "href": "#4-frameio-best-for-video-and-post-production"
+    },
+    {
+      "label": "5. PageProof: best for regulated work needing strict audit trails",
+      "href": "#5-pageproof-best-for-regulated-work-needing-strict-audit-trails"
+    },
+    {
+      "label": "How to choose client approval software",
+      "href": "#how-to-choose-client-approval-software"
+    },
+    {
+      "label": "Frequently asked questions",
+      "href": "#frequently-asked-questions"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Playbook",
+      "href": "https://www.playbook.com/"
+    },
+    {
+      "label": "Published brand portals",
+      "href": "https://www.playbook.com/brand-portal/"
+    },
+    {
+      "label": "WBD Sports",
+      "href": "https://www.playbook.com/blog/wbd-sports/"
+    },
+    {
+      "label": "Dorst & Lesser",
+      "href": "https://www.playbook.com/blog/dorst-and-lesser/"
+    },
+    {
+      "label": "review and collaboration",
+      "href": "https://www.playbook.com/collaboration-editing/"
+    },
+    {
+      "label": "pricing page",
+      "href": "https://www.playbook.com/pricing/"
+    },
+    {
+      "label": "Filestage",
+      "href": "https://filestage.io"
+    },
+    {
+      "label": "Filestage pricing page",
+      "href": "https://filestage.io/pricing/"
+    },
+    {
+      "label": "Ziflow",
+      "href": "https://www.ziflow.com"
+    },
+    {
+      "label": "Ziflow pricing page",
+      "href": "https://www.ziflow.com/pricing"
+    },
+    {
+      "label": "Frame.io",
+      "href": "https://frame.io"
+    },
+    {
+      "label": "Frame.io pricing page",
+      "href": "https://frame.io/pricing"
+    },
+    {
+      "label": "PageProof",
+      "href": "https://pageproof.com"
+    },
+    {
+      "label": "PageProof pricing page",
+      "href": "https://pageproof.com/pricing/"
+    },
+    {
+      "label": "agency guide",
+      "href": "https://www.playbook.com/creative-agency/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "/school/"
+    },
+    {
+      "label": "About us",
+      "href": "/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com/"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/?p=home",
+    "https://www.playbook.com/product/",
+    "https://www.playbook.com/smarter-storage/",
+    "https://www.playbook.com/gpt/",
+    "https://www.playbook.com/collaboration-editing/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/p/integrations-all/",
+    "https://www.playbook.com/desktop/",
+    "https://playbook-assets.navattic.com/7kh00ao",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/p/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/contact",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/demo/",
+    "https://www.playbook.com/partnership/",
+    "https://www.playbook.com/p/enterprise/",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#how-we-ordered-this-list",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#quick-comparison",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#1-playbook-best-for-teams-who-want-approval-inside-the-asset-library",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#2-filestage-best-for-marketing-teams-running-fixed-review-rounds",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#3-ziflow-best-for-enterprise-proofing-with-compliance-needs",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#4-frameio-best-for-video-and-post-production",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#5-pageproof-best-for-regulated-work-needing-strict-audit-trails",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#how-to-choose-client-approval-software",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#frequently-asked-questions",
+    "https://www.playbook.com/",
+    "https://www.playbook.com/brand-portal/",
+    "https://www.playbook.com/blog/wbd-sports/",
+    "https://www.playbook.com/blog/dorst-and-lesser/",
+    "https://filestage.io/",
+    "https://filestage.io/pricing/",
+    "https://www.ziflow.com/",
+    "https://www.ziflow.com/pricing",
+    "https://frame.io/",
+    "https://frame.io/pricing",
+    "https://pageproof.com/",
+    "https://pageproof.com/pricing/",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://www.playbook.com/blog/client-approval-software-for-creative-teams/#",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8rjmywhfH4CvvXMDqGAdz7gN61wIyGzl2i_09y3dK5w/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzA5YmQ1MGIz/LWU0NTYtNDg0ZS1i/YmI3LTZiN2FhODRm/OWI0Yw",
+        "alt": "Playbook product screenshot",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "src": "https://img.playbook.com/BY302nsNXqn_5uqvqHoriwgs8UQV8wqY9khsHLSbeOs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzI1ZDc5MTA1/LTBmMWItNGU3Yy1i/M2Y5LTljNjczOTE2/YzFkNQ",
+        "alt": "Filestage product screenshot",
+        "w": 1797,
+        "h": 1411
+      },
+      {
+        "src": "https://img.playbook.com/FzS-uc-RAFi3shNQ4YDYEY8TIDex-sajlBW3JZ0YxzE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM1NjM2ZjVl/LTY2ZDgtNDhiMS1i/YmMxLTNhZGFlZWE0/ZjFlNQ",
+        "alt": "Ziflow product screenshot",
+        "w": 1200,
+        "h": 713
+      },
+      {
+        "src": "https://img.playbook.com/jgtN2SLYg9eAZtsW6VvIm7jAOecx52BVnY7WDtOfwgw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2E5MjIzZWUw/LTVlZjUtNGQ2My04/ZWQ3LTMwNjAxNTM2/MWM5Mg",
+        "alt": "Frame.io product screenshot",
+        "w": 1600,
+        "h": 1000
+      },
+      {
+        "src": "https://img.playbook.com/wQYNZeepHLN69aWZjCsqwzJHcJ1nYm6aNWwxl6WGiNo/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y4M2U2MzU0/LTUwM2QtNDNkNS04/ZWYwLTAxY2EyZTlj/ZGZmMw",
+        "alt": "PageProof product screenshot",
+        "w": 2560,
+        "h": 1391
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      }
+    ],
+    "allImgCount": 49,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--fl-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-border-strong": "rgba(255, 255, 255, 0.08)",
+    "--fl-bg": "transparent",
+    "--fl-text": "inherit",
+    "--fl-text-muted": "rgba(255, 255, 255, 0.55)",
+    "--fl-heading": "inherit",
+    "--fl-mock-bg": "#1a1a1a",
+    "--fl-mock-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-mock-shadow": "0 40px 80px rgba(0, 0, 0, 0.5)",
+    "--fl-screen-bar-bg": "#0e0e0e",
+    "--fl-screen-bar-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-screen-url-bg": "#1c1c1c",
+    "--fl-screen-url-text": "rgba(255, 255, 255, 0.3)",
+    "--fl-hero-float-bg": "rgba(98, 98, 98, 0.04)",
+    "--fl-hero-float-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-pill-bg": "#000",
+    "--fl-pill-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-pill-text": "rgba(255, 255, 255, 0.55)",
+    "--fl-pill-hot-bg": "rgba(212, 107, 202, 0.05)",
+    "--fl-pill-hot-border": "rgba(255, 60, 142, 0.3)",
+    "--fl-pill-hot-text": "#ff3c8e",
+    "--fl-stat-num": "#fff",
+    "--fl-stat-label": "#999",
+    "--fl-tag-strip-bg": "#111111",
+    "--fl-tag-strip-text": "rgba(255, 255, 255, 0.2)",
+    "--fl-tag-strip-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-screen-body-bg": "#111",
+    "--fl-row-shaded": "rgba(255, 255, 255, 0.05)",
+    "--fl-row-line-border-bottom": "none",
+    "--fl-marquee-fade": "#151719",
+    "--fl-ready-heading": "inherit",
+    "--fl-ready-text": "inherit",
+    "--fl-feature-intro-flex": "1",
+    "--fl-eyebrow-bg-size": "150% 100%",
+    "--ghost-accent-color": "#15171A"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 25,
+    "mainTextLen": 11789,
+    "realImageCount": 37,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/members/api/member/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/members/api/member/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/tiers/",
+        "query": [
+          "include",
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 333,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/tiers/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/settings/",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2955,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/settings/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/newsletters/",
+        "query": [
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 408,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/newsletters/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/can_track_visitor",
+        "query": [
+          "x_app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 19,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "o362445.ingest.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 3,
+        "example": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.playbook.com",
+        "path": "/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "api.unifyintent.com",
+        "path": "/analytics/v1/page",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.unifyintent.com/analytics/v1/page",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/track_request",
+        "query": [
+          "app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 400,
+        "bytes": 86,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "timestamp",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 3
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "chat-assets.frontapp.com",
+        "count": 2
+      },
+      {
+        "host": "app.termly.io",
+        "count": 1
+      },
+      {
+        "host": "tag.unifyintent.com",
+        "count": 1
+      },
+      {
+        "host": "assets.apollo.io",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/blog-client-approval-software-for-creative-teams.png",
+  "renderedHtml": "pages/blog-client-approval-software-for-creative-teams.html",
+  "slots": {
+    "headline": "Client Approval Software for Creative Teams in 2026",
+    "deck": "Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.",
+    "byline": null,
+    "meta": {
+      "published": null
+    },
+    "lead-image": null,
+    "body": {
+      "paragraphs": 86,
+      "headings": 15
+    },
+    "pullquotes": [],
+    "related": [],
+    "modules": [
+      "faq-accordion",
+      "comparison-table"
+    ]
+  }
+}

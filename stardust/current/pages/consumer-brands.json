@@ -1,0 +1,671 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:01:30.467Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "consumer-brands",
+  "url": "https://www.playbook.com/consumer-brands/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:01:30.467Z",
+  "finalUrl": "https://www.playbook.com/consumer-brands/",
+  "title": "End-to-End Workflow Management for Consumer Goods | Playbook",
+  "description": "Power your team's creative flow with Playbook — centralize product catalogs, streamline approvals, and manage campaigns end-to-end.",
+  "og": {
+    "title": "End-to-End Workflow Management for Consumer Goods | Playbook",
+    "description": "Power your team's creative flow with Playbook — centralize product catalogs, streamline approvals, and manage campaigns end-to-end.",
+    "image": "https://www.playbook.com/og-default.jpg",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h5",
+      "text": "Playbook for Consumer Brands"
+    },
+    {
+      "tag": "h1",
+      "text": "The bigger the brand, the messier the assets. Until now."
+    },
+    {
+      "tag": "h3",
+      "text": "ROI & Benefits"
+    },
+    {
+      "tag": "h2",
+      "text": "Numbers that actually matter."
+    },
+    {
+      "tag": "h3",
+      "text": "POPULAR USE CASES"
+    },
+    {
+      "tag": "h2",
+      "text": "One central platform.End-to-end workflows."
+    },
+    {
+      "tag": "h5",
+      "text": "Centralize your product catalog."
+    },
+    {
+      "tag": "h5",
+      "text": "Simplify approvals."
+    },
+    {
+      "tag": "h5",
+      "text": "Share once, use everywhere."
+    },
+    {
+      "tag": "h3",
+      "text": "\"We don't need to be in the same room anymore. It's asynchronous, exact, and more human. You can see exactly what needs to change without interpreting vague comments.\""
+    },
+    {
+      "tag": "h3",
+      "text": "01. Centralize your product catalog"
+    },
+    {
+      "tag": "h2",
+      "text": "Product shots, packaging, and campaign creative – one workspace."
+    },
+    {
+      "tag": "h3",
+      "text": "03. Share once, use everywhere"
+    },
+    {
+      "tag": "h2",
+      "text": "Distribute your assets with one simple, secure link."
+    },
+    {
+      "tag": "h5",
+      "text": "Flexible sharing controls"
+    },
+    {
+      "tag": "h5",
+      "text": "Publish branded retailer toolkits"
+    },
+    {
+      "tag": "h2",
+      "text": "Real teams using Playbook"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to streamline your media workflow?"
+    }
+  ],
+  "body": [
+    "Playbook is designed to grow with your catalog, organizing product shots, licensed artwork, and campaign files across markets. Keep your team and partners in the loop with clear approvals while shipping campaign on time.",
+    "1 Centralize your product catalog. Store all product shots, packaging, and campaign creative in one visual library. Our smart board let you apply tags and fields automatically.",
+    "Store all product shots, packaging, and campaign creative in one visual library. Our smart board let you apply tags and fields automatically.",
+    "2 Simplify approvals. Cut approval cycles by 50% with reactions, in-line comments, timestamped. Real-time updates ensure no one ever misses a beat.",
+    "Cut approval cycles by 50% with reactions, in-line comments, timestamped. Real-time updates ensure no one ever misses a beat.",
+    "3 Share once, use everywhere. From social campaigns to retailer toolkits, distribute your assets with one simple link you can update or revoke at any time.",
+    "From social campaigns to retailer toolkits, distribute your assets with one simple link you can update or revoke at any time.",
+    "David Bret, VP of Marketing at Warner Brothers Sports",
+    "Send secure links for retailer portals, marketing kits, or seasonal launches. Revoke or update access anytime.",
+    "Package your logos, campaign creative, and product shots into beautifully branded portals with Playbook Publish."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "MCPNew",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developers",
+      "href": "https://dev.playbook.com"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "https://www.playbook.com/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "https://www.playbook.com/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "https://www.playbook.com/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "https://www.playbook.com/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.playbook.com/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "https://www.playbook.com/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact/"
+    },
+    {
+      "label": "Get started",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "Chat with experts",
+      "href": "https://www.playbook.com/contact/"
+    },
+    {
+      "label": "Dorst & Lesser: United 75+ creators in one workspace",
+      "href": "https://www.playbook.com/p/dorst-and-lesser/"
+    },
+    {
+      "label": "Blendjet: Streamlines 17TB of files for faster campaign launches",
+      "href": "https://www.playbook.com/p/blendjet/"
+    },
+    {
+      "label": "SuperMush: Fueling Fast-Paced Gen Z Campaigns at Scale",
+      "href": "https://www.playbook.com/p/supermush/"
+    },
+    {
+      "label": "Book a quick 15-min demo",
+      "href": "https://www.playbook.com/contact/"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "https://www.playbook.com/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "https://www.playbook.com/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "https://www.playbook.com/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.playbook.com/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "https://www.playbook.com/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "https://www.playbook.com/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "https://www.playbook.com/school/"
+    },
+    {
+      "label": "About us",
+      "href": "https://www.playbook.com/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "https://www.playbook.com/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.playbook.com/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "https://www.playbook.com/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.playbook.com/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/#marketing-home",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/de/consumer-brands/",
+    "https://www.playbook.com/es/consumer-brands/",
+    "https://www.playbook.com/fr/consumer-brands/",
+    "https://www.playbook.com/hi/consumer-brands/",
+    "https://www.playbook.com/it/consumer-brands/",
+    "https://www.playbook.com/ja/consumer-brands/",
+    "https://www.playbook.com/ko/consumer-brands/",
+    "https://www.playbook.com/nl/consumer-brands/",
+    "https://www.playbook.com/no/consumer-brands/",
+    "https://www.playbook.com/pt-BR/consumer-brands/",
+    "https://www.playbook.com/pt-PT/consumer-brands/",
+    "https://www.playbook.com/vi/consumer-brands/",
+    "https://www.playbook.com/zh/consumer-brands/",
+    "https://www.playbook.com/zh-Hant/consumer-brands/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/login/",
+    "https://wbdsports.com/",
+    "https://www.swipelabs.io/",
+    "https://dorstenlesser.com/",
+    "https://www.stubhub.com/",
+    "https://bluecollarmediagroup.com/",
+    "https://www.playbook.com/p/dorst-and-lesser/",
+    "https://www.playbook.com/p/blendjet/",
+    "https://www.playbook.com/p/supermush/",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://www.playbook.com/consumer-brands/#",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/PhfY_LE-Mz-q35MznSHKbWfeu_icQ5r9vZ8sKsnVW0w/s:1000:630/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzAwNjYwNTU1/LWE1Y2UtNDE0Ny1h/ODI2LWIxNDBjZGIx/NmQ5YQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 1000,
+        "h": 629
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/dWndnjz45HQ0WMsOIKjkxlTSSDIUkSph4xpJShkQKfg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y1YjU3NzYz/LTc1MjEtNDI1My1i/MGRmLTA4MzBkYzli/ZWYwMA",
+        "alt": "WBD Sports",
+        "w": 196,
+        "h": 200
+      },
+      {
+        "src": "https://img.playbook.com/KbxSvqI2_jacOmtcvaiPvO_9W9yY76vN2ATC2UrXwIs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzhiYmM1MjZj/LTRjN2YtNDIyMS04/YTVlLTdkZDJhNGM3/ZWFmOQ",
+        "alt": "Swipe Labs",
+        "w": 700,
+        "h": 180
+      },
+      {
+        "src": "https://img.playbook.com/SDwmINndFQog5TknjSBcj9-3rL9O0TwrvOfhe73OjDA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I3ZGMzNGIy/LWFhYjEtNGFkMy1h/Yzc4LTFkZDUzZmZj/MjJlZQ",
+        "alt": "Dorsten Lesser",
+        "w": 465,
+        "h": 220
+      },
+      {
+        "src": "https://img.playbook.com/AdLUVXYg1bs_J94O6yHeV7GoIObm1BURHSqLn3lzqoQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2YwMzZkYjhh/LWM1MmEtNDczZi1i/ZDBmLTBmNGY3Zjk4/Y2JkNw",
+        "alt": "StubHub",
+        "w": 1024,
+        "h": 512
+      },
+      {
+        "src": "https://img.playbook.com/k4lKbbmRrhUwU7nSis5st9NYqVvoUE6Ou7VBvsYRV_k/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0MmJlYWJk/LWJjMGItNGM1ZC04/ZTZhLWM0YTFmMDg5/NmFlNA",
+        "alt": "Blue Collar Media Group",
+        "w": 258,
+        "h": 50
+      },
+      {
+        "src": "https://img.playbook.com/r9j0J2035VQRCEYAuAXOn28ksbKjax8gI_Xd93iIBX8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Q0ZDg2MDNm/LTc4NWItNGI2Yi1h/Njk5LTc1YTlhYzk4/YzlkZA",
+        "alt": "Playbook interface",
+        "w": 2640,
+        "h": 1720
+      },
+      {
+        "src": "https://img.playbook.com/4VV-pEIEc6w4lxJOT22GU4fO312oMTrwzSAHZylGXzI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM3MzAyMTJl/LTQwODgtNDc3YS05/Y2EzLWRjOTc4ZjYz/Njg3NA",
+        "alt": "Organization demo",
+        "w": 1427,
+        "h": 933
+      },
+      {
+        "src": "https://img.playbook.com/w963K91tva4L82KLG5mYfbhfXwyOJGgtkausudvGlxs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2ZiNWZmYTk2/LWE5MTQtNDRmNy1i/ZGMwLTgxZDJhYjdm/M2NjMA",
+        "alt": "Anchored comments",
+        "w": 1010,
+        "h": 645
+      },
+      {
+        "src": "https://img.playbook.com/8VO-6HuHJa1f1j_WXNWIISHcnScxJYxQYMQzv5jw5to/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2EyZWY1MzAw/LWUxYTAtNGVlNy05/YzQ0LTE5NjYwNWQ3/ZDg2ZQ",
+        "alt": "Quick reactions",
+        "w": 1722,
+        "h": 778
+      },
+      {
+        "src": "https://img.playbook.com/Sn0ur-Zyt6jS_NDo74-k2dPZBf6yqeYHgJ2rYYXLRYI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VjMTRmYTA2/LWI4NzYtNDY4My1i/MDE4LWU1YzE4ZDQy/NTE4NA",
+        "alt": "Flexible sharing controls",
+        "w": 720,
+        "h": 500
+      },
+      {
+        "src": "https://img.playbook.com/DACw5GD28m38LHBDHyxxjv17_07IDH9fK_3EqQN2PSo/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2U0NGEwMjli/LTQyODAtNDQ2OS1h/N2M1LTVhMDdkZjVm/ODZhNA",
+        "alt": "Branded retailer toolkits",
+        "w": 1200,
+        "h": 1200
+      },
+      {
+        "src": "https://img.playbook.com/r7UfNaJU7EfbCve-L7B-jDA77T2sRvzbRf3UBqsSr3A/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RiZTFlOTIx/LThkNzQtNDI2My05/YmU1LWExMzU0YTI0/ODNiNA",
+        "alt": "DorstNLesser customer story",
+        "w": 2048,
+        "h": 1536
+      },
+      {
+        "src": "https://img.playbook.com/-c_U2VlSBJFBwxaYX7rwZuq89QQQL6fP5hGaPlUrHKg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2QyNGI5MjNl/LTU0OTktNDNlZC05/NmM5LTU0Mjg0NjA4/YjdmNg",
+        "alt": "Blendjet customer story",
+        "w": 1806,
+        "h": 1730
+      },
+      {
+        "src": "https://img.playbook.com/XlaMEN0uoHAe_l_EG_a1y6YUdnWHXzmp2P1yDkqpGVc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1NzEzOGYw/LTA4OTQtNGJmZS1h/YTYwLTgyMWZmYjlk/MmNlMg",
+        "alt": "supermush customer story",
+        "w": 1200,
+        "h": 628
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [
+      "https://img.playbook.com/rUprkxtGuQPrQHyQ926D27_G4XBY883Tv1GXQUgNzUc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNiNmQxNTUy/LWY5ZDEtNDgyNi04/NDliLWM4M2E5OTAw/ZTA2Zg",
+      "https://img.playbook.com/NTqhYrd30SGliPa-UgSqIOhfz8Erpc11RvVp_Q6e21c/s:500:667/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzgwYTQxMjQ2/LTJkYjEtNDFhZS1h/M2UxLTEzYjQ3MjE4/Y2E4Yg",
+      "https://img.playbook.com/kHeh2CIobVw002zwakswYnDmg46RMINkiYmVCk6gWFs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzhmMGY4YWI5/LWE1NzktNGMwMC04/NWQ0LTBlMzM0MTk4/YmQ4ZA",
+      "https://img.playbook.com/7R7xh4WhiGvdAB6ucCZOXioe1ibjWQJ8GMSSrZNzcog/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2MzYmFhNWE3/LTNjODctNGQ4Mi05/YTA0LWM5YzhjNWU4/OWJiMw"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--pb-header-h": "100px",
+    "--pb-hover-dur": ".15s",
+    "--pb-hover-dark": "rgb(255 255 255 / .1)",
+    "--pb-hover-light": "rgb(0 0 0 / .1)"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 26,
+    "mainTextLen": 4052,
+    "realImageCount": 24,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "us-assets.i.posthog.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 2
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/consumer-brands.png",
+  "renderedHtml": "pages/consumer-brands.html",
+  "slots": {
+    "headline": "The bigger the brand, the messier the assets. Until now.",
+    "lede": "Power your team's creative flow with Playbook — centralize product catalogs, streamline approvals, and manage campaigns end-to-end.",
+    "hero-media": null,
+    "sections": [
+      "Numbers that actually matter.",
+      "One central platform.End-to-end workflows.",
+      "Product shots, packaging, and campaign creative – one workspace.",
+      "Distribute your assets with one simple, secure link.",
+      "Real teams using Playbook",
+      "Ready to streamline your media workflow?"
+    ],
+    "ctas": [
+      {
+        "label": "Help center & tutorials Quick start guides and tutorials",
+        "href": "https://www.playbook.com/tutorial/"
+      },
+      {
+        "label": "Schedule a demo",
+        "href": "https://www.playbook.com/contact/"
+      },
+      {
+        "label": "Get started",
+        "href": "https://www.playbook.com/login/"
+      }
+    ],
+    "modules": []
+  }
+}

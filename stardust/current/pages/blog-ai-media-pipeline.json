@@ -1,0 +1,1051 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:02:15.875Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "blog-ai-media-pipeline",
+  "url": "https://www.playbook.com/blog/ai-media-pipeline/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:02:15.875Z",
+  "finalUrl": "https://www.playbook.com/blog/ai-media-pipeline/",
+  "title": "The AI Media Pipeline That Files Itself",
+  "description": "Build an AI media pipeline where agents search by meaning, pull references, generate variations, and file results back, via the Playbook API or hosted MCP server",
+  "og": {
+    "title": "The AI Media Pipeline That Files Itself",
+    "description": "Build an AI media pipeline where agents search by meaning, pull references, generate variations, and file results back, via the Playbook API or hosted MCP server",
+    "image": "https://img.playbook.com/lPl0Ckrv2EZiqCEuVUzH6JvDTmrJpCrAxZpCC_cKJYM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzcyMDNiM2My/LTJjM2EtNDA2YS1i/NTJhLTM4ZDcwZmE1/MDU5Mw",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Product"
+    },
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h1",
+      "text": "The AI Media Pipeline That Files Itself"
+    },
+    {
+      "tag": "h2",
+      "text": "Search by meaning, not by filename"
+    },
+    {
+      "tag": "h2",
+      "text": "Generate, then file it back automatically"
+    },
+    {
+      "tag": "h2",
+      "text": "Skip the SDK. Point Claude at the MCP server."
+    },
+    {
+      "tag": "h2",
+      "text": "What powers it"
+    },
+    {
+      "tag": "h2",
+      "text": "Developer FAQ"
+    },
+    {
+      "tag": "h2",
+      "text": "Ship it"
+    }
+  ],
+  "body": [
+    "Search by meaning, not by filename",
+    "Generate, then file it back automatically",
+    "Skip the SDK. Point Claude at the MCP server.",
+    "What powers it",
+    "Developer FAQ",
+    "Ship it",
+    "An AI media pipeline is an agentic workflow where software agents search your library by meaning, pull references, generate variations, and file the results back without a human touching a folder. On Playbook you build it two ways. Call the REST API directly, or point an MCP-capable agent like Claude, Cursor, or ChatGPT at the hosted MCP server and let it drive. Either path hands your agent semantic search, batch ingest, and structured auto-tagging as first-class tools. Your library stops being a place files go to rest and becomes a backend your agents operate. Here is the shape of it.",
+    "Creative work is a living, breathing beast. In 2026, the thing keeping up with it is an agent, and it needs somewhere to file what it makes.",
+    "Semantic search is the entry point to any AI media pipeline, because an agent cannot file what it cannot find. Playbook's ai_search endpoint takes a plain-language query like \"golden hour product shots on concrete\" and returns matches ranked by what the pixels actually contain, not what someone named the file three campaigns ago. The stack is disclosed: OpenCLIP embeddings to understand the image, GPT to process the query. Results paginate with a cursor, so an agent can walk an entire result set in a loop and pass every match to the next step. No folder spelunking. No filename guessing.",
+    "The payoff of an agentic media workflow is that results file themselves. Once your agent has its references, it generates variations in whatever model you prefer, then hands the finished URLs to batch_create_from_urls in a single call. Playbook fetches and processes each asset in the background, runs AI auto-tagging on upload, and returns tokens. Your agent then PATCHes each asset through the update endpoint to write custom fields: campaign, status, usage rights, whatever taxonomy your team runs on. The loop closes itself. Search, generate, ingest, tag, done, with nobody dragging files between folders.",
+    "The fastest way to hand an agent your media library is the hosted MCP server, no client library required. Model Context Protocol is how Claude, Cursor, and ChatGPT reach external tools in 2026, and Playbook ships a hosted endpoint that exposes search, upload, tag, and organize as native agent tools. One line wires it up:",
+    "From there your agent searches and files assets in plain language. Same library, same permissions, no glue code to maintain.",
+    "Everything above runs on a handful of documented endpoints and one hosted server. Copy this and build:",
+    "ai_search (GET): semantic plus full-text search over your library, with cursor pagination for walking large result sets.",
+    "batch_create_from_urls (POST): hand it an array of URLs, Playbook ingests and processes each one in the background.",
+    "assets/{assetToken}/update (PATCH): write custom fields and tags back onto an asset to file it against your taxonomy.",
+    "Hosted MCP server (https://mcp.playbook.com): the same capabilities as native tools for any MCP-capable agent.",
+    "Full request and response detail lives in the AI pipeline example and the Playbook API docs. The conversational layer these endpoints expose is the same AI search your team already uses inside the app.",
+    "Which endpoints does an AI media pipeline actually need?Three. ai_search to find references by meaning, batch_create_from_urls to ingest generated variations, and assets/{assetToken}/update to tag each result. Cursor pagination on search lets one agent process an entire library in a loop.",
+    "Do I need to build an MCP client?No. Playbook hosts the MCP server at https://mcp.playbook.com. Add it to Claude, Cursor, or ChatGPT with a single command and an auth token, and your agent gets search, upload, and tagging as native tools. Nothing to write or maintain.",
+    "How does auto-tagging work through the API?Assets are tagged on upload by Playbook Intelligence, which reads each image and video by subject, mood, and brand elements. Your agent can then PATCH custom fields to layer its own structured taxonomy on top. Playbook Intelligence is currently in private beta.",
+    "What does it cost to run at volume?API access is tiered by monthly call volume, so a pipeline scales with your plan instead of metering every asset. Check the current limits on the pricing page at the time of writing, since plans change.",
+    "Your agents can run the whole media pipeline. Playbook is the backend they file into. Bring your own models and your own orchestration, and let the library handle search, ingest, and tagging. Schedule a demo and watch an agentic pipeline run against your own assets."
+  ],
+  "codeBlocks": [
+    "claude mcp add playbook --transport http https://mcp.playbook.com --header \"Authorization: Bearer <token>\""
+  ],
+  "ctas": [
+    {
+      "label": "Playbook 101 The next era of media storage",
+      "href": "/product/"
+    },
+    {
+      "label": "Visual storage Dynamic space for all type of media.",
+      "href": "/smarter-storage/"
+    },
+    {
+      "label": "Smart search GPT-powered for results you can trust.",
+      "href": "/gpt/"
+    },
+    {
+      "label": "Review & approval Comment & react in real-time",
+      "href": "/collaboration-editing/"
+    },
+    {
+      "label": "Publish sites Create sites from stored files",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Mini-apps Supercharge your creative workflow",
+      "href": "/p/integrations-all/"
+    },
+    {
+      "label": "Desktop sync Two-way file syncing",
+      "href": "/desktop/"
+    },
+    {
+      "label": "Take a quick tour! See Playbook in action with our interactive product tour.",
+      "href": "https://playbook-assets.navattic.com/7kh00ao"
+    },
+    {
+      "label": "API/SDK",
+      "href": "https://dev.playbook.com/"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/p/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Get started for free",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "Search by meaning, not by filename",
+      "href": "#search-by-meaning-not-by-filename"
+    },
+    {
+      "label": "Generate, then file it back automatically",
+      "href": "#generate-then-file-it-back-automatically"
+    },
+    {
+      "label": "Skip the SDK. Point Claude at the MCP server.",
+      "href": "#skip-the-sdk-point-claude-at-the-mcp-server"
+    },
+    {
+      "label": "What powers it",
+      "href": "#what-powers-it"
+    },
+    {
+      "label": "Developer FAQ",
+      "href": "#developer-faq"
+    },
+    {
+      "label": "Ship it",
+      "href": "#ship-it"
+    },
+    {
+      "label": "AI pipeline example",
+      "href": "https://dev.playbook.com/docs/examples/ai-pipeline"
+    },
+    {
+      "label": "Playbook API docs",
+      "href": "https://dev.playbook.com/"
+    },
+    {
+      "label": "AI search",
+      "href": "https://www.playbook.com/gpt/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "/school/"
+    },
+    {
+      "label": "About us",
+      "href": "/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com/"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/?p=home",
+    "https://www.playbook.com/product/",
+    "https://www.playbook.com/smarter-storage/",
+    "https://www.playbook.com/gpt/",
+    "https://www.playbook.com/collaboration-editing/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/p/integrations-all/",
+    "https://www.playbook.com/desktop/",
+    "https://playbook-assets.navattic.com/7kh00ao",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/p/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/contact",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/demo/",
+    "https://www.playbook.com/partnership/",
+    "https://www.playbook.com/p/enterprise/",
+    "https://www.playbook.com/blog/ai-media-pipeline/#search-by-meaning-not-by-filename",
+    "https://www.playbook.com/blog/ai-media-pipeline/#generate-then-file-it-back-automatically",
+    "https://www.playbook.com/blog/ai-media-pipeline/#skip-the-sdk-point-claude-at-the-mcp-server",
+    "https://www.playbook.com/blog/ai-media-pipeline/#what-powers-it",
+    "https://www.playbook.com/blog/ai-media-pipeline/#developer-faq",
+    "https://www.playbook.com/blog/ai-media-pipeline/#ship-it",
+    "https://dev.playbook.com/docs/examples/ai-pipeline",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://www.playbook.com/blog/ai-media-pipeline/#",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/pY4rde4rn0u9T-Biyjzfm8ruNtHxXGNGNY0pA6Hj-yI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzFlZDMxNjIx/LWVlMGMtNDVkMi04/ODQ2LTVhNTExZjU4/OWNjOQ",
+        "alt": "AI search understands the contents of every asset, so filenames stop mattering.",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/K30WdHVW1nAflKfwnSGVcDt5ICffs0swrGvUAT1YWck/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzExZmVmYmJj/LTQ4NWMtNDU0Ni1i/N2YxLTk4OWIxYTZi/NTdjMQ",
+        "alt": "Point Claude at the MCP server, or drive the pipeline from the SDK.",
+        "w": 1200,
+        "h": 750
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      }
+    ],
+    "allImgCount": 46,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--fl-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-border-strong": "rgba(255, 255, 255, 0.08)",
+    "--fl-bg": "transparent",
+    "--fl-text": "inherit",
+    "--fl-text-muted": "rgba(255, 255, 255, 0.55)",
+    "--fl-heading": "inherit",
+    "--fl-mock-bg": "#1a1a1a",
+    "--fl-mock-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-mock-shadow": "0 40px 80px rgba(0, 0, 0, 0.5)",
+    "--fl-screen-bar-bg": "#0e0e0e",
+    "--fl-screen-bar-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-screen-url-bg": "#1c1c1c",
+    "--fl-screen-url-text": "rgba(255, 255, 255, 0.3)",
+    "--fl-hero-float-bg": "rgba(98, 98, 98, 0.04)",
+    "--fl-hero-float-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-pill-bg": "#000",
+    "--fl-pill-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-pill-text": "rgba(255, 255, 255, 0.55)",
+    "--fl-pill-hot-bg": "rgba(212, 107, 202, 0.05)",
+    "--fl-pill-hot-border": "rgba(255, 60, 142, 0.3)",
+    "--fl-pill-hot-text": "#ff3c8e",
+    "--fl-stat-num": "#fff",
+    "--fl-stat-label": "#999",
+    "--fl-tag-strip-bg": "#111111",
+    "--fl-tag-strip-text": "rgba(255, 255, 255, 0.2)",
+    "--fl-tag-strip-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-screen-body-bg": "#111",
+    "--fl-row-shaded": "rgba(255, 255, 255, 0.05)",
+    "--fl-row-line-border-bottom": "none",
+    "--fl-marquee-fade": "#151719",
+    "--fl-ready-heading": "inherit",
+    "--fl-ready-text": "inherit",
+    "--fl-feature-intro-flex": "1",
+    "--fl-eyebrow-bg-size": "150% 100%",
+    "--ghost-accent-color": "#15171A"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 16,
+    "mainTextLen": 5721,
+    "realImageCount": 34,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/members/api/member/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/members/api/member/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/settings/",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2955,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/settings/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/tiers/",
+        "query": [
+          "include",
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 333,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/tiers/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/newsletters/",
+        "query": [
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 408,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/newsletters/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/can_track_visitor",
+        "query": [
+          "x_app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 19,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "api.unifyintent.com",
+        "path": "/analytics/v1/page",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.unifyintent.com/analytics/v1/page",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.playbook.com",
+        "path": "/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "o362445.ingest.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 3,
+        "example": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/track_request",
+        "query": [
+          "app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 400,
+        "bytes": 86,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "timestamp",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 3
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "chat-assets.frontapp.com",
+        "count": 2
+      },
+      {
+        "host": "app.termly.io",
+        "count": 1
+      },
+      {
+        "host": "tag.unifyintent.com",
+        "count": 1
+      },
+      {
+        "host": "assets.apollo.io",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/blog-ai-media-pipeline.png",
+  "renderedHtml": "pages/blog-ai-media-pipeline.html",
+  "slots": {
+    "headline": "The AI Media Pipeline That Files Itself",
+    "deck": "Build an AI media pipeline where agents search by meaning, pull references, generate variations, and file results back, via the Playbook API or hosted MCP server",
+    "byline": null,
+    "meta": {
+      "published": null
+    },
+    "lead-image": null,
+    "body": {
+      "paragraphs": 23,
+      "headings": 6
+    },
+    "pullquotes": [],
+    "related": [],
+    "modules": [
+      "faq-accordion",
+      "feature-grid"
+    ]
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 68,
+    "concurrency": 6
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.playbook.com/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/gpt",
+        "slug": "gpt",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/mcp",
+        "slug": "mcp",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/sdk",
+        "slug": "sdk",
+        "linked": 0,
+        "uncaptured": []
+      }
+    ],
+    "detail": "uncaptured first-level targets: gpt 0, mcp 0, sdk 0"
+  },
+  "dynamicSurface": {
+    "pages": 68,
+    "pagesWithSameSiteData": 67,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "pages": 67,
+        "examples": [
+          "index",
+          "pricing",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/members/api/member/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://playbook-at.ghost.io/members/api/member/",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/settings/",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/settings/",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/tiers/",
+        "query": [
+          "include",
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/tiers/",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/newsletters/",
+        "query": [
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/newsletters/",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "o362445.ingest.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+        "pages": 44,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "contact"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.playbook.com",
+        "path": "/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "pages": 44,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "contact"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+        "pages": 44,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "contact"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+        "pages": 44,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "contact"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+        "pages": 42,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "teams"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/can_track_visitor",
+        "query": [
+          "x_app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "pages": 41,
+        "examples": [
+          "the-story-of-playbook",
+          "features",
+          "freelancers"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.unifyintent.com",
+        "path": "/analytics/v1/page",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://api.unifyintent.com/analytics/v1/page",
+        "pages": 41,
+        "examples": [
+          "the-story-of-playbook",
+          "features",
+          "freelancers"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/track_request",
+        "query": [
+          "app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "pages": 41,
+        "examples": [
+          "the-story-of-playbook",
+          "features",
+          "freelancers"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "static.cloudflareinsights.com",
+        "pages": 68,
+        "examples": [
+          "index",
+          "pricing",
+          "product"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 61,
+        "examples": [
+          "product",
+          "creative-agency",
+          "media-and-entertainment"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "host": "app.termly.io",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      },
+      {
+        "host": "chat-assets.frontapp.com",
+        "pages": 44,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "contact"
+        ]
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "pages": 44,
+        "examples": [
+          "customers",
+          "the-story-of-playbook",
+          "contact"
+        ]
+      },
+      {
+        "host": "tag.unifyintent.com",
+        "pages": 41,
+        "examples": [
+          "the-story-of-playbook",
+          "features",
+          "freelancers"
+        ]
+      },
+      {
+        "host": "assets.apollo.io",
+        "pages": 41,
+        "examples": [
+          "the-story-of-playbook",
+          "features",
+          "freelancers"
+        ]
+      },
+      {
+        "host": "us-assets.i.posthog.com",
+        "pages": 14,
+        "examples": [
+          "index",
+          "pricing",
+          "product"
+        ]
+      },
+      {
+        "host": "static.airtable.com",
+        "pages": 1,
+        "examples": [
+          "contact"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      },
+      {
+        "host": "static.doubleclick.net",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 1,
+        "examples": [
+          "tutorial-what-is-playbook"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 54,
+        "examples": [
+          "customers",
+          "about-us",
+          "the-story-of-playbook"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": {
+    "at": "2026-09-28T10:05:46.771Z",
+    "method": "thumb.mjs 480w crops, subagent view, one line per page",
+    "checked": 68,
+    "ok": 66,
+    "flagged": [
+      {
+        "slug": "freelancers",
+        "verdict": "source-defect",
+        "detail": "5 illustration imgs (playbook-beta.imgix.net) 404 at origin — not a capture failure; do not re-crawl"
+      },
+      {
+        "slug": "publish",
+        "verdict": "source-defect",
+        "detail": "Ghost page with only title+date at origin (mainTextLen 601) — thin content, candidate for redirect/omit"
+      }
+    ],
+    "interstitials": 0,
+    "blank": 0
+  }
+}

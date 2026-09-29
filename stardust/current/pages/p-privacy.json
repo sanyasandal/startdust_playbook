@@ -1,0 +1,1298 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:02:33.680Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "p-privacy",
+  "url": "https://www.playbook.com/p/privacy/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:02:33.680Z",
+  "finalUrl": "https://www.playbook.com/p/privacy/",
+  "title": "Playbook Privacy Policy",
+  "description": "Read Playbook's Privacy Policy: what data we collect, how we use and protect it, and the choices you have over your personal information.",
+  "og": {
+    "title": "Playbook Privacy Policy",
+    "description": "Read Playbook's Privacy Policy: what data we collect, how we use and protect it, and the choices you have over your personal information.",
+    "image": "https://storage.ghost.io/c/0d/b2/0db24546-8866-4db6-b770-424195b8c5f9/content/images/2025/08/website-cover-3.jpg",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Product"
+    },
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h1",
+      "text": "Privacy Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "ABOUT"
+    },
+    {
+      "tag": "h2",
+      "text": "SCOPE"
+    },
+    {
+      "tag": "h2",
+      "text": "PERSONAL INFORMATION WE COLLECT"
+    },
+    {
+      "tag": "h3",
+      "text": "Information You Provide to Us"
+    },
+    {
+      "tag": "h3",
+      "text": "Information Collected Automatically"
+    },
+    {
+      "tag": "h3",
+      "text": "Information from Other Sources"
+    },
+    {
+      "tag": "h2",
+      "text": "HOW WE USE YOUR INFORMATION"
+    },
+    {
+      "tag": "h2",
+      "text": "DISCLOSING YOUR INFORMATION TO THIRD PARTIES"
+    },
+    {
+      "tag": "h2",
+      "text": "INTERNATIONAL DATA TRANSFERS"
+    },
+    {
+      "tag": "h2",
+      "text": "YOUR CHOICES"
+    },
+    {
+      "tag": "h2",
+      "text": "YOUR PRIVACY RIGHTS"
+    },
+    {
+      "tag": "h2",
+      "text": "YOUR RIGHT TO BE FORGOTTEN"
+    },
+    {
+      "tag": "h2",
+      "text": "DATA RETENTION"
+    },
+    {
+      "tag": "h2",
+      "text": "DATA RESPONSIBILITY WITH AI MODELS"
+    },
+    {
+      "tag": "h2",
+      "text": "SECURITY OF YOUR INFORMATION"
+    },
+    {
+      "tag": "h2",
+      "text": "THIRD PARTY WEBSITES/APPLICATIONS"
+    },
+    {
+      "tag": "h2",
+      "text": "CHILDREN’S INFORMATION"
+    },
+    {
+      "tag": "h2",
+      "text": "SUPERVISORY AUTHORITY"
+    },
+    {
+      "tag": "h2",
+      "text": "CHANGES TO OUR PRIVACY POLICY"
+    },
+    {
+      "tag": "h2",
+      "text": "CONTACT US"
+    }
+  ],
+  "body": [
+    "ABOUT",
+    "SCOPE",
+    "PERSONAL INFORMATION WE COLLECT",
+    "HOW WE USE YOUR INFORMATION",
+    "DISCLOSING YOUR INFORMATION TO THIRD PARTIES",
+    "INTERNATIONAL DATA TRANSFERS",
+    "YOUR CHOICES",
+    "YOUR PRIVACY RIGHTS",
+    "YOUR RIGHT TO BE FORGOTTEN",
+    "DATA RETENTION",
+    "DATA RESPONSIBILITY WITH AI MODELS",
+    "SECURITY OF YOUR INFORMATION",
+    "THIRD PARTY WEBSITES/APPLICATIONS",
+    "CHILDREN’S INFORMATION",
+    "SUPERVISORY AUTHORITY",
+    "CHANGES TO OUR PRIVACY POLICY",
+    "CONTACT US",
+    "Effective Date: August 16, 2021",
+    "Updated Date: April 2, 2024",
+    "This Privacy Policy relates to Playbook Digital, Inc. and its affiliates (“Playbook,” “we,” “us,” and “our”).",
+    "This Privacy Policy is designed to help you understand how we collect, use and share your personal information and to assist you in exercising the privacy rights available to you.",
+    "This Privacy Policy applies to personal information processed by us in our business, including on our websites (e.g., playbook.com and any other websites that we own or operate), our mobile applications, our application program interface(s), our services, and our related online and offline offerings (collectively, the “Services”).",
+    "This Privacy Policy does not apply to any third-party websites, services or applications, even if they are accessible through our Services. In addition, capitalized terms not defined in this Privacy Policy will have the meaning set forth in our Terms of Service.",
+    "Please note that if you use the Services on behalf of an organization (e.g., your employer), Playbook’s use of your personal information may be governed by the agreement we have with that organization. However, we will still process your information consistent with this Privacy Policy.",
+    "The categories of personal information we collect depend on how you interact with our Services.",
+    "Account Information. When you create an Account, we will collect personal information, such as your name, email address, personal website, and picture.",
+    "Payment Information. We may sell services or merchandise through our Services. When you make purchases through the Services, we may process your payments through a third-party application, such as the Apple App Store, Google Play App Store, Amazon App Store, social networking sites such as Facebook, and/or payment processing services such as Stripe. The third-party application may collect certain financial information from you to process a payment on behalf of Playbook, including your name, email address, address, payment card information, and other billing information. Playbook does not store or receive your payment information, but it may store and receive information associated with your payment information (e.g., your billing details).",
+    "Your Communications with Us. We collect personal information from you such as email address, phone number, or mailing address when you request information about our Services, register for our newsletter, or otherwise communicate with us.",
+    "Surveys. We may contact you to participate in surveys. If you decide to participate, you may be asked to provide certain information, which may include personal information.",
+    "Interactive Features. We may offer interactive features such as collaboration tools, tagging functionalities, forums, blogs, social media pages and the ability to react, follow, observe in real-time and comment on users’ content. We, and others who use our Services, may collect the information you submit or make available through these interactive features. Any content you provide on the public sections of these features will be considered “public” and is not subject to the privacy protections referenced herein. By using these interactive features, you assume the risk that the personal information provided by you may be viewed and used by third parties for their own purposes.",
+    "Customer Service, Training and Quality Assurance. If you call or otherwise interact with Playbook’s customer service and support, we may collect the information you provide to our representatives. In addition, we may record telephone calls or video conferences between you and our representatives for training or quality assurance purposes.",
+    "Registration for Sweepstakes or Contests. We may run sweepstakes and contests. Contact information you provide may be used to reach you about the sweepstakes or contest and for other promotional, marketing and business purposes, if permitted by law. In some jurisdictions, we are required to publicly share information about the winners.",
+    "Meetups, Conferences, Trade Shows, and Other Events. We may host or attend meetups, conferences, trade shows, and other events where we collect personal information from individuals who interact with or express an interest in Playbook and/or the Services. If we collect your information at one of these events, we will use it for the purposes for which it was collected.",
+    "Business Development and Strategic Partnerships. We may collect personal information from individuals and third parties to assess and pursue potential business opportunities.",
+    "Job Applications. We may post job openings and opportunities on the Services. If you reply to one of these postings by submitting your application, CV and/or cover letter to us, we will collect and process the information contained therein to assess your suitability, aptitude, skills, and qualifications for employment with Playbook.",
+    "Automatic Data Collection. We may collect certain information automatically when you use the Services. This information may include your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile advertising and other unique identifiers, details about your browser, operating system or device, location information (including inferred location based off of your IP address), Internet service provider, pages that you visit before, during and after using the Services, information about the links you click, and information about how you interact with and use the Services.",
+    "We may use a visitor’s IP address to ﬁght spam, malware and identity theft. With your permission, we may also collect information about your operating system’s installed fonts in connection with providing the Services to you. Combined with other system information, this information could be used to give your computer a unique ﬁngerprint/signature and enable us to track your usage of our Services after you log out.",
+    "Cookies, Pixel Tags/Web Beacons, and Analytics Information. We, as well as third parties that may provide content, advertising, or other functionality on the Services, may use cookies, pixel tags, local storage, and other technologies (“Technologies”) to automatically collect information through the Services. Technologies are essentially small data files placed on your device that allow us and our partners to record certain pieces of information whenever you visit or interact with our Services.",
+    "Cookies. Cookies are small text files placed in device browsers to store their preferences. Most browsers allow you to block and delete cookies. However, if you do that, the Services may not work properly.",
+    "Pixel Tags/Web Beacons. A pixel tag (also known as a web beacon) is a piece of code embedded in the Services that collects information about engagement on the Services. The use of a pixel tag allows us to record, for example, that a user has visited a particular web page or clicked on a particular advertisement. We may also include web beacons in e-mails to understand whether messages have been opened, acted on, or forwarded.",
+    "Analytics. We may also use Google Analytics and other service providers to collect and process analytics information on our Services. For more information about how Google uses data, please visit www.google.com/policies/privacy/partners/. You can opt out of Google Analytics’ collection and processing of data generated by your use of our website by going to http://tools.google.com/dlpage/gaoptout.",
+    "Playbook Customers. If you use our Services on behalf of an organization (e.g., your employer), that organization may provide us with information about you so that we can provision your account.",
+    "Third Party Services and Organizations. We may obtain information about you from other sources, including from third party services and organizations. For example, if you access our Services through a third-party service, we may collect information about you from that third-party service that you have made available via your privacy settings.",
+    "We use your personal information for a variety of business purposes, including:",
+    "To Provide the Services or Information Requested, such as:",
+    "Fulfilling our contract with you or the organization on whose behalf you use the Services;",
+    "Managing your information and Account;",
+    "Responding to questions, comments, and other requests;",
+    "Processing payment card and/or other financial information to facilitate your use of the Services;",
+    "Providing access to certain areas, functionalities, and features of our Services;",
+    "Answering requests for customer or technical support; and",
+    "Allowing you to register for events.",
+    "Administrative Purposes, such as:",
+    "Pursuing legitimate interests, such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention;",
+    "Measuring interest and engagement in our Services;",
+    "Improving the Services;",
+    "Developing new products and services;",
+    "Ensuring internal quality control and safety;",
+    "Authenticating and verifying individual identities;",
+    "Carrying out audits;",
+    "Communicating with you about your account, activities on our Services and Privacy Policy changes;",
+    "Preventing and prosecuting potentially prohibited or illegal activities;",
+    "Enforcing our agreements; and",
+    "Complying with our legal obligations.",
+    "Marketing Our Products and Services. We may use personal information to tailor and provide you with content and advertisements. We may provide you with these materials as permitted by applicable law",
+    "If you have any questions about our marketing practices or if you would like to opt out of the use of your personal information for marketing purposes, you may contact us at any time as set forth below.",
+    "Consent. We may use personal information for other purposes that are clearly disclosed to you at the time you provide personal information or with your consent.",
+    "De-identified and Aggregated Information Use. We may use personal information and other data about you to create de-identified and/or aggregated information, such as de-identified demographic information, de-identified location information, information about the device from which you access our Services, or other analyses we create. De-identified and/or aggregated information is not personal information, and we may use and disclose such information in a number of ways, including research, industry analysis, analytics, and any other legally permissible purposes.",
+    "Share Content with Friends or Colleagues. Our Services may offer various tools and functionalities that allow you to share content. For example, we may allow you to provide information about your friends through our referral services. Our referral services may allow you to forward or share certain content with a friend or colleague, such as an email inviting your friend to use our Services.",
+    "How We Use Automatic Collection Technologies. We, as well as third parties that may provide content, advertising, or other functionality on the Services, may use cookies, pixel tags, local storage, and other technologies to automatically collect information through the Services. Our uses of these Technologies fall into the following general categories:",
+    "Operationally Necessary. This includes Technologies that allow you access to our Services, applications, and tools that are required to identify irregular site behavior, prevent fraudulent activity and improve security or that allow you to make use of our functionality;",
+    "Performance Related. We may use Technologies to assess the performance of our Services, including as part of our analytic practices to help us understand how our visitors use the Services;",
+    "Functionality Related. We may use Technologies that allow us to offer you enhanced functionality when accessing or using our Services. This may include identifying you when you sign into our Services or keeping track of your specified preferences, interests, or past items viewed;",
+    "Advertising or Targeting Related. We may use first party or third-party Technologies to deliver content, including ads relevant to your interests, on our Services or on third party sites.",
+    "Please note that this Privacy Policy covers only our use of Technologies and does not govern the use of Technologies by any third parties.",
+    "Cross-Device Tracking. Your browsing activity may be tracked across different websites and different devices or apps. For example, we may attempt to match your browsing activity on your mobile device with your browsing activity on your laptop. To do this our technology partners may share data, such as your browsing patterns, geo-location and device identifiers, and we may match the information of the browser and devices that appear to be used by the same person.",
+    "We may share any personal information we collect with the following categories of third parties below, but we won’t sell it to advertisers or other third parties.",
+    "Other Users of Playbook’s Services. When you use the Services, we will share certain information with other users.",
+    "For Collaboration. You can create content, which may contain information about you, and grant permission to others to see, share, edit, copy and download that content based on settings you or your administrator (if applicable) select. Some of the collaboration features of the Services display some or all of your profile information to other Service users when you share or interact with specific content. For example, when you comment, we display your profile picture and name next to your comments so that other users with access to the comment understand who made it. Similarly, when you join a team, your name, profile picture and contact information will be displayed in a list for other team members so they can find and interact with you. Please be aware that some content can be published or otherwise made publicly available, including information about you, can be publicly viewed and indexed by and returned in search results of search engines. You can check the settings at any time to confirm whether particular content is public or private. In addition, in connection with your posting of content, we will share your picture, full legal name, user handle, and Twitter (or other social networking site) handle (to the extent you have provided us with this information). We are not responsible for privacy practices of the other users who may view and use the posted information.",
+    "Managed Accounts and Administrators. If you register or access the Services using an email address with a domain that is owned by your employer or organization, or associate that email address with your existing account and such organization wishes to establish a Playbook services account, certain information about you including your name, profile picture, contact info, content, and account use may become accessible to that organization’s administrator and other Playbook service users, as permitted by your administrator, to provide you additional products and services or to integrate with Playbook or other products and services. For example, your organization may request that we provide extra security controls around your account to protect information about your organization or your organization may request that we link your Playbook account with your organization’s account to enhance collaboration and functionality among tools you use. If you are the administrator of a team, organization or other account holder within the Services, we may share your contact information with current or past Service users, for the purpose of facilitating Service-related requests. Please note that your information may also be subject to your organization’s privacy policy. We are not responsible for the privacy or security practices of our customers.",
+    "Service Providers. We may share any personal information we collect about you with our third-party service providers. The categories of service providers to whom we entrust personal information include service providers for: (i) the provision of the Services; (ii) the provision of information, products, and other services you have requested; (iii) marketing and advertising; (iv) payment and transaction processing; (v) customer service activities; and (vi) the provision of IT and related services.",
+    "Third-Party Platforms and Services. We will share your personal information with third-party platforms and/or services if you have expressly consented or requested that we do so.",
+    "Business Partners. We may provide personal information to business partners to provide you with a product or service you have requested. We may also provide personal information to business partners with whom we jointly offer products or services.",
+    "Affiliates. We may share personal information with our affiliated entities.",
+    "Disclosures to Protect Us or Others. We may access, preserve, and disclose any information we have associated with you if we believe doing so is required or appropriate to: (i) comply with law enforcement or national security requests and legal process, such as a court order or subpoena; (ii) protect your, our or others’ rights, property, or safety; (iii) to enforce Playbook’s policies and contracts; (iv) to collect amounts owed to us; (v) when we believe disclosure is necessary or appropriate to prevent financial loss or in connection with an investigation or prosecution of suspected or actual illegal activity; or (vi) if we, in good faith, believe that disclosure is otherwise necessary or advisable.",
+    "Disclosure in the Event of Merger, Sale, or Other Asset Transfer. If we are involved in a merger, acquisition, financing due diligence, reorganization, bankruptcy, receivership, purchase or sale of assets, or transition of service to another provider, then your information may be sold or transferred as part of such a transaction, as permitted by law and/or contract.",
+    "All information processed by us may be transferred, processed, and stored anywhere in the world, including but not limited to, the United States or other countries, which may have data protection laws that are different from the laws where you live. We endeavor to safeguard your information consistent with the requirements of applicable laws.",
+    "General. You may have the right to opt out of certain uses of your personal information.",
+    "Email. If you receive an unwanted email from us, you can use the unsubscribe link found at the bottom of the email to opt out of receiving future emails. Note that you will continue to receive transaction-related emails regarding products or Services you have requested. We may also send you certain non-promotional communications regarding us and our Services, and you will not be able to opt out of those communications (e.g., communications regarding the Services or updates to our Terms of Service or this Privacy Policy).",
+    "Mobile Devices. We may send you push notifications through our mobile application. You may at any time opt-out from receiving these types of communications by changing the settings on your mobile device. With your consent, we may also collect precise location-based information if you use our mobile application. You may opt-out of this collection by changing the settings on your mobile device.",
+    "“Do Not Track”. Do Not Track (“DNT”) is a privacy preference that users can set in certain web browsers. Please note that we do not respond to or honor DNT signals or similar mechanisms transmitted by web browsers.",
+    "Cookies and Interest-Based Advertising. You may stop or restrict the placement of Technologies on your device or remove them by adjusting your preferences as your browser or device permits. Please note that cookie-based opt-outs are not effective on mobile applications. However, you may opt-out of personalized advertisements on some mobile applications by following the instructions for Android and iOS.",
+    "The online advertising industry also provides websites from which you may opt out of receiving targeted ads from data partners and other advertising partners that participate in self-regulatory programs. You can access these websites and learn more about targeted advertising and consumer choice and privacy, at www.networkadvertising.org/managing/opt_out.asp, http://www.youronlinechoices.eu/, https://youradchoices.ca/choices/, and www.aboutads.info/choices/.",
+    "Please note you must separately opt out in each browser and on each device.",
+    "For purposes of the California Consumer Privacy Act, we do not “sell” your personal information.",
+    "In accordance with applicable law, you may have the right to: (i) request confirmation of whether we are processing your personal information; (ii) obtain access to or a copy of your personal information; (iii) receive an electronic copy of personal information that you have provided to us, or ask us to send that information to another company (the “right of data portability”); (iv) object to or restrict our uses of your personal information; (v) seek correction or amendment of inaccurate, untrue, incomplete, or improperly processed personal information; (vi) withdraw your consent and (vii) request erasure of personal information held about you by us, subject to certain exceptions prescribed by law. If you would like to exercise any of these rights, please contact us as set forth below.",
+    "We will process such requests in accordance with applicable laws. To protect your privacy, we will take steps to verify your identity before fulfilling your request.",
+    "If you are a California resident, you have the right not to receive discriminatory treatment by Playbook for the exercise of your rights conferred by the California Consumer Privacy Act.",
+    "Please note that if you use our Services on behalf of an organization (e.g., your employer), that organization may be responsible for fulfilling the individual rights requests referenced above.",
+    "At Playbook, we are committed to safeguarding your privacy and ensuring your rights are respected. As part of our dedication to upholding your right to be forgotten, we provide an email address to assist you in exercising this fundamental right.",
+    "Your Right to Be Forgotten. The right to be forgotten empowers individuals to request the removal of their personal data from our records when certain conditions are met. Whether you've found outdated or irrelevant information about yourself, or you simply wish to have your data erased for valid reasons, we are here to support you.",
+    "Our Dedicated Email Address: To initiate the process of exercising your right to be forgotten, we offer a dedicated email address: support@playbook.com. By reaching out to us through this channel, you can communicate your request and concerns directly to our privacy team.",
+    "What to Include in Your Email: When contacting us to exercise your right to be forgotten, please provide the following details in your email:",
+    "Full Name: Provide your full name as it appears in our records.",
+    "Contact Information: Share the email address or any additional contact details associated with the data you'd like to have erased.",
+    "Nature of Request: Briefly explain the reason for your request and the specific data you wish to have removed.",
+    "Proof of Identity: To ensure the security of your personal information, kindly attach a copy of a government-issued identification document that verifies your identity. You may redact sensitive information, leaving only your name and photograph visible.",
+    "Our Commitment to Your Privacy: Rest assured that any personal data you share with us during the process will be treated confidentially and in accordance with our privacy policy. We will process your request promptly and diligently, working to ensure your right to be forgotten is respected and upheld.",
+    "We store the personal information we receive as described in this Privacy Policy for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements, and comply with applicable laws.",
+    "We do not use your data to develop or train generalized AI models.",
+    "We do not use your data to train generative AI to be used or sold without your consent. Your data stored with Playbook is your own, and we will never compromise your privacy or intellectual property.",
+    "When we build AI features in our product, the models we use are specialized (built for a specific creative workflow) and the resulting tools are usable only within your workspace. For example, we use AI models to improve auto-tagging and search results, which improves your creative process while respecting your privacy.",
+    "We take steps to ensure that your information is treated securely and in accordance with this Privacy Policy. Unfortunately, no system is 100% secure, and we cannot ensure or warrant the security of any information you provide to us. To the fullest extent permitted by applicable laws, we do not accept liability for unauthorized disclosure.",
+    "By using the Services or providing personal information to us, you agree that we may communicate with you electronically regarding security, privacy, and administrative issues relating to your use of the Services. If we learn of a security system’s breach, we may attempt to notify you electronically by posting a notice on the Services, by mail or by sending an email to you.",
+    "The Services may contain links to other websites/applications and other websites/applications may reference or link to our Services. These third-party services are not controlled by us. We encourage our users to read the privacy policies of each website and application with which they interact. We do not endorse, screen or approve, and are not responsible for, the privacy practices or content of such other websites or applications. Visiting these other websites or applications is at your own risk.",
+    "The Services are not directed to children under 13 (or other age as required by local law), and we do not knowingly collect personal information from children. If you learn that your child has provided us with personal information without your consent, you may contact us as set forth below. If we learn that we have collected a child’s personal information in violation of applicable law, we will promptly take steps to delete such information and terminate the child’s account.",
+    "If you are located in the European Economic Area or the United Kingdom, you have the right to lodge a complaint with a supervisory authority if you believe our processing of your personal information violates applicable law.",
+    "We may revise this Privacy Policy from time to time at our sole discretion. If there are any material changes to this Privacy Policy, we will notify you as required by applicable law. You understand and agree that you will be deemed to have accepted the updated Privacy Policy if you continue to use the Services after the new Privacy Policy takes effect.",
+    "If you have any questions about our privacy practices or this Privacy Policy, or if you wish to submit a request to exercise your rights as detailed in this Privacy Policy, please contact us at:",
+    "Playbook Digital, Inc. 341 Moultrie St, San Francisco, CA 94110 Email: support@playbook.com"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Playbook 101 The next era of media storage",
+      "href": "/product/"
+    },
+    {
+      "label": "Visual storage Dynamic space for all type of media.",
+      "href": "/smarter-storage/"
+    },
+    {
+      "label": "Smart search GPT-powered for results you can trust.",
+      "href": "/gpt/"
+    },
+    {
+      "label": "Review & approval Comment & react in real-time",
+      "href": "/collaboration-editing/"
+    },
+    {
+      "label": "Publish sites Create sites from stored files",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Mini-apps Supercharge your creative workflow",
+      "href": "/p/integrations-all/"
+    },
+    {
+      "label": "Desktop sync Two-way file syncing",
+      "href": "/desktop/"
+    },
+    {
+      "label": "Take a quick tour! See Playbook in action with our interactive product tour.",
+      "href": "https://playbook-assets.navattic.com/7kh00ao"
+    },
+    {
+      "label": "API/SDK",
+      "href": "https://dev.playbook.com/"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/p/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Get started for free",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "#about"
+    },
+    {
+      "label": "SCOPE",
+      "href": "#scope"
+    },
+    {
+      "label": "PERSONAL INFORMATION WE COLLECT",
+      "href": "#personal-information-we-collect"
+    },
+    {
+      "label": "HOW WE USE YOUR INFORMATION",
+      "href": "#how-we-use-your-information"
+    },
+    {
+      "label": "DISCLOSING YOUR INFORMATION TO THIRD PARTIES",
+      "href": "#disclosing-your-information-to-third-parties"
+    },
+    {
+      "label": "INTERNATIONAL DATA TRANSFERS",
+      "href": "#international-data-transfers"
+    },
+    {
+      "label": "YOUR CHOICES",
+      "href": "#your-choices"
+    },
+    {
+      "label": "YOUR PRIVACY RIGHTS",
+      "href": "#your-privacy-rights"
+    },
+    {
+      "label": "YOUR RIGHT TO BE FORGOTTEN",
+      "href": "#your-right-to-be-forgotten"
+    },
+    {
+      "label": "DATA RETENTION",
+      "href": "#data-retention"
+    },
+    {
+      "label": "DATA RESPONSIBILITY WITH AI MODELS",
+      "href": "#data-responsibility-with-ai-models"
+    },
+    {
+      "label": "SECURITY OF YOUR INFORMATION",
+      "href": "#security-of-your-information"
+    },
+    {
+      "label": "THIRD PARTY WEBSITES/APPLICATIONS",
+      "href": "#third-party-websitesapplications"
+    },
+    {
+      "label": "CHILDREN’S INFORMATION",
+      "href": "#children%E2%80%99s-information"
+    },
+    {
+      "label": "SUPERVISORY AUTHORITY",
+      "href": "#supervisory-authority"
+    },
+    {
+      "label": "CHANGES TO OUR PRIVACY POLICY",
+      "href": "#changes-to-our-privacy-policy"
+    },
+    {
+      "label": "CONTACT US",
+      "href": "#contact-us"
+    },
+    {
+      "label": "Terms of Service",
+      "href": "https://www.playbook.com/p/terms/"
+    },
+    {
+      "label": "www.google.com/policies/privacy/partners/",
+      "href": "https://www.google.com/policies/privacy/partners/"
+    },
+    {
+      "label": "http://tools.google.com/dlpage/gaoptout",
+      "href": "https://tools.google.com/dlpage/gaoptout"
+    },
+    {
+      "label": "Android",
+      "href": "https://support.google.com/googleplay/android-developer/answer/6048248?hl=en"
+    },
+    {
+      "label": "iOS",
+      "href": "https://support.apple.com/en-us/HT202074"
+    },
+    {
+      "label": "www.networkadvertising.org/managing/opt_out.asp",
+      "href": "https://www.networkadvertising.org/managing/opt_out.asp"
+    },
+    {
+      "label": "http://www.youronlinechoices.eu/",
+      "href": "https://www.youronlinechoices.eu/"
+    },
+    {
+      "label": "https://youradchoices.ca/choices/",
+      "href": "https://youradchoices.ca/choices/"
+    },
+    {
+      "label": "www.aboutads.info/choices/",
+      "href": "https://www.aboutads.info/choices/"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "/school/"
+    },
+    {
+      "label": "About us",
+      "href": "/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com/"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/?p=home",
+    "https://www.playbook.com/product/",
+    "https://www.playbook.com/smarter-storage/",
+    "https://www.playbook.com/gpt/",
+    "https://www.playbook.com/collaboration-editing/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/p/integrations-all/",
+    "https://www.playbook.com/desktop/",
+    "https://playbook-assets.navattic.com/7kh00ao",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/p/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/contact",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/demo/",
+    "https://www.playbook.com/partnership/",
+    "https://www.playbook.com/p/enterprise/",
+    "https://www.playbook.com/p/privacy/#about",
+    "https://www.playbook.com/p/privacy/#scope",
+    "https://www.playbook.com/p/privacy/#personal-information-we-collect",
+    "https://www.playbook.com/p/privacy/#how-we-use-your-information",
+    "https://www.playbook.com/p/privacy/#disclosing-your-information-to-third-parties",
+    "https://www.playbook.com/p/privacy/#international-data-transfers",
+    "https://www.playbook.com/p/privacy/#your-choices",
+    "https://www.playbook.com/p/privacy/#your-privacy-rights",
+    "https://www.playbook.com/p/privacy/#your-right-to-be-forgotten",
+    "https://www.playbook.com/p/privacy/#data-retention",
+    "https://www.playbook.com/p/privacy/#data-responsibility-with-ai-models",
+    "https://www.playbook.com/p/privacy/#security-of-your-information",
+    "https://www.playbook.com/p/privacy/#third-party-websitesapplications",
+    "https://www.playbook.com/p/privacy/#children%E2%80%99s-information",
+    "https://www.playbook.com/p/privacy/#supervisory-authority",
+    "https://www.playbook.com/p/privacy/#changes-to-our-privacy-policy",
+    "https://www.playbook.com/p/privacy/#contact-us",
+    "https://www.playbook.com/p/terms/",
+    "https://www.google.com/policies/privacy/partners/",
+    "https://tools.google.com/dlpage/gaoptout",
+    "https://support.google.com/googleplay/android-developer/answer/6048248?hl=en",
+    "https://support.apple.com/en-us/HT202074",
+    "https://www.networkadvertising.org/managing/opt_out.asp",
+    "https://www.youronlinechoices.eu/",
+    "https://youradchoices.ca/choices/",
+    "https://www.aboutads.info/choices/",
+    "mailto:support@playbook.com",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://www.playbook.com/p/privacy/#",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      }
+    ],
+    "allImgCount": 44,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--fl-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-border-strong": "rgba(255, 255, 255, 0.08)",
+    "--fl-bg": "transparent",
+    "--fl-text": "inherit",
+    "--fl-text-muted": "rgba(255, 255, 255, 0.55)",
+    "--fl-heading": "inherit",
+    "--fl-mock-bg": "#1a1a1a",
+    "--fl-mock-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-mock-shadow": "0 40px 80px rgba(0, 0, 0, 0.5)",
+    "--fl-screen-bar-bg": "#0e0e0e",
+    "--fl-screen-bar-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-screen-url-bg": "#1c1c1c",
+    "--fl-screen-url-text": "rgba(255, 255, 255, 0.3)",
+    "--fl-hero-float-bg": "rgba(98, 98, 98, 0.04)",
+    "--fl-hero-float-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-pill-bg": "#000",
+    "--fl-pill-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-pill-text": "rgba(255, 255, 255, 0.55)",
+    "--fl-pill-hot-bg": "rgba(212, 107, 202, 0.05)",
+    "--fl-pill-hot-border": "rgba(255, 60, 142, 0.3)",
+    "--fl-pill-hot-text": "#ff3c8e",
+    "--fl-stat-num": "#fff",
+    "--fl-stat-label": "#999",
+    "--fl-tag-strip-bg": "#111111",
+    "--fl-tag-strip-text": "rgba(255, 255, 255, 0.2)",
+    "--fl-tag-strip-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-screen-body-bg": "#111",
+    "--fl-row-shaded": "rgba(255, 255, 255, 0.05)",
+    "--fl-row-line-border-bottom": "none",
+    "--fl-marquee-fade": "#151719",
+    "--fl-ready-heading": "inherit",
+    "--fl-ready-text": "inherit",
+    "--fl-feature-intro-flex": "1",
+    "--fl-eyebrow-bg-size": "150% 100%",
+    "--ghost-accent-color": "#15171A"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 30,
+    "mainTextLen": 28502,
+    "realImageCount": 32,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/members/api/member/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/members/api/member/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/tiers/",
+        "query": [
+          "include",
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 333,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/tiers/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/settings/",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2955,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/settings/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/newsletters/",
+        "query": [
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 408,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/newsletters/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/can_track_visitor",
+        "query": [
+          "x_app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 19,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "api.unifyintent.com",
+        "path": "/analytics/v1/page",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.unifyintent.com/analytics/v1/page",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.playbook.com",
+        "path": "/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/track_request",
+        "query": [
+          "app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 400,
+        "bytes": 86,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "o362445.ingest.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 3,
+        "example": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "timestamp",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 3
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "chat-assets.frontapp.com",
+        "count": 2
+      },
+      {
+        "host": "app.termly.io",
+        "count": 1
+      },
+      {
+        "host": "tag.unifyintent.com",
+        "count": 1
+      },
+      {
+        "host": "assets.apollo.io",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/p-privacy.png",
+  "renderedHtml": "pages/p-privacy.html",
+  "slots": {
+    "headline": "Privacy Policy",
+    "lede": "Read Playbook's Privacy Policy: what data we collect, how we use and protect it, and the choices you have over your personal information.",
+    "hero-media": null,
+    "sections": [
+      "ABOUT",
+      "SCOPE",
+      "PERSONAL INFORMATION WE COLLECT",
+      "HOW WE USE YOUR INFORMATION",
+      "DISCLOSING YOUR INFORMATION TO THIRD PARTIES",
+      "INTERNATIONAL DATA TRANSFERS",
+      "YOUR CHOICES",
+      "YOUR PRIVACY RIGHTS",
+      "YOUR RIGHT TO BE FORGOTTEN",
+      "DATA RETENTION",
+      "DATA RESPONSIBILITY WITH AI MODELS",
+      "SECURITY OF YOUR INFORMATION",
+      "THIRD PARTY WEBSITES/APPLICATIONS",
+      "CHILDREN’S INFORMATION",
+      "SUPERVISORY AUTHORITY",
+      "CHANGES TO OUR PRIVACY POLICY",
+      "CONTACT US"
+    ],
+    "ctas": [
+      {
+        "label": "Help center & tutorials Quick start guides and tutorials",
+        "href": "/tutorial/"
+      },
+      {
+        "label": "Schedule a demo",
+        "href": "https://www.playbook.com/contact"
+      },
+      {
+        "label": "Get started for free",
+        "href": "https://www.playbook.com/login/"
+      }
+    ],
+    "modules": []
+  }
+}

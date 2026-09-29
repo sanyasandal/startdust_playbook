@@ -1,0 +1,1212 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:02:33.682Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "p-terms",
+  "url": "https://www.playbook.com/p/terms/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:02:33.682Z",
+  "finalUrl": "https://www.playbook.com/p/terms/",
+  "title": "Terms of Service — Playbook Creative Storage",
+  "description": "The Terms of Service governing your use of Playbook — your rights, responsibilities, and how our creative storage platform works.",
+  "og": {
+    "title": "Terms of Service — Playbook Creative Storage",
+    "description": "The Terms of Service governing your use of Playbook — your rights, responsibilities, and how our creative storage platform works.",
+    "image": "https://storage.ghost.io/c/0d/b2/0db24546-8866-4db6-b770-424195b8c5f9/content/images/2025/08/website-cover-3.jpg",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Product"
+    },
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h1",
+      "text": "Terms of Service"
+    },
+    {
+      "tag": "h3",
+      "text": "Last Updated: March 25, 2026."
+    },
+    {
+      "tag": "h3",
+      "text": "1. Agreement to these Terms"
+    },
+    {
+      "tag": "h3",
+      "text": "2. Changes to the Terms or Services"
+    },
+    {
+      "tag": "h3",
+      "text": "3. Who May Use the Services"
+    },
+    {
+      "tag": "h3",
+      "text": "4. Subscriptions and Payment"
+    },
+    {
+      "tag": "h3",
+      "text": "4.1 Pricing"
+    },
+    {
+      "tag": "h3",
+      "text": "4.2 Payment Terms"
+    },
+    {
+      "tag": "h3",
+      "text": "4.3 Authorization for Recurring Payments"
+    },
+    {
+      "tag": "h3",
+      "text": "4.4 Cancelling Subscriptions"
+    },
+    {
+      "tag": "h3",
+      "text": "5. Content and Content Rights"
+    },
+    {
+      "tag": "h3",
+      "text": "5.1 Ownership and Responsibility of User Content"
+    },
+    {
+      "tag": "h3",
+      "text": "5.2 Rights in User Content Granted by You"
+    },
+    {
+      "tag": "h3",
+      "text": "5.3 Rights in Content Granted by Playbook"
+    },
+    {
+      "tag": "h3",
+      "text": "5.4 Data loss, backup & limitation of liability"
+    },
+    {
+      "tag": "h3",
+      "text": "5.5 Deleting Content"
+    },
+    {
+      "tag": "h3",
+      "text": "5.6 Use of AI and Automated Features"
+    },
+    {
+      "tag": "h3",
+      "text": "6. Feedback"
+    },
+    {
+      "tag": "h3",
+      "text": "7. Privacy Policy"
+    },
+    {
+      "tag": "h3",
+      "text": "8. General Prohibitions"
+    },
+    {
+      "tag": "h3",
+      "text": "9. Copyright Policy"
+    },
+    {
+      "tag": "h3",
+      "text": "10. Links to and Integration with Third Party Websites or Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "11. Publicity"
+    },
+    {
+      "tag": "h3",
+      "text": "12. Termination"
+    },
+    {
+      "tag": "h3",
+      "text": "13. Warranty Disclaimers"
+    },
+    {
+      "tag": "h3",
+      "text": "14. Indemnity"
+    },
+    {
+      "tag": "h3",
+      "text": "15. Limitation of Liability"
+    },
+    {
+      "tag": "h3",
+      "text": "16. Governing Law"
+    },
+    {
+      "tag": "h3",
+      "text": "17. Dispute Resolution for Individual Consumers"
+    },
+    {
+      "tag": "h3",
+      "text": "18. Dispute Resolution for Companies"
+    },
+    {
+      "tag": "h3",
+      "text": "19. General Terms"
+    },
+    {
+      "tag": "h3",
+      "text": "20. Accessing Apps"
+    },
+    {
+      "tag": "h3",
+      "text": "21. Contact Information"
+    }
+  ],
+  "body": [
+    "Welcome to the Playbook website (www.playbook.com) (the “Site”). Please read these Terms of Service (the “Terms”) carefully because they govern your use of our websites including playbook.com and any other websites that we may later own or operate (“Site” or “Sites”); mobile applications (“App(s)”), application program interface(s) (“API(s)”) and other products and services we may later own or operate (collectively called the “Services”).",
+    "By using our Services, you agree to be bound by these Terms. If you don’t agree to these Terms, do not use the Services. If you are accessing and using the Services on behalf of a company (such as your employer) or other legal entity, you represent and warrant that you have the authority to bind that company or other legal entity to these Terms. In that case, “you” and “your” will refer to that company or other legal entity.",
+    "We may modify the Terms at any time, in our sole discretion. If we do so, we’ll let you know either by posting the modified Terms on the Site or through other communications. If you continue to use the Services, you are indicating that you agree to the modified Terms. We may change or discontinue all or any part of the Services, at any time and without notice, at our sole discretion.",
+    "ARBITRATION NOTICE: IF YOU ARE ACCESSING AND USING THE SERVICES AS AN INDIVIDUAL (NOT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY), UNLESS YOU OPT OUT OF ARBITRATION WITHIN 30 DAYS OF THE DATE YOU FIRST AGREE TO THESE TERMS BY FOLLOWING THE OPT-OUT PROCEDURE SPECIFIED IN THE “DISPUTE RESOLUTION FOR INDIVIDUAL CONSUMERS” SECTION BELOW, AND YOU AGREE THAT DISPUTES BETWEEN YOU AND PLAYBOOK WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION, EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN THAT SECTION, AND YOU ARE WAIVING YOUR RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS ACTION OR REPRESENTATIVE PROCEEDING.",
+    "You may use the Services only if you are 13 years or older and are not barred from using the Services under applicable law.",
+    "In order to use certain features of the Services, you must create an account (“Account”) via the Site and become a registered user (“User”). You have to provide us with accurate and complete information and keep it up-to-date. You’ll notify us immediately of any unauthorized use of your Account and you’re responsible for all activities that occur under your Account, whether or not you know about them.",
+    "Subject to these Terms, the Services are provided to you for free up to certain limits and with limited features. Usage over these limits or access to certain features requires you to purchase a subscription (“Subscription”). Your and your Team Members’ rights and obligations will be based on the type of Project Team you choose (i.e., free or paid Subscription). Details about the different types of Subscriptions, and the limits and available features associated with the Services, are available at www.playbook.com/p/pricing.",
+    "You may change the type of Subscription at any time by (i) emailing us at support@playbook.com and following any instructions, if any, we provide to you in response to your change request or (ii) initiating a change through your Account settings within the Services.",
+    "When you purchase a Subscription (such purchase, a “Transaction”) you expressly authorize us (or our third party payment processor) to charge you for such Transaction. We may ask you to supply additional information relevant to your Transaction, including, without limitation, your credit-card number, the expiration date of your credit card, and your address(es) for billing (such information, “Payment Information”). You represent and warrant that you have the legal right to use all payment method(s) represented by any such Payment Information. When you initiate a Transaction, you authorize us to provide your Payment Information to our third party service providers so we can complete your Transaction and to charge your payment method for the type of Transaction you have selected (plus any applicable taxes and other charges). You may need to provide additional information to verify your identity before completing your Transaction (such information is included within the definition of Payment Information).",
+    "If you purchase a Subscription, you will be charged the then-applicable Subscription fee (“Subscription Fee”) at the beginning of your Subscription and each month, quarter or year thereafter, depending on the term of your Subscription, at the then-current rate. Subscription Fees are outlined at www.playbook.com/p/pricing. Please note that our Subscription Fees are subject to change, although we will notify you before we effect any change in Subscription Fees.",
+    "By agreeing to these Terms and purchasing a Subscription, you acknowledge that your Subscription has recurring payment features and you accept responsibility for all recurring payment obligations prior to cancellation of your Subscription by you or Playbook. We (or our third party payment processor) will automatically charge you in accordance with term of your Subscription (e.g., each month, quarter or year), on the calendar day corresponding to the commencement of your Subscription, using the Payment Information you have provided. In the event your Subscription began on a day not contained in a given month, your payment method will be charged on a day in the applicable month or such other day as we deem appropriate. For example, if you started a monthly Subscription on January 31st, your next payment date is likely to be February 28th, and your payment method would be billed on that date. We may also periodically authorize your payment method in anticipation of applicable fees or related charges. Your Subscription continues until cancelled by you or we terminate your access to or use of the Services or the Subscription in accordance with these Terms.",
+    "You may cancel your Subscription at any time but please note that such cancellation will be effective at the end of the then-current Subscription period. YOU WILL NOT RECEIVE A REFUND OF ANY PORTION OF THE SUBSCRIPTION FEE PAID FOR THE THEN CURRENT SUBSCRIPTION PERIOD AT THE TIME OF CANCELLATION. To cancel, you can either (i) email us at support@playbook.com and follow any instructions, if any, we provide to you in response to your cancellation request, or (ii) initiate a cancellation through your Account settings within the Services. You will be responsible for all Subscription Fees (plus any applicable taxes and other charges) incurred for the then current Subscription period. If you cancel, we will allow you to access any private Projects associated with such Subscription until the most recently paid-up Subscription period ends. Cancelling your Subscription won’t cancel your Account. See Section 12 (Termination) below for information on terminating your Account.",
+    "At the end of the Subscription period, or if you stop paying the Subscription Fee, any Project Team you have created that is subject to purchase of a Subscription will be locked or disabled and you and any other Team Members will no longer be able to access the Project Team and any related Projects. We will not delete your Project Content and User Content, but you and your Team Members will not be able to access it, unless and until you purchase a Subscription again or modify your Project Team such that it meets the limits of a free Project Team. Notwithstanding the foregoing, Playbook makes no guarantees regarding the retention of your Project Content and User Content associated with a locked Project Team. You acknowledge sole responsibility for and assume all risk arising from cancellation of your Subscription, including, without limitation, any loss of data associated with a Project.",
+    "For purposes of these Terms: (i) “Playbook Content” means text, graphics, designs, images, music, software, audio, video, works of authorship of any kind, and information or other materials that are posted, generated, provided or otherwise made available through Playbook's Services (including without limitation, the Tools); and (ii) “User Content” means any Content that Users (including you) provide to be made available through the Services, including without limitation any assets and Project Content created by a User (other than the Tools and any other Playbook Content that we provide to you) as well as modifications a User makes to another User’s assets.",
+    "As between you and Playbook, you own your User Content - Playbook does not claim any ownership rights in any User Content that you make available through the Services and nothing in these Terms will be deemed to restrict any rights that you may have to use and exploit your User Content. Subject to the foregoing, Playbook and its licensors exclusively own all right, title and interest in and to the Services and Playbook Content, including all associated intellectual property rights. You agree not to remove, alter or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying the Services or Playbook Content.",
+    "You are solely responsible for all your User Content. You represent and warrant that you own all your User Content or you have all rights that are necessary to grant us the license rights in your User Content under these Terms. You also represent and warrant that neither your User Content, nor your use and provision of your User Content, nor any use of your User Content by Playbook or any other users on or through the Services will infringe, misappropriate or violate a third party’s intellectual property rights, or rights of publicity or privacy, or result in the violation of any applicable law or regulation.",
+    "Our Services include features like commenting, sharing, searching, image thumbnails, and organization. In order to provide these Services, Playbook requires limited rights to access, store, and process User Content when you ask us to.",
+    "By making any User Content available through our Services, you give Playbook the above permissions, and this permission extends to our affiliates and trusted third parties we work with.",
+    "Our Services are protected by copyright, trademark, and other US and foreign laws. These Terms don’t grant you any right, title, or interest in the Services, others’ content in the Services, Playbook trademarks, logos and other brand features.",
+    "In the event of any loss or corruption of any data associated with the Services, Playbook will use commercially reasonable efforts to restore the lost or corrupted data from the latest backup of such data maintained by Playbook. Playbook does not guarantee successful restoration of any particular item. EXCEPT FOR THE FOREGOING, PLAYBOOK WILL NOT BE RESPONSIBLE FOR ANY LOSS, DESTRUCTION, ALTERATION, UNAUTHORIZED DISCLOSURE OR CORRUPTION OF ANY SUCH DATA.",
+    "You can remove certain User Content through the Services. However, some of your User Content (including, without limitation, posts or comments that have been made on the Project Content associated with public Projects) may not be removed and copies of your User Content may continue to exist on the Services in archive or backup form.",
+    "Playbook may restrict access to, archive, or delete User Content in accordance with these Terms, including where required to enforce plan limits, maintain the Services, or comply with legal, security, or abuse-related obligations. We are not responsible or liable for the removal or deletion of (or failure to remove or delete) any User Content.",
+    "a. Archiving and storage limits: If your account exceeds applicable plan limits, Playbook may move User Content to an archived state to bring the account within limits. Archived content may have limited functionality, will not be considered part of your active workspace, and will not count toward applicable limits. Archived content is a temporary state and, if left inactive for an extended period without user action or other corrective action (for example, upgrading or deleting content), may be moved to Trash and permanently deleted.b. Security, legal, misuse or abuse reasons: Playbook may remove or delete User Content immediately where necessary to prevent harm, comply with law, or address security or abuse concerns.",
+    "Before deleting content under clause (a), Playbook will use commercially reasonable efforts to provide multiple advance notices (including email and in-product notifications), a reasonable export window, and instructions for submitting an appeal. Playbook may consider and, in its discretion, grant reasonable appears or temporary exceptions. Appeals and exception requests should be sent to support@playbook.com.",
+    "c. Inactive workspaces: Workspaces on a free (non-paid) plan may be deleted following an extended period of inactivity. A workspace is deemed inactive if no member signs in to or otherwise uses it for six (6) consecutive months; any sign-in or use of the workspace resets this period. Before deletion, Playbook will provide advance notice, including one or more reminders, to the workspace's owners and administrators at the email addresses associated with their accounts, stating the date on which the workspace is scheduled for deletion. You may prevent deletion by signing in to and using the workspace, or by upgrading to a paid Subscription, before that date. If the workspace remains inactive through the notice period, Playbook may permanently delete the workspace and all of its contents and release the workspace name for use by others. This deletion is permanent and cannot be undone. Workspaces with an active paid Subscription are not subject to deletion under this provision.",
+    "Our Services may include features that use machine learning or artificial intelligence (“AI Features”) to analyze, organize, and take actions on User Content (for example, tagging, search, and workflow automation).",
+    "By using the Services, you agree that Playbook may process User Content using these AI Features, including automatically generating metadata (such as tags) and executing actions based on your instructions. Your User Content is not used to train general-purpose AI models.",
+    "Certain AI Features allow you to initiate automated or multi-step workflows based on your inputs. Outputs generated by these features (including tags, search results, or automated actions) may be inaccurate or incomplete, and you are responsible for reviewing results before relying on them. Playbook does not guarantee the accuracy of such outputs and is not responsible for actions taken based on them.",
+    "We may use trusted third-party service providers to support these AI Features. These providers process User Content solely to provide the Services on our behalf and in accordance with our agreements with them.",
+    "We welcome feedback, comments and suggestions for improvements to the Services (“Feedback”) by emailing us at support@playbook.com. As we need to be able to freely work with your Feedback to improve the Services, you hereby irrevocably transfer and assign all right, title and interest (including all intellectual property rights, such as copyrights or trade secrets) in and to the Feedback, including any and all “moral rights” that you might have in such Feedback, and you hereby forever waive and agree never to assert any and all “moral rights” you may have in the Feedback.",
+    "Please refer to our Privacy Policy (www.playbook.com/p/privacy) for information on how we collect, use and disclose information from our users.",
+    "You agree not to do any of the following:",
+    "Post, upload, publish, submit or transmit any User Content that: (i) infringes, misappropriates or violates a third party’s patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy; (ii) violates, or encourages any conduct that would violate, any applicable law or regulation or would give rise to civil liability; (iii) is fraudulent, false, misleading or deceptive; (iv) is defamatory, obscene, pornographic, vulgar or offensive; (v) promotes discrimination, bigotry, racism, hatred, harassment or harm against any individual or group; (vi) is violent or threatening or promotes violence or actions that are threatening to any person or entity; or (vii) promotes illegal or harmful activities or substances.",
+    "Use, display, mirror or frame the Services, or any individual element within the Services, Playbook’s name, any Playbook trademark, logo or other proprietary information, or the layout and design of any page or form contained on a page, without Playbook’s express written consent;",
+    "Access, tamper with, or use non-public areas of the Services, Playbook’s computer systems, or the technical delivery systems of Playbook’s providers;",
+    "Attempt to probe, scan or test the vulnerability of any Playbook system or network or breach any security or authentication measures;",
+    "Avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by Playbook or any of Playbook’s providers or any other third party (including another user) to protect the Services or Content;",
+    "Attempt to access or search the Services or Content or download Content from the Services through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the software and/or search agents provided by Playbook or other generally available third party web browsers;",
+    "Send any unsolicited or unauthorized advertising, promotional materials, email, junk mail, spam, chain letters or other form of solicitation;",
+    "Use any meta tags or other hidden text or metadata utilizing a Playbook trademark, logo URL or product name without Playbook’s express written consent;",
+    "Use the Services or Content for any commercial purpose or for the benefit of any third party or in any manner not permitted by these Terms or the functionality of the Services;",
+    "Forge any TCP/IP packet header or any part of the header information in any email or newsgroup posting, or in any way use the Services or Content to send altered, deceptive or false source-identifying information;",
+    "Attempt to decipher, decompile, disassemble or reverse engineer or in any way attempt to derive the source code of any of the software used to provide the Services or Content;",
+    "Interfere with, or attempt to interfere with, the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, or mail-bombing the Services;",
+    "Collect or store any personally identifiable information from the Services from other users of the Services without their express permission;",
+    "Impersonate or misrepresent your affiliation with any person or entity;",
+    "Violate any applicable law or regulation; or",
+    "Encourage or enable any other individual to do any of the foregoing.",
+    "Although we’re not obligated to monitor access to or use of the Services or Content or to review or edit any Content, we have the right to do so for the purpose of operating the Services, to ensure compliance with these Terms, or to comply with applicable law or other legal requirements. We reserve the right, but are not obligated, to remove or disable access to any Content, including User Content, at any time and without notice, including, but not limited to, if we, at our sole discretion, consider any Content or User Content to be objectionable, in violation of these Terms or the law. We may also consult and cooperate with law enforcement authorities to prosecute users who violate the law.",
+    "Playbook respects copyright law and expects its users to do the same. It is Playbook’s policy to terminate in appropriate circumstances Users who repeatedly infringe the rights of copyright holders.",
+    "The Services may contain links to third-party websites or resources and may offer integration with such third-party websites or services (For example, we may offer integration with certain Google services). We provide these links and integration functions only as a convenience and are not responsible for the content, products or services on or available from those websites or resources or links displayed on such sites. You acknowledge sole responsibility for, and assume all risk arising from, your use of or integration with any third-party websites or resources.",
+    "You agree that Playbook may identify you or your company and use your company’s logo and trademarks (collectively, the “Marks”) on the Site and in marketing materials to identify you or your company as a user of the Services, and you hereby grant us a non-exclusive, royalty-free license to do so on our Site or in any media now or later developed in connection with any marketing, promotion or advertising of Playbook or the Services. If you do not want to allow us the right to use your Marks or identify you or your company you may opt out such marketing requests by emailing us at support@playbook.com.",
+    "We may terminate your access to and use of the Services, at our sole discretion, at any time and without notice or liability to you, provided that, if you have paid for a Subscription and the termination is not due to your breach of this Agreement, Playbook will refund you any prepaid fees for the period of your Subscription that extends beyond the effective date of such termination. You may cancel your Account at any time by sending an email to us at support@playbook.com. Upon any termination, discontinuation or cancellation of Services or your Account, the following provisions of these Terms will survive: Feedback; Privacy Policy; provisions related to permissions to access Content (to the extent applicable); Content and Content Rights; Content Ownership, Responsibility and Removal; General Prohibitions; Warranty Disclaimers; Indemnity; Limitation of Liability; Governing Law and Dispute Resolution; General Terms.",
+    "AS BETWEEN YOU AND PLAYBOOK, THE SERVICES, CONTENT, AND APPLICATIONS MADE AVAILABLE ON THE SERVICES ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. WITHOUT LIMITING THE FOREGOING, WE EXPLICITLY DISCLAIM ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT AND NON-INFRINGEMENT AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. We make no warranty that the Services will meet your requirements or be available on an uninterrupted, secure, or error-free basis. We make no warranty regarding the quality, accuracy, timeliness, truthfulness, completeness or reliability of any Content.",
+    "You will indemnify and hold harmless Playbook and its officers, directors, employees and agents, from and against any claims, disputes, demands, liabilities, damages, losses, and costs and expenses, including, without limitation, reasonable legal and accounting fees, arising out of or in any way connected with (i) your access to or use of the Services or Content; (ii) your User Content; or (iii) your violation of these Terms.",
+    "NEITHER PLAYBOOK NOR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING, OR DELIVERING THE SERVICES, TOOLS, OR CONTENT WILL BE LIABLE FOR ANY INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOSS OF DATA OR GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE OR SYSTEM FAILURE OR THE COST OF SUBSTITUTE SERVICES ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE SERVICES, TOOLS, OR CONTENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT PLAYBOOK HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, EVEN IF A LIMITED REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.",
+    "IN NO EVENT WILL PLAYBOOK’S TOTAL LIABILITY ARISING OUT OF OR IN CONNECTION WITH THESE TERMS, ANY DISPUTE IN RELATION TO INTELLECTUAL PROPERTY RIGHTS IN A DESIGN OR FROM THE USE OF OR INABILITY TO USE THE SERVICES OR CONTENT EXCEED THE AMOUNTS YOU HAVE PAID OR ARE PAYABLE BY YOU TO PLAYBOOK FOR USE OF THE SERVICES OR CONTENT, OR IF YOU HAVE NOT HAD ANY SUCH PAYMENT OBLIGATIONS, ONE HUNDRED UNITED STATES DOLLARS ($100).",
+    "THE LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN PLAYBOOK AND YOU.",
+    "These Terms and any action related thereto will be governed by the laws of the State of California without regard to its conflict of laws provisions.",
+    "Our goal is to provide you with great service, so we’ll try our best to resolve any disagreements that you have with us. If we can’t, then you and we both agree to resolve disputes related to your use of the Services or these Terms (each, a “Claim”) in binding arbitration instead of court, except that a Claim may be brought in small claims court if it qualifies for it. You and we also agree that either party may bring suit in court to enjoin the infringement or other misuse of intellectual property rights.",
+    "What is arbitration?",
+    "Arbitration does not involve a judge or jury. Instead, a neutral person (the “arbitrator”) hears each party’s side of the dispute, and makes a decision that is finally binding on both parties. The arbitrator can award the same relief as a court could award, including monetary damages. While court review of an arbitration award is limited, if a party fails to comply with the arbitrator’s decision, then the other party can have the arbitration decision enforced by a court. If for any reason a Claim proceeds in court rather than in arbitration, you and we each waive any right to a jury trial.",
+    "Can a Claim be part of a class action or similar proceeding?",
+    "No. You agree to resolve your Claims with us solely on an individual basis, and not as part of a class, representative or consolidated action. We agree to do the same.",
+    "What rules apply in the arbitration?",
+    "The arbitration will be conducted under the American Arbitration Association (“AAA”) Consumer Arbitration Rules (the “AAA Rules”). The AAA Rules are available at www.adr.org or by calling 1-800-778-7879.",
+    "How will the arbitration be conducted? How much does it cost?",
+    "The arbitration will be conducted by the AAA or a comparable arbitration body in the event the AAA is unable to conduct the arbitration. Payment of all filing, administration and arbitrator fees will be governed by the AAA Rules. Unless the arbitrator finds your Claim frivolous, we’ll pay for all filing, administration and arbitrator fees if your Claim is for less than $10,000, and we won’t seek our attorneys’ fees and costs if we prevail in the arbitration. The arbitration may be conducted in writing, remotely (e.g., by videoconference) or in-person in the county where you live (or at some other location that we both agree to).",
+    "How do I start an arbitration proceeding?",
+    "To begin an arbitration proceeding against us, send a letter requesting arbitration and describing your Claim to legal@playbook.com, 341 Moultrie St, San Francisco, CA 94110. If we request arbitration against you we will give you notice at the email address or street address you provided.",
+    "INSTRUCTIONS FOR OPTING-OUT OF ARBITRATION:",
+    "If you don’t want to agree to arbitrate your Claims as explained above, then you can opt-out of this arbitration agreement by notifying us of your decision in writing at legal@playbook.com, 341 Moultrie St, San Francisco, CA 94110. You must opt-out within 30 days of the date you first agree to these Terms or any updated Terms.",
+    "This Section 17 only applies to Claims between us and individual consumers, and is governed by The Federal Arbitration Act.",
+    "If you are accessing and using the Services on behalf of a company or other legal entity, any claim, cause of action or dispute between the company or other legal entity and Playbook arising out of or relating to these Terms or the Services and Content will be resolved exclusively in the U.S. District Court for the Northern District of California or a state court located in Santa Clara County, and you agree to submit to the personal jurisdiction of such courts for the purpose of litigating all such claims.",
+    "These Terms constitute the entire and exclusive understanding and agreement between Playbook and you regarding the Services and Content, and these Terms supersede and replace any and all prior oral or written understandings or agreements between Playbook and you regarding the Services and Content. If for any reason an arbitrator or court of competent jurisdiction finds any provision of these Terms invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the other provisions of these Terms will remain in full force and effect.",
+    "You may not assign or transfer these Terms, by operation of law or otherwise, without Playbook’s prior written consent. Any attempt by you to assign or transfer these Terms, without such consent, will be null and of no effect. Playbook may freely assign or transfer these Terms without restriction. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties, their successors and permitted assigns.",
+    "Any notices or other communications provided by Playbook under these Terms, including those regarding modifications to these Terms, will be given by Playbook: (i) via e-mail; or (ii) by posting to the Site. For notices made by e-mail, the date of receipt will be deemed the date on which such notice is transmitted.",
+    "Playbook’s failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. Except as expressly set forth in these Terms, the exercise by either party of any of its remedies under these Terms will be without prejudice to its other remedies under these Terms or otherwise.",
+    "The following terms apply to any App accessed through or downloaded from any app store or distribution platform (like the Apple App Store or Google Play) where the App may now or in the future be made available (each an \"App Provider\"). You acknowledge and agree that:",
+    "These Terms are concluded between you and Playbook, and not with the App Provider, and Playbook (not the App Provider), is solely responsible for the App.",
+    "The App Provider has no obligation to furnish any maintenance and support services with respect to the App.",
+    "In the event of any failure of the App to conform to any applicable warranty, you may notify the App Provider, and the App Provider will refund the purchase price for the App to you (if applicable) and, to the maximum extent permitted by applicable law, the App Provider will have no other warranty obligation whatsoever with respect to the App. Any other claims, losses, liabilities, damages, costs or expenses attributable to any failure to conform to any warranty will be the sole responsibility of Playbook.",
+    "The App Provider is not responsible for addressing any claims you have or any claims of any third party relating to the App or your possession and use of the App, including, but not limited to: (i) product liability claims; (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection or similar legislation.",
+    "In the event of any third party claim that the App or your possession and use of that App infringes that third party’s intellectual property rights, Playbook will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement claim to the extent required by these Terms.",
+    "The App Provider, and its subsidiaries, are third-party beneficiaries of these Terms as related to your license to the App, and that, upon your acceptance of the Terms, the App Provider will have the right (and will be deemed to have accepted the right) to enforce these Terms as related to your license of the App against you as a third-party beneficiary thereof.",
+    "You represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a terrorist- supporting country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.",
+    "You must also comply with all applicable third party terms of service when using the App.",
+    "If you have any questions about these Terms or the Services please contact Playbook at: support@playbook.com, 341 Moultrie St, San Francisco, CA 94110"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Playbook 101 The next era of media storage",
+      "href": "/product/"
+    },
+    {
+      "label": "Visual storage Dynamic space for all type of media.",
+      "href": "/smarter-storage/"
+    },
+    {
+      "label": "Smart search GPT-powered for results you can trust.",
+      "href": "/gpt/"
+    },
+    {
+      "label": "Review & approval Comment & react in real-time",
+      "href": "/collaboration-editing/"
+    },
+    {
+      "label": "Publish sites Create sites from stored files",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Mini-apps Supercharge your creative workflow",
+      "href": "/p/integrations-all/"
+    },
+    {
+      "label": "Desktop sync Two-way file syncing",
+      "href": "/desktop/"
+    },
+    {
+      "label": "Take a quick tour! See Playbook in action with our interactive product tour.",
+      "href": "https://playbook-assets.navattic.com/7kh00ao"
+    },
+    {
+      "label": "API/SDK",
+      "href": "https://dev.playbook.com/"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/p/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact"
+    },
+    {
+      "label": "Get started for free",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "www.playbook.com",
+      "href": "https://www.playbook.com/"
+    },
+    {
+      "label": "www.playbook.com/p/pricing",
+      "href": "https://www.playbook.com/p/pricing/"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "www.playbook.com/p/pricing",
+      "href": "https://www.playbook.com/p/pricing/"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "www.playbook.com/p/privacy",
+      "href": "https://www.playbook.com/p/privacy/"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "legal@playbook.com",
+      "href": "mailto:legal@playbook.com"
+    },
+    {
+      "label": "support@playbook.com",
+      "href": "mailto:support@playbook.com"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "/school/"
+    },
+    {
+      "label": "About us",
+      "href": "/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com/"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/?p=home",
+    "https://www.playbook.com/product/",
+    "https://www.playbook.com/smarter-storage/",
+    "https://www.playbook.com/gpt/",
+    "https://www.playbook.com/collaboration-editing/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/p/integrations-all/",
+    "https://www.playbook.com/desktop/",
+    "https://playbook-assets.navattic.com/7kh00ao",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/p/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/contact",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/demo/",
+    "https://www.playbook.com/partnership/",
+    "https://www.playbook.com/p/enterprise/",
+    "https://www.playbook.com/",
+    "https://www.playbook.com/p/pricing/",
+    "mailto:support@playbook.com",
+    "https://www.playbook.com/p/privacy/",
+    "mailto:legal@playbook.com",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://www.playbook.com/p/terms/#",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      },
+      {
+        "src": "https://img.playbook.com/Ug-cDRd59AA25ewlocpdKEy_HT2yyjKORd_YsFuze-g/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE2MmQ1MDQ0/LWVhZjUtNGM0NS04/ZWNmLWFiZjcxODBk/YjExNQ",
+        "alt": "What is Playbook? Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/Nuam_vIdz6_A43m2WSJF64ETpIBy7fWjZn-F-LOzwew/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhOTRiZDIw/LTUwZmMtNDk3YS1h/YzBkLTk4ZjljOTBk/YTFiMA",
+        "alt": "Storage Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/JDcLir_I7KpYJwQn92n95Y8FRcfmqJ6KutdV5rr0xCI/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzUzNzcxMmVm/LTM2N2ItNGE2NS1h/Njk1LTg0MGQzZTlm/MTYwYw",
+        "alt": "Search AI GPT Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/8CqJHAwaFWr1IsFh3h3oQONGo5nGgbGClH2w3dKJS1Q/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYyMzE5Njdh/LTg3ZTMtNGJiMi04/ODcyLWMzNWNkNmU1/ZTQ5Yw",
+        "alt": "Review & approval Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cNAXuf04UPRC8_-26-F0pt-4ZGKkVJn06Kwqor_uTeE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2YzMwN2Vj/LWJkMGYtNDY0Ny1h/YTQwLTM2MjExNDI5/NDVkYw",
+        "alt": "Template Gallery Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/0-XkVaxG_cDcYa60W5p180-dN8zG0H-qfwwPTOfwtSQ/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhYzEyMmUw/LWUzNTAtNGY5NC1h/MTM1LTdmYTFlMDdm/ZjU3NQ",
+        "alt": "Mini App Built-in tools Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/LzxphAgH7DUjqmmNQb6h6-hMQ3hdOoMRfv4rnLquwwg/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M2YzFhNDhm/LWMxYTYtNDFmZi05/OTllLWZmNmM1MmNm/YjcyOQ",
+        "alt": "Desktop Sync Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/1JXR-keCdUBHufx0KYgf4dnUVhKnGqfhXuQ9LAsPRI4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1ZTFjN2Vk/LTRjYWQtNDNlZi04/ODAzLWZlYzgzNGYy/YWQxNA",
+        "alt": "Playbook product tour",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/aH4QGwSxrp9PThIz0klg0t7bnz8cLBXMQeolY24ceSc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNjYWU4OWIz/LWRhZDUtNDdjZi05/Yzk4LWZlZjJlNjY2/ZjRhNQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 2048,
+        "h": 1289
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      }
+    ],
+    "allImgCount": 44,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--fl-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-border-strong": "rgba(255, 255, 255, 0.08)",
+    "--fl-bg": "transparent",
+    "--fl-text": "inherit",
+    "--fl-text-muted": "rgba(255, 255, 255, 0.55)",
+    "--fl-heading": "inherit",
+    "--fl-mock-bg": "#1a1a1a",
+    "--fl-mock-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-mock-shadow": "0 40px 80px rgba(0, 0, 0, 0.5)",
+    "--fl-screen-bar-bg": "#0e0e0e",
+    "--fl-screen-bar-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-screen-url-bg": "#1c1c1c",
+    "--fl-screen-url-text": "rgba(255, 255, 255, 0.3)",
+    "--fl-hero-float-bg": "rgba(98, 98, 98, 0.04)",
+    "--fl-hero-float-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-pill-bg": "#000",
+    "--fl-pill-border": "rgba(255, 255, 255, 0.05)",
+    "--fl-pill-text": "rgba(255, 255, 255, 0.55)",
+    "--fl-pill-hot-bg": "rgba(212, 107, 202, 0.05)",
+    "--fl-pill-hot-border": "rgba(255, 60, 142, 0.3)",
+    "--fl-pill-hot-text": "#ff3c8e",
+    "--fl-stat-num": "#fff",
+    "--fl-stat-label": "#999",
+    "--fl-tag-strip-bg": "#111111",
+    "--fl-tag-strip-text": "rgba(255, 255, 255, 0.2)",
+    "--fl-tag-strip-border": "rgba(255, 255, 255, 0.08)",
+    "--fl-screen-body-bg": "#111",
+    "--fl-row-shaded": "rgba(255, 255, 255, 0.05)",
+    "--fl-row-line-border-bottom": "none",
+    "--fl-marquee-fade": "#151719",
+    "--fl-ready-heading": "inherit",
+    "--fl-ready-text": "inherit",
+    "--fl-feature-intro-flex": "1",
+    "--fl-eyebrow-bg-size": "150% 100%",
+    "--ghost-accent-color": "#15171A"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 42,
+    "mainTextLen": 33896,
+    "realImageCount": 32,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/members/api/member/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/members/api/member/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/tiers/",
+        "query": [
+          "include",
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 333,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/tiers/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/settings/",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2955,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/settings/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "playbook-at.ghost.io",
+        "path": "/ghost/api/content/newsletters/",
+        "query": [
+          "key",
+          "limit"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 408,
+        "hits": 1,
+        "example": "https://playbook-at.ghost.io/ghost/api/content/newsletters/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/can_track_visitor",
+        "query": [
+          "x_app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 19,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "api.unifyintent.com",
+        "path": "/analytics/v1/page",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.unifyintent.com/analytics/v1/page",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.playbook.com",
+        "path": "/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "o362445.ingest.sentry.io",
+        "path": "/api/{hash}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 3,
+        "example": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "aplo-evnt.com",
+        "path": "/api/v1/intent_pixel/track_request",
+        "query": [
+          "app_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 400,
+        "bytes": 86,
+        "hits": 1,
+        "example": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "timestamp",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRBR-115f0ee738624bb27c2",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 3
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "chat-assets.frontapp.com",
+        "count": 2
+      },
+      {
+        "host": "app.termly.io",
+        "count": 1
+      },
+      {
+        "host": "tag.unifyintent.com",
+        "count": 1
+      },
+      {
+        "host": "assets.apollo.io",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": "#"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/p-terms.png",
+  "renderedHtml": "pages/p-terms.html",
+  "slots": {
+    "headline": "Terms of Service",
+    "lede": "The Terms of Service governing your use of Playbook — your rights, responsibilities, and how our creative storage platform works.",
+    "hero-media": null,
+    "sections": [],
+    "ctas": [
+      {
+        "label": "Help center & tutorials Quick start guides and tutorials",
+        "href": "/tutorial/"
+      },
+      {
+        "label": "Schedule a demo",
+        "href": "https://www.playbook.com/contact"
+      },
+      {
+        "label": "Get started for free",
+        "href": "https://www.playbook.com/login/"
+      }
+    ],
+    "modules": [
+      "feature-grid"
+    ]
+  }
+}

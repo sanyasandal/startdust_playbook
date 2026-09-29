@@ -1,0 +1,640 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:01:24.917Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "product",
+  "url": "https://www.playbook.com/product/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:01:24.917Z",
+  "finalUrl": "https://www.playbook.com/product/",
+  "title": "Playbook | Your go-to creative management solution",
+  "description": "Playbook brings powerful media management and creative workflow tools together in one product, helping teams deliver projects faster and smarter.",
+  "og": {
+    "title": "Playbook | Your go-to creative management solution",
+    "description": "Playbook brings powerful media management and creative workflow tools together in one product, helping teams deliver projects faster and smarter.",
+    "image": "https://www.playbook.com/og-default.jpg",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h4",
+      "text": "Use cases"
+    },
+    {
+      "tag": "h5",
+      "text": "Enterprise Marketing"
+    },
+    {
+      "tag": "h5",
+      "text": "Media & Entertainment"
+    },
+    {
+      "tag": "h5",
+      "text": "Creative Agency"
+    },
+    {
+      "tag": "h5",
+      "text": "Consumer Brands"
+    },
+    {
+      "tag": "h5",
+      "text": "Game Studios"
+    },
+    {
+      "tag": "h4",
+      "text": "Resources"
+    },
+    {
+      "tag": "h5",
+      "text": "More to explore"
+    },
+    {
+      "tag": "h1",
+      "text": "See everything.Find anything."
+    },
+    {
+      "tag": "h4",
+      "text": "Organize projects fast and easy"
+    },
+    {
+      "tag": "h4",
+      "text": "Find files fast and share instantly"
+    },
+    {
+      "tag": "h4",
+      "text": "Invite anyone and manage people easily"
+    },
+    {
+      "tag": "h4",
+      "text": "Smart, efficient storage to keep your files safe"
+    },
+    {
+      "tag": "h3",
+      "text": "World's first collaborative creative space"
+    },
+    {
+      "tag": "h3",
+      "text": "Artists & Designers ❤️ Playbook"
+    },
+    {
+      "tag": "h3",
+      "text": "The new way to manage files and folders"
+    }
+  ],
+  "body": [
+    "Keep files, comments, and tasks tied to the right people with flexible invites.",
+    "Work more efficiently with AI-powered image-to-text, custom tags, and related assets.",
+    "Add guests to specific projects or entire workspace",
+    "Save storage space and money by detecting and linking copies back to original",
+    "For teams, Playbook makes it easy to share, and collaborate on visual projects. For freelancers, Playbook makes it easy to collaborate with clients and share their work with the world.",
+    "Join 10,000 businesses and teams that use Playbook",
+    "Trusted by teams and designers from",
+    "Try Playbook for yourself, then add your whole team."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "MCPNew",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developers",
+      "href": "https://dev.playbook.com"
+    },
+    {
+      "label": "Enterprise Marketing Manage creative ops at scale with smart workflows.",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media & Entertainment Manage production assets at scale with smart workflows.",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative Agency Collaborate with clients and streamline creative reviews.",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer Brands Centralize brand assets and keep every team on brand.",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game Studios Organize large game assets without paying twice for storage.",
+      "href": "/games/"
+    },
+    {
+      "label": "Help center & tutorials Quick start guides and tutorials",
+      "href": "https://www.playbook.com/tutorial/"
+    },
+    {
+      "label": "Customer stories Real examples. Real results.",
+      "href": "https://www.playbook.com/customers/"
+    },
+    {
+      "label": "Portfolio showcase Featured creatives and projects",
+      "href": "https://www.playbook.com/s/community/portfolioshowcase"
+    },
+    {
+      "label": "Free giveaway 500+ illustrations from our community",
+      "href": "https://www.playbook.com/s/community/illustrations"
+    },
+    {
+      "label": "About us",
+      "href": "https://www.playbook.com/p/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "https://www.playbook.com/the-story-of-playbook/"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.playbook.com/blog/"
+    },
+    {
+      "label": "Privacy & ownership",
+      "href": "https://www.playbook.com/blog/artist-privacy-and-ownership/"
+    },
+    {
+      "label": "Browse template gallery 100+ stunning templates and featured examples from our community.",
+      "href": "https://www.playbook.com/s/community/template-gallery"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Schedule a demo",
+      "href": "https://www.playbook.com/contact/"
+    },
+    {
+      "label": "Get started",
+      "href": "https://www.playbook.com/login/"
+    },
+    {
+      "label": "Create Playbook free",
+      "href": "https://www.playbook.com/sign-up/"
+    },
+    {
+      "label": "Join 10,000 businesses and teams that use Playbook",
+      "href": "https://www.playbook.com/sign-up/"
+    },
+    {
+      "label": "Thehideout.design",
+      "href": "https://www.thehideout.design/"
+    },
+    {
+      "label": "Blue State",
+      "href": "https://www.bluestate.co/"
+    },
+    {
+      "label": "Folx Health",
+      "href": "https://www.folxhealth.com/"
+    },
+    {
+      "label": "Join Playbook free",
+      "href": "https://www.playbook.com/sign-up/"
+    },
+    {
+      "label": "Digital asset management",
+      "href": "https://www.playbook.com/features/"
+    },
+    {
+      "label": "Playbook Intelligence",
+      "href": "https://www.playbook.com/launch/"
+    },
+    {
+      "label": "MCP for creative teams",
+      "href": "/mcp/"
+    },
+    {
+      "label": "Developer API",
+      "href": "https://dev.playbook.com/docs/getting_started/"
+    },
+    {
+      "label": "Tools and integrations",
+      "href": "https://www.playbook.com/integrations-all/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Media and entertainment",
+      "href": "/media-and-entertainment/"
+    },
+    {
+      "label": "Creative agencies",
+      "href": "/creative-agency/"
+    },
+    {
+      "label": "Consumer brands",
+      "href": "/consumer-brands/"
+    },
+    {
+      "label": "Game studios",
+      "href": "/games/"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.playbook.com/blog/"
+    },
+    {
+      "label": "Customer stories",
+      "href": "https://www.playbook.com/customers/"
+    },
+    {
+      "label": "Help center",
+      "href": "https://www.playbook.com/tutorial/"
+    },
+    {
+      "label": "Discord community",
+      "href": "https://discord.com/invite/MKpZvuvqg3"
+    },
+    {
+      "label": "For students",
+      "href": "https://www.playbook.com/school/"
+    },
+    {
+      "label": "About us",
+      "href": "https://www.playbook.com/about-us/"
+    },
+    {
+      "label": "Story of Playbook",
+      "href": "https://www.playbook.com/the-story-of-playbook/"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.playbook.com/contact/"
+    },
+    {
+      "label": "Playbook vs Plytix",
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+    },
+    {
+      "label": "Playbook vs Air",
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Tagbox",
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+    },
+    {
+      "label": "Playbook vs Dropbox",
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Playbook vs Google Drive",
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+    },
+    {
+      "label": "Terms",
+      "href": "https://www.playbook.com/terms/"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.playbook.com/privacy/"
+    },
+    {
+      "label": "Consent Preferences",
+      "href": "#"
+    },
+    {
+      "label": "Platform Status",
+      "href": "https://status.playbook.com"
+    }
+  ],
+  "links": [
+    "https://www.playbook.com/#marketing-home",
+    "https://www.playbook.com/mcp/",
+    "https://dev.playbook.com/",
+    "https://www.playbook.com/enterprise/",
+    "https://www.playbook.com/media-and-entertainment/",
+    "https://www.playbook.com/creative-agency/",
+    "https://www.playbook.com/consumer-brands/",
+    "https://www.playbook.com/games/",
+    "https://www.playbook.com/tutorial/",
+    "https://www.playbook.com/customers/",
+    "https://www.playbook.com/s/community/portfolioshowcase",
+    "https://www.playbook.com/s/community/illustrations",
+    "https://www.playbook.com/p/about-us/",
+    "https://www.playbook.com/the-story-of-playbook/",
+    "https://www.playbook.com/blog/",
+    "https://www.playbook.com/blog/artist-privacy-and-ownership/",
+    "https://www.playbook.com/s/community/template-gallery",
+    "https://www.playbook.com/pricing/",
+    "https://www.playbook.com/product/",
+    "https://www.playbook.com/de/product/",
+    "https://www.playbook.com/es/product/",
+    "https://www.playbook.com/fr/product/",
+    "https://www.playbook.com/hi/product/",
+    "https://www.playbook.com/it/product/",
+    "https://www.playbook.com/ja/product/",
+    "https://www.playbook.com/ko/product/",
+    "https://www.playbook.com/nl/product/",
+    "https://www.playbook.com/no/product/",
+    "https://www.playbook.com/pt-BR/product/",
+    "https://www.playbook.com/pt-PT/product/",
+    "https://www.playbook.com/vi/product/",
+    "https://www.playbook.com/zh/product/",
+    "https://www.playbook.com/zh-Hant/product/",
+    "https://www.playbook.com/contact/",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/sign-up/",
+    "https://www.thehideout.design/",
+    "https://www.bluestate.co/",
+    "https://www.folxhealth.com/",
+    "https://bungalow.com/",
+    "https://opendoor.com/",
+    "https://www.conceptarthouse.com/",
+    "https://literati.com/",
+    "https://folxhealth.com/",
+    "https://redantler.com/",
+    "https://www.farmsteadapp.com/",
+    "https://www.freshprints.com/",
+    "https://dribbble.com/",
+    "https://qualia.com/",
+    "https://www.instagram.com/playbook_hq",
+    "https://www.linkedin.com/company/playbook-hq",
+    "https://www.twitter.com/playbook_hq",
+    "https://www.playbook.com/features/",
+    "https://www.playbook.com/launch/",
+    "https://dev.playbook.com/docs/getting_started/",
+    "https://www.playbook.com/integrations-all/",
+    "https://discord.com/invite/MKpZvuvqg3",
+    "https://www.playbook.com/school/",
+    "https://www.playbook.com/about-us/",
+    "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+    "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+    "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+    "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+    "https://www.playbook.com/terms/",
+    "https://www.playbook.com/privacy/",
+    "https://www.playbook.com/product/#",
+    "https://status.playbook.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/PhfY_LE-Mz-q35MznSHKbWfeu_icQ5r9vZ8sKsnVW0w/s:1000:630/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzAwNjYwNTU1/LWE1Y2UtNDE0Ny1h/ODI2LWIxNDBjZGIx/NmQ5YQ",
+        "alt": "Enterprise marketing workflow",
+        "w": 1000,
+        "h": 629
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/uXbPWin6ZQ3Me5DMpfI4lKhOPsYvfe5AGGy1Z1QHBfE/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1ZjkxZmNi/LTAyM2YtNDM4Mi04/ZDM1LWM0YThlMDQ3/ZjFjZQ",
+        "alt": "Customers Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/HIriQb0VZT9vAAt8qEwdp1o4eNgAUo_kTITPn-DWVTY/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1NDNlNzhm/LTdhNDEtNGI5Yy04/NjIzLWIzNTRiNDQw/ZGQzZg",
+        "alt": "Portfolio Showcase Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/mJJifdXc2AGT7x1EzjleNaxJZh-CJ8i1aUYz1H14I2E/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I5Y2Q3MmFj/LWQ4YTctNDc2MC04/M2ExLTc4MzM1YzYz/MmIyMA",
+        "alt": "Free Illustrations Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/cmbfUIdWynnrewQ0rtGuz9fBWhI3My97eNs52R4mAVk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M4YjgxM2Zi/LTgyNWQtNDc4YS05/ODViLWI1MTA3ODll/NTk2Yg",
+        "alt": "Template gallery",
+        "w": 1536,
+        "h": 1152
+      },
+      {
+        "src": "https://img.playbook.com/T9rUdl7jufRiMPUZBz_dWKO-09jGhiAWC9yRUqxRWYk/s:60:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4MTZiMzg5/LWMyMTctNDhkZi1h/MGRhLWI1YzFlNTQ3/MmEyMQ",
+        "alt": "Tutorials Icon",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://img.playbook.com/BPiE4LLuu5Owa-RTyhePWlElqwJI3lMgSVFXhbmopY0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ5MjU1MDY4/LWVlOTgtNGQ1ZS05/NDkxLTkzNTVmMjhi/NWNmYg",
+        "alt": "Organize projects fast and easy, around people",
+        "w": 430,
+        "h": 290
+      },
+      {
+        "src": "https://img.playbook.com/OMyTESGSHXn5_1Y1jVWftE-Gqk_4KhSxx6QWbWeNdcM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Q1NWViMTBj/LTI0MDEtNGNiNS04/NmRmLTExZTdhYWFl/NTY2NQ",
+        "alt": "Find files fast and share instantly",
+        "w": 1000,
+        "h": 520
+      },
+      {
+        "src": "https://img.playbook.com/rf5H4Po9tOiqzyOfb_2TrnGhJLw21PTKzrnmj5wXUfM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Q2ZjY4ZTFi/LTYyY2QtNGNjMC05/YTIwLTcyNjk4OTRl/YTViOQ",
+        "alt": "Invite anyone and manage people easily",
+        "w": 999,
+        "h": 670
+      },
+      {
+        "src": "https://img.playbook.com/7rpdcXkJexceIhxUxFDElyPFPziPMVz1qFXk8YNg1ls/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU3ZGM2N2Zi/LTM0YTQtNDBjYS05/YWJhLTdlNjlkMzE3/NTUyNw",
+        "alt": "Keep files safe in smarter, more efficient storage",
+        "w": 290,
+        "h": 305
+      },
+      {
+        "src": "https://img.playbook.com/7InwaZgi9Dy7EdfBxW5zb0n78vVlaMu3mEXhcFN1zxQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2U2YjhkOGIw/LTU1N2UtNDM4MS04/MzM2LTg3YzMwYmE0/NmIwMw",
+        "alt": "Bungalow",
+        "w": 600,
+        "h": 68
+      },
+      {
+        "src": "https://img.playbook.com/PO49JlsXVwQlfjEbskOWkb4LyD91aSV8xl4vXjt-jAw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I2YzNiNzM2/LTYzMTUtNGQ1NC1h/MWQzLTQ0MDc1Yjgy/ZmU4Yw",
+        "alt": "Opendoor",
+        "w": 820,
+        "h": 176
+      },
+      {
+        "src": "https://img.playbook.com/-5Km6G8lzKhVUrRpmBqX2FBx9kQV-jPqaiYCQ-weM7c/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQxZmMzMWQ3/LWU3NjItNGNiZi1h/YzQ5LTYxYTFiZTZk/NzNlZA",
+        "alt": "Concept Art House",
+        "w": 180,
+        "h": 149
+      },
+      {
+        "src": "https://img.playbook.com/itnrgU3wo6yutrJHzadTxEV3IRD4AXpMTuN0j_Ffx30/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzgxNzA5YjJm/LTZhNWUtNGE5ZC05/OThkLTY4YWIwMmI5/MDM3Mw",
+        "alt": "Literati",
+        "w": 540,
+        "h": 147
+      },
+      {
+        "src": "https://img.playbook.com/DTZE81-RhYhqzftIHFsj2Av4FLaFMcVdWa2BgonJG0U/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzkxZDJkODA1/LTBmNjktNDI1Ni1i/NmMyLTA4MDRhMGZj/Zjk1Yw",
+        "alt": "Folx Health",
+        "w": 810,
+        "h": 228
+      },
+      {
+        "src": "https://img.playbook.com/oN3hjLKChiR9la_MZ1P1tW_u5PYkNlM-Fw4px3nCfRQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2UyYTNhMjZk/LTRjZDItNGQ2YS05/NjU1LWIxYTI1MjU0/YjVkMg",
+        "alt": "Red Antler",
+        "w": 264,
+        "h": 352
+      },
+      {
+        "src": "https://img.playbook.com/WhkUsATc-vW96yyavUCGws-yCyFbwilKdvpmiXrvEew/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RhMTlhNWJl/LTU3ZjYtNDJjMi1i/MzU2LTNlNDM0OWJl/NDhhZA",
+        "alt": "Farmstead",
+        "w": 291,
+        "h": 173
+      },
+      {
+        "src": "https://img.playbook.com/SUQSX46sx-l5jGzqlh_BMqJF8IvyR_ZEmE2LfS1Tg5o/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VmNzQzNjcx/LTcxZDktNGRiNC05/NGU0LTQ5ODdjYzkx/NDEyYQ",
+        "alt": "Fresh Prints",
+        "w": 966,
+        "h": 127
+      },
+      {
+        "src": "https://img.playbook.com/pPFAVY_czAl7dZnhPBT0RIzVFre9h0LZCfurd9s1oGw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzgyYmRjMWM1/LWVhMzctNGE2Zi1h/NWFmLWI2OGU5Zjll/ZTE2NQ",
+        "alt": "Dribbble",
+        "w": 1278,
+        "h": 312
+      },
+      {
+        "src": "https://img.playbook.com/l5wHINuYoLBkP9cIMmJYY3wZOc2sXpuKEazHPK867VE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y3MDVmMzk1/LTU0NDEtNDk3Ni1h/NmQxLTIzZGVkN2Q0/MTIzMw",
+        "alt": "Qualia",
+        "w": 374,
+        "h": 112
+      },
+      {
+        "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+        "alt": "Playbook",
+        "w": 1000,
+        "h": 556
+      },
+      {
+        "src": "https://img.playbook.com/IreaQlAGyprb6DpGFnLOpVvHK7Wz1nN3MYFwJuIYWv4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NiY2IwMjZk/LTAyYTYtNDdlZC1h/MmUzLWE3MTc1NzBi/NjZlZA",
+        "alt": "Playbook QR code",
+        "w": 600,
+        "h": 600
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [
+      "https://img.playbook.com/rUprkxtGuQPrQHyQ926D27_G4XBY883Tv1GXQUgNzUc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNiNmQxNTUy/LWY5ZDEtNDgyNi04/NDliLWM4M2E5OTAw/ZTA2Zg"
+    ],
+    "modals": [],
+    "videos": [
+      {
+        "src": "https://stream.mux.com/787tuMm1LE6y2FnHLYBmwOY2ebfqYM1s2irAhOtOY7E.m3u8",
+        "poster": null,
+        "autoplay": true,
+        "loop": false,
+        "muted": true
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#599ffe",
+    "--pb-header-h": "100px",
+    "--pb-hover-dur": ".15s",
+    "--pb-hover-dark": "rgb(255 255 255 / .1)",
+    "--pb-hover-light": "rgb(0 0 0 / .1)"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 16,
+    "mainTextLen": 4747,
+    "realImageCount": 24,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.playbook.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.playbook.com/cdn-cgi/rum",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "us-assets.i.posthog.com",
+        "count": 3
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/product.png",
+  "renderedHtml": "pages/product.html",
+  "slots": {
+    "headline": "See everything.Find anything.",
+    "lede": "Playbook brings powerful media management and creative workflow tools together in one product, helping teams deliver projects faster and smarter.",
+    "hero-media": null,
+    "sections": [],
+    "ctas": [
+      {
+        "label": "Help center & tutorials Quick start guides and tutorials",
+        "href": "https://www.playbook.com/tutorial/"
+      },
+      {
+        "label": "Schedule a demo",
+        "href": "https://www.playbook.com/contact/"
+      },
+      {
+        "label": "Get started",
+        "href": "https://www.playbook.com/login/"
+      }
+    ],
+    "modules": [
+      "closing-cta"
+    ]
+  }
+}

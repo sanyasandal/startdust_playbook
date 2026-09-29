@@ -1,0 +1,475 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-28T10:11:08.040Z",
+    "readArtifacts": [
+      "https://www.playbook.com/",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json (68)",
+      "stardust/current/_crawl-log.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.25.0",
+    "notes": [
+      "Two chrome generations coexist: 14 Astro marketing pages (new mega-menu, stabil_grotesk, gradient-text heroes) vs 54 Ghost/legacy pages (older nav: Playbook 101 / Visual storage / … / Get started for free; AktivGrotesk headings on some). Cross-page values dominate by element count; the Astro set is the current brand direction.",
+      "Accent #ff2753 is the only chromatic brand color with wide usage (text/link 1144, button bg 64). #599ffe (--primary-color) is a vestigial token: 8 uses total.",
+      "Radius: mode 10px (buttons/nav), area-mode 14px (cards/panels), pill 999px (758 — chips, comparison links)."
+    ]
+  },
+  "site": {
+    "name": "Playbook",
+    "tagline": "From upload to final. One library for your entire creative ops.",
+    "originUrl": "https://www.playbook.com"
+  },
+  "origins": [
+    {
+      "host": "www.playbook.com",
+      "role": "primary",
+      "pages": 68
+    }
+  ],
+  "logo": {
+    "kind": "raster",
+    "format": "png",
+    "path": "stardust/current/assets/logo.png",
+    "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+    "alt": "Playbook",
+    "naturalSize": {
+      "w": 1000,
+      "h": 556
+    },
+    "renderedSize": {
+      "w": 61,
+      "h": 34
+    },
+    "selector": "header > div > div:nth-of-type(1) > a > img",
+    "notes": "Stacked PLAY/BOOK wordmark, black on transparent. No SVG served; request vector from brand team."
+  },
+  "favicon": {
+    "path": "stardust/current/assets/favicon.ico"
+  },
+  "palette": [
+    {
+      "role": "ink",
+      "hex": "#292929",
+      "usage": "body text + headings",
+      "weight": 8045,
+      "sources": [
+        "https://www.playbook.com/p/privacy/",
+        "https://www.playbook.com/blog/client-approval-software-for-creative-teams/",
+        "https://www.playbook.com/pricing/"
+      ]
+    },
+    {
+      "role": "ink-strong",
+      "hex": "#1a1a1a",
+      "usage": "dark surfaces (enterprise/games/sdk heroes), primary dark buttons",
+      "weight": 1614,
+      "sources": [
+        "https://www.playbook.com/p/privacy/",
+        "https://www.playbook.com/p/terms/",
+        "https://www.playbook.com/blog/client-approval-software-for-creative-teams/"
+      ]
+    },
+    {
+      "role": "ink-soft",
+      "hex": "#434140",
+      "usage": "nav links, secondary buttons text",
+      "weight": 4611,
+      "sources": [
+        "https://www.playbook.com/pricing/",
+        "https://www.playbook.com/pricing/",
+        "https://www.playbook.com/customers/"
+      ]
+    },
+    {
+      "role": "muted",
+      "hex": "#666666",
+      "usage": "secondary text",
+      "weight": 2192,
+      "sources": [
+        "https://www.playbook.com/pricing/",
+        "https://www.playbook.com/integrations-all/",
+        "https://www.playbook.com/tutorial/"
+      ]
+    },
+    {
+      "role": "muted-warm",
+      "hex": "#524a3e",
+      "alpha": [
+        0.82,
+        0.72,
+        0.16
+      ],
+      "usage": "warm-grey text + hairline borders on Ghost chrome",
+      "weight": 3919,
+      "sources": [
+        "https://www.playbook.com/consumer-brands/",
+        "https://www.playbook.com/teams/",
+        "https://www.playbook.com/photo-gallery/"
+      ]
+    },
+    {
+      "role": "surface",
+      "hex": "#eeeeee",
+      "usage": "section/card grounds, borders",
+      "weight": 3900,
+      "sources": [
+        "https://www.playbook.com/pricing/",
+        "https://www.playbook.com/blog/",
+        "https://www.playbook.com/tutorial/"
+      ]
+    },
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "usage": "page ground",
+      "weight": 1421,
+      "sources": [
+        "https://www.playbook.com/pricing/",
+        "https://www.playbook.com/tutorial/",
+        "https://www.playbook.com/sdk/"
+      ]
+    },
+    {
+      "role": "border",
+      "hex": "#dadbdf",
+      "usage": "button + input borders",
+      "weight": 541,
+      "sources": [
+        "https://www.playbook.com/pricing/",
+        "https://www.playbook.com/",
+        "https://www.playbook.com/integrations-all/"
+      ]
+    },
+    {
+      "role": "accent",
+      "hex": "#ff2753",
+      "hover": "#e01f47",
+      "usage": "primary CTA fill (Start free), eyebrows, links",
+      "weight": 1290,
+      "sources": [
+        "https://www.playbook.com/blog/best-air-alternatives-marketing-teams/",
+        "https://www.playbook.com/blog/best-air-alternatives-marketing-teams/",
+        "https://www.playbook.com/blog/best-air-alternatives-creative-agencies/"
+      ]
+    },
+    {
+      "role": "gradient-spectrum",
+      "value": "linear-gradient(90deg,#6cb4ee,#d46bca,#ff3c8e,#ff6b35)",
+      "usage": "hero headline gradient-text + feature accents on Astro industry pages",
+      "count": 68
+    },
+    {
+      "role": "vestigial",
+      "hex": "#599ffe",
+      "usage": "--primary-color token, 8 uses (MCP setup links) — do not promote",
+      "weight": 8
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "stabil_grotesk",
+        "count": 3848,
+        "headings": 1693,
+        "text": 1041,
+        "buttons": 1114
+      },
+      {
+        "family": "AktivGrotesk",
+        "count": 975,
+        "headings": 661,
+        "text": 310,
+        "buttons": 4
+      },
+      {
+        "family": "ui-monospace",
+        "count": 22,
+        "headings": 18,
+        "text": 4,
+        "buttons": 0
+      },
+      {
+        "family": "monospace",
+        "count": 17,
+        "headings": 17,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "family": "victor_serif",
+        "count": 6,
+        "headings": 4,
+        "text": 2,
+        "buttons": 0
+      }
+    ],
+    "headingFamily": "stabil_grotesk",
+    "bodyFamily": "stabil_grotesk",
+    "secondaryFamily": "AktivGrotesk (legacy Ghost headings)",
+    "accentFamily": "victor_serif (6 uses, italic accents)",
+    "licensing": "stabil_grotesk (Pangram? — foundry unconfirmed), AktivGrotesk (Dalton Maag), victor_serif (Pangram Pangram) are proprietary — licensing alert required at deploy",
+    "weights": [
+      {
+        "weight": "600",
+        "count": 2610,
+        "headings": 1533,
+        "text": 11,
+        "buttons": 1066
+      },
+      {
+        "weight": "500",
+        "count": 1230,
+        "headings": 108,
+        "text": 1078,
+        "buttons": 44
+      },
+      {
+        "weight": "700",
+        "count": 592,
+        "headings": 584,
+        "text": 0,
+        "buttons": 8
+      },
+      {
+        "weight": "400",
+        "count": 268,
+        "headings": 0,
+        "text": 268,
+        "buttons": 0
+      },
+      {
+        "weight": "800",
+        "count": 168,
+        "headings": 168,
+        "text": 0,
+        "buttons": 0
+      }
+    ],
+    "sizes": {
+      "display": [
+        58,
+        50,
+        42
+      ],
+      "h2": [
+        40,
+        32
+      ],
+      "h3": [
+        28,
+        24
+      ],
+      "h4": [
+        20,
+        18
+      ],
+      "body": [
+        19,
+        17,
+        16
+      ],
+      "small": [
+        14,
+        13,
+        12
+      ]
+    },
+    "bodyPx": 17,
+    "lineHeightBody": 1.5
+  },
+  "spacing": {
+    "sectionPad": "96–128px desktop / 64px mobile (Astro)",
+    "containerMax": "1200px",
+    "gridGap": "24px"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "10px",
+      "secondary": "14px",
+      "cards": "14px",
+      "pill": "999px",
+      "sources": [
+        {
+          "value": "10px",
+          "count": 1299
+        },
+        {
+          "value": "8px",
+          "count": 854
+        },
+        {
+          "value": "14px",
+          "count": 804
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(60, 60, 60, 0.05) 0px 10px 24px 0px",
+        "count": 122
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.5) 0px 40px 80px 0px",
+        "count": 42
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 8px 24px 0px",
+        "count": 32
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(90deg, rgb(108, 180, 238), rgb(212, 107, 202), rgb(255, 60, 142), rgb(255, 107, 53))",
+        "count": 68
+      },
+      {
+        "value": "linear-gradient(89.02deg, rgb(123, 84, 242) 0.75%, rgb(255, 102, 126) 46.61%, rgb(255, 171, 111) 102.01%)",
+        "count": 67
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75))",
+        "count": 20
+      }
+    ],
+    "imagery": "Product-UI mockups (library grids, review panels) on soft gradient or photographic landscape grounds; colorful asset collages on tool pages; logo marquee"
+  },
+  "componentStyle": {
+    "buttonPrimary": {
+      "bg": "#ff2753",
+      "fg": "#fff",
+      "radius": "10px",
+      "weight": 600
+    },
+    "buttonDark": {
+      "bg": "#1a1a1a",
+      "fg": "#fff",
+      "radius": "10px"
+    },
+    "buttonSecondary": {
+      "bg": "#fafafa",
+      "fg": "#434140",
+      "border": "#dadbdf",
+      "hover": {
+        "bg": "#efefef",
+        "border": "#262626"
+      }
+    },
+    "card": {
+      "bg": "#eeeeee|#fff",
+      "radius": "14px",
+      "shadow": "rgba(60,60,60,.05) 0 10px 24px"
+    },
+    "chip": {
+      "radius": "999px",
+      "border": "rgba(82,74,62,.16)"
+    }
+  },
+  "systemComponents": [
+    {
+      "id": "site-header",
+      "instances": 68,
+      "variants": [
+        "astro-megamenu (14)",
+        "ghost-legacy (54)"
+      ]
+    },
+    {
+      "id": "site-footer",
+      "instances": 66,
+      "columns": [
+        "Product",
+        "Playbook for",
+        "Resources",
+        "Company"
+      ],
+      "extras": [
+        "QR app download",
+        "vs-competitor pill row"
+      ]
+    },
+    {
+      "id": "logo-marquee",
+      "instances": "home + industry pages",
+      "logos": [
+        "warner brothers",
+        "opendoor",
+        "Australian Sailing",
+        "…"
+      ]
+    },
+    {
+      "id": "faq-accordion",
+      "instances": 26
+    },
+    {
+      "id": "closing-cta",
+      "heading": "The new way to manage files and folders / It takes seconds to sign up and try.",
+      "instances": 9
+    }
+  ],
+  "iconFont": {
+    "family": "Alto",
+    "glyphs": [
+      "icon icon-instagram",
+      "icon icon-linkedin",
+      "canvas-icon icon icon-window-close"
+    ],
+    "notes": "social + UI glyphs via private icon font; replace with inline SVG"
+  },
+  "voice": {
+    "heroHeadline": "From upload to final. One library for your entire creative ops.",
+    "heroSubcopy": "Your visual files organized in one place, ready to share as a gallery — not a zip folder. With our MCP server, your agents can now do more than just finding, tagging, and sharing for you.",
+    "primaryCTALabel": "Start Free",
+    "secondaryCTALabel": "Book a demo",
+    "firstParagraph": "Built for visual workflows, ready for agents.",
+    "heroImage": {
+      "src": "https://img.playbook.com/fmvB6-cO9Lo-p4MDIUJIxK5w2C6vuW7zo0yKgkliSII/s:1920:1080/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk3M2E3NmUx/LWUzMDMtNDg2Ny04/OGNiLThkMWIwNGY1/NjQxZA",
+      "selector": ".pb-hero__img",
+      "size": "1920x1080"
+    },
+    "heroMedium": "photographic landscape ground with product UI overlay; insets on scroll (is-inset)",
+    "ctaSamples": [
+      "Start Free",
+      "Book a demo",
+      "Schedule a demo",
+      "Get started for free",
+      "Create Playbook free",
+      "Get Pro for $12",
+      "Try for free"
+    ],
+    "navItems": [
+      "Product",
+      "API/SDK",
+      "Solutions",
+      "Resources",
+      "Pricing"
+    ],
+    "footerHeadings": [
+      "Product",
+      "Playbook for",
+      "Resources",
+      "Company"
+    ],
+    "tone": "confident, plain-spoken SaaS; short declarative lines; AI/agent-forward (MCP, AI Actions); creative-community warmth"
+  },
+  "crossPromo": {
+    "competitorComparisons": [
+      "Plytix",
+      "Air",
+      "Tagbox",
+      "Dropbox",
+      "Google Drive"
+    ],
+    "freeTools": [
+      "gifmaker",
+      "logomaker",
+      "vectorizer",
+      "video-captions",
+      "video-converter",
+      "watermarks"
+    ]
+  },
+  "register": "brand"
+}
