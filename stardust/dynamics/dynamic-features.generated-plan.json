@@ -1,0 +1,522 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-09-29T07:05:11.742Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": null,
+  "migrated": null
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-playbook-at-ghost-io",
+   "class": "A",
+   "feature": "unknown third-party host playbook-at.ghost.io",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "playbook-at.ghost.io"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-aplo-evnt-com",
+   "class": "A",
+   "feature": "unknown third-party host aplo-evnt.com",
+   "pages": 3,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "aplo-evnt.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-api-unifyintent-com",
+   "class": "A",
+   "feature": "unknown third-party host api.unifyintent.com",
+   "pages": 3,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "api.unifyintent.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "d-first-party-data-file-get-next-static-rtihamax8hnh9gv-uy6z",
+   "class": "D",
+   "feature": "first-party data file GET /_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json",
+   "pages": 4,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "GET /_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)"
+  },
+  {
+   "id": "f-form-less-control-group-in-section-pb-section-2-controls",
+   "class": "F",
+   "feature": "form-less control group in section.pb-section (2 controls)",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "i18n-locale-variants-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-us",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "https://support.apple.com/en-us/HT202074"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-de-es-fr-hi-it-ja-ko-nl-nb-pt-br-pt-",
+   "class": "I18N",
+   "feature": "locale variants en,de,es,fr,hi,it,ja,ko,nl,nb,pt-BR,pt,pt-PT,vi,zh-Hans,zh,zh-Hant,x-default",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "https://www.playbook.com/de/pricing/",
+    "https://www.playbook.com/es/pricing/",
+    "https://www.playbook.com/fr/pricing/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "l-listing-candidate-post-toc-list-6-cards",
+   "class": "L",
+   "feature": "listing candidate post-toc-list (6 cards)",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-post-toc-list-17-cards",
+   "class": "L",
+   "feature": "listing candidate post-toc-list (17 cards)",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → target outside DOM at capture",
+   "pages": 6,
+   "probed": 7,
+   "reach": {
+    "pages": 69,
+    "of": 68
+   },
+   "evidence": [
+    "https://www.playbook.com/about-us/#",
+    "https://www.playbook.com/blog/adobe-playbook-integration/#",
+    "https://www.playbook.com/blog/#",
+    "https://www.playbook.com/contact/#"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "pages": 1,
+   "probed": 7,
+   "reach": {
+    "pages": 69,
+    "of": 68
+   },
+   "evidence": [],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (motion-observe evidence)"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "pages": 7,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-app-termly-io",
+   "class": "T",
+   "feature": "unknown third-party host app.termly.io",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "app.termly.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-co-in",
+   "class": "T",
+   "feature": "unknown third-party host www.google.co.in",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "www.google.co.in"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 6,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "stats.g.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-rum-new-relic",
+   "class": "T",
+   "feature": "RUM: New Relic",
+   "pages": 4,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "js-agent.newrelic.com",
+    "bam.nr-data.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-rum-error-monitoring",
+   "class": "T",
+   "feature": "RUM: error monitoring",
+   "pages": 4,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "o362445.ingest.sentry.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-chat-assets-frontapp-com",
+   "class": "T",
+   "feature": "unknown third-party host chat-assets.frontapp.com",
+   "pages": 4,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "chat-assets.frontapp.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-s10f30zk779j-statuspage-io",
+   "class": "T",
+   "feature": "unknown third-party host s10f30zk779j.statuspage.io",
+   "pages": 4,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "s10f30zk779j.statuspage.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-assets-apollo-io",
+   "class": "T",
+   "feature": "unknown third-party host assets.apollo.io",
+   "pages": 3,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "assets.apollo.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-tag-unifyintent-com",
+   "class": "T",
+   "feature": "unknown third-party host tag.unifyintent.com",
+   "pages": 3,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "tag.unifyintent.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-storage-ghost-io",
+   "class": "T",
+   "feature": "unknown third-party host storage.ghost.io",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "storage.ghost.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-airtable-com",
+   "class": "T",
+   "feature": "unknown third-party host static.airtable.com",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "static.airtable.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-us-assets-i-posthog-com",
+   "class": "T",
+   "feature": "unknown third-party host us-assets.i.posthog.com",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "us-assets.i.posthog.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-video-hosted-player",
+   "class": "V",
+   "feature": "video: hosted player",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "https://stream.mux.com/yrTbzwcTag01g5XvlFIT8WGq0274vFhRfYxVNtQiRKqcs.m3u8"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 7,
+   "probed": 7,
+   "reach": null,
+   "evidence": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/p/blog/blog-graphic-design-in-the-50s/"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-commerce-signals-cart-false-prices-23",
+   "class": "X",
+   "feature": "commerce signals (cart: false, prices: 23)",
+   "pages": 1,
+   "probed": 7,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

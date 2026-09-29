@@ -1,0 +1,2081 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-09-29T07:03:10.877Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.playbook.com/about-us/",
+   "https://www.playbook.com/blog/adobe-playbook-integration/",
+   "https://www.playbook.com/blog/",
+   "https://www.playbook.com/contact/",
+   "https://www.playbook.com/gifmaker/",
+   "https://www.playbook.com/p/privacy/",
+   "https://www.playbook.com/pricing/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/about-us/": {
+   "url": "https://www.playbook.com/about-us/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "Playbook Team",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": "https://www.playbook.com/about-us/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": false,
+   "mainText": 4150,
+   "domAddedAfterLoad": 188,
+   "hosts": {
+    "www.playbook.com": 17,
+    "img.playbook.com": 38,
+    "static.cloudflareinsights.com": 1,
+    "cdn.jsdelivr.net": 4,
+    "app.termly.io": 1,
+    "playbook-at.ghost.io": 4,
+    "www.googletagmanager.com": 1,
+    "analytics.google.com": 1,
+    "www.google.co.in": 1,
+    "stats.g.doubleclick.net": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "cdn.jsdelivr.net",
+    "app.termly.io",
+    "playbook-at.ghost.io",
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "www.google.co.in",
+    "stats.g.doubleclick.net"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://cdn.jsdelivr.net/npm/@mux/mux-player",
+    "https://www.playbook.com/assets/js/jquery.js?v=hVVnYaiADRTO2PzU",
+    "https://www.playbook.com/assets/js/wow.min.js?v=DsYy5qsC1P3VFNp_",
+    "https://www.playbook.com/assets/js/slick.min.js?v=DHF4zGyjT7GOMPBw",
+    "https://www.playbook.com/assets/js/main.js?v=gAyldpqAwqUlrkVg",
+    "https://www.playbook.com/assets/js/main.min.js",
+    "https://cdn.jsdelivr.net/npm/hls.js@0.8.2",
+    "https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js",
+    "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "https://app.termly.io/resource-blocker/07878b02-e907-419d-9aca-3be0d148ac1c?autoBlock=on",
+    "https://www.playbook.com/public/cards.min.js?v=ShRHxgy4po8zN-Wf",
+    "https://www.playbook.com/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9",
+    "https://www.playbook.com/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h",
+    "https://www.googletagmanager.com/gtag/js?id=G-MZJK5P4N2X"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET playbook-at.ghost.io/members/api/member/",
+    "GET playbook-at.ghost.io/ghost/api/content/tiers/",
+    "GET playbook-at.ghost.io/ghost/api/content/settings/",
+    "GET playbook-at.ghost.io/ghost/api/content/newsletters/",
+    "POST analytics.google.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665392556&_gaz=1&gcs=G1--&gcd=13t3t3t3t5l5&npa=0&dma=0&gdid=dNzg2MD&ecid=849126899&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://playbook-at.ghost.io/.ghost/analytics/api/v1/page_hit?name=analytics_events",
+     "body": "{\"timestamp\":\"2026-09-29T07:03:13.070Z\",\"action\":\"page_hit\",\"version\":\"1\",\"payload\":{\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"locale\":\"en-US\",\"location\":\"IN\",\"parsedReferrer\":{\"url\":null,\"source\":null,\"medium\":null},\"pathname\":\"/about-us/\",\"href\":\"https://www.playbook.com/about-us/\",\"utm_source"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665391047,\"pageloadId\":\"c7ae2573-507b-48c7-8853-8eb4ada9a632\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/about-us/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":31159674,\"usedJSHeapSize\":25932970,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":1644,\"firstContentfulPai"
+    }
+   ],
+   "textAtLoad": 2623,
+   "mainEmptyAtLoad": false
+  },
+  "/blog/adobe-playbook-integration/": {
+   "url": "https://www.playbook.com/blog/adobe-playbook-integration/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "Adobe and Playbook Integration: Sync Your Adobe Files Without Manual Export",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": "https://www.playbook.com/blog/adobe-playbook-integration/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.playbook.com/demo-request",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": true
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.playbook.com/demo-request",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "post-toc-list",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 12,
+   "inlineFetch": false,
+   "mainText": 7165,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.playbook.com": 66,
+    "img.playbook.com": 19,
+    "static.cloudflareinsights.com": 2,
+    "app.termly.io": 1,
+    "cdn.jsdelivr.net": 3,
+    "assets.apollo.io": 1,
+    "playbook-at.ghost.io": 4,
+    "www.googletagmanager.com": 2,
+    "analytics.google.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "www.google.co.in": 1,
+    "aplo-evnt.com": 2,
+    "tag.unifyintent.com": 1,
+    "fonts.googleapis.com": 1,
+    "js-agent.newrelic.com": 1,
+    "o362445.ingest.sentry.io": 3,
+    "api.unifyintent.com": 1,
+    "data.playbook.com": 4,
+    "chat-assets.frontapp.com": 2,
+    "bam.nr-data.net": 3,
+    "status.playbook.com": 1,
+    "s10f30zk779j.statuspage.io": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "app.termly.io",
+    "cdn.jsdelivr.net",
+    "assets.apollo.io",
+    "playbook-at.ghost.io",
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in",
+    "aplo-evnt.com",
+    "tag.unifyintent.com",
+    "fonts.googleapis.com",
+    "js-agent.newrelic.com",
+    "o362445.ingest.sentry.io",
+    "api.unifyintent.com",
+    "chat-assets.frontapp.com",
+    "bam.nr-data.net",
+    "s10f30zk779j.statuspage.io"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://www.playbook.com/assets/js/jquery.js?v=hVVnYaiADRTO2PzU",
+    "https://www.playbook.com/assets/js/wow.min.js?v=DsYy5qsC1P3VFNp_",
+    "https://app.termly.io/resource-blocker/07878b02-e907-419d-9aca-3be0d148ac1c?autoBlock=on",
+    "https://www.playbook.com/assets/js/slick.min.js?v=DHF4zGyjT7GOMPBw",
+    "https://www.playbook.com/assets/js/main.js?v=gAyldpqAwqUlrkVg",
+    "https://www.playbook.com/public/cards.min.js?v=ShRHxgy4po8zN-Wf",
+    "https://www.playbook.com/assets/js/main.min.js",
+    "https://www.playbook.com/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9",
+    "https://www.playbook.com/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h",
+    "https://cdn.jsdelivr.net/npm/hls.js@0.8.2",
+    "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=j4qxfe",
+    "https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-MZJK5P4N2X",
+    "https://tag.unifyintent.com/v1/8LdvacDh6N5TLGcfKNKP8v/script.js",
+    "https://www.playbook.com/_next/static/chunks/56f2a41d3a2f38e8.js",
+    "https://www.playbook.com/_next/static/chunks/1aab04591ef2f807.js",
+    "https://www.playbook.com/_next/static/chunks/f5df54a39cb731aa.js",
+    "https://www.playbook.com/_next/static/chunks/b060b09b76dae288.js",
+    "https://www.playbook.com/_next/static/chunks/a9d73b6d6a2d9985.js",
+    "https://www.playbook.com/_next/static/chunks/06747269575c17d9.js",
+    "https://www.playbook.com/_next/static/chunks/c0108b31ada3bb3e.js",
+    "https://www.playbook.com/_next/static/chunks/b7e2fafd3e9986bf.js",
+    "https://www.playbook.com/_next/static/chunks/db34e0c4f42e93da.js",
+    "https://www.playbook.com/_next/static/chunks/ca511b8c78518f28.js",
+    "https://www.playbook.com/_next/static/chunks/db50cf15e70fc034.js",
+    "https://www.playbook.com/_next/static/chunks/9ad2ef35322baba8.js",
+    "https://www.playbook.com/_next/static/chunks/c09e62c65e5faa2d.js",
+    "https://www.playbook.com/_next/static/chunks/6d86a8098bd4885d.js",
+    "https://www.playbook.com/_next/static/chunks/df1ca097e137bd54.js",
+    "https://www.playbook.com/_next/static/chunks/318237502883f855.js",
+    "https://www.playbook.com/_next/static/chunks/809cf50f4eda2738.js",
+    "https://www.playbook.com/_next/static/chunks/0381e13ad89e2dae.js",
+    "https://www.playbook.com/_next/static/chunks/f59475261b55aa7d.js",
+    "https://www.playbook.com/_next/static/chunks/e1f8918d60487875.js",
+    "https://www.playbook.com/_next/static/chunks/383c82f1519db555.js",
+    "https://www.playbook.com/_next/static/chunks/bd9e00e5f9b2a4d0.js",
+    "https://www.playbook.com/_next/static/chunks/2c2661c17c0c84fb.js",
+    "https://www.playbook.com/_next/static/chunks/e90b2f4a970cef69.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-224031fb606bd2d8.js",
+    "https://www.playbook.com/_next/static/chunks/f1af8cb5780a018f.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-58a32fa68cff90d5.js",
+    "https://www.playbook.com/_next/static/chunks/4cf557e05abc3d1e.js",
+    "https://www.playbook.com/_next/static/chunks/0065c768a14130e6.js",
+    "https://www.playbook.com/_next/static/chunks/806f605f988b9c99.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_buildManifest.js",
+    "https://www.playbook.com/_next/static/chunks/9e91334b4a0be7ae.js",
+    "https://www.playbook.com/_next/static/chunks/979823847e597c02.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_ssgManifest.js",
+    "https://www.playbook.com/_next/static/chunks/3b843987e50f335b.js",
+    "https://www.playbook.com/_next/static/chunks/11d8f851871f1c9a.js",
+    "https://www.playbook.com/_next/static/chunks/cc6cc5881ff9d9ca.js",
+    "https://www.playbook.com/_next/static/chunks/86250cbbefd410ea.js",
+    "https://www.playbook.com/_next/static/chunks/de50fa6d616f1f75.js",
+    "https://www.playbook.com/_next/static/chunks/f9426adf34961004.js",
+    "https://js-agent.newrelic.com/nr-spa-1.270.2.min.js",
+    "https://data.playbook.com/array/phc_USVsCiAAwGgHPSItbst6AkNvLLFScaWv2QN9F3O7C2t/config.js",
+    "https://data.playbook.com/static/web-vitals.js?v=1.410.4",
+    "https://data.playbook.com/static/posthog-recorder.js?v=1.410.4"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    },
+    {
+     "method": "GET",
+     "host": "www.playbook.com",
+     "path": "/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET playbook-at.ghost.io/members/api/member/",
+    "GET playbook-at.ghost.io/ghost/api/content/newsletters/",
+    "GET playbook-at.ghost.io/ghost/api/content/tiers/",
+    "GET playbook-at.ghost.io/ghost/api/content/settings/",
+    "POST analytics.google.com/g/collect",
+    "GET aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+    "POST aplo-evnt.com/api/v1/intent_pixel/track_request",
+    "POST o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+    "POST api.unifyintent.com/analytics/v1/page",
+    "POST bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+    "POST bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+    "POST bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665403881&_gaz=1&gcs=G1--&gcd=13t3t3t3t5l5&npa=0&dma=0&gdid=dNzg2MD&ecid=640779113&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://playbook-at.ghost.io/.ghost/analytics/api/v1/page_hit?name=analytics_events",
+     "body": "{\"timestamp\":\"2026-09-29T07:03:24.373Z\",\"action\":\"page_hit\",\"version\":\"1\",\"payload\":{\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"locale\":\"en-US\",\"location\":\"IN\",\"parsedReferrer\":{\"url\":null,\"source\":null,\"medium\":null},\"pathname\":\"/blog/adobe-playbook-integration/\",\"href\":\"https://www.playbook.com"
+    },
+    {
+     "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=68b1d3eb210e5c0015978b1a",
+     "body": "[{\"apollo_anon_id\":\"77e64545-e8a4-46ca-a5a2-411a70e7d415\",\"event_type\":\"page_visit\",\"page\":\"https://www.playbook.com/blog/adobe-playbook-integration/\",\"referrer\":null,\"utm_source\":null,\"utm_medium\":null,\"utm_campaign\":null,\"utm_content\":null,\"utm_term\":null,\"email_md5\":null,\"email_sha2\":null}]"
+    },
+    {
+     "url": "https://api.unifyintent.com/analytics/v1/page",
+     "body": "{\"type\":\"page\",\"visitorId\":\"6c9aa84a-2782-4105-8c60-8a6c38c22043\",\"sessionId\":\"e6e5b91d-e735-44d0-9f58-6415adfb2b91\",\"context\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"HeadlessChrome\",\"version\":\"153\"},{\"brand\":\"Not_A Brand\",\"version\":\"8\"},{\"b"
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:25.529Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7e72dea0bceb43cfb3b1cd5cc6bee678\",\"init\":true,\"started\":\"2026-09-29T07:03:25.529Z\",\"timestamp\":\"2026-09-29T07:03:25.529Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665403920,\"pageloadId\":\"7c597430-6afd-48ef-96d5-53b3ec8d62d1\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/demo-request\",\"referrer\":\"https://www.playbook.com/blog/adobe-playbook-integration/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":38754887,\"usedJSHeapSize\":31"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665403467,\"pageloadId\":\"11804e43-7995-4bdd-babf-e44c25f38e5f\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/blog/adobe-playbook-integration/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":38754887,\"usedJSHeapSize\":31823043,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":4"
+    },
+    {
+     "url": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=1729&ck=0&s=4714babc5f8a7d2b&ref=https://www.playbook.com/demo-request&ptid=0d77388d5b3b4066&",
+     "body": ""
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:25.923Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7e72dea0bceb43cfb3b1cd5cc6bee678\",\"init\":false,\"started\":\"2026-09-29T07:03:25.529Z\",\"timestamp\":\"2026-09-29T07:03:25.923Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\","
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:25.924Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"acbd74bdeeda470f85bc742c8f6ef5d3\",\"init\":true,\"started\":\"2026-09-29T07:03:25.923Z\",\"timestamp\":\"2026-09-29T07:03:25.923Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665405951&gcd=13l3l3l3l1l5&npa=0&dma=0&ecid=640779113&_eu=AAAAAGQC&cid=1830746500.1790665",
+     "body": ""
+    },
+    {
+     "url": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=2249&ck=0&s=4714babc5f8a7d2b&ref=https://www.playbook.com/demo-request&ptid=0d77388d5b3b4",
+     "body": "{\"ins\":[{\"timestamp\":1790665406150,\"pageUrl\":\"https://www.playbook.com/demo-request\",\"currentUrl\":\"https://www.playbook.com/demo-request\",\"Next.js-hydration\":24.700000047683716,\"eventType\":\"PageAction\",\"timeSinceLoad\":2.031,\"actionName\":\"nextjs-custom\",\"referrerUrl\":\"https://www.playbook.com/blog/adobe-playbook-integration/\",\"browserWidth\":0,\"browserHeight\":0}]}"
+    }
+   ],
+   "textAtLoad": 7165,
+   "mainEmptyAtLoad": false
+  },
+  "/blog/": {
+   "url": "https://www.playbook.com/blog/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "Playbook (Page 1)",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": "https://www.playbook.com/blog/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.playbook.com/demo-request",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": true
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.playbook.com/demo-request",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/p/blog/blog-graphic-design-in-the-50s/",
+    "https://www.playbook.com/p/blog/blog-graphic-design-in-the-50s/",
+    "https://www.playbook.com/p/blog/digital-design-interview-questions/",
+    "https://www.playbook.com/p/blog/digital-design-interview-questions/",
+    "https://www.playbook.com/p/blog/blog-graphic-design-in-the-sixties/",
+    "https://www.playbook.com/p/blog/blog-graphic-design-in-the-sixties/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 5
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 10,
+   "inlineFetch": false,
+   "mainText": 4,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.playbook.com": 65,
+    "img.playbook.com": 23,
+    "static.cloudflareinsights.com": 2,
+    "app.termly.io": 1,
+    "assets.apollo.io": 1,
+    "cdn.jsdelivr.net": 3,
+    "playbook-at.ghost.io": 4,
+    "www.googletagmanager.com": 2,
+    "storage.ghost.io": 164,
+    "analytics.google.com": 2,
+    "www.google.co.in": 1,
+    "stats.g.doubleclick.net": 1,
+    "aplo-evnt.com": 2,
+    "tag.unifyintent.com": 1,
+    "fonts.googleapis.com": 1,
+    "js-agent.newrelic.com": 1,
+    "o362445.ingest.sentry.io": 3,
+    "api.unifyintent.com": 1,
+    "bam.nr-data.net": 3,
+    "data.playbook.com": 4,
+    "status.playbook.com": 1,
+    "s10f30zk779j.statuspage.io": 1,
+    "chat-assets.frontapp.com": 2
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "app.termly.io",
+    "assets.apollo.io",
+    "cdn.jsdelivr.net",
+    "playbook-at.ghost.io",
+    "www.googletagmanager.com",
+    "storage.ghost.io",
+    "analytics.google.com",
+    "www.google.co.in",
+    "stats.g.doubleclick.net",
+    "aplo-evnt.com",
+    "tag.unifyintent.com",
+    "fonts.googleapis.com",
+    "js-agent.newrelic.com",
+    "o362445.ingest.sentry.io",
+    "api.unifyintent.com",
+    "bam.nr-data.net",
+    "s10f30zk779j.statuspage.io",
+    "chat-assets.frontapp.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://app.termly.io/resource-blocker/07878b02-e907-419d-9aca-3be0d148ac1c?autoBlock=on",
+    "https://www.playbook.com/assets/js/slick.min.js?v=DHF4zGyjT7GOMPBw",
+    "https://www.playbook.com/assets/js/jquery.js?v=hVVnYaiADRTO2PzU",
+    "https://www.playbook.com/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h",
+    "https://www.playbook.com/assets/js/main.js?v=gAyldpqAwqUlrkVg",
+    "https://www.playbook.com/assets/js/wow.min.js?v=DsYy5qsC1P3VFNp_",
+    "https://www.playbook.com/public/cards.min.js?v=ShRHxgy4po8zN-Wf",
+    "https://www.playbook.com/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9",
+    "https://www.playbook.com/assets/js/main.min.js",
+    "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=yjwl3e",
+    "https://cdn.jsdelivr.net/npm/hls.js@0.8.2",
+    "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-MZJK5P4N2X",
+    "https://tag.unifyintent.com/v1/8LdvacDh6N5TLGcfKNKP8v/script.js",
+    "https://www.playbook.com/_next/static/chunks/1aab04591ef2f807.js",
+    "https://www.playbook.com/_next/static/chunks/a9d73b6d6a2d9985.js",
+    "https://www.playbook.com/_next/static/chunks/c0108b31ada3bb3e.js",
+    "https://www.playbook.com/_next/static/chunks/f5df54a39cb731aa.js",
+    "https://www.playbook.com/_next/static/chunks/56f2a41d3a2f38e8.js",
+    "https://www.playbook.com/_next/static/chunks/df1ca097e137bd54.js",
+    "https://www.playbook.com/_next/static/chunks/b060b09b76dae288.js",
+    "https://www.playbook.com/_next/static/chunks/06747269575c17d9.js",
+    "https://www.playbook.com/_next/static/chunks/318237502883f855.js",
+    "https://www.playbook.com/_next/static/chunks/db34e0c4f42e93da.js",
+    "https://www.playbook.com/_next/static/chunks/f1af8cb5780a018f.js",
+    "https://www.playbook.com/_next/static/chunks/db50cf15e70fc034.js",
+    "https://www.playbook.com/_next/static/chunks/e90b2f4a970cef69.js",
+    "https://www.playbook.com/_next/static/chunks/ca511b8c78518f28.js",
+    "https://www.playbook.com/_next/static/chunks/b7e2fafd3e9986bf.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-224031fb606bd2d8.js",
+    "https://www.playbook.com/_next/static/chunks/e1f8918d60487875.js",
+    "https://www.playbook.com/_next/static/chunks/979823847e597c02.js",
+    "https://www.playbook.com/_next/static/chunks/9ad2ef35322baba8.js",
+    "https://www.playbook.com/_next/static/chunks/809cf50f4eda2738.js",
+    "https://www.playbook.com/_next/static/chunks/11d8f851871f1c9a.js",
+    "https://www.playbook.com/_next/static/chunks/383c82f1519db555.js",
+    "https://www.playbook.com/_next/static/chunks/6d86a8098bd4885d.js",
+    "https://www.playbook.com/_next/static/chunks/cc6cc5881ff9d9ca.js",
+    "https://www.playbook.com/_next/static/chunks/3b843987e50f335b.js",
+    "https://www.playbook.com/_next/static/chunks/bd9e00e5f9b2a4d0.js",
+    "https://www.playbook.com/_next/static/chunks/0381e13ad89e2dae.js",
+    "https://www.playbook.com/_next/static/chunks/806f605f988b9c99.js",
+    "https://www.playbook.com/_next/static/chunks/c09e62c65e5faa2d.js",
+    "https://www.playbook.com/_next/static/chunks/0065c768a14130e6.js",
+    "https://www.playbook.com/_next/static/chunks/f59475261b55aa7d.js",
+    "https://www.playbook.com/_next/static/chunks/de50fa6d616f1f75.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_ssgManifest.js",
+    "https://www.playbook.com/_next/static/chunks/86250cbbefd410ea.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_buildManifest.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-58a32fa68cff90d5.js",
+    "https://www.playbook.com/_next/static/chunks/f9426adf34961004.js",
+    "https://www.playbook.com/_next/static/chunks/2c2661c17c0c84fb.js",
+    "https://www.playbook.com/_next/static/chunks/9e91334b4a0be7ae.js",
+    "https://www.playbook.com/_next/static/chunks/4cf557e05abc3d1e.js",
+    "https://js-agent.newrelic.com/nr-spa-1.270.2.min.js",
+    "https://data.playbook.com/array/phc_USVsCiAAwGgHPSItbst6AkNvLLFScaWv2QN9F3O7C2t/config.js",
+    "https://data.playbook.com/static/web-vitals.js?v=1.410.4",
+    "https://status.playbook.com/embed/script.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    },
+    {
+     "method": "GET",
+     "host": "www.playbook.com",
+     "path": "/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET playbook-at.ghost.io/members/api/member/",
+    "GET playbook-at.ghost.io/ghost/api/content/settings/",
+    "GET playbook-at.ghost.io/ghost/api/content/tiers/",
+    "GET playbook-at.ghost.io/ghost/api/content/newsletters/",
+    "POST analytics.google.com/g/collect",
+    "GET aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+    "POST aplo-evnt.com/api/v1/intent_pixel/track_request",
+    "POST o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+    "POST api.unifyintent.com/analytics/v1/page",
+    "POST bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+    "POST bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2",
+    "POST bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665415111&_gaz=1&gcs=G1--&gcd=13t3t3t3t5l5&npa=0&dma=0&gdid=dNzg2MD&ecid=592702424&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://playbook-at.ghost.io/.ghost/analytics/api/v1/page_hit?name=analytics_events",
+     "body": "{\"timestamp\":\"2026-09-29T07:03:35.740Z\",\"action\":\"page_hit\",\"version\":\"1\",\"payload\":{\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"locale\":\"en-US\",\"location\":\"IN\",\"parsedReferrer\":{\"url\":null,\"source\":null,\"medium\":null},\"pathname\":\"/blog/\",\"href\":\"https://www.playbook.com/blog/\",\"utm_source\":null,\""
+    },
+    {
+     "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=68b1d3eb210e5c0015978b1a",
+     "body": "[{\"apollo_anon_id\":\"08cbf20d-a659-42d2-b64f-b1dab93fdacb\",\"event_type\":\"page_visit\",\"page\":\"https://www.playbook.com/blog/\",\"referrer\":null,\"utm_source\":null,\"utm_medium\":null,\"utm_campaign\":null,\"utm_content\":null,\"utm_term\":null,\"email_md5\":null,\"email_sha2\":null}]"
+    },
+    {
+     "url": "https://api.unifyintent.com/analytics/v1/page",
+     "body": "{\"type\":\"page\",\"visitorId\":\"32344f57-5ba4-417a-9637-f9478b62ae09\",\"sessionId\":\"08f447a0-a0b1-4f73-bd3a-63430d4c3e00\",\"context\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"HeadlessChrome\",\"version\":\"153\"},{\"brand\":\"Not_A Brand\",\"version\":\"8\"},{\"b"
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:36.953Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"436e7b8df7dc4ec0870166d04bf94341\",\"init\":true,\"started\":\"2026-09-29T07:03:36.953Z\",\"timestamp\":\"2026-09-29T07:03:36.953Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665415149,\"pageloadId\":\"dd4ddb07-f059-4841-b993-f636b108826b\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/demo-request\",\"referrer\":\"https://www.playbook.com/blog/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":38760482,\"usedJSHeapSize\":32963442,\"jsHeapSizeLimit\":43"
+    },
+    {
+     "url": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=1934&ck=0&s=473b2b207e1fb012&ref=https://www.playbook.com/demo-request&ptid=d0f8df2a1d304193&",
+     "body": ""
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:37.378Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"436e7b8df7dc4ec0870166d04bf94341\",\"init\":false,\"started\":\"2026-09-29T07:03:36.953Z\",\"timestamp\":\"2026-09-29T07:03:37.378Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\","
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:37.379Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"33f7bbbaff104865a6d02dc4bd34f9b3\",\"init\":true,\"started\":\"2026-09-29T07:03:37.378Z\",\"timestamp\":\"2026-09-29T07:03:37.378Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665417409&gcd=13l3l3l3l1l5&npa=0&dma=0&ecid=592702424&_eu=AAAAAGQC&cid=542714449.17906654",
+     "body": ""
+    },
+    {
+     "url": "https://bam.nr-data.net/ins/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=2337&ck=0&s=473b2b207e1fb012&ref=https://www.playbook.com/demo-request&ptid=d0f8df2a1d304",
+     "body": "{\"ins\":[{\"timestamp\":1790665417478,\"pageUrl\":\"https://www.playbook.com/demo-request\",\"currentUrl\":\"https://www.playbook.com/demo-request\",\"Next.js-hydration\":26.5,\"eventType\":\"PageAction\",\"timeSinceLoad\":2.258,\"actionName\":\"nextjs-custom\",\"referrerUrl\":\"https://www.playbook.com/blog/\",\"browserWidth\":0,\"browserHeight\":0}]}"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=2464&ck=0&s=473b2b207e1fb012&ref=https://www.playbook.com/demo-request&ptid=d0f8df2a1d",
+     "body": "bel.7;1,3,,1wf,1wf,20,'initialPageLoad,'https://www.playbook.com/demo-request,1,1,,,!!!!'1fd45fb9-8d38-4006-9e02-7ec560ceefa9,'1,!!;2,,1ga,n,,,'POST,5o,'www.playbook.com:443,'/cdn-cgi/rum,op,,,'5,'25a718c06aaf1716,'da855697128a266e294c45c918b426fb,mumbyemm;2,,1g4,9s,,1,'GET,5k,5,'/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json,,2,1,'4,'e5968eb9ae7019b7,'f33091427a50f4159e14bcb72"
+    }
+   ],
+   "textAtLoad": 4,
+   "mainEmptyAtLoad": false
+  },
+  "/contact/": {
+   "url": "https://www.playbook.com/contact/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "Schedule your demo",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": "https://www.playbook.com/contact/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.playbook.com/demo-request",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.playbook.com/demo-request",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": true
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.playbook.com/demo-request",
+     "title": "Request a demo",
+     "w": 563,
+     "h": 630
+    },
+    {
+     "src": "https://www.playbook.com/demo-request",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": false,
+   "mainText": 420,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.playbook.com": 114,
+    "img.playbook.com": 47,
+    "static.cloudflareinsights.com": 3,
+    "app.termly.io": 1,
+    "cdn.jsdelivr.net": 2,
+    "playbook-at.ghost.io": 4,
+    "www.googletagmanager.com": 3,
+    "fonts.googleapis.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 3,
+    "www.google.co.in": 1,
+    "static.airtable.com": 1,
+    "js-agent.newrelic.com": 2,
+    "o362445.ingest.sentry.io": 6,
+    "bam.nr-data.net": 4,
+    "data.playbook.com": 8,
+    "status.playbook.com": 2,
+    "chat-assets.frontapp.com": 4,
+    "s10f30zk779j.statuspage.io": 2
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "app.termly.io",
+    "cdn.jsdelivr.net",
+    "playbook-at.ghost.io",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com",
+    "www.google.co.in",
+    "static.airtable.com",
+    "js-agent.newrelic.com",
+    "o362445.ingest.sentry.io",
+    "bam.nr-data.net",
+    "chat-assets.frontapp.com",
+    "s10f30zk779j.statuspage.io"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://app.termly.io/resource-blocker/07878b02-e907-419d-9aca-3be0d148ac1c?autoBlock=on",
+    "https://www.playbook.com/assets/js/jquery.js?v=hVVnYaiADRTO2PzU",
+    "https://www.playbook.com/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9",
+    "https://www.playbook.com/assets/js/main.min.js",
+    "https://www.playbook.com/assets/js/wow.min.js?v=DsYy5qsC1P3VFNp_",
+    "https://www.playbook.com/assets/js/slick.min.js?v=DHF4zGyjT7GOMPBw",
+    "https://www.playbook.com/public/cards.min.js?v=ShRHxgy4po8zN-Wf",
+    "https://www.playbook.com/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h",
+    "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "https://www.playbook.com/assets/js/main.js?v=gAyldpqAwqUlrkVg",
+    "https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-MZJK5P4N2X",
+    "https://www.playbook.com/_next/static/chunks/df1ca097e137bd54.js",
+    "https://www.playbook.com/_next/static/chunks/c0108b31ada3bb3e.js",
+    "https://www.playbook.com/_next/static/chunks/f5df54a39cb731aa.js",
+    "https://www.playbook.com/_next/static/chunks/6d86a8098bd4885d.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_ssgManifest.js",
+    "https://www.playbook.com/_next/static/chunks/0381e13ad89e2dae.js",
+    "https://www.playbook.com/_next/static/chunks/e90b2f4a970cef69.js",
+    "https://www.playbook.com/_next/static/chunks/f1af8cb5780a018f.js",
+    "https://www.playbook.com/_next/static/chunks/b060b09b76dae288.js",
+    "https://www.playbook.com/_next/static/chunks/1aab04591ef2f807.js",
+    "https://www.playbook.com/_next/static/chunks/ca511b8c78518f28.js",
+    "https://www.playbook.com/_next/static/chunks/a9d73b6d6a2d9985.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-224031fb606bd2d8.js",
+    "https://www.playbook.com/_next/static/chunks/e1f8918d60487875.js",
+    "https://www.playbook.com/_next/static/chunks/383c82f1519db555.js",
+    "https://www.playbook.com/_next/static/chunks/806f605f988b9c99.js",
+    "https://www.playbook.com/_next/static/chunks/56f2a41d3a2f38e8.js",
+    "https://www.playbook.com/_next/static/chunks/4cf557e05abc3d1e.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-58a32fa68cff90d5.js",
+    "https://www.playbook.com/_next/static/chunks/9ad2ef35322baba8.js",
+    "https://www.playbook.com/_next/static/chunks/0065c768a14130e6.js",
+    "https://www.playbook.com/_next/static/chunks/db34e0c4f42e93da.js",
+    "https://www.playbook.com/_next/static/chunks/318237502883f855.js",
+    "https://www.playbook.com/_next/static/chunks/c09e62c65e5faa2d.js",
+    "https://www.playbook.com/_next/static/chunks/bd9e00e5f9b2a4d0.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_buildManifest.js",
+    "https://www.playbook.com/_next/static/chunks/cc6cc5881ff9d9ca.js",
+    "https://www.playbook.com/_next/static/chunks/db50cf15e70fc034.js",
+    "https://www.playbook.com/_next/static/chunks/06747269575c17d9.js",
+    "https://www.playbook.com/_next/static/chunks/9e91334b4a0be7ae.js",
+    "https://www.playbook.com/_next/static/chunks/86250cbbefd410ea.js",
+    "https://www.playbook.com/_next/static/chunks/f9426adf34961004.js",
+    "https://www.playbook.com/_next/static/chunks/2c2661c17c0c84fb.js",
+    "https://www.playbook.com/_next/static/chunks/b7e2fafd3e9986bf.js",
+    "https://www.playbook.com/_next/static/chunks/809cf50f4eda2738.js",
+    "https://www.playbook.com/_next/static/chunks/3b843987e50f335b.js",
+    "https://www.playbook.com/_next/static/chunks/979823847e597c02.js",
+    "https://www.playbook.com/_next/static/chunks/11d8f851871f1c9a.js",
+    "https://www.playbook.com/_next/static/chunks/f59475261b55aa7d.js",
+    "https://www.playbook.com/_next/static/chunks/de50fa6d616f1f75.js",
+    "https://static.airtable.com/js/embed/embed_snippet_v1.js",
+    "https://js-agent.newrelic.com/nr-spa-1.270.2.min.js",
+    "https://data.playbook.com/array/phc_USVsCiAAwGgHPSItbst6AkNvLLFScaWv2QN9F3O7C2t/config.js",
+    "https://data.playbook.com/static/web-vitals.js?v=1.410.4",
+    "https://status.playbook.com/embed/script.js",
+    "https://chat-assets.frontapp.com/v1/chat.bundle.js",
+    "https://data.playbook.com/static/surveys.js?v=1.410.4"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    },
+    {
+     "method": "GET",
+     "host": "www.playbook.com",
+     "path": "/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET playbook-at.ghost.io/members/api/member/",
+    "GET playbook-at.ghost.io/ghost/api/content/newsletters/",
+    "GET playbook-at.ghost.io/ghost/api/content/tiers/",
+    "GET playbook-at.ghost.io/ghost/api/content/settings/",
+    "POST analytics.google.com/g/collect",
+    "POST o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+    "POST bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+    "POST bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665426417&_gaz=1&gcs=G1--&gcd=13t3t3t3t5l5&npa=0&dma=0&gdid=dNzg2MD&ecid=226883780&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://playbook-at.ghost.io/.ghost/analytics/api/v1/page_hit?name=analytics_events",
+     "body": "{\"timestamp\":\"2026-09-29T07:03:46.923Z\",\"action\":\"page_hit\",\"version\":\"1\",\"payload\":{\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"locale\":\"en-US\",\"location\":\"IN\",\"parsedReferrer\":{\"url\":null,\"source\":null,\"medium\":null},\"pathname\":\"/contact/\",\"href\":\"https://www.playbook.com/contact/\",\"utm_source\":"
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:47.194Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c9b10b54be84406b9dd510a499f1f2db\",\"init\":true,\"started\":\"2026-09-29T07:03:47.194Z\",\"timestamp\":\"2026-09-29T07:03:47.194Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665426454,\"pageloadId\":\"a5b120eb-8703-4601-9b9d-9dae42d47dc5\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/demo-request\",\"referrer\":\"https://www.playbook.com/contact/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":38224841,\"usedJSHeapSize\":30984333,\"jsHeapSizeLimit\""
+    },
+    {
+     "url": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=899&ck=0&s=dd50d17335872aa7&ref=https://www.playbook.com/demo-request&ptid=1dcbf64d29b2a710&a",
+     "body": ""
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:47.453Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ffe7376c7cff494985db42e6ef8fce61\",\"init\":true,\"started\":\"2026-09-29T07:03:47.453Z\",\"timestamp\":\"2026-09-29T07:03:47.453Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=1003&ck=0&s=dd50d17335872aa7&ref=https://www.playbook.com/demo-request&ptid=c27df81f2f63432e&",
+     "body": ""
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665426473,\"pageloadId\":\"c98da578-c6b7-4810-9b1c-248f72fc9132\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/demo-request\",\"referrer\":\"https://www.playbook.com/contact/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":48467500,\"usedJSHeapSize\":37148680,\"jsHeapSizeLimit\""
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665426045,\"pageloadId\":\"06f2789e-f207-438b-9952-0ecc55b5c240\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/contact/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":48470866,\"usedJSHeapSize\":37289154,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":424,\"firstContentfulPaint"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=1164&ck=0&s=dd50d17335872aa7&ref=https://www.playbook.com/demo-request&ptid=1dcbf64d29",
+     "body": "bel.7;1,1,,wa,v0,1f,'initialPageLoad,'https://www.playbook.com/demo-request,1,1,,,!!!!'0a58c49a-4247-46cc-8ef2-9bd469f6da7f,'1,!!;2,,mq,1f,,1,'POST,5o,'www.playbook.com:443,'/cdn-cgi/rum,ol,,,'5,'419d1215a12f71fb,'58e78e6f74bcca8cea16f713da3411f3,mumbymj8;b,!!!!,,,,,,1,9e,87,!9,4s,,1,,"
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=1276&ck=0&s=dd50d17335872aa7&ref=https://www.playbook.com/demo-request&ptid=c27df81f2f",
+     "body": "bel.7;1,1,,ze,vr,e,'initialPageLoad,'https://www.playbook.com/demo-request,1,1,,,!!!!'e142eb57-cf1e-48a3-867d-ead3117c796d,'1,!!;2,,rx,b,,,'POST,5o,'www.playbook.com:443,'/cdn-cgi/rum,oq,,,'6,'141172c70582a087,'2f6107f327f595d542c0a90ccf8fa7b2,mumbymoz;b,!!!!1,,,,,,8v,hq,1,!7,y,,1,,"
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:03:48.561Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c9b10b54be84406b9dd510a499f1f2db\",\"init\":false,\"started\":\"2026-09-29T07:03:47.194Z\",\"timestamp\":\"2026-09-29T07:03:48.561Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\","
+    }
+   ],
+   "textAtLoad": 125,
+   "mainEmptyAtLoad": false
+  },
+  "/gifmaker/": {
+   "url": "https://www.playbook.com/gifmaker/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "GIF Maker: Transform moments into motion on Playbook",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": "https://www.playbook.com/gifmaker/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "video",
+     "src": "https://stream.mux.com/yrTbzwcTag01g5XvlFIT8WGq0274vFhRfYxVNtQiRKqcs.m3u8",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": false,
+   "mainText": 3099,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.playbook.com": 16,
+    "static.cloudflareinsights.com": 1,
+    "cdn.jsdelivr.net": 4,
+    "app.termly.io": 1,
+    "img.playbook.com": 22,
+    "playbook-at.ghost.io": 4,
+    "www.googletagmanager.com": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.co.in": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "cdn.jsdelivr.net",
+    "app.termly.io",
+    "playbook-at.ghost.io",
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://cdn.jsdelivr.net/npm/@mux/mux-player",
+    "https://app.termly.io/resource-blocker/07878b02-e907-419d-9aca-3be0d148ac1c?autoBlock=on",
+    "https://cdn.jsdelivr.net/npm/hls.js@0.8.2",
+    "https://www.playbook.com/assets/js/slick.min.js?v=DHF4zGyjT7GOMPBw",
+    "https://www.playbook.com/public/cards.min.js?v=ShRHxgy4po8zN-Wf",
+    "https://www.playbook.com/assets/js/wow.min.js?v=DsYy5qsC1P3VFNp_",
+    "https://www.playbook.com/assets/js/main.min.js",
+    "https://www.playbook.com/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9",
+    "https://www.playbook.com/assets/js/main.js?v=gAyldpqAwqUlrkVg",
+    "https://www.playbook.com/assets/js/jquery.js?v=hVVnYaiADRTO2PzU",
+    "https://www.playbook.com/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h",
+    "https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js",
+    "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-MZJK5P4N2X"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET playbook-at.ghost.io/members/api/member/",
+    "GET playbook-at.ghost.io/ghost/api/content/newsletters/",
+    "GET playbook-at.ghost.io/ghost/api/content/settings/",
+    "GET playbook-at.ghost.io/ghost/api/content/tiers/",
+    "POST analytics.google.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665437636&_gaz=1&gcs=G1--&gcd=13t3t3t3t5l5&npa=0&dma=0&gdid=dNzg2MD&ecid=154051456&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://playbook-at.ghost.io/.ghost/analytics/api/v1/page_hit?name=analytics_events",
+     "body": "{\"timestamp\":\"2026-09-29T07:03:58.224Z\",\"action\":\"page_hit\",\"version\":\"1\",\"payload\":{\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"locale\":\"en-US\",\"location\":\"IN\",\"parsedReferrer\":{\"url\":null,\"source\":null,\"medium\":null},\"pathname\":\"/gifmaker/\",\"href\":\"https://www.playbook.com/gifmaker/\",\"utm_source"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665437202,\"pageloadId\":\"6f0fd628-c200-451b-8eea-cfbc4ac6c287\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/gifmaker/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":31412131,\"usedJSHeapSize\":25891723,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":532,\"firstContentfulPain"
+    }
+   ],
+   "textAtLoad": 2984,
+   "mainEmptyAtLoad": false
+  },
+  "/p/privacy/": {
+   "url": "https://www.playbook.com/p/privacy/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "Playbook Privacy Policy",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": "https://www.playbook.com/p/privacy/#",
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.playbook.com/demo-request",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": true
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.playbook.com/demo-request",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://support.apple.com/en-us/HT202074"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "post-toc-list",
+     "cards": 17,
+     "sameSite": 17,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 12,
+   "inlineFetch": false,
+   "mainText": 28071,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.playbook.com": 66,
+    "img.playbook.com": 17,
+    "static.cloudflareinsights.com": 2,
+    "app.termly.io": 1,
+    "assets.apollo.io": 1,
+    "cdn.jsdelivr.net": 3,
+    "playbook-at.ghost.io": 4,
+    "www.googletagmanager.com": 2,
+    "analytics.google.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "www.google.co.in": 1,
+    "fonts.googleapis.com": 1,
+    "aplo-evnt.com": 2,
+    "tag.unifyintent.com": 1,
+    "o362445.ingest.sentry.io": 3,
+    "js-agent.newrelic.com": 1,
+    "bam.nr-data.net": 2,
+    "data.playbook.com": 4,
+    "status.playbook.com": 1,
+    "chat-assets.frontapp.com": 2,
+    "s10f30zk779j.statuspage.io": 1,
+    "api.unifyintent.com": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "app.termly.io",
+    "assets.apollo.io",
+    "cdn.jsdelivr.net",
+    "playbook-at.ghost.io",
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in",
+    "fonts.googleapis.com",
+    "aplo-evnt.com",
+    "tag.unifyintent.com",
+    "o362445.ingest.sentry.io",
+    "js-agent.newrelic.com",
+    "bam.nr-data.net",
+    "chat-assets.frontapp.com",
+    "s10f30zk779j.statuspage.io",
+    "api.unifyintent.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://www.playbook.com/assets/js/wow.min.js?v=DsYy5qsC1P3VFNp_",
+    "https://app.termly.io/resource-blocker/07878b02-e907-419d-9aca-3be0d148ac1c?autoBlock=on",
+    "https://www.playbook.com/assets/js/jquery.js?v=hVVnYaiADRTO2PzU",
+    "https://www.playbook.com/assets/js/slick.min.js?v=DHF4zGyjT7GOMPBw",
+    "https://www.playbook.com/assets/js/main.js?v=gAyldpqAwqUlrkVg",
+    "https://www.playbook.com/public/cards.min.js?v=ShRHxgy4po8zN-Wf",
+    "https://www.playbook.com/assets/js/main.min.js",
+    "https://www.playbook.com/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9",
+    "https://www.playbook.com/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h",
+    "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=pd591p",
+    "https://cdn.jsdelivr.net/npm/hls.js@0.8.2",
+    "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-MZJK5P4N2X",
+    "https://www.playbook.com/_next/static/chunks/06747269575c17d9.js",
+    "https://www.playbook.com/_next/static/chunks/c0108b31ada3bb3e.js",
+    "https://www.playbook.com/_next/static/chunks/df1ca097e137bd54.js",
+    "https://www.playbook.com/_next/static/chunks/56f2a41d3a2f38e8.js",
+    "https://www.playbook.com/_next/static/chunks/f5df54a39cb731aa.js",
+    "https://www.playbook.com/_next/static/chunks/db34e0c4f42e93da.js",
+    "https://www.playbook.com/_next/static/chunks/e1f8918d60487875.js",
+    "https://www.playbook.com/_next/static/chunks/a9d73b6d6a2d9985.js",
+    "https://www.playbook.com/_next/static/chunks/1aab04591ef2f807.js",
+    "https://www.playbook.com/_next/static/chunks/ca511b8c78518f28.js",
+    "https://www.playbook.com/_next/static/chunks/b060b09b76dae288.js",
+    "https://www.playbook.com/_next/static/chunks/db50cf15e70fc034.js",
+    "https://www.playbook.com/_next/static/chunks/c09e62c65e5faa2d.js",
+    "https://www.playbook.com/_next/static/chunks/6d86a8098bd4885d.js",
+    "https://www.playbook.com/_next/static/chunks/bd9e00e5f9b2a4d0.js",
+    "https://www.playbook.com/_next/static/chunks/9ad2ef35322baba8.js",
+    "https://www.playbook.com/_next/static/chunks/f1af8cb5780a018f.js",
+    "https://www.playbook.com/_next/static/chunks/809cf50f4eda2738.js",
+    "https://www.playbook.com/_next/static/chunks/383c82f1519db555.js",
+    "https://www.playbook.com/_next/static/chunks/3b843987e50f335b.js",
+    "https://www.playbook.com/_next/static/chunks/9e91334b4a0be7ae.js",
+    "https://www.playbook.com/_next/static/chunks/11d8f851871f1c9a.js",
+    "https://www.playbook.com/_next/static/chunks/318237502883f855.js",
+    "https://www.playbook.com/_next/static/chunks/f59475261b55aa7d.js",
+    "https://www.playbook.com/_next/static/chunks/b7e2fafd3e9986bf.js",
+    "https://www.playbook.com/_next/static/chunks/979823847e597c02.js",
+    "https://www.playbook.com/_next/static/chunks/e90b2f4a970cef69.js",
+    "https://www.playbook.com/_next/static/chunks/cc6cc5881ff9d9ca.js",
+    "https://www.playbook.com/_next/static/chunks/0381e13ad89e2dae.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-224031fb606bd2d8.js",
+    "https://www.playbook.com/_next/static/chunks/806f605f988b9c99.js",
+    "https://www.playbook.com/_next/static/chunks/4cf557e05abc3d1e.js",
+    "https://www.playbook.com/_next/static/chunks/0065c768a14130e6.js",
+    "https://www.playbook.com/_next/static/chunks/de50fa6d616f1f75.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_ssgManifest.js",
+    "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_buildManifest.js",
+    "https://www.playbook.com/_next/static/chunks/86250cbbefd410ea.js",
+    "https://www.playbook.com/_next/static/chunks/f9426adf34961004.js",
+    "https://tag.unifyintent.com/v1/8LdvacDh6N5TLGcfKNKP8v/script.js",
+    "https://www.playbook.com/_next/static/chunks/turbopack-58a32fa68cff90d5.js",
+    "https://www.playbook.com/_next/static/chunks/2c2661c17c0c84fb.js",
+    "https://js-agent.newrelic.com/nr-spa-1.270.2.min.js",
+    "https://data.playbook.com/array/phc_USVsCiAAwGgHPSItbst6AkNvLLFScaWv2QN9F3O7C2t/config.js",
+    "https://data.playbook.com/static/web-vitals.js?v=1.410.4",
+    "https://status.playbook.com/embed/script.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    },
+    {
+     "method": "GET",
+     "host": "www.playbook.com",
+     "path": "/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.playbook.com/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET playbook-at.ghost.io/members/api/member/",
+    "GET playbook-at.ghost.io/ghost/api/content/settings/",
+    "GET playbook-at.ghost.io/ghost/api/content/newsletters/",
+    "GET playbook-at.ghost.io/ghost/api/content/tiers/",
+    "POST analytics.google.com/g/collect",
+    "GET aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+    "POST o362445.ingest.sentry.io/api/4504560349478912/envelope/",
+    "POST bam.nr-data.net/1/NRBR-115f0ee738624bb27c2",
+    "POST aplo-evnt.com/api/v1/intent_pixel/track_request",
+    "POST bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2",
+    "POST api.unifyintent.com/analytics/v1/page"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665448919&_gaz=1&gcs=G1--&gcd=13t3t3t3t5l5&npa=0&dma=0&gdid=dNzg2MD&ecid=1128495542&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://playbook-at.ghost.io/.ghost/analytics/api/v1/page_hit?name=analytics_events",
+     "body": "{\"timestamp\":\"2026-09-29T07:04:09.376Z\",\"action\":\"page_hit\",\"version\":\"1\",\"payload\":{\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"locale\":\"en-US\",\"location\":\"IN\",\"parsedReferrer\":{\"url\":null,\"source\":null,\"medium\":null},\"pathname\":\"/p/privacy/\",\"href\":\"https://www.playbook.com/p/privacy/\",\"utm_sour"
+    },
+    {
+     "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=68b1d3eb210e5c0015978b1a",
+     "body": "[{\"apollo_anon_id\":\"844c1db0-7262-4a7b-961a-b7e7d2278f0e\",\"event_type\":\"page_visit\",\"page\":\"https://www.playbook.com/p/privacy/\",\"referrer\":null,\"utm_source\":null,\"utm_medium\":null,\"utm_campaign\":null,\"utm_content\":null,\"utm_term\":null,\"email_md5\":null,\"email_sha2\":null}]"
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:04:09.724Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0268a6a896a641b3b6992962ef94e4e0\",\"init\":true,\"started\":\"2026-09-29T07:04:09.724Z\",\"timestamp\":\"2026-09-29T07:04:09.724Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://api.unifyintent.com/analytics/v1/page",
+     "body": "{\"type\":\"page\",\"visitorId\":\"3ba2d93d-814c-4105-b433-78309f2d16a7\",\"sessionId\":\"7c6013b4-756f-46e1-950a-58a514707c4a\",\"context\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"HeadlessChrome\",\"version\":\"153\"},{\"brand\":\"Not_A Brand\",\"version\":\"8\"},{\"b"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665448960,\"pageloadId\":\"92426aab-13ee-417f-a596-d33a4e047e81\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/demo-request\",\"referrer\":\"https://www.playbook.com/p/privacy/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":38782470,\"usedJSHeapSize\":31943378,\"jsHeapSizeLimi"
+    },
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665448470,\"pageloadId\":\"b7ff0ec8-e502-47b5-9326-4adc4e77d21d\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/p/privacy/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":38782470,\"usedJSHeapSize\":31943378,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":508,\"firstContentfulPai"
+    },
+    {
+     "url": "https://bam.nr-data.net/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=960&ck=0&s=19ca544075fbc0fa&ref=https://www.playbook.com/demo-request&ptid=597611b19ddd4fc0&a",
+     "body": ""
+    },
+    {
+     "url": "https://bam.nr-data.net/events/1/NRBR-115f0ee738624bb27c2?a=1588873848&sa=1&v=1.270.2&t=Unnamed%20Transaction&rst=1244&ck=0&s=19ca544075fbc0fa&ref=https://www.playbook.com/demo-request&ptid=597611b19d",
+     "body": "bel.7;1,1,,yh,xy,1j,'initialPageLoad,'https://www.playbook.com/demo-request,1,1,,,!!!!'208db900-088a-4e7b-b98d-0c079f473ddc,'1,!!;2,,pq,b,,,'POST,5o,'www.playbook.com:443,'/cdn-cgi/rum,on,,,'5,'485d3764170528f4,'85018c586ad604165cd1f170254be1cd,mumbz3zb;b,!!!!,,,,,,1,ak,7m,!d,71,1,,,2"
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:04:10.215Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0268a6a896a641b3b6992962ef94e4e0\",\"init\":false,\"started\":\"2026-09-29T07:04:09.724Z\",\"timestamp\":\"2026-09-29T07:04:10.215Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\","
+    },
+    {
+     "url": "https://o362445.ingest.sentry.io/api/4504560349478912/envelope/?sentry_version=7&sentry_key=1f21f385a84447a493ea39e54b76a0b4&sentry_client=sentry.javascript.nextjs%2F10.56.0",
+     "body": "{\"sent_at\":\"2026-09-29T07:04:10.215Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.56.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d0d4314e15e3477da14d124244a75db3\",\"init\":true,\"started\":\"2026-09-29T07:04:10.215Z\",\"timestamp\":\"2026-09-29T07:04:10.215Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"92ac9b1b5887be02c82dd33e27ad9c07d830969e\",\"environment\":\"client-production\",\"ip_address\":\"{{auto}}\",\"user"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-MZJK5P4N2X&gtm=45je69p1v9116157523za200zd9116157523xf1&_p=1790665450247&gcd=13l3l3l3l1l5&npa=0&dma=0&ecid=1128495542&_eu=AAAAAGQC&cid=241362371.1790665",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 28071,
+   "mainEmptyAtLoad": false
+  },
+  "/pricing/": {
+   "url": "https://www.playbook.com/pricing/",
+   "status": 200,
+   "host": "www.playbook.com",
+   "title": "Pricing — Plans for Creatives, Teams & Enterprise | Playbook",
+   "forms": [],
+   "controlGroups": [
+    {
+     "container": "section.pb-section",
+     "controls": 2,
+     "names": [],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/login/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 23
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en",
+     "de",
+     "es",
+     "fr",
+     "hi",
+     "it",
+     "ja",
+     "ko",
+     "nl",
+     "nb",
+     "pt-BR",
+     "pt",
+     "pt-PT",
+     "vi",
+     "zh-Hans",
+     "zh",
+     "zh-Hant",
+     "x-default"
+    ],
+    "switcher": [
+     "https://www.playbook.com/de/pricing/",
+     "https://www.playbook.com/es/pricing/",
+     "https://www.playbook.com/fr/pricing/",
+     "https://www.playbook.com/hi/pricing/",
+     "https://www.playbook.com/it/pricing/"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "pb-plans",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 11,
+   "inlineFetch": false,
+   "mainText": 10436,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.playbook.com": 22,
+    "img.playbook.com": 36,
+    "static.cloudflareinsights.com": 1,
+    "us-assets.i.posthog.com": 3
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "us-assets.i.posthog.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "https://www.playbook.com/_astro/Analytics.astro_astro_type_script_index_0_lang.CQtER_o3.js",
+    "https://www.playbook.com/_astro/Calculator.astro_astro_type_script_index_0_lang.BWubUc-8.js",
+    "https://www.playbook.com/_astro/PlanCards.astro_astro_type_script_index_0_lang.BX9XSuT5.js",
+    "https://www.playbook.com/_astro/Section.astro_astro_type_script_index_0_lang.DNEl-hpd.js",
+    "https://www.playbook.com/_astro/preload-helper.BlTxHScW.js",
+    "https://www.playbook.com/js/legacy-slick.min.js",
+    "https://www.playbook.com/js/legacy-wow.min.js",
+    "https://www.playbook.com/js/legacy-main.js",
+    "https://www.playbook.com/js/legacy-jquery.js",
+    "https://www.playbook.com/_astro/plans.GqQXnXpn.js",
+    "https://www.playbook.com/_astro/module.D-ikCrS1.js",
+    "https://us-assets.i.posthog.com/array/phc_USVsCiAAwGgHPSItbst6AkNvLLFScaWv2QN9F3O7C2t/config.js",
+    "https://us-assets.i.posthog.com/static/web-vitals.js?v=1.410.4",
+    "https://us-assets.i.posthog.com/static/surveys.js?v=1.410.4"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.playbook.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.playbook.com/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [],
+   "postBodies": [
+    {
+     "url": "https://www.playbook.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1790665459646,\"pageloadId\":\"1d1a3055-5849-42ff-8f7d-b7ef87868639\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.playbook.com/pricing/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"153\",\"bv\":\"153\",\"ov\":\"26.6\"},\"memory\":{\"totalJSHeapSize\":8197492,\"usedJSHeapSize\":4690008,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":340,\"firstContentfulPaint\":"
+    }
+   ],
+   "textAtLoad": 10436,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-playbook-at-ghost-io",
+   "class": "A",
+   "feature": "unknown third-party host playbook-at.ghost.io",
+   "hint": "inspect",
+   "evidence": [
+    "playbook-at.ghost.io"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-aplo-evnt-com",
+   "class": "A",
+   "feature": "unknown third-party host aplo-evnt.com",
+   "hint": "inspect",
+   "evidence": [
+    "aplo-evnt.com"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-api-unifyintent-com",
+   "class": "A",
+   "feature": "unknown third-party host api.unifyintent.com",
+   "hint": "inspect",
+   "evidence": [
+    "api.unifyintent.com"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-next-static-rtihamax8hnh9gv-uy6z",
+   "class": "D",
+   "feature": "first-party data file GET /_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /_next/static/RtihaMAX8hnh9gv_uY6ZE/_clientMiddlewareManifest.json → 200"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-pb-section-2-controls",
+   "class": "F",
+   "feature": "form-less control group in section.pb-section (2 controls)",
+   "hint": "client-compute?",
+   "evidence": [],
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-us",
+   "hint": "locale",
+   "evidence": [
+    "https://support.apple.com/en-us/HT202074"
+   ],
+   "pages": [
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-de-es-fr-hi-it-ja-ko-nl-nb-pt-br-pt-",
+   "class": "I18N",
+   "feature": "locale variants en,de,es,fr,hi,it,ja,ko,nl,nb,pt-BR,pt,pt-PT,vi,zh-Hans,zh,zh-Hant,x-default",
+   "hint": "locale",
+   "evidence": [
+    "https://www.playbook.com/de/pricing/",
+    "https://www.playbook.com/es/pricing/",
+    "https://www.playbook.com/fr/pricing/"
+   ],
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-post-toc-list-6-cards",
+   "class": "L",
+   "feature": "listing candidate post-toc-list (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/blog/adobe-playbook-integration/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-post-toc-list-17-cards",
+   "class": "L",
+   "feature": "listing candidate post-toc-list (17 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "https://www.playbook.com/about-us/#",
+    "https://www.playbook.com/blog/adobe-playbook-integration/#",
+    "https://www.playbook.com/blog/#",
+    "https://www.playbook.com/contact/#",
+    "https://www.playbook.com/gifmaker/#",
+    "https://www.playbook.com/p/privacy/#"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ],
+   "reach": {
+    "pages": 69,
+    "of": 68
+   }
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [],
+   "pages": [
+    "/pricing/"
+   ],
+   "reach": {
+    "pages": 69,
+    "of": 68
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/",
+    "/pricing/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-app-termly-io",
+   "class": "T",
+   "feature": "unknown third-party host app.termly.io",
+   "hint": "inspect",
+   "evidence": [
+    "app.termly.io"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-co-in",
+   "class": "T",
+   "feature": "unknown third-party host www.google.co.in",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.co.in"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "stats.g.doubleclick.net"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-rum-new-relic",
+   "class": "T",
+   "feature": "RUM: New Relic",
+   "role": "RUM: New Relic",
+   "hint": "tags",
+   "evidence": [
+    "js-agent.newrelic.com",
+    "bam.nr-data.net"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-rum-error-monitoring",
+   "class": "T",
+   "feature": "RUM: error monitoring",
+   "role": "RUM: error monitoring",
+   "hint": "tags",
+   "evidence": [
+    "o362445.ingest.sentry.io"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-chat-assets-frontapp-com",
+   "class": "T",
+   "feature": "unknown third-party host chat-assets.frontapp.com",
+   "hint": "inspect",
+   "evidence": [
+    "chat-assets.frontapp.com"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s10f30zk779j-statuspage-io",
+   "class": "T",
+   "feature": "unknown third-party host s10f30zk779j.statuspage.io",
+   "hint": "inspect",
+   "evidence": [
+    "s10f30zk779j.statuspage.io"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-assets-apollo-io",
+   "class": "T",
+   "feature": "unknown third-party host assets.apollo.io",
+   "hint": "inspect",
+   "evidence": [
+    "assets.apollo.io"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tag-unifyintent-com",
+   "class": "T",
+   "feature": "unknown third-party host tag.unifyintent.com",
+   "hint": "inspect",
+   "evidence": [
+    "tag.unifyintent.com"
+   ],
+   "pages": [
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/p/privacy/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-storage-ghost-io",
+   "class": "T",
+   "feature": "unknown third-party host storage.ghost.io",
+   "hint": "inspect",
+   "evidence": [
+    "storage.ghost.io"
+   ],
+   "pages": [
+    "/blog/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-airtable-com",
+   "class": "T",
+   "feature": "unknown third-party host static.airtable.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.airtable.com"
+   ],
+   "pages": [
+    "/contact/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-us-assets-i-posthog-com",
+   "class": "T",
+   "feature": "unknown third-party host us-assets.i.posthog.com",
+   "hint": "inspect",
+   "evidence": [
+    "us-assets.i.posthog.com"
+   ],
+   "pages": [
+    "/pricing/"
+   ]
+  },
+  {
+   "id": "v-video-hosted-player",
+   "class": "V",
+   "feature": "video: hosted player",
+   "hint": "media",
+   "evidence": [
+    "https://stream.mux.com/yrTbzwcTag01g5XvlFIT8WGq0274vFhRfYxVNtQiRKqcs.m3u8"
+   ],
+   "pages": [
+    "/gifmaker/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.playbook.com/login/",
+    "https://www.playbook.com/p/blog/blog-graphic-design-in-the-50s/"
+   ],
+   "pages": [
+    "/about-us/",
+    "/blog/adobe-playbook-integration/",
+    "/blog/",
+    "/contact/",
+    "/gifmaker/",
+    "/p/privacy/",
+    "/pricing/"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-false-prices-23",
+   "class": "X",
+   "feature": "commerce signals (cart: false, prices: 23)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/pricing/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 68,
+  "of": 68,
+  "endpoints": {
+   "GET playbook-at.ghost.io/members/api/member/": 54,
+   "GET playbook-at.ghost.io/ghost/api/content/newsletters/": 54,
+   "GET playbook-at.ghost.io/ghost/api/content/settings/": 54,
+   "GET playbook-at.ghost.io/ghost/api/content/tiers/": 54,
+   "POST analytics.google.com/g/collect": 54,
+   "POST www.playbook.com/cdn-cgi/rum": 67,
+   "GET aplo-evnt.com/api/v1/intent_pixel/can_track_visitor": 41,
+   "POST api.unifyintent.com/analytics/v1/page": 41,
+   "POST aplo-evnt.com/api/v1/intent_pixel/track_request": 41,
+   "GET www.playbook.com/_next/static/_Ewtks-7ZHZkEOewDma1B/_clientMiddlewareManifest.json": 44,
+   "POST o362445.ingest.sentry.io/api/{hash}/envelope/": 44,
+   "POST bam.nr-data.net/{n}/NRBR-115f0ee738624bb27c2": 44,
+   "POST bam.nr-data.net/events/{n}/NRBR-115f0ee738624bb27c2": 44,
+   "POST bam.nr-data.net/ins/{n}/NRBR-115f0ee738624bb27c2": 42,
+   "GET googleads.g.doubleclick.net/pagead/id": 1,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 1,
+   "POST www.youtube.com/youtubei/v1/log_event": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 69,
+   "data-open-demo-modal": 9
+  }
+ }
+}

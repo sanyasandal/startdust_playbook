@@ -873,11 +873,11 @@
       },
       {
         "id": "tool-widget",
-        "label": "Free-tool interactive shell (dynamic)",
+        "label": "Free-tool info tiles (Try it now / Upload any files)",
         "slots": [
           {
-            "name": "labels",
-            "type": "list<text>",
+            "name": "items",
+            "type": "list<{title:text,body:text}>",
             "required": true
           }
         ],
@@ -891,7 +891,7 @@
         "confirmedBy": "canon diff-mode net-new (gifmaker)",
         "canonicalRendering": {
           "path": "stardust/canon/modules/tool-widget.html",
-          "sha": "57de43b7cd8c3de2"
+          "sha": "252a8c99a29988b8"
         }
       },
       {
@@ -1121,7 +1121,7 @@
         },
         {
           "path": "stardust/canon/canon.css",
-          "sha": "517eb6d99cc1e248",
+          "sha": "740d65d8b2a6cbdf",
           "region": "compound-css",
           "source": "index"
         },
@@ -1145,7 +1145,7 @@
         },
         {
           "path": "stardust/canon/modules/tool-widget.html",
-          "sha": "57de43b7cd8c3de2",
+          "sha": "252a8c99a29988b8",
           "region": "module:tool-widget",
           "source": "gifmaker"
         },
@@ -1231,6 +1231,18 @@
         },
         {
           "at": "2026-09-29T07:00:04.521Z",
+          "note": "canon.css rebuilt: author base + net-new-module-scoped rules only; sibling overrides of base selectors rejected (author wins)"
+        },
+        {
+          "at": "2026-09-29T07:07:36.298Z",
+          "note": "canon.css rebuilt: author base + net-new-module-scoped rules only; sibling overrides of base selectors rejected (author wins)"
+        },
+        {
+          "at": "2026-09-29T07:07:43.569Z",
+          "note": "canon.css rebuilt: author base + net-new-module-scoped rules only; sibling overrides of base selectors rejected (author wins)"
+        },
+        {
+          "at": "2026-09-29T07:07:53.979Z",
           "note": "canon.css rebuilt: author base + net-new-module-scoped rules only; sibling overrides of base selectors rejected (author wins)"
         }
       ],

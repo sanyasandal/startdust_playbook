@@ -17,12 +17,9 @@
     - kind: "hero video"
       capturedSource: "gifmaker.html video#videoPRVideo Mux URL"
       mechanism: "autoplay muted loop playsinline video in rounded product frame"
-      fallback: "captured og:image poster plus static copy and tool shell remain visible"
+      fallback: "captured og:image poster (source Mux stream 404s)"
   capturedSourceLineage: [header, hero, tool-widget, value-split, features, tool-crosspromo, closing-cta, faq, footer]
-  unsourcedContent:
-    - selector: "section[data-section='tool-widget']"
-      type: other
-      reason: "interactive upload/generate behavior is dynamic; static shell uses captured labels only and carries PLACEHOLDER signature comment"
+  unsourcedContent: []
   copyCadenceBypass:
     rulesIgnored: [em-dash-overuse]
     basis: "captured-verbatim source prose includes an em dash in GIF your heart out — you dream it, we animate it!"
@@ -42,6 +39,7 @@
     - "Added captured og:image as poster fallback for the captured Mux hero video."
     - "Replaced native file input with a disabled captured-label button to avoid browser-generated visible copy."
   orchestratorFixes:
+    - "tool-widget rewritten to source-faithful two info tiles (source .ai-try-boxes is non-interactive); removed invented disabled upload button, duplicate chip, and PLACEHOLDER dynamic marker"
     - "faq moved before cta-band (compositional move: cta-band closes page) (2026-09-29T07:00:21.750Z)"
 -->
 <meta charset="UTF-8">
@@ -224,14 +222,6 @@ p { text-wrap: pretty; }
 .pb-program-hero__media { position: relative; border-radius: clamp(18px, 3vw, 34px); overflow: hidden; background: var(--color-surface); border: 1px solid var(--color-hairline-warm); box-shadow: 0 18px 50px rgb(22 22 22 / .08); }
 .pb-program-hero__media::before { content: ""; display: block; height: 4px; background: linear-gradient(90deg,#6cb4ee,#d46bca,#ff3c8e,#ff6b35); }
 .pb-program-hero__media video { width: 100%; aspect-ratio: 16 / 11; object-fit: cover; background: var(--color-surface); }
-.pb-tool-shell { background: var(--color-paper); }
-.pb-tool-shell__panel { border: 1px solid var(--color-border); border-radius: calc(var(--radius) + 8px); background: #fff; padding: clamp(20px, 4vw, 34px); display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 22px; box-shadow: 0 10px 24px rgb(60 60 60 / .05); }
-.pb-tool-shell__intro { display: grid; gap: 14px; align-content: start; }
-.pb-tool-shell__intro h2 { font-size: clamp(1.55rem, 3vw, 2.35rem); margin-bottom: 0; }
-.pb-tool-shell__drop { min-height: 265px; border: 1px dashed var(--color-border); border-radius: var(--radius); background: linear-gradient(180deg, #fff, var(--color-paper)); display: grid; place-items: center; padding: 24px; text-align: center; }
-.pb-tool-shell__stack { display: grid; gap: 12px; max-width: 370px; }
-.pb-tool-shell__chip { justify-self: center; border-radius: var(--radius-pill); border: 1px solid var(--color-hairline-warm); padding: 7px 12px; color: var(--color-muted); font-size: 14px; }
-.pb-tool-shell__file { width: 100%; border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: 13px 14px; color: var(--color-muted); background: var(--color-paper); font: inherit; }
 .pb-value { padding-top: var(--section-padding); }
 .pb-value__grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(24px, 5vw, 70px); align-items: start; }
 .pb-value__body { color: var(--color-muted); font-size: clamp(1.05rem, 2vw, 1.28rem); max-width: 650px; }
@@ -254,7 +244,7 @@ p { text-wrap: pretty; }
 .pb-faq summary { cursor: pointer; padding: 20px 0; font-weight: 500; color: var(--color-ink-strong); }
 .pb-faq details p { color: var(--color-muted); padding-bottom: 20px; margin-bottom: 0; }
 @media (max-width: 1200px) { .pb-tool-crosspromo__grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 900px) { .pb-program-hero__grid, .pb-tool-shell__panel, .pb-value__grid, .pb-feature-row, .pb-feature-row:nth-child(even) { grid-template-columns: 1fr; } .pb-feature-row:nth-child(even) .pb-feature-row__media { order: 0; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-program-hero__grid, .pb-value__grid, .pb-feature-row, .pb-feature-row:nth-child(even) { grid-template-columns: 1fr; } .pb-feature-row:nth-child(even) .pb-feature-row__media { order: 0; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) {
   .wrap { width: min(calc(100% - 32px), var(--max-width)); }
   .pb-header__inner { min-height: 66px; }
@@ -271,9 +261,14 @@ p { text-wrap: pretty; }
   .pb-tool-crosspromo__grid, .pb-footer__grid { grid-template-columns: 1fr; }
   .pb-footer__legal { flex-direction: column; }
 }
-@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-tool-shell__drop { min-height: 220px; } .pb-program-hero__copy, .pb-value__grid { text-align: left; } }
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-program-hero__copy, .pb-value__grid { text-align: left; } }
 @media (prefers-reduced-motion: reduce) { .pb-nav { transition: none; } }
 
+.pb-try-tiles__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.pb-try-tiles__item{padding:32px;background:var(--color-canvas)}
+.pb-try-tiles__title{font-size:var(--text-xl,28px);margin:0 0 8px}
+.pb-try-tiles__item p{margin:0;color:var(--color-ink-soft);max-width:48ch}
+@media (max-width:760px){.pb-try-tiles__grid{grid-template-columns:1fr}.pb-try-tiles__item{padding:24px}}
 </style>
 </head>
 <body>
@@ -310,22 +305,11 @@ p { text-wrap: pretty; }
     </div>
   </section>
 
-  <section class="pb-section pb-tool-shell" data-section="tool-widget" data-intent="try tool" data-layout="contained" data-dynamic="tool-widget" data-module="tool-widget">
-    <!-- PLACEHOLDER dynamic tool-widget: upload/generate behavior is implemented by the Playbook app; this prototype renders only the captured static shell. -->
+  <section class="pb-section pb-try-tiles" data-section="try-tiles" data-intent="try tool" data-layout="grid" data-items="2" data-module="tool-widget">
     <div class="wrap">
-      <div class="pb-tool-shell__panel" data-slot="shell">
-        <div class="pb-tool-shell__intro">
-          <h2>Try it now</h2>
-          <p>Get unlimited access to GIF Maker for just $4 per month with our partner subscription. Cancel anytime.</p>
-          <a class="pb-button pb-button--primary" href="/sign-up?openMiniApp=gifmaker">Create free</a>
-        </div>
-        <div class="pb-tool-shell__drop" aria-label="Upload any files">
-          <div class="pb-tool-shell__stack">
-            <span class="pb-tool-shell__chip">Upload any files</span>
-            <button class="pb-tool-shell__file" type="button" disabled>Upload any files</button>
-            <p>Store any type of files to deliver to your clients along with your edited images and gifs!</p>
-          </div>
-        </div>
+      <div class="pb-try-tiles__grid" data-slot="items">
+        <div class="pb-card pb-try-tiles__item"><h2 class="pb-try-tiles__title">Try it now</h2><p>Get unlimited access to GIF Maker for just $4 per month with our partner subscription. Cancel anytime.</p></div>
+        <div class="pb-card pb-try-tiles__item"><h2 class="pb-try-tiles__title">Upload any files</h2><p>Store any type of files to deliver to your clients along with your edited images and gifs!</p></div>
       </div>
     </div>
   </section>

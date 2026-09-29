@@ -37,7 +37,14 @@
       "userSharePages": 1481,
       "tagPages": 124,
       "note": "Hands-off roster assumption — see stardust/direction.md"
-    }
+    },
+    "sourceDefects": [
+      {
+        "slug": "gifmaker",
+        "what": "hero <video> src stream.mux.com/yrTbzw…m3u8 → 404 (playlist, mp4 renditions, thumbnail all 404 on source)",
+        "handling": "poster (captured og:image) fallback"
+      }
+    ]
   },
   "direction": {
     "resolvedAt": "2026-09-29T06:18:34.248Z",
@@ -1688,6 +1695,18 @@
         "static": "p-privacy",
         "unique": "pricing (one-off at migrate)"
       }
+    },
+    "assets": {
+      "completedAt": "2026-09-29T07:08:17.929Z"
+    },
+    "dynamics": {
+      "completedAt": "2026-09-29T07:08:17.929Z",
+      "gate": "pass",
+      "findings": 16,
+      "self": 11,
+      "ownerBatch": 3,
+      "hostBound": 0,
+      "listings": "0 index-backed / 1 document-first"
     }
   }
 }
