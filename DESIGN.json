@@ -1,0 +1,925 @@
+{
+  "$schema": "impeccable/design.json@2",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T06:18:34.248Z",
+  "title": "Playbook — target design system",
+  "_provenance": {
+    "writtenBy": "stardust:direct (--prep, hands-off)",
+    "writtenAt": "2026-09-29T06:18:34.248Z",
+    "readArtifacts": [
+      "stardust/current/DESIGN.json",
+      "stardust/current/_brand-extraction.json",
+      "stardust/prototypes/index-improvements.md"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.25.0"
+  },
+  "extensions": {
+    "colorMeta": {
+      "roles": {
+        "signal": "#ff2753 — non-text marks, display ≥44px",
+        "signalDeep": "#e01f47 — filled buttons (4.71:1 w/ white)",
+        "ink": "#292929",
+        "inkStrong": "#1a1a1a",
+        "inkSoft": "#434140",
+        "muted": "#666666",
+        "canvas": "#ffffff",
+        "paper": "#fafafa",
+        "paperDeep": "#eeeeee",
+        "border": "#dadbdf",
+        "hairlineWarm": "rgb(82 74 62 / .16)"
+      },
+      "contrast": {
+        "canvas-on-signalDeep": 4.71,
+        "ink-on-canvas": 14.55,
+        "muted-on-canvas": 5.74,
+        "canvas-on-signal": 3.71
+      }
+    },
+    "typographyMeta": {
+      "family": "stabil_grotesk",
+      "files": [
+        "stardust/current/assets/fonts/StabilGrotesk-{Light,Regular,Medium}.woff2"
+      ],
+      "accent": "victor_serif (one-word italic accent, ≤1/page)",
+      "scale": {
+        "ratio": 1.25,
+        "base": 18,
+        "steps": [
+          14,
+          18,
+          22,
+          28,
+          35,
+          44,
+          56
+        ]
+      },
+      "retired": [
+        "AktivGrotesk"
+      ],
+      "licensing": "proprietary — served from brand files; confirm licence pre-go-live"
+    },
+    "shadows": {
+      "menu": "0 10px 24px rgb(60 60 60 / .05)",
+      "lift": "0 10px 30px rgb(22 22 22 / .10)"
+    },
+    "gradients": {
+      "spectrum": {
+        "value": "linear-gradient(90deg,#6cb4ee,#d46bca,#ff3c8e,#ff6b35)",
+        "usage": "signature band ≤4px, illustration grounds; never text fill"
+      }
+    },
+    "motion": {
+      "register": "kinetic-grid",
+      "registerRationale": "PRODUCT.md Brand Commitments personality: product, SaaS, modular-catalogue",
+      "easings": {
+        "entrance": "cubic-bezier(0.42, 0, 0, 1)",
+        "transition": "cubic-bezier(0.42, 0, 0, 1)"
+      },
+      "durations": {
+        "enter": 500,
+        "stagger": 70
+      },
+      "lift": {
+        "translate": -4,
+        "duration": 380
+      },
+      "reducedMotion": "all entrance motion off"
+    },
+    "breakpoints": {
+      "mobile": 600,
+      "tablet": 900,
+      "desktop": 1200
+    },
+    "componentStyle": {
+      "buttons": {
+        "primary": "signal-deep fill, canvas text, 10px, 500",
+        "secondary": "canvas fill, border #dadbdf, ink text",
+        "dark": "ink-strong fill"
+      },
+      "cards": {
+        "radius": 14,
+        "ground": "paper",
+        "hover": "lift -4px + lift shadow"
+      },
+      "inputs": {
+        "radius": 10,
+        "border": "#dadbdf",
+        "focus": "2px signal ring offset 2px"
+      },
+      "dualCTAPattern": {
+        "primary": "Start free → /sign-up/",
+        "secondary": "Book a demo → /contact/"
+      }
+    },
+    "systemComponentRoles": {
+      "header": {
+        "purpose": "single site chrome (Astro IA) on every page",
+        "position": "sticky top"
+      },
+      "footer": {
+        "purpose": "4-col link grid + competitor pill row + legal",
+        "position": "page end"
+      },
+      "cta-band": {
+        "purpose": "closing conversion band before footer",
+        "position": "pre-footer"
+      },
+      "related-posts": {
+        "purpose": "article continuation",
+        "position": "article end"
+      }
+    },
+    "voice": {
+      "dos": [
+        "Short declarative headlines (\"From upload to final.\")",
+        "Name the file pain plainly",
+        "Sentence case everywhere"
+      ],
+      "donts": [
+        "Stacked hype adjectives",
+        "Mixed CTA labels for the same action",
+        "ALL-CAPS headings"
+      ]
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "10px",
+        "secondary": "14px",
+        "cards": "14px",
+        "pill": "999px",
+        "sources": [
+          {
+            "value": "10px",
+            "count": 1299
+          },
+          {
+            "value": "8px",
+            "count": 854
+          },
+          {
+            "value": "14px",
+            "count": 804
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(60, 60, 60, 0.05) 0px 10px 24px 0px",
+          "count": 122
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.5) 0px 40px 80px 0px",
+          "count": 42
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.05) 0px 8px 24px 0px",
+          "count": 32
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(90deg, rgb(108, 180, 238), rgb(212, 107, 202), rgb(255, 60, 142), rgb(255, 107, 53))",
+          "count": 68
+        },
+        {
+          "value": "linear-gradient(89.02deg, rgb(123, 84, 242) 0.75%, rgb(255, 102, 126) 46.61%, rgb(255, 171, 111) 102.01%)",
+          "count": 67
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75))",
+          "count": 20
+        }
+      ],
+      "imagery": "Product-UI mockups (library grids, review panels) on soft gradient or photographic landscape grounds; colorful asset collages on tool pages; logo marquee"
+    },
+    "logo": {
+      "kind": "raster",
+      "format": "png",
+      "path": "stardust/current/assets/logo.png",
+      "src": "https://img.playbook.com/HIEoBlo_hUGZXgIKuPR7urdmdI5uVot_LksXJKEezcE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VkMjViMDVj/LWJhNjctNDI0ZS04/ZDA1LWVmMzgwODdk/YjQ2Yw",
+      "alt": "Playbook",
+      "naturalSize": {
+        "w": 1000,
+        "h": 556
+      },
+      "renderedSize": {
+        "w": 61,
+        "h": 34
+      },
+      "selector": "header > div > div:nth-of-type(1) > a > img",
+      "notes": "Stacked PLAY/BOOK wordmark, black on transparent. No SVG served; request vector from brand team."
+    },
+    "modules": [
+      {
+        "id": "faq",
+        "label": "FAQ Q/A list",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "items",
+            "type": "list<{question:text,answer:richtext}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-adobe-playbook-integration",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-ai-media-pipeline",
+            "selector": "h2:text(\"Developer FAQ\")"
+          },
+          {
+            "slug": "blog-best-air-alternatives-for-consumer-brands",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-best-air-alternatives-marketing-teams",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-brand-portal-api",
+            "selector": "h2:text(\"Developer FAQ\")"
+          },
+          {
+            "slug": "blog-client-approval-software-for-creative-teams",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-client-gallery-api",
+            "selector": "h2:text(\"Developer FAQ\")"
+          },
+          {
+            "slug": "blog-dam-vs-cms-vs-mam",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-digital-asset-marketplace-api",
+            "selector": "h2:text(\"Developer FAQ\")"
+          },
+          {
+            "slug": "blog-migrate-from-air-to-playbook",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-playbook-figma-plugin",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-playbook-integrations-you-didnt-know",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-playbook-vs-perforce",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-playbook-vs-simian",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-playbook-vs-wiredrive",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "blog-presentation-deck-api",
+            "selector": "h2:text(\"FAQ\")"
+          },
+          {
+            "slug": "blog-product-catalog-api",
+            "selector": "h2:text(\"Developer FAQ\")"
+          },
+          {
+            "slug": "blog-sales-catalog-api",
+            "selector": "h2:text(\"Developer FAQ\")"
+          },
+          {
+            "slug": "gifmaker",
+            "selector": "h4:text(\"How safe is my data?\")"
+          },
+          {
+            "slug": "gpt",
+            "selector": "h4:text(\"How safe is my data?\")"
+          },
+          {
+            "slug": "integrations-all",
+            "selector": "h4:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "logomaker",
+            "selector": "h4:text(\"How safe is my data?\")"
+          },
+          {
+            "slug": "mcp",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "pricing",
+            "selector": "h2:text(\"Frequently asked questions\")"
+          },
+          {
+            "slug": "sdk",
+            "selector": "h2:text(\"Frequently Asked Questions\")"
+          },
+          {
+            "slug": "vectorizer",
+            "selector": "h4:text(\"How safe is my data?\")"
+          },
+          {
+            "slug": "video-captions",
+            "selector": "h4:text(\"How safe is my data?\")"
+          },
+          {
+            "slug": "video-converter",
+            "selector": "h4:text(\"How safe is my data?\")"
+          },
+          {
+            "slug": "watermarks",
+            "selector": "h4:text(\"How safe is my data?\")"
+          }
+        ],
+        "signal": "headings[] (priority 1)",
+        "confidence": "high",
+        "status": "confirmed",
+        "candidateId": "candidate-faq-accordion",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      },
+      {
+        "id": "related-posts",
+        "label": "Read more / related posts",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards",
+            "type": "list<{image:image,title:text,link:link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-best-air-alternatives-creative-agencies",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-best-air-alternatives-marketing-teams",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-brand-portal-api",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-canopy",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-client-gallery-api",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-digital-asset-marketplace-api",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-playbook-figma-plugin",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-presentation-deck-api",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-product-catalog-api",
+            "selector": "h3:text(\"Read more\")"
+          },
+          {
+            "slug": "blog-sales-catalog-api",
+            "selector": "h3:text(\"Read more\")"
+          }
+        ],
+        "signal": "headings[] (priority 1)",
+        "confidence": "high",
+        "status": "confirmed",
+        "candidateId": "candidate-related-posts",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      },
+      {
+        "id": "cta-band",
+        "label": "Closing sign-up CTA band",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "subcopy",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": true,
+            "default": {
+              "label": "Start free",
+              "href": "/sign-up/"
+            }
+          }
+        ],
+        "instances": [
+          {
+            "slug": "freelancers",
+            "selector": "h3:text(\"The new way to manage files and folders\")"
+          },
+          {
+            "slug": "gifmaker",
+            "selector": "h4:text(\"It takes seconds to sign up and try.\")"
+          },
+          {
+            "slug": "large-file-sharing",
+            "selector": "h3:text(\"The new way to manage files and folders\")"
+          },
+          {
+            "slug": "logomaker",
+            "selector": "h4:text(\"It takes seconds to sign up and try.\")"
+          },
+          {
+            "slug": "product",
+            "selector": "h3:text(\"The new way to manage files and folders\")"
+          },
+          {
+            "slug": "teams",
+            "selector": "h3:text(\"The new way to manage files and folders. Get a demo.\")"
+          },
+          {
+            "slug": "vectorizer",
+            "selector": "h4:text(\"It takes seconds to sign up and try.\")"
+          },
+          {
+            "slug": "video-captions",
+            "selector": "h4:text(\"It takes seconds to sign up and try.\")"
+          },
+          {
+            "slug": "video-converter",
+            "selector": "h4:text(\"It takes seconds to sign up and try.\")"
+          },
+          {
+            "slug": "watermarks",
+            "selector": "h4:text(\"It takes seconds to sign up and try.\")"
+          }
+        ],
+        "signal": "headings[] (priority 1) + ctas[] (priority 2)",
+        "confidence": "high",
+        "status": "confirmed",
+        "candidateId": "candidate-closing-cta",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      },
+      {
+        "id": "tool-crosspromo",
+        "label": "Combine with other Playbook apps",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "tiles",
+            "type": "list<{icon:image,title:text,link:link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "brand-portal",
+            "selector": "h5:text(\"Explore more features\")"
+          },
+          {
+            "slug": "gifmaker",
+            "selector": "h4:text(\"Combine with other Playbook apps to boost productivity\")"
+          },
+          {
+            "slug": "logomaker",
+            "selector": "h4:text(\"Combine with other Playbook apps to boost productivity\")"
+          },
+          {
+            "slug": "photo-gallery",
+            "selector": "h5:text(\"Explore more features\")"
+          },
+          {
+            "slug": "teams",
+            "selector": "h5:text(\"Explore more features\")"
+          },
+          {
+            "slug": "video-captions",
+            "selector": "h4:text(\"Combine with other Playbook apps to boost productivity\")"
+          },
+          {
+            "slug": "video-converter",
+            "selector": "h4:text(\"Combine with other Playbook apps to boost productivity\")"
+          },
+          {
+            "slug": "watermarks",
+            "selector": "h4:text(\"Combine with other Playbook apps to boost productivity\")"
+          }
+        ],
+        "signal": "headings[] (priority 1)",
+        "confidence": "high",
+        "status": "confirmed",
+        "candidateId": "candidate-app-crosspromo",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      },
+      {
+        "id": "logo-marquee",
+        "label": "Customer logo marquee",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "logos",
+            "type": "list<image>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "contact",
+            "selector": "h5:text(\"Trusted by world-class brands & 2M+ creatives\")"
+          },
+          {
+            "slug": "customers",
+            "selector": "h5:text(\"Trusted by teams & 2M+ creatives\")"
+          },
+          {
+            "slug": "enterprise",
+            "selector": "h5:text(\"Trusted by world-class brands & 2M+ creatives\")"
+          },
+          {
+            "slug": "sdk",
+            "selector": "h2:text(\"Media Library Trusted by Creative Teams\")"
+          }
+        ],
+        "signal": "headings[] (priority 1)",
+        "confidence": "medium",
+        "status": "confirmed",
+        "candidateId": "candidate-logo-marquee",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      },
+      {
+        "id": "feature-grid",
+        "label": "Feature/capability grid",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "items",
+            "type": "list<{icon:image,title:text,body:text}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-ai-media-pipeline",
+            "selector": "h2:text(\"What powers it\")"
+          },
+          {
+            "slug": "blog-brand-portal-api",
+            "selector": "h2:text(\"What powers it\")"
+          },
+          {
+            "slug": "blog-digital-asset-marketplace-api",
+            "selector": "h2:text(\"What powers it\")"
+          },
+          {
+            "slug": "blog-product-catalog-api",
+            "selector": "h2:text(\"What powers it\")"
+          },
+          {
+            "slug": "blog-sales-catalog-api",
+            "selector": "h2:text(\"What powers it\")"
+          },
+          {
+            "slug": "brand-portal",
+            "selector": "h5:text(\"Explore more features\")"
+          },
+          {
+            "slug": "collaboration-editing",
+            "selector": "h2:text(\"Attach feedback to your assets right in Playbook with precis\")"
+          },
+          {
+            "slug": "features",
+            "selector": "h1:text(\"UnderstandPlaybook's core features\")"
+          },
+          {
+            "slug": "p-terms",
+            "selector": "h3:text(\"5.6 Use of AI and Automated Features\")"
+          },
+          {
+            "slug": "photo-gallery",
+            "selector": "h5:text(\"Explore more features\")"
+          },
+          {
+            "slug": "pricing",
+            "selector": "h2:text(\"Compare plans & features\")"
+          },
+          {
+            "slug": "sdk",
+            "selector": "h2:text(\"Pick your features\")"
+          },
+          {
+            "slug": "teams",
+            "selector": "h5:text(\"Explore more features\")"
+          }
+        ],
+        "signal": "headings[] (priority 1)",
+        "confidence": "high",
+        "status": "confirmed",
+        "candidateId": "candidate-feature-grid",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      },
+      {
+        "id": "comparison-table",
+        "label": "Competitor comparison",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "rows",
+            "type": "table",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-best-air-alternatives-creative-agencies",
+            "selector": "h1:text(\"Best Air Alternatives for Creative Agencies in 2026\")"
+          },
+          {
+            "slug": "blog-best-air-alternatives-for-consumer-brands",
+            "selector": "h1:text(\"Best Air Alternatives for Consumer Brands in 2026\")"
+          },
+          {
+            "slug": "blog-best-air-alternatives-marketing-teams",
+            "selector": "h1:text(\"Best Air Alternatives for Marketing Teams in 2026\")"
+          },
+          {
+            "slug": "blog-client-approval-software-for-creative-teams",
+            "selector": "h2:text(\"Quick comparison\")"
+          },
+          {
+            "slug": "blog-dam-vs-cms-vs-mam",
+            "selector": "h1:text(\"DAM vs CMS vs MAM: Which System Does Your Team Actually Need\")"
+          },
+          {
+            "slug": "blog-playbook-vs-perforce",
+            "selector": "h1:text(\"Playbook vs Perforce: The Best Perforce Alternative for Crea\")"
+          },
+          {
+            "slug": "blog-playbook-vs-simian",
+            "selector": "h1:text(\"Playbook vs Simian: The Best Simian Alternative for Ad Produ\")"
+          },
+          {
+            "slug": "blog-playbook-vs-wiredrive",
+            "selector": "h1:text(\"Playbook vs Wiredrive: The Best Wiredrive Alternative for Vi\")"
+          },
+          {
+            "slug": "blog",
+            "selector": "h3:text(\"Enterprise-Ready, and Actually Easy to Discover: Playbook vs\")"
+          },
+          {
+            "slug": "photo-gallery",
+            "selector": "h3:text(\"Looking for a Pixieset, Photoroom, AND Dropbox alternative? \")"
+          },
+          {
+            "slug": "sdk",
+            "selector": "h2:text(\"Build your own vs Playbook SDK\")"
+          },
+          {
+            "slug": "tutorial",
+            "selector": "h4:text(\"Archive vs. Delete\")"
+          }
+        ],
+        "signal": "headings[] (priority 1)",
+        "confidence": "high",
+        "status": "confirmed",
+        "candidateId": "candidate-comparison-table",
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+      }
+    ],
+    "colorReservations": [
+      {
+        "color": "linear-gradient spectrum (#6cb4ee→#ff6b35)",
+        "reservedFor": [
+          "motif:spectrum-band",
+          "module:feature-grid (card top edge)",
+          "hero illustration ground"
+        ]
+      },
+      {
+        "color": "#ff2753",
+        "reservedFor": [
+          "non-text marks",
+          "display type ≥44px"
+        ]
+      }
+    ],
+    "metadata": {
+      "siteName": "Playbook",
+      "defaultOgImage": "https://img.playbook.com/fmvB6-cO9Lo-p4MDIUJIxK5w2C6vuW7zo0yKgkliSII/s:1920:1080/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk3M2E3NmUx/LWUzMDMtNDg2Ny04/OGNiLThkMWIwNGY1/NjQxZA",
+      "themeColor": "#ffffff",
+      "organization": {
+        "@type": "Organization",
+        "name": "Playbook",
+        "url": "https://www.playbook.com/",
+        "logo": "https://www.playbook.com/favicon.ico",
+        "sameAs": [
+          "https://www.twitter.com/playbook_hq",
+          "https://www.instagram.com/playbook_hq",
+          "https://www.linkedin.com/company/playbook-hq"
+        ]
+      },
+      "locale": "en"
+    },
+    "iaPriorities": [
+      {
+        "signal": "commercial-conversion",
+        "evidence": "pages/index.json ctas Start Free → /sign-up/, Book a demo → /contact/; \"Get started for free\" on 54 pages",
+        "preserveAs": "first-viewport",
+        "scope": "site-wide",
+        "mutability": "movable"
+      },
+      {
+        "signal": "audience-routing",
+        "evidence": "Solutions mega-menu: Enterprise Marketing, Media & Entertainment, Creative Agency, Consumer Brands, Game Studios",
+        "preserveAs": "header-nav",
+        "scope": "site-wide",
+        "mutability": "movable"
+      },
+      {
+        "signal": "audience-routing",
+        "evidence": "API/SDK nav + /sdk /mcp /gpt pages (developer track)",
+        "preserveAs": "header-nav",
+        "scope": "site-wide",
+        "mutability": "movable"
+      }
+    ],
+    "divergence": {
+      "mode": "A (brand-faithful)",
+      "signal": "signal-strong",
+      "seed": {
+        "decade": {
+          "value": "2025-now",
+          "picked_by": "rolled"
+        },
+        "craft": {
+          "value": "product-UI photography",
+          "picked_by": "reasoned: captured hero imagery"
+        },
+        "register": {
+          "value": "modular catalogue",
+          "picked_by": "reasoned: bento + tabs on Astro pages"
+        },
+        "ground_family": {
+          "value": "stark-white",
+          "picked_by": "inherited",
+          "override": "brand-faithful"
+        }
+      },
+      "font_deck": {
+        "name": "brand-inherited",
+        "picked_by": "user-constraint"
+      },
+      "palette": {
+        "source": "inherited from _brand-extraction.json",
+        "picked_by": "user-constraint",
+        "roleRenames": {
+          "accent": "signal",
+          "accent-hover": "signal-deep",
+          "surface": "paper-deep",
+          "surface-soft": "paper",
+          "background": "canvas"
+        }
+      },
+      "brand_faithful_inversions": [
+        {
+          "what": "hex retention",
+          "why": "Mode A pins captured hex values; OKLCH conversion deferred to CSS custom props"
+        },
+        {
+          "what": "spectrum gradient kept but demoted from text fill to 4px band",
+          "why": "impeccable no-gradient-text rule vs signature preservation"
+        }
+      ],
+      "brand_adjacent_refinements": [
+        {
+          "what": "button fill #ff2753 → #e01f47",
+          "evidence": "contrast 3.71 → 4.71 (improvement #3)",
+          "classification": "same-hue, captured value (hover)"
+        },
+        {
+          "what": "weight 600 → 500",
+          "evidence": "600 file not published by brand; 500 is the heaviest served file",
+          "classification": "same family"
+        }
+      ],
+      "antiToolboxAudit": [
+        {
+          "hit": "Generic-2026-SaaS silhouette",
+          "decision": "guarded — bento 2+3 asymmetric, left-anchored hero"
+        },
+        {
+          "hit": "gradient text",
+          "decision": "removed"
+        }
+      ],
+      "references_used": []
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Start free / Create Playbook free",
+      "html": "<a class=\"ds-btn-primary\">Start Free</a>",
+      "css": ".ds-btn-primary{background:#ff2753;color:#fff;padding:12px 20px;border-radius:10px;font-weight:600}.ds-btn-primary:hover{background:#e01f47}.ds-btn-primary:focus-visible{outline:2px solid #292929;outline-offset:2px}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Schedule a demo",
+      "html": "<a class=\"ds-btn-dark\">Schedule a demo</a>",
+      "css": ".ds-btn-dark{background:#1a1a1a;color:#fff;padding:12px 20px;border-radius:10px;font-weight:600}.ds-btn-dark:hover{background:#262626}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Book a demo / Get started for free (outline)",
+      "html": "<a class=\"ds-btn-sec\">Book a demo</a>",
+      "css": ".ds-btn-sec{background:#fafafa;color:#434140;border:1px solid #dadbdf;padding:12px 20px;border-radius:10px;font-weight:600}.ds-btn-sec:hover{background:#efefef;border-color:#262626;color:#262626}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Competitor pill / tag",
+      "html": "<a class=\"ds-chip\">Playbook vs Air</a>",
+      "css": ".ds-chip{border:1px solid rgb(82 74 62/.16);border-radius:999px;padding:6px 14px;color:#434140;font-size:13px}.ds-chip:hover{background:rgb(82 74 62/.06);border-color:rgb(82 74 62/.28)}"
+    },
+    {
+      "name": "Bento Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Solution card: image + title + line",
+      "html": "<div class=\"ds-card\"><strong>Creative Agency</strong><p>Collaborate with clients.</p></div>",
+      "css": ".ds-card{background:#eee;border-radius:14px;padding:24px;transition:box-shadow .15s}.ds-card:hover{box-shadow:rgba(22,22,22,.1) 0 10px 30px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Show the files. One library, one chrome, one path to start.",
+    "overview": "Brand-faithful refresh of Playbook for AEM EDS.",
+    "keyCharacteristics": [
+      "charcoal on white",
+      "one hot signal",
+      "spectrum as signature band",
+      "one grotesk, 1.25 scale",
+      "product imagery as colour"
+    ],
+    "rules": [
+      "Two CTA labels site-wide",
+      "No gradient text",
+      "One signal per band"
+    ],
+    "dos": [
+      "Real product imagery in every hero"
+    ],
+    "donts": [
+      "AktivGrotesk",
+      "#599ffe",
+      "white on #ff2753"
+    ]
+  }
+}

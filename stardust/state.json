@@ -39,7 +39,13 @@
       "note": "Hands-off roster assumption — see stardust/direction.md"
     }
   },
-  "direction": null,
+  "direction": {
+    "resolvedAt": "2026-09-29T06:18:34.248Z",
+    "phrase": "Migrate playbook.com to AEM Edge Delivery with a brand-faithful refresh (hands-off; derived from \"fresh stardust migration\")",
+    "directionFile": "stardust/direction.md",
+    "mode": "A",
+    "variantMode": "single"
+  },
   "handsOff": true,
   "flow": "redesign",
   "flowChosenAt": "2026-09-28T15:20:00+05:30",
@@ -50,11 +56,16 @@
       "url": "https://www.playbook.com/about-us/",
       "title": "Playbook Team",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:41.537Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -68,11 +79,16 @@
       "url": "https://www.playbook.com/blog/adobe-playbook-integration/",
       "title": "Adobe and Playbook Integration: Sync Your Adobe Files Without Manual Export",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:09.851Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -86,11 +102,16 @@
       "url": "https://www.playbook.com/blog/ai-media-pipeline/",
       "title": "The AI Media Pipeline That Files Itself",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:15.875Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -104,11 +125,16 @@
       "url": "https://www.playbook.com/blog/best-air-alternatives-creative-agencies/",
       "title": "Best Air Alternatives for Creative Agencies in 2026",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:12.994Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -122,11 +148,16 @@
       "url": "https://www.playbook.com/blog/best-air-alternatives-for-consumer-brands/",
       "title": "Best Air Alternatives for Consumer Brands in 2026",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:13.599Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -140,11 +171,16 @@
       "url": "https://www.playbook.com/blog/best-air-alternatives-marketing-teams/",
       "title": "Best Air Alternatives for Marketing Teams in 2026",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:12.994Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -158,11 +194,16 @@
       "url": "https://www.playbook.com/blog/brand-portal-api/",
       "title": "Your Brand Portal Should Be an API Call",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:19.030Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -176,11 +217,16 @@
       "url": "https://www.playbook.com/blog/canopy/",
       "title": "How Canopy built a content pipeline that runs itself on Playbook",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:03.829Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -194,11 +240,16 @@
       "url": "https://www.playbook.com/blog/client-approval-software-for-creative-teams/",
       "title": "Client Approval Software for Creative Teams in 2026",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:00.449Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -212,11 +263,16 @@
       "url": "https://www.playbook.com/blog/client-gallery-api/",
       "title": "Client Gallery API: Spin Up Branded, Permissioned Galleries From Your App",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:19.030Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -230,11 +286,16 @@
       "url": "https://www.playbook.com/blog/dam-vs-cms-vs-mam/",
       "title": "DAM vs CMS vs MAM: Which System Does Your Team Actually Need?",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:00.449Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -248,11 +309,16 @@
       "url": "https://www.playbook.com/blog/digital-asset-marketplace-api/",
       "title": "Your Digital Asset Marketplace API Is Already Built",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:15.875Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -266,11 +332,16 @@
       "url": "https://www.playbook.com/blog/migrate-from-air-to-playbook/",
       "title": "How to Migrate from Air to Playbook",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:15.875Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -284,11 +355,16 @@
       "url": "https://www.playbook.com/blog/playbook-figma-plugin/",
       "title": "How to Pull Files From Playbook Into Figma With the Plugin",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:06.540Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -302,11 +378,16 @@
       "url": "https://www.playbook.com/blog/playbook-integrations-you-didnt-know/",
       "title": "9 Playbook Integrations You Probably Didn't Know About",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:06.541Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -320,11 +401,16 @@
       "url": "https://www.playbook.com/blog/playbook-vs-perforce/",
       "title": "Playbook vs Perforce: The Best Perforce Alternative for Creative Asset Version Control (2026)",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:00.449Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -338,11 +424,16 @@
       "url": "https://www.playbook.com/blog/playbook-vs-simian/",
       "title": "Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:03.832Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -356,11 +447,16 @@
       "url": "https://www.playbook.com/blog/playbook-vs-wiredrive/",
       "title": "Playbook vs Wiredrive: The Best Wiredrive Alternative for Video Review Teams (2026)",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:03.829Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -374,11 +470,16 @@
       "url": "https://www.playbook.com/blog/presentation-deck-api/",
       "title": "Your Pitch Deck Ships Stale. This Presentation Deck API Doesn't.",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:06.541Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -392,11 +493,16 @@
       "url": "https://www.playbook.com/blog/product-catalog-api/",
       "title": "Product Catalog API: One Source of Truth for Every Product Image",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:09.851Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -410,11 +516,16 @@
       "url": "https://www.playbook.com/blog/sales-catalog-api/",
       "title": "Ship a Sales Catalog API, Not Another Stale Shared Drive",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:09.851Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -428,11 +539,16 @@
       "url": "https://www.playbook.com/blog/",
       "title": "Playbook (Page 1)",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:57.171Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -446,11 +562,16 @@
       "url": "https://www.playbook.com/brand-portal/",
       "title": "Professional brand portals with free templates",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:47.908Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -464,11 +585,16 @@
       "url": "https://www.playbook.com/collaboration-editing/",
       "title": "Creative Collaboration & Editing — Annotation, Video Comments | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:31.529Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -482,11 +608,16 @@
       "url": "https://www.playbook.com/consumer-brands/",
       "title": "End-to-End Workflow Management for Consumer Goods | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:30.467Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -500,11 +631,16 @@
       "url": "https://www.playbook.com/contact/",
       "title": "Schedule your demo",
       "type": "form",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:41.896Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -518,11 +654,16 @@
       "url": "https://www.playbook.com/creative-agency/",
       "title": "Creative Agency Asset Management & Client Delivery | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:28.991Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -536,11 +677,16 @@
       "url": "https://www.playbook.com/customers/",
       "title": "Customer Stories — Brands & Agencies on Playbook",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:38.998Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -554,11 +700,16 @@
       "url": "https://www.playbook.com/desktop/",
       "title": "Playbook Desktop App | Sync & Access Creative Files Offline",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:32.852Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -572,11 +723,16 @@
       "url": "https://www.playbook.com/enterprise/",
       "title": "Enterprise Digital Asset Management for Creative Teams | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:27.180Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -590,11 +746,16 @@
       "url": "https://www.playbook.com/features/",
       "title": "Features | Streamline your creative workflow",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:42.687Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -608,11 +769,16 @@
       "url": "https://www.playbook.com/freelancers/",
       "title": "Professional freelancers",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:47.048Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -626,11 +792,16 @@
       "url": "https://www.playbook.com/games/",
       "title": "AI-Native DAM for Game Studios | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:35.085Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -644,11 +815,16 @@
       "url": "https://www.playbook.com/gifmaker/",
       "title": "GIF Maker: Transform moments into motion on Playbook",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:55.766Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -662,11 +838,16 @@
       "url": "https://www.playbook.com/gpt/",
       "title": "AI-Powered Creative Search | Find Any Asset Instantly | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:35.571Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -680,11 +861,16 @@
       "url": "https://www.playbook.com/",
       "title": "Playbook | Your all-in-one media management solution",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:23.734Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -698,11 +884,16 @@
       "url": "https://www.playbook.com/integrations-all/",
       "title": "All tools & integrations",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:43.411Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -716,11 +907,16 @@
       "url": "https://www.playbook.com/large-file-sharing/",
       "title": "Large File Sharing for Creative Teams | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:47.907Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -734,11 +930,16 @@
       "url": "https://www.playbook.com/logomaker/",
       "title": "Logo Maker: Create custom logos with Playbook x Picsart",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:56.047Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -752,11 +953,16 @@
       "url": "https://www.playbook.com/mcp/",
       "title": "MCP Server for Creative Teams | Connect Playbook to Your AI Tools",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:35.352Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -770,11 +976,16 @@
       "url": "https://www.playbook.com/media-and-entertainment/",
       "title": "DAM & Media Library for Production Teams | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:28.992Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -788,11 +999,16 @@
       "url": "https://www.playbook.com/p/privacy/",
       "title": "Playbook Privacy Policy",
       "type": "static",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:33.680Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -806,11 +1022,16 @@
       "url": "https://www.playbook.com/p/terms/",
       "title": "Terms of Service — Playbook Creative Storage",
       "type": "static",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:33.682Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -824,11 +1045,16 @@
       "url": "https://www.playbook.com/photo-gallery/",
       "title": "Playbook for Photographers - Free Portfolio Templates",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:50.210Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -842,11 +1068,16 @@
       "url": "https://www.playbook.com/pricing/",
       "title": "Pricing — Plans for Creatives, Teams & Enterprise | Playbook",
       "type": "unique",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:24.230Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -860,11 +1091,16 @@
       "url": "https://www.playbook.com/product/",
       "title": "Playbook | Your go-to creative management solution",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:24.917Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -878,11 +1114,16 @@
       "url": "https://www.playbook.com/publish/",
       "title": "Playbook Publish",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:49.747Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -896,11 +1137,16 @@
       "url": "https://www.playbook.com/sdk/",
       "title": "Enterprise SDK — A Media Library That Scales With You | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:36.819Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -914,11 +1160,16 @@
       "url": "https://www.playbook.com/smarter-storage/",
       "title": "Smarter Storage — A Visual Workspace Beyond Folders | Playbook",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:37.738Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -932,11 +1183,16 @@
       "url": "https://www.playbook.com/teams/",
       "title": "Design Teams",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:44.706Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -950,11 +1206,16 @@
       "url": "https://www.playbook.com/the-story-of-playbook/",
       "title": "The Story of Playbook — Why We Built It",
       "type": "static",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:41.835Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -968,11 +1229,16 @@
       "url": "https://www.playbook.com/tutorial/api-mcp/",
       "title": "API & MCP",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:30.371Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -986,11 +1252,16 @@
       "url": "https://www.playbook.com/tutorial/board-rules/",
       "title": "Board rules",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:27.457Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1004,11 +1275,16 @@
       "url": "https://www.playbook.com/tutorial/create-a-board/",
       "title": "How to create & use boards",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:21.775Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1022,11 +1298,16 @@
       "url": "https://www.playbook.com/tutorial/figma/",
       "title": "Figma",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:27.457Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1040,11 +1321,16 @@
       "url": "https://www.playbook.com/tutorial/getting-started/",
       "title": "Start here",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:21.776Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1058,11 +1344,16 @@
       "url": "https://www.playbook.com/tutorial/how-to-upload/",
       "title": "How to upload",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:24.903Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1076,11 +1367,16 @@
       "url": "https://www.playbook.com/tutorial/mobile-app/",
       "title": "Mobile app",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:30.510Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1094,11 +1390,16 @@
       "url": "https://www.playbook.com/tutorial/search-discovery/",
       "title": "Search & discovery",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:25.189Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1112,11 +1413,16 @@
       "url": "https://www.playbook.com/tutorial/share-first-link/",
       "title": "Share your first link",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:24.903Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1130,11 +1436,16 @@
       "url": "https://www.playbook.com/tutorial/slack/",
       "title": "Slack",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:27.456Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1148,11 +1459,16 @@
       "url": "https://www.playbook.com/tutorial/what-is-playbook/",
       "title": "What is Playbook?",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:21.775Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1166,11 +1482,16 @@
       "url": "https://www.playbook.com/tutorial/working-with-video/",
       "title": "Searching with video",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:30.693Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1184,11 +1505,16 @@
       "url": "https://www.playbook.com/tutorial/",
       "title": "Tutorials, Help, and Support for Playbook",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:02:19.567Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1202,11 +1528,16 @@
       "url": "https://www.playbook.com/vectorizer/",
       "title": "Free Online Vectorizer — Convert PNG/JPG to SVG",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:53.460Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1220,11 +1551,16 @@
       "url": "https://www.playbook.com/video-captions/",
       "title": "Video Captions",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:53.732Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1238,11 +1574,16 @@
       "url": "https://www.playbook.com/video-converter/",
       "title": "Video Converter",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:53.134Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
@@ -1256,11 +1597,16 @@
       "url": "https://www.playbook.com/watermarks/",
       "title": "Playbook Watermark Editor: Add text and image watermarks",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-28T10:01:50.446Z"
+        },
+        {
+          "to": "directed",
+          "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
