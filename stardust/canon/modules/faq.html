@@ -1,0 +1,11 @@
+<!-- stardust:canon source: blog-brand-portal-api prototype: stardust/prototypes/blog-brand-portal-api-proposed.html region: module:faq extractedAt: 2026-09-29T06:59:19.362Z -->
+<section class="pb-faq-module" data-section="developer-faq" data-intent="answer objections" data-layout="stack" data-items="4" data-module="faq" data-interactive="accordion">
+        <h2 id="developer-faq">Developer FAQ</h2>
+        <div class="pb-faq" data-slot="items">
+          <details><summary>Does a Playbook brand portal stay in sync automatically?</summary><div class="pb-faq__answer"><p>Yes. The published board and its embed read from the same source. When you add, replace, or remove an asset on the board, the portal and every iframe update on their own. The embed refreshes a short-lived token behind the scenes, so you never re-embed anything.</p></div></details>
+          <details><summary>Which endpoint returns only approved assets?</summary><div class="pb-faq__answer"><p>Call <code>GET /v1/{ORG}/search</code> with <code>filters[fields][Approval Status]=Approved</code>. Approval Status is a custom field you define, so "cleared for distribution" means exactly what your brand team decides. Anything not approved never enters the portal.</p></div></details>
+          <details><summary>What plan do I need for API access?</summary><div class="pb-faq__answer"><p>At the time of writing, Playbook exposes its REST API on paid plans, with SDK access and the largest monthly call volumes on Business and Enterprise. Tiers and limits change, so confirm on the current <a href="https://www.playbook.com/pricing/">pricing page</a> before you build.</p></div></details>
+          <details><summary>Can external partners pull assets without an account?</summary><div class="pb-faq__answer"><p>Yes. Publish the board and anyone with the link opens the gallery, no login. For your own site, list assets through the API and serve the <code>display_url</code> or <code>raw_url</code>. Scope one token per partner so you can revoke a single integration cleanly.</p></div></details>
+        </div>
+        <p><strong>Your brand should ship itself. Build the portal once, then let the API keep it current.</strong> Schedule a demo at <a href="https://www.playbook.com/contact">playbook.com/contact</a>.</p>
+      </section>

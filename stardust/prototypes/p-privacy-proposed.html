@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+  writtenBy:        stardust:prototype (hands-off archetype render)
+  writtenAt:        2026-09-29T12:17:39.065+05:30
+  page:             p-privacy
+  pageUrl:          https://www.playbook.com/p/privacy/
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  shapeBrief:       stardust/prototypes/p-privacy-shape.md
+  sourceRecord:     stardust/current/pages/p-privacy.json + p-privacy.html
+  mode:             A (brand-faithful)
+  surpriseTier:     low
+  fidelity:         quick
+  dominantDimension: composition/legal-readable-column
+  template:         static
+  legalPageDecision: "No cta-band rendered; legal pages should end with policy text and canonical footer only."
+  signatureElements: []
+  unsourcedContent: []
+  capturedSourceLineage:
+    - "header — site-wide canon from stardust/canon/header.html"
+    - "legal-hero — captured article header in p-privacy.html (post-eyebrow + h1)"
+    - "policy-body — captured DOM p-privacy.html #post-toc-content (all headings, paragraphs, lists)"
+    - "toc — captured H2 anchors from p-privacy.html .post-toc-list"
+    - "footer — site-wide canon from stardust/canon/footer.html"
+  antiTemplatePass:
+    - pattern: "legal page body"
+      defaultReflex: "generic centered legal wall with no navigation"
+      alternatives: ["single prose column only", "prose with sticky captured-H2 table of contents", "multi-card policy chunks"]
+      picked: "prose with sticky captured-H2 table of contents"
+      rationale: "The captured source already provides a TOC; the brief requests a readable ~72ch prose column and allows the captured H2 TOC at wide viewports."
+    - pattern: "conversion footer"
+      defaultReflex: "append cta-band after every page"
+      alternatives: ["cta-band", "legal text ends directly into canonical footer", "related policy links"]
+      picked: "legal text ends directly into canonical footer"
+      rationale: "User explicitly said no cta-band needed on legal pages; no related-policy module was captured in the policy body."
+  substrateTransitions:
+    default: "canvas"
+    exceptions:
+      - { section: "policy-body", substrate: "paper rail", citation: "DESIGN.md editorial article pattern + captured Ghost TOC sidebar" }
+  voiceClassification:
+    - { section: "header", classification: "canon-verbatim", source: "stardust/canon/header.html" }
+    - { section: "legal-hero", classification: "captured-verbatim", source: "p-privacy.html article header" }
+    - { section: "policy-body", classification: "captured-verbatim", source: "p-privacy.html #post-toc-content" }
+    - { section: "toc", classification: "captured-verbatim", source: "p-privacy.html .post-toc-list H2 labels" }
+    - { section: "footer", classification: "canon-verbatim", source: "stardust/canon/footer.html" }
+  gateResults:
+    critique: { P0: 0, P1: 0, P2: 0, P3: 0 }
+    audit: { P0: 0, P1: 0, P2: 0, P3: 1, detectorWarnings: 1 }
+    adapt: { P0: 0, P1: 0, P2: 0, P3: 0 }
+  critique:
+    - { priority: "pass", category: "vision", note: "Compared 480px thumbnails of captured and proposed 1440 renders; policy remains a legal reading page, preserves H2 TOC, improves readability with canonical Playbook chrome and a 72ch prose card." }
+  audit:
+    - { priority: "P1", category: "contrast", status: "fixed", note: "Scoped global hover styles so primary buttons and dark footer links keep AA contrast." }
+    - { priority: "P3", category: "detector", status: "dismissed", note: "impeccable detect flags canonical .pb-logo-marquee__track marquee CSS pasted from canon.css; no logo-marquee element is rendered on this legal page." }
+    - { priority: "pass", category: "content", note: "Source #post-toc-content innerHTML preserved byte-for-byte inside the policy article (31072 chars); one H1; 17 captured H2s; no placeholders." }
+  adapt:
+    - { timestamp: "2026-09-29T12:17:39.065+05:30", breakpoints: [360,414,800,1280,1920], navCollapse: "hamburger (canon)", status: "mobile-nav-audit pass at 360px; overflow clean at 360/414/800/1280/1920; TOC visible at ≥1280 and hidden below 1200." }
+  fixesApplied:
+    - "Scoped hover color so footer and primary CTA hover states remain AA."
+    - "Added overflow-wrap:anywhere to policy headings, list text and long inline URL anchors."
+    - "Removed the raw HTML provenance comment from pasted canon.css so CSS parses consistently; chrome HTML provenance comments remain stripped per brief."
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playbook Privacy Policy</title>
+<meta name="description" content="Read Playbook&#x27;s Privacy Policy: what data we collect, how we use and protect it, and the choices you have over your personal information.">
+<link rel="icon" href="assets/favicon.ico">
+<style>
+
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+
+/* compound CSS lifted from index */
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; }
+.pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: pbMarquee 42s linear infinite; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.18; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+.pb-button--primary:hover { color: #fff; }
+.pb-button--secondary:hover { color: var(--color-ink-strong); }
+.pb-footer a:hover { color: #fff; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+::selection { background: rgb(255 39 83 / .16); color: var(--color-ink-strong); }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; color: var(--color-ink-strong); text-wrap: balance; }
+h1 { margin-bottom: 0; font-size: clamp(2.75rem, 6vw, var(--heading-xxl)); letter-spacing: -.035em; }
+h2 { margin: 3.1rem 0 1rem; font-size: clamp(1.7rem, 3.2vw, var(--heading-lg)); letter-spacing: -.02em; scroll-margin-top: 104px; }
+h3 { margin: 2rem 0 .75rem; font-size: clamp(1.25rem, 2vw, var(--heading-md)); letter-spacing: -.015em; scroll-margin-top: 104px; }
+p { margin-bottom: 1.05rem; text-wrap: pretty; }
+main[data-template="static"] { background: linear-gradient(180deg, #fff 0, #fff 360px, var(--color-paper) 360px, var(--color-paper) 100%); }
+.pb-legal-hero { padding: clamp(48px, 8vw, 88px) 0 30px; }
+.pb-legal-hero__inner { max-width: 820px; }
+.pb-legal-date { display: inline-flex; margin: 0 0 18px; color: var(--color-signal-deep); font-size: var(--body-sm); font-weight: 500; letter-spacing: .075em; text-transform: uppercase; }
+.pb-legal-dek { max-width: 64ch; margin: 18px 0 0; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-legal-shell { padding: 24px 0 var(--section-padding); }
+.pb-legal-grid { display: grid; grid-template-columns: minmax(0, 248px) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
+.pb-legal-toc { position: sticky; top: 104px; max-height: calc(100vh - 128px); overflow: auto; padding: 18px; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: rgb(255 255 255 / .86); box-shadow: 0 10px 24px rgb(60 60 60 / .05); }
+.pb-legal-toc__label { display: block; margin-bottom: 12px; color: var(--color-muted); font-size: 13px; font-weight: 500; letter-spacing: .075em; text-transform: uppercase; }
+.pb-legal-toc ol { display: grid; gap: 7px; list-style: none; margin: 0; padding: 0; }
+.pb-legal-toc a { display: block; padding: 4px 0; color: var(--color-ink-soft); font-size: 13px; line-height: 1.35; text-decoration: none; }
+.pb-legal-toc a:hover { color: var(--color-signal-deep); }
+.pb-policy { min-width: 0; max-width: 72ch; padding: clamp(26px, 4vw, 46px); border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); }
+.pb-policy > :first-child { margin-top: 0; }
+.pb-policy > :last-child { margin-bottom: 0; }
+.pb-policy strong { font-weight: 500; color: var(--color-ink-strong); }
+.pb-policy h2, .pb-policy h3, .pb-policy p, .pb-policy li, .pb-policy a, .pb-policy strong { overflow-wrap: anywhere; }
+.pb-policy ul, .pb-policy ol { margin: 0 0 1.2rem; padding-left: 1.25rem; }
+.pb-policy li { margin: .45rem 0; padding-left: .15rem; }
+.pb-policy li::marker { color: var(--color-signal-deep); }
+.pb-policy a { color: var(--color-ink-strong); text-decoration-color: rgb(224 31 71 / .45); }
+.pb-policy a:hover { color: var(--color-signal-deep); text-decoration-color: currentColor; }
+.pb-policy table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 16px; }
+.pb-policy th, .pb-policy td { padding: 12px; border: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+.pb-policy th { background: var(--color-paper); font-weight: 500; }
+@media (max-width: 1200px) { .pb-legal-grid { grid-template-columns: 1fr; } .pb-legal-toc { display: none; } }
+@media (max-width: 760px) { main[data-template="static"] { background: var(--color-paper); } .pb-legal-hero { padding-top: 40px; } .pb-policy { max-width: none; padding: 22px; } .pb-policy h2 { font-size: 28px; } .pb-policy h3 { font-size: 22px; } }
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 28px; } .pb-legal-date { font-size: 12px; } }
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon="">
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="/" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="/product/">Product</a>
+      <a href="/sdk/">API &amp; SDK</a>
+      <a href="/enterprise/">Solutions</a>
+      <a href="/blog/">Resources</a>
+      <a href="/pricing/">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="/contact/">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+<main id="main" data-template="static">
+  <section class="pb-legal-hero" data-section="legal-hero" data-intent="orient reader" data-layout="contained" data-module="static-hero">
+    <div class="wrap pb-legal-hero__inner">
+      <span class="pb-legal-date" data-slot="date">August 16, 2021</span>
+      <h1 data-slot="headline">Privacy Policy</h1>
+      <p class="pb-legal-dek" data-slot="lede">Read Playbook&#x27;s Privacy Policy: what data we collect, how we use and protect it, and the choices you have over your personal information.</p>
+    </div>
+  </section>
+  <section class="pb-legal-shell" data-section="policy-body" data-intent="legal disclosure" data-layout="side-rail" data-items="17">
+    <div class="wrap pb-legal-grid">
+      <aside class="pb-legal-toc" data-section="policy-toc" data-intent="navigate policy" data-layout="side-rail" data-items="17" aria-label="On this page">
+        <span class="pb-legal-toc__label">On this page</span>
+        <ol>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#scope">SCOPE</a></li>
+              <li><a href="#personal-information-we-collect">PERSONAL INFORMATION WE COLLECT</a></li>
+              <li><a href="#how-we-use-your-information">HOW WE USE YOUR INFORMATION</a></li>
+              <li><a href="#disclosing-your-information-to-third-parties">DISCLOSING YOUR INFORMATION TO THIRD PARTIES</a></li>
+              <li><a href="#international-data-transfers">INTERNATIONAL DATA TRANSFERS</a></li>
+              <li><a href="#your-choices">YOUR CHOICES</a></li>
+              <li><a href="#your-privacy-rights">YOUR PRIVACY RIGHTS</a></li>
+              <li><a href="#your-right-to-be-forgotten">YOUR RIGHT TO BE FORGOTTEN</a></li>
+              <li><a href="#data-retention">DATA RETENTION</a></li>
+              <li><a href="#data-responsibility-with-ai-models">DATA RESPONSIBILITY WITH AI MODELS</a></li>
+              <li><a href="#security-of-your-information">SECURITY OF YOUR INFORMATION</a></li>
+              <li><a href="#third-party-websitesapplications">THIRD PARTY WEBSITES/APPLICATIONS</a></li>
+              <li><a href="#children%E2%80%99s-information">CHILDREN’S INFORMATION</a></li>
+              <li><a href="#supervisory-authority">SUPERVISORY AUTHORITY</a></li>
+              <li><a href="#changes-to-our-privacy-policy">CHANGES TO OUR PRIVACY POLICY</a></li>
+              <li><a href="#contact-us">CONTACT US</a></li>
+        </ol>
+      </aside>
+      <article class="pb-policy" data-slot="policy-copy">
+        <p><strong>Effective Date:</strong> August 16, 2021</p><p><strong>Updated Date: </strong>April 2, 2024</p><h2 id="about"><strong>ABOUT</strong></h2><p>This Privacy Policy relates to Playbook Digital, Inc. and its affiliates (“<strong>Playbook</strong>,” “<strong>we</strong>,” “<strong>us</strong>,” and “<strong>our</strong>”).</p><p>This Privacy Policy is designed to help you understand how we collect, use and share your personal information and to assist you in exercising the privacy rights available to you.</p><h2 id="scope"><strong>SCOPE</strong></h2><p>This Privacy Policy applies to personal information processed by us in our business, including on our websites (e.g., playbook.com and any other websites that we own or operate), our mobile applications, our application program interface(s), our services, and our related online and offline offerings (collectively, the “<strong>Services</strong>”).</p><p>This Privacy Policy does not apply to any third-party websites, services or applications, even if they are accessible through our Services. In addition, capitalized terms not defined in this Privacy Policy will have the meaning set forth in our <a href="https://www.playbook.com/p/terms/">Terms of Service</a>.</p><p>Please note that if you use the Services on behalf of an organization (e.g., your employer), Playbook’s use of your personal information may be governed by the agreement we have with that organization. However, we will still process your information consistent with this Privacy Policy.</p><h2 id="personal-information-we-collect"><strong>PERSONAL INFORMATION WE COLLECT</strong></h2><p>The categories of personal information we collect depend on how you interact with our Services.</p><h3 id="information-you-provide-to-us"><strong>Information You Provide to Us</strong></h3><p><strong>Account Information.</strong> When you create an Account, we will collect personal information, such as your name, email address, personal website, and picture.</p><p><strong>Payment Information.</strong> We may sell services or merchandise through our Services. When you make purchases through the Services, we may process your payments through a third-party application, such as the Apple App Store, Google Play App Store, Amazon App Store, social networking sites such as Facebook, and/or payment processing services such as Stripe. The third-party application may collect certain financial information from you to process a payment on behalf of Playbook, including your name, email address, address, payment card information, and other billing information. Playbook does not store or receive your payment information, but it may store and receive information associated with your payment information (e.g., your billing details).</p><p><strong>Your Communications with Us.</strong> We collect personal information from you such as email address, phone number, or mailing address when you request information about our Services, register for our newsletter, or otherwise communicate with us.</p><p><strong>Surveys.</strong> We may contact you to participate in surveys. If you decide to participate, you may be asked to provide certain information, which may include personal information.</p><p><strong>Interactive Features.</strong> We may offer interactive features such as collaboration tools, tagging functionalities, forums, blogs, social media pages and the ability to react, follow, observe in real-time and comment on users’ content. We, and others who use our Services, may collect the information you submit or make available through these interactive features. Any content you provide on the public sections of these features will be considered “public” and is not subject to the privacy protections referenced herein. By using these interactive features, you assume the risk that the personal information provided by you may be viewed and used by third parties for their own purposes.</p><p><strong>Customer Service, Training and Quality Assurance.</strong> If you call or otherwise interact with Playbook’s customer service and support, we may collect the information you provide to our representatives. In addition, we may record telephone calls or video conferences between you and our representatives for training or quality assurance purposes.</p><p><strong>Registration for Sweepstakes or Contests.</strong> We may run sweepstakes and contests. Contact information you provide may be used to reach you about the sweepstakes or contest and for other promotional, marketing and business purposes, if permitted by law. In some jurisdictions, we are required to publicly share information about the winners.</p><p><strong>Meetups, Conferences, Trade Shows, and Other Events.</strong> We may host or attend meetups, conferences, trade shows, and other events where we collect personal information from individuals who interact with or express an interest in Playbook and/or the Services. If we collect your information at one of these events, we will use it for the purposes for which it was collected.</p><p><strong>Business Development and Strategic Partnerships.</strong> We may collect personal information from individuals and third parties to assess and pursue potential business opportunities.</p><p><strong>Job Applications.</strong> We may post job openings and opportunities on the Services. If you reply to one of these postings by submitting your application, CV and/or cover letter to us, we will collect and process the information contained therein to assess your suitability, aptitude, skills, and qualifications for employment with Playbook.</p><h3 id="information-collected-automatically"><strong>Information Collected Automatically</strong></h3><p><strong>Automatic Data Collection.</strong> We may collect certain information automatically when you use the Services. This information may include your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile advertising and other unique identifiers, details about your browser, operating system or device, location information (including inferred location based off of your IP address), Internet service provider, pages that you visit before, during and after using the Services, information about the links you click, and information about how you interact with and use the Services.</p><p>We may use a visitor’s IP address to ﬁght spam, malware and identity theft. With your permission, we may also collect information about your operating system’s installed fonts in connection with providing the Services to you. Combined with other system information, this information could be used to give your computer a unique ﬁngerprint/signature and enable us to track your usage of our Services after you log out.</p><p><strong>Cookies, Pixel Tags/Web Beacons, and Analytics Information.</strong> We, as well as third parties that may provide content, advertising, or other functionality on the Services, may use cookies, pixel tags, local storage, and other technologies (“<strong>Technologies</strong>”) to automatically collect information through the Services. Technologies are essentially small data files placed on your device that allow us and our partners to record certain pieces of information whenever you visit or interact with our Services.</p><ul><li><strong>Cookies.</strong> Cookies are small text files placed in device browsers to store their preferences. Most browsers allow you to block and delete cookies. However, if you do that, the Services may not work properly.</li><li><strong>Pixel Tags/Web Beacons.</strong> A pixel tag (also known as a web beacon) is a piece of code embedded in the Services that collects information about engagement on the Services. The use of a pixel tag allows us to record, for example, that a user has visited a particular web page or clicked on a particular advertisement. We may also include web beacons in e-mails to understand whether messages have been opened, acted on, or forwarded.</li></ul><p><strong>Analytics.</strong> We may also use Google Analytics and other service providers to collect and process analytics information on our Services. For more information about how Google uses data, please visit <a href="https://www.google.com/policies/privacy/partners/">www.google.com/policies/privacy/partners/</a>. You can opt out of Google Analytics’ collection and processing of data generated by your use of our website by going to <a href="https://tools.google.com/dlpage/gaoptout">http://tools.google.com/dlpage/gaoptout</a>.</p><h3 id="information-from-other-sources"><strong>Information from Other Sources</strong></h3><p><strong>Playbook Customers.</strong> If you use our Services on behalf of an organization (e.g., your employer), that organization may provide us with information about you so that we can provision your account.</p><p><strong>Third Party Services and Organizations.</strong> We may obtain information about you from other sources, including from third party services and organizations. For example, if you access our Services through a third-party service, we may collect information about you from that third-party service that you have made available via your privacy settings.</p><h2 id="how-we-use-your-information"><strong>HOW WE USE YOUR INFORMATION</strong></h2><p>We use your personal information for a variety of business purposes, including:</p><p><strong>To Provide the Services or Information Requested, such as:</strong></p><ul><li>Fulfilling our contract with you or the organization on whose behalf you use the Services;</li><li>Managing your information and Account;</li><li>Responding to questions, comments, and other requests;</li><li>Processing payment card and/or other financial information to facilitate your use of the Services;</li><li>Providing access to certain areas, functionalities, and features of our Services;</li><li>Answering requests for customer or technical support; and</li><li>Allowing you to register for events.</li></ul><p><strong>Administrative Purposes, such as:</strong></p><ul><li>Pursuing legitimate interests, such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention;</li><li>Measuring interest and engagement in our Services;</li><li>Improving the Services;</li><li>Developing new products and services;</li><li>Ensuring internal quality control and safety;</li><li>Authenticating and verifying individual identities;</li><li>Carrying out audits;</li><li>Communicating with you about your account, activities on our Services and Privacy Policy changes;</li><li>Preventing and prosecuting potentially prohibited or illegal activities;</li><li>Enforcing our agreements; and</li><li>Complying with our legal obligations.</li></ul><p><strong>Marketing Our Products and Services</strong>. We may use personal information to tailor and provide you with content and advertisements. We may provide you with these materials as permitted by applicable law</p><p>If you have any questions about our marketing practices or if you would like to opt out of the use of your personal information for marketing purposes, you may contact us at any time as set forth below.</p><p><strong>Consent.</strong> We may use personal information for other purposes that are clearly disclosed to you at the time you provide personal information or with your consent.</p><p><strong>De-identified and Aggregated Information Use.</strong> We may use personal information and other data about you to create de-identified and/or aggregated information, such as de-identified demographic information, de-identified location information, information about the device from which you access our Services, or other analyses we create. De-identified and/or aggregated information is not personal information, and we may use and disclose such information in a number of ways, including research, industry analysis, analytics, and any other legally permissible purposes.</p><p><strong>Share Content with Friends or Colleagues.</strong> Our Services may offer various tools and functionalities that allow you to share content. For example, we may allow you to provide information about your friends through our referral services. Our referral services may allow you to forward or share certain content with a friend or colleague, such as an email inviting your friend to use our Services.</p><p><strong>How We Use Automatic Collection Technologies.</strong> We, as well as third parties that may provide content, advertising, or other functionality on the Services, may use cookies, pixel tags, local storage, and other technologies to automatically collect information through the Services. Our uses of these Technologies fall into the following general categories:</p><ul><li><strong>Operationally Necessary.</strong> This includes Technologies that allow you access to our Services, applications, and tools that are required to identify irregular site behavior, prevent fraudulent activity and improve security or that allow you to make use of our functionality;</li><li><strong>Performance Related.</strong> We may use Technologies to assess the performance of our Services, including as part of our analytic practices to help us understand how our visitors use the Services;</li><li><strong>Functionality Related.</strong> We may use Technologies that allow us to offer you enhanced functionality when accessing or using our Services. This may include identifying you when you sign into our Services or keeping track of your specified preferences, interests, or past items viewed;</li><li><strong>Advertising or Targeting Related.</strong> We may use first party or third-party Technologies to deliver content, including ads relevant to your interests, on our Services or on third party sites.</li></ul><p>Please note that this Privacy Policy covers only our use of Technologies and does not govern the use of Technologies by any third parties.</p><p><strong>Cross-Device Tracking.</strong> Your browsing activity may be tracked across different websites and different devices or apps. For example, we may attempt to match your browsing activity on your mobile device with your browsing activity on your laptop. To do this our technology partners may share data, such as your browsing patterns, geo-location and device identifiers, and we may match the information of the browser and devices that appear to be used by the same person.</p><h2 id="disclosing-your-information-to-third-parties"><strong>DISCLOSING YOUR INFORMATION TO THIRD PARTIES</strong></h2><p>We may share any personal information we collect with the following categories of third parties below, but we won’t sell it to advertisers or other third parties.</p><p><strong>Other Users of Playbook’s Services.</strong> When you use the Services, we will share certain information with other users.</p><ul><li><strong>For Collaboration.</strong> You can create content, which may contain information about you, and grant permission to others to see, share, edit, copy and download that content based on settings you or your administrator (if applicable) select. Some of the collaboration features of the Services display some or all of your profile information to other Service users when you share or interact with specific content. For example, when you comment, we display your profile picture and name next to your comments so that other users with access to the comment understand who made it. Similarly, when you join a team, your name, profile picture and contact information will be displayed in a list for other team members so they can find and interact with you. Please be aware that some content can be published or otherwise made publicly available, including information about you, can be publicly viewed and indexed by and returned in search results of search engines. You can check the settings at any time to confirm whether particular content is public or private. In addition, in connection with your posting of content, we will share your picture, full legal name, user handle, and Twitter (or other social networking site) handle (to the extent you have provided us with this information). We are not responsible for privacy practices of the other users who may view and use the posted information.</li><li><strong>Managed Accounts and Administrators.</strong> If you register or access the Services using an email address with a domain that is owned by your employer or organization, or associate that email address with your existing account and such organization wishes to establish a Playbook services account, certain information about you including your name, profile picture, contact info, content, and account use may become accessible to that organization’s administrator and other Playbook service users, as permitted by your administrator, to provide you additional products and services or to integrate with Playbook or other products and services. For example, your organization may request that we provide extra security controls around your account to protect information about your organization or your organization may request that we link your Playbook account with your organization’s account to enhance collaboration and functionality among tools you use. If you are the administrator of a team, organization or other account holder within the Services, we may share your contact information with current or past Service users, for the purpose of facilitating Service-related requests. Please note that your information may also be subject to your organization’s privacy policy. We are not responsible for the privacy or security practices of our customers.</li></ul><p><strong>Service Providers</strong>. We may share any personal information we collect about you with our third-party service providers. The categories of service providers to whom we entrust personal information include service providers for: (i) the provision of the Services; (ii) the provision of information, products, and other services you have requested; (iii) marketing and advertising; (iv) payment and transaction processing; (v) customer service activities; and (vi) the provision of IT and related services.</p><p><strong>Third-Party Platforms and Services.</strong> We will share your personal information with third-party platforms and/or services if you have expressly consented or requested that we do so. </p><p><strong>Business Partners.</strong> We may provide personal information to business partners to provide you with a product or service you have requested. We may also provide personal information to business partners with whom we jointly offer products or services.</p><p><strong>Affiliates.</strong> We may share personal information with our affiliated entities.</p><p><strong>Disclosures to Protect Us or Others.</strong> We may access, preserve, and disclose any information we have associated with you if we believe doing so is required or appropriate to: (i) comply with law enforcement or national security requests and legal process, such as a court order or subpoena; (ii) protect your, our or others’ rights, property, or safety; (iii) to enforce Playbook’s policies and contracts; (iv) to collect amounts owed to us; (v) when we believe disclosure is necessary or appropriate to prevent financial loss or in connection with an investigation or prosecution of suspected or actual illegal activity; or (vi) if we, in good faith, believe that disclosure is otherwise necessary or advisable.</p><p><strong>Disclosure in the Event of Merger, Sale, or Other Asset Transfer.</strong> If we are involved in a merger, acquisition, financing due diligence, reorganization, bankruptcy, receivership, purchase or sale of assets, or transition of service to another provider, then your information may be sold or transferred as part of such a transaction, as permitted by law and/or contract.</p><h2 id="international-data-transfers"><strong>INTERNATIONAL DATA TRANSFERS</strong></h2><p>All information processed by us may be transferred, processed, and stored anywhere in the world, including but not limited to, the United States or other countries, which may have data protection laws that are different from the laws where you live. We endeavor to safeguard your information consistent with the requirements of applicable laws.</p><h2 id="your-choices"><strong>YOUR CHOICES</strong></h2><p><strong>General.</strong> You may have the right to opt out of certain uses of your personal information.</p><p><strong>Email.</strong> If you receive an unwanted email from us, you can use the unsubscribe link found at the bottom of the email to opt out of receiving future emails. Note that you will continue to receive transaction-related emails regarding products or Services you have requested. We may also send you certain non-promotional communications regarding us and our Services, and you will not be able to opt out of those communications (e.g., communications regarding the Services or updates to our Terms of Service or this Privacy Policy).</p><p><strong>Mobile Devices.</strong> We may send you push notifications through our mobile application. You may at any time opt-out from receiving these types of communications by changing the settings on your mobile device. With your consent, we may also collect precise location-based information if you use our mobile application. You may opt-out of this collection by changing the settings on your mobile device.</p><p><strong>“Do Not Track”.</strong> Do Not Track (“<strong>DNT</strong>”) is a privacy preference that users can set in certain web browsers. Please note that we do not respond to or honor DNT signals or similar mechanisms transmitted by web browsers.</p><p><strong>Cookies and Interest-Based Advertising.</strong> You may stop or restrict the placement of Technologies on your device or remove them by adjusting your preferences as your browser or device permits. Please note that cookie-based opt-outs are not effective on mobile applications. However, you may opt-out of personalized advertisements on some mobile applications by following the instructions for <a href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=en">Android</a> and <a href="https://support.apple.com/en-us/HT202074">iOS</a>.</p><p>The online advertising industry also provides websites from which you may opt out of receiving targeted ads from data partners and other advertising partners that participate in self-regulatory programs. You can access these websites and learn more about targeted advertising and consumer choice and privacy, at <a href="https://www.networkadvertising.org/managing/opt_out.asp">www.networkadvertising.org/managing/opt_out.asp</a>, <a href="https://www.youronlinechoices.eu/">http://www.youronlinechoices.eu/</a>, <a href="https://youradchoices.ca/choices/">https://youradchoices.ca/choices/</a>, and <a href="https://www.aboutads.info/choices/">www.aboutads.info/choices/</a>.</p><p>Please note you must separately opt out in each browser and on each device.</p><h2 id="your-privacy-rights"><strong>YOUR PRIVACY RIGHTS</strong></h2><p>For purposes of the California Consumer Privacy Act, we do not “sell” your personal information.</p><p>In accordance with applicable law, you may have the right to: (i) request confirmation of whether we are processing your personal information; (ii) obtain access to or a copy of your personal information; (iii) receive an electronic copy of personal information that you have provided to us, or ask us to send that information to another company (the “right of data portability”); (iv) object to or restrict our uses of your personal information; (v) seek correction or amendment of inaccurate, untrue, incomplete, or improperly processed personal information; (vi) withdraw your consent and (vii) request erasure of personal information held about you by us, subject to certain exceptions prescribed by law. If you would like to exercise any of these rights, please contact us as set forth below.</p><p>We will process such requests in accordance with applicable laws. To protect your privacy, we will take steps to verify your identity before fulfilling your request.</p><p>If you are a California resident, you have the right not to receive discriminatory treatment by Playbook for the exercise of your rights conferred by the California Consumer Privacy Act.</p><p>Please note that if you use our Services on behalf of an organization (e.g., your employer), that organization may be responsible for fulfilling the individual rights requests referenced above.</p><h2 id="your-right-to-be-forgotten"><strong>YOUR RIGHT TO BE FORGOTTEN</strong></h2><p>At Playbook, we are committed to safeguarding your privacy and ensuring your rights are respected. As part of our dedication to upholding your right to be forgotten, we provide an email address to assist you in exercising this fundamental right.</p><p><strong>Your Right to Be Forgotten. </strong>The right to be forgotten empowers individuals to request the removal of their personal data from our records when certain conditions are met. Whether you've found outdated or irrelevant information about yourself, or you simply wish to have your data erased for valid reasons, we are here to support you.</p><p><strong>Our Dedicated Email Address: </strong>To initiate the process of exercising your right to be forgotten, we offer a dedicated email address: <strong>support@playbook.com</strong>. By reaching out to us through this channel, you can communicate your request and concerns directly to our privacy team.</p><p><strong>What to Include in Your Email: </strong>When contacting us to exercise your right to be forgotten, please provide the following details in your email:</p><ol><li><strong>Full Name:</strong> Provide your full name as it appears in our records.</li><li><strong>Contact Information:</strong> Share the email address or any additional contact details associated with the data you'd like to have erased.</li><li><strong>Nature of Request:</strong> Briefly explain the reason for your request and the specific data you wish to have removed.</li><li><strong>Proof of Identity:</strong> To ensure the security of your personal information, kindly attach a copy of a government-issued identification document that verifies your identity. You may redact sensitive information, leaving only your name and photograph visible.</li></ol><p><strong>Our Commitment to Your Privacy: </strong>Rest assured that any personal data you share with us during the process will be treated confidentially and in accordance with our privacy policy. We will process your request promptly and diligently, working to ensure your right to be forgotten is respected and upheld.</p><h2 id="data-retention"><strong>DATA RETENTION</strong></h2><p>We store the personal information we receive as described in this Privacy Policy for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements, and comply with applicable laws.</p><h2 id="data-responsibility-with-ai-models"><strong>DATA RESPONSIBILITY WITH AI MODELS</strong></h2><p>We do not use your data to develop or train generalized AI models.</p><p>We do not use your data to train generative AI to be used or sold without your consent. Your data stored with Playbook is your own, and we will never compromise your privacy or intellectual property.</p><p>When we build AI features in our product, the models we use are specialized (built for a specific creative workflow) and the resulting tools are usable only within your workspace. For example, we use AI models to improve auto-tagging and search results, which improves your creative process while respecting your privacy.</p><h2 id="security-of-your-information"><strong>SECURITY OF YOUR INFORMATION</strong></h2><p>We take steps to ensure that your information is treated securely and in accordance with this Privacy Policy. Unfortunately, no system is 100% secure, and we cannot ensure or warrant the security of any information you provide to us. To the fullest extent permitted by applicable laws, we do not accept liability for unauthorized disclosure.</p><p>By using the Services or providing personal information to us, you agree that we may communicate with you electronically regarding security, privacy, and administrative issues relating to your use of the Services. If we learn of a security system’s breach, we may attempt to notify you electronically by posting a notice on the Services, by mail or by sending an email to you.</p><h2 id="third-party-websitesapplications"><strong>THIRD PARTY WEBSITES/APPLICATIONS</strong></h2><p>The Services may contain links to other websites/applications and other websites/applications may reference or link to our Services. These third-party services are not controlled by us. We encourage our users to read the privacy policies of each website and application with which they interact. We do not endorse, screen or approve, and are not responsible for, the privacy practices or content of such other websites or applications. Visiting these other websites or applications is at your own risk.</p><h2 id="children%E2%80%99s-information"><strong>CHILDREN’S INFORMATION</strong></h2><p>The Services are not directed to children under 13 (or other age as required by local law), and we do not knowingly collect personal information from children. If you learn that your child has provided us with personal information without your consent, you may contact us as set forth below. If we learn that we have collected a child’s personal information in violation of applicable law, we will promptly take steps to delete such information and terminate the child’s account.</p><h2 id="supervisory-authority"><strong>SUPERVISORY AUTHORITY</strong></h2><p>If you are located in the European Economic Area or the United Kingdom, you have the right to lodge a complaint with a supervisory authority if you believe our processing of your personal information violates applicable law.</p><h2 id="changes-to-our-privacy-policy"><strong>CHANGES TO OUR PRIVACY POLICY</strong></h2><p>We may revise this Privacy Policy from time to time at our sole discretion. If there are any material changes to this Privacy Policy, we will notify you as required by applicable law. You understand and agree that you will be deemed to have accepted the updated Privacy Policy if you continue to use the Services after the new Privacy Policy takes effect.</p><h2 id="contact-us"><strong>CONTACT US</strong></h2><p>If you have any questions about our privacy practices or this Privacy Policy, or if you wish to submit a request to exercise your rights as detailed in this Privacy Policy, please contact us at:</p><p>Playbook Digital, Inc. 341 Moultrie St, San Francisco, CA 94110 Email: <a href="mailto:support@playbook.com">support@playbook.com</a></p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon="">
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="/"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="https://www.playbook.com/features/">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="/mcp/">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="https://www.playbook.com/integrations-all/">Tools and integrations</a></li><li><a href="/pricing/">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="/enterprise/">Enterprise</a></li><li><a href="/media-and-entertainment/">Media and entertainment</a></li><li><a href="/creative-agency/">Creative agencies</a></li><li><a href="/consumer-brands/">Consumer brands</a></li><li><a href="/games/">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="https://www.playbook.com/blog/">Blog</a></li><li><a href="https://www.playbook.com/customers/">Customer stories</a></li><li><a href="https://www.playbook.com/tutorial/">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="https://www.playbook.com/about-us/">About us</a></li><li><a href="https://www.playbook.com/the-story-of-playbook/">Story of Playbook</a></li><li><a href="https://www.playbook.com/contact/">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="/p/privacy/">Privacy</a><a href="/p/terms/">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+<script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+</script>
+</body>
+</html>

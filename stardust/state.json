@@ -194,7 +194,7 @@
       "url": "https://www.playbook.com/blog/brand-portal-api/",
       "title": "Your Brand Portal Should Be an API Call",
       "type": "article",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -204,13 +204,23 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "to": "prototyped",
+          "at": "2026-09-29T07:00:21.750Z"
+        },
+        {
+          "to": "approved",
+          "at": "2026-09-29T07:00:21.750Z",
+          "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-brand-portal-api.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/blog-brand-portal-api-proposed.html",
+      "migratedPath": null,
+      "archetype": true
     },
     {
       "slug": "blog-canopy",
@@ -539,7 +549,7 @@
       "url": "https://www.playbook.com/blog/",
       "title": "Playbook (Page 1)",
       "type": "listing",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -549,13 +559,23 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "to": "prototyped",
+          "at": "2026-09-29T07:00:21.750Z"
+        },
+        {
+          "to": "approved",
+          "at": "2026-09-29T07:00:21.750Z",
+          "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/blog-proposed.html",
+      "migratedPath": null,
+      "archetype": true
     },
     {
       "slug": "brand-portal",
@@ -631,7 +651,7 @@
       "url": "https://www.playbook.com/contact/",
       "title": "Schedule your demo",
       "type": "form",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -641,13 +661,23 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "to": "prototyped",
+          "at": "2026-09-29T07:00:21.750Z"
+        },
+        {
+          "to": "approved",
+          "at": "2026-09-29T07:00:21.750Z",
+          "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/contact.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/contact-proposed.html",
+      "migratedPath": null,
+      "archetype": true
     },
     {
       "slug": "creative-agency",
@@ -815,7 +845,7 @@
       "url": "https://www.playbook.com/gifmaker/",
       "title": "GIF Maker: Transform moments into motion on Playbook",
       "type": "program",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -825,13 +855,23 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "to": "prototyped",
+          "at": "2026-09-29T07:00:21.750Z"
+        },
+        {
+          "to": "approved",
+          "at": "2026-09-29T07:00:21.750Z",
+          "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/gifmaker.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/gifmaker-proposed.html",
+      "migratedPath": null,
+      "archetype": true
     },
     {
       "slug": "gpt",
@@ -1009,7 +1049,7 @@
       "url": "https://www.playbook.com/p/privacy/",
       "title": "Playbook Privacy Policy",
       "type": "static",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -1019,13 +1059,23 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "to": "prototyped",
+          "at": "2026-09-29T07:00:21.750Z"
+        },
+        {
+          "to": "approved",
+          "at": "2026-09-29T07:00:21.750Z",
+          "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/p-privacy.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/p-privacy-proposed.html",
+      "migratedPath": null,
+      "archetype": true
     },
     {
       "slug": "p-terms",
@@ -1625,5 +1675,19 @@
       "prototypePath": null,
       "migratedPath": null
     }
-  ]
+  ],
+  "prep": {
+    "prototype": {
+      "completedAt": "2026-09-29T07:00:21.750Z",
+      "archetypes": {
+        "landing": "index",
+        "article": "blog-brand-portal-api",
+        "listing": "blog",
+        "program": "gifmaker",
+        "form": "contact",
+        "static": "p-privacy",
+        "unique": "pricing (one-off at migrate)"
+      }
+    }
+  }
 }

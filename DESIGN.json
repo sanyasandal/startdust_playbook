@@ -349,7 +349,11 @@
         "confidence": "high",
         "status": "confirmed",
         "candidateId": "candidate-faq-accordion",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/faq.html",
+          "sha": "97b84502921ff054"
+        }
       },
       {
         "id": "related-posts",
@@ -669,7 +673,11 @@
         "confidence": "high",
         "status": "confirmed",
         "candidateId": "candidate-feature-grid",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/feature-grid.html",
+          "sha": "370abe96f066d990"
+        }
       },
       {
         "id": "comparison-table",
@@ -838,6 +846,80 @@
         "canonicalRendering": {
           "path": "stardust/canon/modules/pricing-teaser.html",
           "sha": "8ce8c985f58adae0"
+        }
+      },
+      {
+        "id": "post-list",
+        "label": "Blog post feed",
+        "slots": [
+          {
+            "name": "items",
+            "type": "list<{image,title,link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "[data-module=\"post-list\"]"
+          }
+        ],
+        "status": "confirmed",
+        "confirmedBy": "canon diff-mode net-new (blog)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/post-list.html",
+          "sha": "71c00dc1bc0f2eb3"
+        }
+      },
+      {
+        "id": "tool-widget",
+        "label": "Free-tool interactive shell (dynamic)",
+        "slots": [
+          {
+            "name": "labels",
+            "type": "list<text>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "gifmaker",
+            "selector": "[data-module=\"tool-widget\"]"
+          }
+        ],
+        "status": "confirmed",
+        "confirmedBy": "canon diff-mode net-new (gifmaker)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/tool-widget.html",
+          "sha": "57de43b7cd8c3de2"
+        }
+      },
+      {
+        "id": "static-hero",
+        "label": "Legal/static page head",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "date",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "p-privacy",
+            "selector": "[data-module=\"static-hero\"]"
+          }
+        ],
+        "status": "confirmed",
+        "confirmedBy": "canon diff-mode net-new (p-privacy)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/static-hero.html",
+          "sha": "18d1d4d3cf4fca75"
         }
       }
     ],
@@ -1039,9 +1121,39 @@
         },
         {
           "path": "stardust/canon/canon.css",
-          "sha": "c75c61e0e18e4e0b",
+          "sha": "517eb6d99cc1e248",
           "region": "compound-css",
           "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/feature-grid.html",
+          "sha": "370abe96f066d990",
+          "region": "module:feature-grid",
+          "source": "blog-brand-portal-api"
+        },
+        {
+          "path": "stardust/canon/modules/faq.html",
+          "sha": "97b84502921ff054",
+          "region": "module:faq",
+          "source": "blog-brand-portal-api"
+        },
+        {
+          "path": "stardust/canon/modules/post-list.html",
+          "sha": "71c00dc1bc0f2eb3",
+          "region": "module:post-list",
+          "source": "blog"
+        },
+        {
+          "path": "stardust/canon/modules/tool-widget.html",
+          "sha": "57de43b7cd8c3de2",
+          "region": "module:tool-widget",
+          "source": "gifmaker"
+        },
+        {
+          "path": "stardust/canon/modules/static-hero.html",
+          "sha": "18d1d4d3cf4fca75",
+          "region": "module:static-hero",
+          "source": "p-privacy"
         }
       ],
       "history": [
@@ -1063,6 +1175,63 @@
             "module:cta-band": "added",
             "css": "added"
           }
+        },
+        {
+          "at": "2026-09-29T06:59:19.362Z",
+          "source": "blog-brand-portal-api",
+          "mode": "diff",
+          "result": {
+            "module:feature-grid": "added",
+            "module:faq": "added",
+            "module:related-posts": "conflict",
+            "module:cta-band": "match",
+            "css": "appended 25"
+          }
+        },
+        {
+          "at": "2026-09-29T06:59:19.862Z",
+          "source": "blog",
+          "mode": "diff",
+          "result": {
+            "module:post-list": "added",
+            "module:cta-band": "match",
+            "css": "appended 2"
+          }
+        },
+        {
+          "at": "2026-09-29T06:59:20.395Z",
+          "source": "gifmaker",
+          "mode": "diff",
+          "result": {
+            "module:hero": "conflict",
+            "module:tool-widget": "added",
+            "module:tool-crosspromo": "conflict",
+            "module:faq": "conflict",
+            "module:cta-band": "conflict",
+            "css": "appended 32"
+          }
+        },
+        {
+          "at": "2026-09-29T06:59:20.922Z",
+          "source": "contact",
+          "mode": "diff",
+          "result": {
+            "module:logo-marquee": "conflict",
+            "css": "appended 8"
+          }
+        },
+        {
+          "at": "2026-09-29T06:59:21.443Z",
+          "source": "p-privacy",
+          "mode": "diff",
+          "result": {
+            "module:static-hero": "added",
+            "css": "appended 5"
+          }
+        },
+        {
+          "at": "2026-09-29T07:00:04.521Z",
+          "note": "canon.css rebuilt: author base + net-new-module-scoped rules only; sibling overrides of base selectors rejected (author wins)"
         }
       ],
       "author": "index",
@@ -1084,7 +1253,16 @@
         "Card grids are asymmetric (a wide lead card plus standard cards) rather than three identical tiles.",
         "Every page ends with the cta-band (Start free + Book a demo) before the footer.",
         "Chips and pills (999px, warm hairline) carry lists of features, tags and competitor links."
-      ]
+      ],
+      "archetypes": {
+        "landing": "index",
+        "article": "blog-brand-portal-api",
+        "listing": "blog",
+        "program": "gifmaker",
+        "form": "contact",
+        "static": "p-privacy",
+        "unique": "pricing (one-off at migrate)"
+      }
     }
   },
   "components": [

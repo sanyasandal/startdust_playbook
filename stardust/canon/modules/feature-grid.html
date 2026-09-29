@@ -1,0 +1,16 @@
+<!-- stardust:canon source: blog-brand-portal-api prototype: stardust/prototypes/blog-brand-portal-api-proposed.html region: module:feature-grid extractedAt: 2026-09-29T06:59:19.362Z -->
+<section class="pb-feature-module" data-section="api-building-blocks" data-intent="explain mechanic" data-layout="grid" data-items="7" data-module="feature-grid">
+        <h2 id="what-powers-it">What powers it</h2>
+        <figure><img src="https://img.playbook.com/Zg_QwTrMFYTv8vZUs4Az32enWF-CiiDeWEX3dp_isj0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYzODQxZmM2/LTFlYjUtNDI5Yy04/M2I3LWZiN2U2NGIy/OTBjNQ" alt="Generate an API token in the Developer tab and drive the same brand portal programmatically." width="1200" height="750" loading="lazy"><figcaption>Generate an API token in the Developer tab and drive the same brand portal programmatically.</figcaption></figure>
+        <p>The <a href="https://dev.playbook.com/docs/examples/brand-portal">brand portal example</a> in the docs wires this up end to end. The moving parts:</p>
+        <div class="pb-feature-grid" data-slot="items">
+          <article class="pb-feature-item"><h3>Filter to approved assets:</h3><p><code>GET /v1/{ORG}/search</code> with <code>filters[fields][Approval Status]=Approved</code>, where Approval Status is a custom field your brand team controls.</p></article>
+          <article class="pb-feature-item"><h3>Publish the board:</h3><p><code>POST /v1/{ORG}/boards/brand-kit/publish</code> returns the public gallery URL.</p></article>
+          <article class="pb-feature-item"><h3>Or gate it behind a link:</h3><p><code>POST /v1/{ORG}/boards/brand-kit/share</code> for a link-scoped portal.</p></article>
+          <article class="pb-feature-item"><h3>Drive your own frontend:</h3><p><code>GET /v1/{ORG}/boards/brand-kit/assets?per_page=100</code> returns each asset's <code>token</code>, <code>title</code>, <code>display_url</code>, and <code>raw_url</code>.</p></article>
+          <article class="pb-feature-item"><h3>Embed it live:</h3><p>paste the iframe, tokens auto-refresh, downloads stay off.</p></article>
+          <article class="pb-feature-item"><h3>Keep it clean:</h3><p>board upload rules require tags, license, copyright, and expiry before an asset shows.</p></article>
+          <article class="pb-feature-item"><h3>Keep it safe:</h3><p>a separate scoped token per integration, revocable without touching the others.</p></article>
+        </div>
+        <p>Full auth and endpoint reference lives at <a href="https://dev.playbook.com/">dev.playbook.com</a>.</p>
+      </section>

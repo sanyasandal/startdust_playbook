@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+  writtenBy:        stardust:prototype
+  writtenAt:        2026-09-29T06:50:43Z
+  page:             contact
+  pageUrl:          https://www.playbook.com/contact/
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  shapeBrief:       stardust/prototypes/contact-shape.md
+  sourceRecord:     stardust/current/pages/contact.json + contact.html + demo-request rendered probe
+  mode:             A (brand-faithful)
+  surpriseTier:     low
+  fidelity:         quick
+  dominantDimension: composition/form-split-proof
+  formFields:
+    - { label: "Work email *", type: "email", required: true, placeholder: "you@company.com" }
+    - { label: "How big is your team? *", type: "text", required: true, placeholder: "e.g. 6–20" }
+    - { label: "Where are you located? *", type: "text", required: true, placeholder: "e.g. New York, NY" }
+    - { label: "What are you looking for? *", type: "textarea", required: true, placeholder: "Tell us what matters most to your team…" }
+    - { label: "How did you hear about Playbook?", type: "text", required: false, placeholder: "e.g. Twitter, a friend, Google…" }
+  formAction:       https://www.playbook.com/demo-request
+  submitLabel:      Submit
+  capturedSourceLineage:
+    - header: stardust/canon/header.html
+    - contact-demo: stardust/current/pages/contact.html .contact-page-demo + https://www.playbook.com/demo-request
+    - logo-marquee: stardust/current/pages/contact.html .contact-page-marquee-bleed (first 12 logos rendered; remaining deferred)
+    - footer: stardust/canon/footer.html
+  signatureElements:
+    - kind: "cursor illustration trio"
+      capturedSource: "contact.html .cursor-animation"
+      mechanism: "static layered image chips, no JS reveal"
+      fallback: "same static images"
+  ctaBandDecision: "omitted; would duplicate the page's captured demo form purpose"
+  unsourcedContent: []
+  copyCadenceBypass:
+    rulesIgnored: ["prose-cadence"]
+    classificationBasis: "captured-verbatim form/contact copy"
+  gateResults:
+    critique: { P0: 0, P1: 0, P2: 0, P3: 0 }
+    audit: { P0: 0, P1: 0, P2: 5, P3: 0, detectorWarnings: 5 }
+    adapt: { P0: 0, P1: 0, P2: 0, P3: 0 }
+  fixesApplied:
+    - "restored all img.playbook.com URLs byte-for-byte from contact capture after exactness check"
+    - "removed visible migrate note from logo marquee to avoid unsourced copy"
+    - "removed nonessential spectrum pseudo-border flagged as side-tab"
+  critique:
+    - { priority: "pass", category: "vision", note: "1440 screenshot preserves captured two-column persuasion/form composition, contact quote, resource links and trust marquee; no P0/P1 design issues." }
+  audit:
+    - { priority: "pass", category: "a11y", note: "skip link, landmarks, single H1, labels, focus-visible and image alt attributes present" }
+    - { priority: "pass", category: "contrast", note: "computed text contrast found no WCAG AA failures" }
+    - { priority: "pass", category: "perf/lcp", note: "first above-fold image uses loading=eager and fetchpriority=high" }
+    - { priority: "P2", category: "detector", note: "5 deterministic warnings remain: tight heading leading; two cramped-padding false positives on canon section wrappers; canon marquee motion; captured phrase 'world-class'. No P0/P1." }
+  adapt:
+    - { timestamp: "2026-09-29T12:17:38+05:30", breakpoints: [1200,900,760,600], navCollapse: "hamburger (canon)", status: "clean; mobile-nav-audit pass at 360px; overflow clean at 360/414/800/1280/1920" }
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schedule your demo</title>
+<meta name="description" content="Get in touch with the Playbook team. Schedule a demo or ask a question and we'll help you get your creative library set up.">
+<link rel="icon" href="assets/favicon.ico">
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+/* compound CSS lifted from index */
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; }
+.pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: pbMarquee 42s linear infinite; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.18; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: auto; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; text-wrap: balance; color: var(--color-ink-strong); }
+h1 { font-size: clamp(2.45rem, 6.4vw, var(--heading-xxl)); letter-spacing: -.035em; margin-bottom: 18px; }
+h2 { font-size: clamp(1.8rem, 4.2vw, var(--heading-xl)); letter-spacing: -.025em; }
+h3 { font-size: clamp(1.25rem, 2.5vw, var(--heading-md)); letter-spacing: -.015em; }
+p { text-wrap: pretty; }
+.pb-button--dark { background: var(--color-ink-strong); color: #fff; border-radius: var(--radius-sm); }
+.pb-contact-hero { position: relative; overflow: clip; padding-block: 64px; background: linear-gradient(180deg, #fff 0%, #fff 68%, var(--color-paper) 100%); }
+.pb-contact-hero__grid { display: grid; grid-template-columns: minmax(0, .88fr) minmax(420px, 1.12fr); gap: clamp(28px, 5vw, 66px); align-items: start; }
+.pb-contact-copy { min-width: 0; }
+.pb-contact-copy .pb-lede { margin-bottom: 26px; }
+.pb-cursor-stack { position: relative; height: 150px; margin-bottom: 24px; }
+.pb-cursor-chip { position: absolute; width: min(32vw, 128px); aspect-ratio: 453/483; border-radius: 20px; overflow: hidden; background: var(--color-paper); border: 1px solid var(--color-hairline-warm); box-shadow: var(--shadow-lift); }
+.pb-cursor-chip img { width: 100%; height: 100%; object-fit: cover; }
+.pb-cursor-chip:nth-child(1) { left: 0; top: 20px; transform: rotate(-7deg); }
+.pb-cursor-chip:nth-child(2) { left: 96px; top: 0; transform: rotate(5deg); }
+.pb-cursor-chip:nth-child(3) { left: 194px; top: 32px; transform: rotate(-2deg); }
+.pb-contact-quote { border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; padding: 24px; margin: 28px 0 18px; box-shadow: 0 10px 24px rgb(60 60 60 / .05); }
+.pb-contact-quote blockquote { margin: 0 0 16px; font-size: clamp(1.25rem, 2.3vw, 1.75rem); line-height: 1.2; letter-spacing: -.025em; color: var(--color-ink-strong); }
+.pb-contact-quote figcaption { color: var(--color-muted); font-size: 15px; }
+.pb-contact-quote strong { display: block; color: var(--color-ink-strong); font-weight: 500; }
+.pb-contact-links { display: grid; gap: 12px; }
+.pb-contact-link-card { display: grid; grid-template-columns: 44px 1fr auto; gap: 14px; align-items: center; padding: 16px; border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-paper); text-decoration: none; }
+.pb-contact-link-card:hover { border-color: var(--color-ink-soft); }
+.pb-contact-link-card__icon { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: #fff; color: var(--color-signal-deep); border: 1px solid var(--color-hairline-warm); }
+.pb-contact-link-card__icon svg { width: 24px; height: 24px; }
+.pb-contact-link-card__label { margin: 0 0 3px; font-weight: 500; color: var(--color-ink-strong); }
+.pb-contact-link-card__sub { margin: 0; color: var(--color-muted); font-size: 15px; }
+.pb-contact-link-card__arrow { color: var(--color-muted); }
+.pb-form-card { border: 1px solid var(--color-hairline-warm); border-radius: 24px; background: #fff; padding: clamp(22px, 4vw, 34px); box-shadow: 0 10px 30px rgb(22 22 22 / .10); }
+.pb-form-card__title { margin: 0 0 22px; font-size: clamp(1.5rem, 2.7vw, 2.1875rem); }
+.pb-demo-form { display: grid; gap: 18px; }
+.pb-field { display: grid; gap: 8px; }
+.pb-field label { font-size: 15px; font-weight: 500; color: var(--color-ink-strong); }
+.pb-field input, .pb-field textarea { width: 100%; min-height: 50px; border: 1px solid var(--color-border); border-radius: 10px; background: #fff; color: var(--color-ink-strong); font: inherit; padding: 13px 14px; transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease; }
+.pb-field textarea { min-height: 118px; resize: vertical; }
+.pb-field input::placeholder, .pb-field textarea::placeholder { color: rgb(102 102 102 / .72); }
+.pb-field input:focus, .pb-field textarea:focus { border-color: var(--color-accent); box-shadow: 0 0 0 3px rgb(255 39 83 / .14); outline: none; }
+.pb-field input:invalid:not(:placeholder-shown), .pb-field textarea:invalid:not(:placeholder-shown), .pb-field [aria-invalid="true"] { border-color: var(--color-signal-deep); background: rgb(224 31 71 / .05); }
+.pb-demo-form .pb-button { width: 100%; border-radius: 10px; cursor: pointer; }
+.pb-form-card__note { margin: 14px 0 0; color: var(--color-muted); font-size: 14px; }
+.pb-logo-marquee[data-section="logo-marquee"] { background: var(--color-paper); padding-block: 48px; }
+.pb-logo-marquee__frame { background: #fff; padding-inline: 24px; }
+@media (prefers-reduced-motion: no-preference) { .pb-contact-link-card, .pb-cursor-chip { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-contact-link-card:hover, .pb-cursor-chip:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+@media (max-width: 1200px) { .pb-contact-hero__grid { grid-template-columns: minmax(0, .9fr) minmax(380px, 1.1fr); } }
+@media (max-width: 900px) { .pb-contact-hero__grid { grid-template-columns: 1fr; } .pb-form-card { max-width: 720px; } .pb-cursor-stack { height: 128px; } }
+@media (max-width: 760px) { .pb-contact-hero { padding-block: 40px; } .pb-cursor-chip { width: 96px; } .pb-cursor-chip:nth-child(2) { left: 74px; } .pb-cursor-chip:nth-child(3) { left: 150px; } .pb-contact-link-card { grid-template-columns: 40px 1fr; } .pb-contact-link-card__arrow { display: none; } }
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-form-card { border-radius: 18px; padding: 20px; } .pb-field input, .pb-field textarea { font-size: 16px; } .pb-logo-marquee[data-section="logo-marquee"] { padding-block: 32px; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon="">
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="/" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="/product/">Product</a>
+      <a href="/sdk/">API &amp; SDK</a>
+      <a href="/enterprise/">Solutions</a>
+      <a href="/blog/">Resources</a>
+      <a href="/pricing/">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="/contact/">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+
+<main id="main" data-template="form">
+  <section class="pb-section pb-contact-hero" data-section="contact-demo" data-intent="capture lead" data-layout="split-media" data-interactive="form" data-media="image">
+    <div class="wrap pb-contact-hero__grid">
+      <div class="pb-contact-copy" data-slot="persuasion-copy">
+        <div class="pb-cursor-stack" aria-hidden="true">
+          <span class="pb-cursor-chip"><img src="https://img.playbook.com/zcveVri5NpeisH6a8jmb_Smw2eZCh3oGpUyDFTyaEmU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VlYjA1NTRh/LTMyNmEtNDU5Mi1h/ZWM3LTFhNzQzMWI5/MTA3Yg" alt="" loading="eager" fetchpriority="high"></span>
+          <span class="pb-cursor-chip"><img src="https://img.playbook.com/A_4CV_Surfc7AolimubolhVYxjddbZdHzCJBFkqamm8/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU0NzkwYzI2/LTNjNjQtNGZlYi1h/NDI0LTZlMjJlMjdk/YjQ3YQ" alt="" loading="lazy"></span>
+          <span class="pb-cursor-chip"><img src="https://img.playbook.com/dD37r08pDPeZT3jPPejqJdBnb0bL8uewH0F833dIPFs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I1NDUwYTM5/LTMwZTUtNDBkZi1h/ZWNkLWRmYmZjMDhm/NmRkZg" alt="" loading="lazy"></span>
+        </div>
+        <h1>Let's build a creative library your team deserves.</h1>
+        <p class="pb-lede">Request a demo or ask a question—we'll help you get started with Playbook.</p>
+        <figure class="pb-contact-quote">
+          <blockquote>All the objectives I had—agile DAM, brand portals, campaign QA—they're 100% met</blockquote>
+          <figcaption><strong>David Brett</strong>VP of Marketing, Warner Bros Sports</figcaption>
+        </figure>
+        <div class="pb-contact-links" data-slot="resource-links">
+          <a class="pb-contact-link-card" href="https://playbook-assets.navattic.com/7kh00ao" target="_blank" rel="noopener">
+            <span class="pb-contact-link-card__icon" aria-hidden="true"><svg viewBox="0 0 640 640" fill="currentColor"><path d="M491.9 295.7L553.4 260.2L473.4 121.6L411.9 157.1L491.9 295.7zM360.5 163.6C354.3 149 359.9 131.7 374 123.5L463.3 72C478.6 63.2 498.2 68.4 507 83.7L603 250C611.8 265.3 606.6 284.9 591.3 293.7L502.1 345.2C486.8 354 467.2 348.8 458.4 333.5L457.9 332.7L415.3 355.8C415.9 359.8 416.2 363.9 416.2 368.1C416.2 388.2 408.8 406.6 396.5 420.6L446.4 543C451.4 555.3 445.5 569.3 433.2 574.3C420.9 579.3 406.9 573.4 401.9 561.1L355 445.8C349 447.3 342.7 448 336.2 448C329.7 448 323.4 447.2 317.4 445.8L270.4 561.1C265.4 573.4 251.4 579.3 239.1 574.3C226.8 569.3 220.9 555.3 225.9 543L270.2 434.2L181.6 482.1C166.4 490.3 147.3 485 138.7 470L138 468.7L93.9 494.2C82.4 500.8 67.7 496.9 61.1 485.4L35.2 440.4C28.6 428.9 32.5 414.2 44 407.6L88.1 382.1L84.2 375.3C75.6 360.5 80.3 341.5 94.8 332.3L360.5 163.6zM433.8 291.1L384.3 205.4L133.4 364.7L172.5 432.4L258.2 386.1C256.9 380.3 256.2 374.2 256.2 368C256.2 323.8 292 288 336.2 288C358.9 288 379.4 297.5 394 312.7L433.9 291.1zM336.2 400C353.9 400 368.2 385.7 368.2 368C368.2 350.3 353.9 336 336.2 336C318.5 336 304.2 350.3 304.2 368C304.2 385.7 318.5 400 336.2 400z"></path></svg></span>
+            <span><span class="pb-contact-link-card__label">Take a product tour</span><span class="pb-contact-link-card__sub">See Playbook in action, no sign-up needed</span></span>
+            <span class="pb-contact-link-card__arrow" aria-hidden="true">›</span>
+          </a>
+          <a class="pb-contact-link-card" href="/customers/" target="_blank" rel="noopener">
+            <span class="pb-contact-link-card__icon" aria-hidden="true"><svg viewBox="0 0 640 640" fill="currentColor"><path d="M232 144C218.7 144 208 154.7 208 168L208 472C208 480.4 206.6 488.5 203.9 496L504 496C517.3 496 528 485.3 528 472L528 168C528 154.7 517.3 144 504 144L232 144zM136 544C96.2 544 64 511.8 64 472L64 176C64 162.7 74.7 152 88 152C101.3 152 112 162.7 112 176L112 472C112 485.3 122.7 496 136 496C149.3 496 160 485.3 160 472L160 168C160 128.2 192.2 96 232 96L504 96C543.8 96 576 128.2 576 168L576 472C576 511.8 543.8 544 504 544L136 544zM256 216C256 202.7 266.7 192 280 192L328 192C341.3 192 352 202.7 352 216L352 264C352 277.3 341.3 288 328 288L280 288C266.7 288 256 277.3 256 264L256 216zM408 240L456 240C469.3 240 480 250.7 480 264C480 277.3 469.3 288 456 288L408 288C394.7 288 384 277.3 384 264C384 250.7 394.7 240 408 240zM280 320L456 320C469.3 320 480 330.7 480 344C480 357.3 469.3 368 456 368L280 368C266.7 368 256 357.3 256 344C256 330.7 266.7 320 280 320zM280 400L456 400C469.3 400 480 410.7 480 424C480 437.3 469.3 448 456 448L280 448C266.7 448 256 437.3 256 424C256 410.7 266.7 400 280 400z"></path></svg></span>
+            <span><span class="pb-contact-link-card__label">Read customer stories</span><span class="pb-contact-link-card__sub">See how teams use Playbook every day</span></span>
+            <span class="pb-contact-link-card__arrow" aria-hidden="true">›</span>
+          </a>
+        </div>
+      </div>
+      <aside class="pb-form-card" aria-labelledby="demo-form-title" data-slot="form-card">
+        <h2 class="pb-form-card__title" id="demo-form-title">Schedule your demo</h2>
+        <form class="pb-demo-form" action="https://www.playbook.com/demo-request" method="get" data-dynamic="form" data-slot="demo-request-form">
+          <div class="pb-field"><label for="work-email">Work email *</label><input id="work-email" type="email" placeholder="you@company.com" autocomplete="email" required aria-required="true"></div>
+          <div class="pb-field"><label for="team-size">How big is your team? *</label><input id="team-size" type="text" placeholder="e.g. 6–20" required aria-required="true"></div>
+          <div class="pb-field"><label for="location">Where are you located? *</label><input id="location" type="text" placeholder="e.g. New York, NY" autocomplete="address-level2" required aria-required="true"></div>
+          <div class="pb-field"><label for="looking-for">What are you looking for? *</label><textarea id="looking-for" placeholder="Tell us what matters most to your team…" rows="3" required aria-required="true"></textarea></div>
+          <div class="pb-field"><label for="heard-about">How did you hear about Playbook?</label><input id="heard-about" type="text" placeholder="e.g. Twitter, a friend, Google…"></div>
+          <button class="pb-button pb-button--dark" type="submit">Submit</button>
+        </form>
+      </aside>
+    </div>
+  </section>
+  <section class="pb-section pb-logo-marquee" data-section="logo-marquee" data-intent="build trust" data-layout="full-bleed" data-items="12" data-media="image" data-module="logo-marquee">
+    <div class="pb-logo-marquee__frame" data-slot="logos"><p class="pb-logo-marquee__title" data-slot="heading">Trusted by world-class brands &amp; 2M+ creatives</p><div class="pb-logo-marquee__track" aria-label="Customer logos"><div class="pb-logo-marquee__set">
+      <span class="pb-logo-marquee__item"><img src="https://img.playbook.com/Jtyo9x41mRsRY3joK_ldRVmIPQJ-PxtNCwdljF9B6fU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzkwMTIxMzgw/LWU3ZmUtNGZjMC1h/Nzk0LWQ2MTQ2YjNh/NDQ1Ng" alt="BECKET SIMONON" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/sEVnrI5De_up-m35CIpd4XPLZJjcEUGwkud5lqa2j94/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ2ZGEyZTJj/LWJkYzAtNDE3Mi05/ODFmLTA4YWI2OGFj/YmY5Yg" alt="Ghurka" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/Yh1Aq-dubumh4iJ-6nCipjf-XoOwa9AJ1McujJ0cSpk/s:200:60/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VjZDE2Mjcw/LTczNzAtNGY1NC1i/YzgxLTFlN2VjZTEx/YTA1Yw" alt="Art Center Design" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/bKZRlWcc405xqt0g-UADNQfT72ZhqRUNWyHe2_GTbCw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJlNTA2YTZl/LTgwOGItNGJlYy1h/YWVjLTk2N2ViYjY2/YjI3ZA" alt="italic" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/VnNAsHBINYQi2SixvLey9ZGKvGkBsJDQ61gHBsArN4c/s:200:209/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2IxZmY3MDU2/LWU2ZTctNDVmMi05/YWZjLWZhY2U4ODU5/Zjg1Nw" alt="warner brothers" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/N3pLlbz1bzdR2ynPyoD24U-BRwYw3Vbswr130PEtxz4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzBiYzFjZGYy/LWU3YjctNDQ1Yi04/OTNlLTFmZjkxZWRj/NzdmOQ" alt="opendoor" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/sgE3CpGJ4s8BM1Pg83yTimEt5da2_P0QGFj_adT7NII/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzllYjMxZmRl/LTFiMWUtNGQ2Ni04/Y2M5LTVmZTBjMThl/NGYwMQ" alt="Australian Sailing" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/UeoCsULVz9Doqm0YuZvnM_XH5al5clELlYcJjCI1wS8/s:200:26/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJkNWFkZGFi/LTkyMjctNDUzNC1i/YjZlLTZkYzJkNTVm/YzQ1Mw" alt="founderscard" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/dUQUicIlmpeVojByAYmTG-4u-g_lmcszCZkn-d8JYvE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk3NjUyYWQw/LTdhMTMtNDg0Zi04/YTY4LTgzNzc1NThk/NGZkZA" alt="lokalize" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/3WQ2gg1boHvvqjAsyd2dxOYDmm1133l5KFz4dj4z3F4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM1MTFhYWNj/LThjNjEtNGFkMC1i/NDE2LWFkYjA0ZjQ2/ODM3OA" alt="luma ai" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/_U1Jt0uIdH8WmGpcJdRdCAqcZcAHHfi0r0n7tVauHXc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2FmZjM3YmFk/LTliZTctNDIzYS04/YTI2LTcxNWE3ZTZh/YTA2Mw" alt="ciele athletics" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/VJdbb_Z5rxMgX1Ro1iwKdVu4YkrKrWnn2mm8xSXVh2o/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzc0ZmUzM2Zi/LTU2YjktNDNiYy1h/YTBkLWFjNjBmNTY3/ODA2Mw" alt="malk organics" loading="lazy"></span>
+    </div><div class="pb-logo-marquee__set" aria-hidden="true"><span class="pb-logo-marquee__item">BECKET SIMONON</span><span class="pb-logo-marquee__item">Ghurka</span><span class="pb-logo-marquee__item">Art Center Design</span><span class="pb-logo-marquee__item">italic</span><span class="pb-logo-marquee__item">warner brothers</span><span class="pb-logo-marquee__item">opendoor</span><span class="pb-logo-marquee__item">Australian Sailing</span><span class="pb-logo-marquee__item">founderscard</span><span class="pb-logo-marquee__item">lokalize</span><span class="pb-logo-marquee__item">luma ai</span><span class="pb-logo-marquee__item">ciele athletics</span><span class="pb-logo-marquee__item">malk organics</span></div></div><span hidden data-slot="remaining-logos" data-note="remaining captured logos deferred to migrate"></span></div>
+  </section>
+</main>
+<footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon="">
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="/"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="https://www.playbook.com/features/">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="/mcp/">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="https://www.playbook.com/integrations-all/">Tools and integrations</a></li><li><a href="/pricing/">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="/enterprise/">Enterprise</a></li><li><a href="/media-and-entertainment/">Media and entertainment</a></li><li><a href="/creative-agency/">Creative agencies</a></li><li><a href="/consumer-brands/">Consumer brands</a></li><li><a href="/games/">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="https://www.playbook.com/blog/">Blog</a></li><li><a href="https://www.playbook.com/customers/">Customer stories</a></li><li><a href="https://www.playbook.com/tutorial/">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="https://www.playbook.com/about-us/">About us</a></li><li><a href="https://www.playbook.com/the-story-of-playbook/">Story of Playbook</a></li><li><a href="https://www.playbook.com/contact/">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="/p/privacy/">Privacy</a><a href="/p/terms/">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+
+<script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+</script>
+</body>
+</html>

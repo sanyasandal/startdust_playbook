@@ -3,3 +3,4 @@
 {"ts":"2026-09-29T06:19:04Z","skill":"stardust:direct","phase":"prep","event":"start","detail":"hands-off; Mode A"}
 {"ts":"2026-09-29T06:19:04Z","skill":"stardust:direct","phase":"prep","event":"end","detail":"7 types confirmed, 7 modules confirmed, 2 color reservations, metadata set; Provenance OK on 68 pages"}
 {"ts":"2026-09-29T06:24:08Z","skill":"stardust:prototype","phase":"prep","event":"start","detail":"archetypes: landing=index, article, listing=blog, program, form=contact, static=p-privacy; unique=pricing one-off"}
+{"ts":"2026-09-29T07:00:21.750Z","skill":"stardust:prototype","phase":"prep","event":"end","detail":"6 archetypes approved (hands-off); canon: header/footer/skip-link + 13 modules + canon.css; image URLs verified against capture; overflow 360/1440 clean; nav audit clean x6"}
