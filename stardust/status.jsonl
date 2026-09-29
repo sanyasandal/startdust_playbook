@@ -2,3 +2,4 @@
 {"ts":"2026-09-29T06:13:45Z","skill":"stardust:extract","phase":"prep","event":"end","detail":"68/68 live; 7 module candidates; uncaptured first-level targets: gpt 0, mcp 0, sdk 0"}
 {"ts":"2026-09-29T06:19:04Z","skill":"stardust:direct","phase":"prep","event":"start","detail":"hands-off; Mode A"}
 {"ts":"2026-09-29T06:19:04Z","skill":"stardust:direct","phase":"prep","event":"end","detail":"7 types confirmed, 7 modules confirmed, 2 color reservations, metadata set; Provenance OK on 68 pages"}
+{"ts":"2026-09-29T06:24:08Z","skill":"stardust:prototype","phase":"prep","event":"start","detail":"archetypes: landing=index, article, listing=blog, program, form=contact, static=p-privacy; unique=pricing one-off"}

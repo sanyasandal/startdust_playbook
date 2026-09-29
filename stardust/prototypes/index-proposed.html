@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+  writtenBy:        stardust:prototype
+  writtenAt:        2026-09-29T06:45:00Z
+  page:             index
+  pageUrl:          https://www.playbook.com/
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  shapeBrief:       stardust/prototypes/index-shape.md
+  sourceRecord:     stardust/current/pages/index.json + index.html
+  mode:             A (brand-faithful)
+  surpriseTier:     low
+  fidelity:         quick
+  dominantDimension: composition/modular-catalogue
+  signatureElements:
+    - kind: "hero photographic landscape + scroll-inset"
+      capturedSource: "index.html .pb-hero__img s:1920:1080 URL"
+      mechanism: "CSS view-timeline animation gated by @supports (animation-timeline: view()) and prefers-reduced-motion:no-preference"
+      fallback: "static rounded inset frame"
+  unsourcedContent: []
+  orchestratorFixes:
+    - "removed uncaptured section head (Product catalogue / Three workflows, one library.) — content-sourcing violation"
+    - "restored 8 signed img.playbook.com URLs verbatim from capture (slashes had been collapsed → 403)"
+    - "replaced 2 local logo refs (old-project paths) with captured CDN URLs"
+    - "added @font-face for stabil_grotesk/victor_serif from assets/fonts"
+  gateResults:
+    critique: { P0: 0, P1: 0, P2: 1, P3: 0 }
+    audit: { P0: 0, P1: 0, P2: 12, P3: 0, detectorWarnings: 12 }
+    adapt: { P0: 0, P1: 0, P2: 0, P3: 0 }
+  critique:
+    - { priority: "P2", category: "design", note: "Dense canon-author home intentionally preserves all ten story cards; sibling pages may reuse a shorter story-card subset." }
+  audit:
+    - { priority: "P0", category: "a11y", status: "fixed", note: "skip link, landmarks, focus-visible, single H1, and alt text present" }
+    - { priority: "P1", category: "perf/lcp", status: "fixed", note: "hero image is first above-fold image and uses loading=eager fetchpriority=high" }
+    - { priority: "P1", category: "contrast", status: "fixed", note: "primary button uses signal-deep #e01f47 instead of accent #ff2753 for AA white text" }
+  adapt:
+    - { timestamp: "2026-09-29T06:45:00Z", breakpoints: [1200,900,760,600], navCollapse: "hamburger (stock)", status: "clean; mobile-nav-audit pass at 360px; overflow clean at 360/375/414/800/1280/1920" }
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playbook | Your all-in-one media management solution</title>
+<meta name="description" content="Designed for freelancers and teams to store, search, and share photos, videos, design files in one secure, beautiful media library.">
+<link rel="icon" href="assets/favicon.ico">
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: auto; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; text-wrap: balance; color: var(--color-ink-strong); }
+h1 { font-size: clamp(2.75rem, 7vw, var(--heading-xxl)); letter-spacing: -.035em; }
+h2 { font-size: clamp(2rem, 4.8vw, var(--heading-xl)); letter-spacing: -.025em; }
+h3 { font-size: clamp(1.25rem, 2.5vw, var(--heading-md)); letter-spacing: -.015em; }
+p { text-wrap: pretty; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; } .pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+
+.pb-hero { padding-top: 62px; padding-bottom: 36px; overflow: clip; }
+.pb-hero__copy { max-width: 940px; margin: 0 auto 36px; text-align: center; display: grid; justify-items: center; gap: 16px; }
+.pb-hero__copy h1 { max-width: 900px; margin: 0; }
+.pb-hero__copy .pb-lede { margin: 0; max-width: 760px; }
+.pb-hero__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 4px; }
+.pb-hero__media-wrap { width: min(100% - 24px, 1440px); margin: 0 auto; }
+.pb-hero__frame { overflow: hidden; border-radius: clamp(18px, 4vw, 42px); border: 1px solid var(--color-hairline-warm); background: var(--color-surface); transform-origin: top center; }
+.pb-hero__img { width: 100%; min-height: clamp(280px, 56vw, 740px); object-fit: cover; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: pbMarquee 42s linear infinite; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+
+.pb-product-tabs__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: stretch; }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-product-tabs__card { display: flex; flex-direction: column; min-height: 100%; }
+.pb-product-tabs__media { aspect-ratio: 16 / 10; background: #ddd; overflow: hidden; }
+.pb-product-tabs__media img { width: 100%; height: 100%; object-fit: cover; }
+.pb-product-tabs__body { padding: 24px; display: grid; gap: 12px; }
+.pb-product-tabs__body h2 { font-size: clamp(1.55rem, 2.3vw, 2rem); }
+.pb-product-tabs__body p { color: var(--color-muted); margin: 0; }
+.pb-review-list { display: grid; gap: 8px; margin: 10px 0 0; padding: 0; list-style: none; color: var(--color-ink-soft); font-size: 15px; }
+.pb-review-list li { display: flex; gap: 8px; align-items: baseline; }
+.pb-review-list li::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--color-accent); flex: 0 0 auto; }
+
+.pb-mcp { background: var(--color-paper); }
+.pb-mcp__shell { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: 24px; align-items: stretch; }
+.pb-mcp__intro { display: grid; align-content: start; gap: 18px; }
+.pb-mcp__links { display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-mcp__steps { display: grid; gap: 12px; padding-left: 0; margin: 0; list-style: none; }
+.pb-mcp-step { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius); padding: 18px; display: grid; grid-template-columns: 38px 1fr; gap: 14px; }
+.pb-mcp-step__num { width: 34px; height: 34px; border-radius: 50%; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-mcp-step h3 { font-size: 20px; margin-bottom: 6px; }
+.pb-mcp-step p { margin: 0; color: var(--color-muted); font-size: 16px; }
+.pb-mcp code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--color-signal-deep); background: rgb(224 31 71 / .08); border-radius: 8px; padding: 4px 6px; overflow-wrap: anywhere; }
+.pb-chat { margin-top: 18px; border-radius: var(--radius); background: var(--color-ink-strong); color: #fff; padding: 18px; display: grid; gap: 12px; }
+.pb-chat__msg { padding: 14px 16px; border-radius: 14px; max-width: 84%; margin: 0; font-size: 15px; }
+.pb-chat__msg[data-role="user"] { background: #fff; color: var(--color-ink-strong); justify-self: end; }
+.pb-chat__msg[data-role="status"] { background: rgb(255 255 255 / .12); color: rgb(255 255 255 / .78); }
+.pb-chat__msg[data-role="assistant"] { background: rgb(255 255 255 / .18); }
+
+.pb-enterprise__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list, .pb-strike-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 16px 0 0; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-strike-list li { color: rgb(255 255 255 / .82); text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: var(--color-accent); }
+.pb-export { margin-top: 18px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .62fr); gap: 18px; background: var(--color-ink-strong); color: #fff; border-radius: var(--radius); padding: 28px; }
+.pb-export h3 { color: #fff; }
+.pb-export p { color: rgb(255 255 255 / .78); }
+.pb-export > * { min-width: 0; }
+.pb-export__panel { background: #fff; color: var(--color-ink-strong); border-radius: var(--radius); padding: 22px; align-self: stretch; display: grid; gap: 14px; }
+.pb-export__panel p { color: var(--color-muted); margin: 0; }
+.pb-export__stat { font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1; color: var(--color-signal-deep); font-weight: 500; letter-spacing: -.035em; }
+
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.18; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon>
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="/" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="/product/">Product</a>
+      <a href="/sdk/">API &amp; SDK</a>
+      <a href="/enterprise/">Solutions</a>
+      <a href="/blog/">Resources</a>
+      <a href="/pricing/">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="/contact/">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+<main id="main" data-template="landing">
+  <section class="pb-hero" data-section="hero" data-intent="primary conversion" data-layout="full-bleed" data-media="image" data-module="hero">
+    <div class="wrap pb-hero__copy">
+      <p class="pb-eyebrow" data-slot="eyebrow">Built for visual workflows, ready for agents.</p>
+      <h1 data-slot="headline">From upload to final. One library for your entire creative ops.</h1>
+      <p class="pb-lede" data-slot="lede">Your visual files organized in one place, ready to share as a gallery — not a zip folder. With our MCP server, your agents can now do more than just finding, tagging, and sharing for you.</p>
+      <div class="pb-hero__actions" data-slot="actions"><a class="pb-button pb-button--primary" href="/sign-up/">Start free</a><a class="pb-button pb-button--secondary" href="/contact/">Book a demo</a></div>
+    </div>
+    <div class="pb-hero__media-wrap" data-slot="media"><figure class="pb-hero__frame"><img class="pb-hero__img" src="https://img.playbook.com/fmvB6-cO9Lo-p4MDIUJIxK5w2C6vuW7zo0yKgkliSII/s:1920:1080/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk3M2E3NmUx/LWUzMDMtNDg2Ny04/OGNiLThkMWIwNGY1/NjQxZA" alt="Playbook visual library shown as a full-bleed photographic landscape" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async"></figure></div>
+  </section>
+
+  <section class="pb-section pb-logo-marquee" data-section="logo-marquee" data-intent="build trust" data-layout="full-bleed" data-items="20" data-media="image" data-module="logo-marquee">
+    <div class="pb-logo-marquee__frame" data-slot="logos"><p class="pb-logo-marquee__title" data-slot="heading">Over two million creatives, and world-class brands</p><div class="pb-logo-marquee__track" aria-label="Customer logos"><div class="pb-logo-marquee__set">
+      <span class="pb-logo-marquee__item"><img src="https://img.playbook.com/VnNAsHBINYQi2SixvLey9ZGKvGkBsJDQ61gHBsArN4c/s:200:209/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2IxZmY3MDU2/LWU2ZTctNDVmMi05/YWZjLWZhY2U4ODU5/Zjg1Nw" alt="warner brothers" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/N3pLlbz1bzdR2ynPyoD24U-BRwYw3Vbswr130PEtxz4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzBiYzFjZGYy/LWU3YjctNDQ1Yi04/OTNlLTFmZjkxZWRj/NzdmOQ" alt="opendoor" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/sgE3CpGJ4s8BM1Pg83yTimEt5da2_P0QGFj_adT7NII/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzllYjMxZmRl/LTFiMWUtNGQ2Ni04/Y2M5LTVmZTBjMThl/NGYwMQ" alt="Australian Sailing" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/UeoCsULVz9Doqm0YuZvnM_XH5al5clELlYcJjCI1wS8/s:200:26/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJkNWFkZGFi/LTkyMjctNDUzNC1i/YjZlLTZkYzJkNTVm/YzQ1Mw" alt="founderscard" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/dUQUicIlmpeVojByAYmTG-4u-g_lmcszCZkn-d8JYvE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk3NjUyYWQw/LTdhMTMtNDg0Zi04/YTY4LTgzNzc1NThk/NGZkZA" alt="lokalize" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/3WQ2gg1boHvvqjAsyd2dxOYDmm1133l5KFz4dj4z3F4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM1MTFhYWNj/LThjNjEtNGFkMC1i/NDE2LWFkYjA0ZjQ2/ODM3OA" alt="luma ai" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/_U1Jt0uIdH8WmGpcJdRdCAqcZcAHHfi0r0n7tVauHXc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2FmZjM3YmFk/LTliZTctNDIzYS04/YTI2LTcxNWE3ZTZh/YTA2Mw" alt="ciele athletics" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/ZS2YZgjcEEAQe_9bvCCX5x0kn0wBTw5pLmj0r3zG8QA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJlNDBjOTU0/LTE2ODMtNDIyZS04/Y2M3LWE2ZjM5ZGE3/ZDgzZQ" alt="chemist warehouse" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/oYC_A8EEiMtdIwfCc2OxG--JUNV3dM_937XEBoYtoxs/s:200:106/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzgyZDJiODg4/LTlkM2QtNGQ0Ni05/NGZmLWIyYzI0ZTA3/MzY2NA" alt="hamley" loading="lazy"></span><span class="pb-logo-marquee__item"><img src="https://img.playbook.com/RQZXNWajfGaT0xmntC3ADM6pRXhpY9UHUNgchIliDq8/s:200:92/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzcxYWY5MGNh/LWVmZTktNGRkMy05/MWFiLTgwYjFkNWY3/MjJlOQ" alt="keller williams" loading="lazy"></span>
+    </div><div class="pb-logo-marquee__set" aria-hidden="true"><span class="pb-logo-marquee__item">warner brothers</span><span class="pb-logo-marquee__item">opendoor</span><span class="pb-logo-marquee__item">Australian Sailing</span><span class="pb-logo-marquee__item">founderscard</span><span class="pb-logo-marquee__item">lokalize</span><span class="pb-logo-marquee__item">luma ai</span><span class="pb-logo-marquee__item">ciele athletics</span><span class="pb-logo-marquee__item">chemist warehouse</span><span class="pb-logo-marquee__item">hamley</span><span class="pb-logo-marquee__item">keller williams</span></div></div></div>
+  </section>
+
+  <section class="pb-section pb-product-tabs" data-section="product-tabs" data-intent="explain product capabilities" data-layout="grid" data-items="3" data-media="image" data-module="product-tabs">
+    <div class="wrap"><div class="pb-product-tabs__grid" data-slot="items">
+      <article class="pb-card pb-product-tabs__card"><div class="pb-product-tabs__media"><img src="https://img.playbook.com/G0oNFpbXm85p25YsABFITwk_oOwIZvtNbYIX7vQPzcU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzVlZmRjNTcw/LTI0ZTktNGE1NS1h/NGUyLTY5ZjRlYjU5/YThmMQ" alt="Production media tagged by subject, product, color, mood, and scene" loading="lazy"></div><div class="pb-product-tabs__body"><p class="pb-eyebrow">Upload &amp; organize</p><h2>Every file arrives tagged, versioned, and in the right place.</h2><p>Images, videos, 3D models, GIFs, PDFs. Playbook instantly show previews and describes every file as it lands.</p></div></article>
+      <article class="pb-card pb-product-tabs__card"><div class="pb-product-tabs__media"><img src="https://image.mux.com/Eg1vjbRPveYEBJRkXkPqVA8ZwkqhOTc01Qg6nH6007MIg/thumbnail.jpg?width=1200&amp;time=2" alt="Conversational search results with actions available on them" loading="lazy"></div><div class="pb-product-tabs__body"><p class="pb-eyebrow">Search &amp; AI Actions</p><h2>Search by describing it. Then let AI handle the repetitive work.</h2><p>“Every image with our packaging on white.” Playbook searches by visual content, not just what somebody named them.</p></div></article>
+      <article class="pb-card pb-product-tabs__card"><div class="pb-product-tabs__media"><img src="https://img.playbook.com/wmEwC7sqYjlj4pFAyY1Sa2moBo3kE8P_cVEGHp9Q5yM/s:700:448/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzIzZjY0ZTAy/LTY1OTMtNDMxOC04/OTdkLTdkOGE3NTU1/OThiOQ" alt="Smart creative storage" loading="lazy"></div><div class="pb-product-tabs__body"><p class="pb-eyebrow">Review &amp; approvals</p><h2>Nothing goes out of sync with precise feedbacks and approvals.</h2><ul class="pb-review-list"><li>Frame-accurate comments</li><li>Internal-only notes</li><li>Quick approvals</li><li>Share link controls</li><li>Version history</li></ul></div></article>
+    </div></div>
+  </section>
+
+  <section class="pb-section pb-mcp" data-section="mcp-connect" data-intent="developer and AI-agent routing" data-layout="split-media" data-items="3" data-module="tool-crosspromo">
+    <div class="wrap pb-mcp__shell"><div class="pb-mcp__intro" data-slot="heading"><p class="pb-eyebrow">Built to connect</p><h2>Your AI tools already know its way in Playbook</h2><p class="pb-lede">Playbook speaks MCP, so the AI tools your team already uses can search, tag, and move assets without anyone leaving the chat. One URL to connect. Nothing to build.</p><div class="pb-mcp__links"><a class="pb-button pb-button--secondary" href="https://dev.playbook.com/">Read MCP guide</a><a class="pb-button pb-button--secondary" href="https://dev.playbook.com/docs/api">See API reference</a></div><div class="pb-chat" data-slot="chat"><p class="pb-chat__msg" data-role="user">Post house just dropped the Scene 4 delivery into the workspace. Help me sort clips into Scenes selections, stills into Images, anything branded into Collateral.</p><p class="pb-chat__msg" data-role="status">Reading 16 new assets against the project boards...</p><p class="pb-chat__msg" data-role="assistant">Eight clips into Scene selections, three stills into Images, five into Collateral. The two re-renders of shots went in as versions. Nothing overwritten.</p></div></div><ol class="pb-mcp__steps" data-slot="steps"><li class="pb-mcp-step"><span class="pb-mcp-step__num">1</span><div><h3>Copy the Playbook connector URL</h3><p>You’ll paste this into Claude in the next step. <code>https://mcp.playbook.com</code></p></div></li><li class="pb-mcp-step"><span class="pb-mcp-step__num">2</span><div><h3>Add it in Claude → Connectors</h3><p>Open Settings → Connectors, add a custom connector, and paste the URL.</p><p><a href="https://claude.ai/new#settings/customize-connectors">Open Claude connectors</a></p></div></li><li class="pb-mcp-step"><span class="pb-mcp-step__num">3</span><div><h3>Sign in and start</h3><p>Authorize Playbook once, then ask Claude to find, tag, or organize anything in your library.</p><p><a href="/sign-up/">Start asking</a></p></div></li></ol></div>
+  </section>
+
+  <section class="pb-section pb-enterprise" data-section="enterprise" data-intent="enterprise reassurance" data-layout="grid" data-items="3" data-module="comparison-table">
+    <div class="wrap"><div class="pb-section__head"><p class="pb-eyebrow">Enterprise, without the complexity</p><h2>Everything an enterprise DAM does. None of what makes your team avoid it.</h2><p class="pb-lede">The controls your IT and brand leads ask for are all here. What is missing is the six-week rollout, the seat minimums, and the training deck nobody reads.</p></div><div class="pb-enterprise__grid"><article class="pb-card pb-compare-card"><h3>Everything you’d expect</h3><ul class="pb-chip-list"><li>SSO and SCIM</li><li>Granular permissions</li><li>Audit trails</li><li>Brand guideline controls</li><li>Lock board</li><li>Desktop sync</li><li>Mobile review</li><li>Dedicated support</li></ul></article><article class="pb-card pb-compare-card pb-compare-card--dark"><h3>None of what you don’t</h3><ul class="pb-strike-list"><li>Six-week onboarding</li><li>Seat minimums</li><li>Migration fees</li><li>Mandatory training</li><li>A UI only the librarian opens</li></ul><p>The controls, without the rollout.</p></article></div><article class="pb-export" data-slot="export"><div><p class="pb-eyebrow">No lock-in</p><h3>Easy to move in. Easier to export.</h3><p>Import direct from Dropbox, Drive, or your current DAM. And if you ever want out, every asset, tag, and version is yours to take. Most DAMs make leaving expensive. We made it a button.</p><a class="pb-button pb-button--secondary" href="/enterprise/">Unlock Enterprise-grade features</a></div><div class="pb-export__panel"><p>Export library</p><div class="pb-export__stat">Export completed</div><p>1,284 files, 6.2 GB, in 94 seconds</p></div></article></div>
+  </section>
+
+  <section class="pb-section pb-stories" data-section="customer-stories" data-intent="social proof" data-layout="grid" data-items="10" data-media="image" data-module="related-posts">
+    <div class="wrap"><div class="pb-section__head"><p class="pb-eyebrow">Customer stories</p><h2>A homebase for top creative teams everywhere.</h2><a class="pb-button pb-button--secondary" href="https://www.playbook.com/customers/">More customer stories</a></div><div class="pb-stories__grid" data-slot="cards">
+      <a class="pb-story-card" href="https://www.playbook.com/p/wilderdog/"><img src="https://img.playbook.com/NxSUHMGBbnuoDDUjwotZOZ6BRx1G_TiKjE4UnpLO46g/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzIyYjVhYWNl/LTgzYjYtNDk3ZS1h/YzFmLTJmYWY5ODUz/OGYxOA" alt="Wilderdog" loading="lazy"><h3>How Wilderdog manages creator partners and 400K+ Instagram community.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/the-vault-stock/"><img src="https://img.playbook.com/GwZvGfNwzczM71vX0dWKyU_cvCFRzgq88xIxdyKAh-k/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzkyZmUzMjdk/LTY5NDItNGFiZi1h/NWQ2LTVkYzE2NDNl/YTYyOQ" alt="The Vault Stock" loading="lazy"><h3>How The Vault Stock rebuilt and scaled their stock platform on Playbook.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/dorst-and-lesser/"><img src="https://img.playbook.com/r7UfNaJU7EfbCve-L7B-jDA77T2sRvzbRf3UBqsSr3A/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RiZTFlOTIx/LThkNzQtNDI2My05/YmU1LWExMzU0YTI0/ODNiNA" alt="Dorst &amp; Lesser" loading="lazy"><h3>Dorst &amp; Lesser united 75+ creators in one workspace.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/wbd-sports/"><img src="https://img.playbook.com/xCKRhOjNIV66LCQR2mJiBpnMSjXjgrJz2lo1XYxeS6k/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JiMjkzOWY3/LTkwYTUtNDA4ZS1h/OTk5LWU2ZmJiZmIy/YmNiNw" alt="WBD Sports" loading="lazy"><h3>Warner Bros Sports keeps global campaigns moving.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/ymca-snoco/"><img src="https://img.playbook.com/zrTvdamORKTCSDcUHN5JzAr7fVJ8rateZOqhSlzujCE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Q1ZjNmNzU0/LTAwZGEtNDVmNC1h/M2M0LWZmNTJjOWZk/OWVlNA" alt="YMCA" loading="lazy"><h3>YMCA saves at least 10 hrs/week and shares photos across 6 branches.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/dyla-brands/"><img src="https://img.playbook.com/g5fIH1YbkQruzwJ3NX9k6EPsD9aomibvNC9CiFKwlxQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y2YjcxYmFm/LTM2NTktNGIyYS1i/OWY1LWI5MjhlNmY0/YzQ2Mg" alt="Dyla Brands" loading="lazy"><h3>Dyla Brands launches a new flavor every 2 weeks.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/opendoor/"><img src="https://img.playbook.com/WDZVia5BjqbXA72XzLBKggW4apoIAr6vJ_w1RJq2HmY/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhMDkzYzkx/LTViZDUtNDE3MS1h/ZTM4LTIwMjJlYzlm/YTlhYg" alt="Opendoor" loading="lazy"><h3>Opendoor scales brand assets from 100 to 2,500 employees.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/supermush/"><img src="https://img.playbook.com/XlaMEN0uoHAe_l_EG_a1y6YUdnWHXzmp2P1yDkqpGVc/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU1NzEzOGYw/LTA4OTQtNGJmZS1h/YTYwLTgyMWZmYjlk/MmNlMg" alt="SuperMush" loading="lazy"><h3>SuperMush runs 15–20 campaigns monthly from one hub.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/invictus-media"><img src="https://img.playbook.com/tNDkpBorZ-1P5374Y-17YAkff0B2keZCKKo0FivtBU0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhZDljMThk/LTZhNzUtNDg1Zi05/YzM0LWVhMGU1NzU3/OTVkNA" alt="Invictus Media" loading="lazy"><h3>Jennifer keeps Playbook in her top 3 tabs for instant access.</h3></a>
+      <a class="pb-story-card" href="https://www.playbook.com/p/blendjet/"><img src="https://img.playbook.com/5iuiZXaza84Wq0bWZBhiKqI4fC9TqiS7r-DsltXaaEI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzIyNDFiYzVh/LTIyZGMtNDAyNi05/ZDk5LTdhZDMwMTI3/NThmMA" alt="BlendJet" loading="lazy"><h3>BlendJet manages 17TB of files and streamlines creation.</h3></a>
+    </div><figure class="pb-quote"><blockquote>“The speed and quality of responses have genuinely impressed us and made a big difference to our day to day.”</blockquote><figcaption>Anna Hamilton · Creative 2IC at The Vault Stock</figcaption></figure></div>
+  </section>
+
+  <section class="pb-section pb-pricing" data-section="pricing-teaser" data-intent="commercial conversion" data-layout="grid" data-items="4" data-module="pricing-teaser">
+    <div class="wrap"><div class="pb-section__head" data-align="center"><h2>We have a plan for all your files</h2><p class="pb-lede">Try it free, and the only thing that scales is your team.</p><a class="pb-button pb-button--secondary" href="/pricing/">See full pricing</a></div><div class="pb-pricing__grid" data-slot="plans">
+      <article class="pb-card pb-plan-card"><h3>Free</h3><div class="pb-plan-card__price">$0 <span>always</span></div><p>No credit card required</p><ul><li>100GB storage or 300 assets</li><li>3 members, 3 guests</li><li>Import from external DAMs</li></ul></article>
+      <article class="pb-card pb-plan-card"><h3>Pro</h3><div class="pb-plan-card__price">$10 <span>/month/member</span></div><p>Billed yearly — save 45%</p><ul><li>2TB storage</li><li>+ 1TB per additional member</li><li>Unlimited guests</li></ul></article>
+      <article class="pb-card pb-plan-card"><h3>Team</h3><div class="pb-plan-card__price">$20 <span>/month/member</span></div><p>Billed yearly — save 20%</p><ul><li>3TB storage</li><li>+ 2TB per additional member</li><li>Conversational search</li></ul></article>
+      <article class="pb-card pb-plan-card"><h3>Business</h3><div class="pb-plan-card__price">$400 <span>/month</span></div><p>Billed yearly — save 20%</p><ul><li>15TB storage</li><li>Unlimited members</li><li>White-glove migration</li></ul></article>
+    </div><p class="pb-pricing__trust">Encrypted at rest. Two-factor authentication. Malware scanned on upload. Private until you make a link.</p></div>
+  </section>
+
+  <section class="pb-cta-band" data-section="closing-cta" data-intent="drive action" data-layout="contained" data-module="cta-band"><div class="wrap"><div class="pb-cta-band__box"><h2 class="pb-cta-band__headline" data-slot="headline">Start with one folder and see what possibilities await.</h2><div class="pb-cta-band__actions" data-slot="cta"><a class="pb-button pb-button--primary" href="/sign-up/">Start free</a><a class="pb-button pb-button--secondary" href="/contact/">Book a demo</a></div></div></div></section>
+</main>
+<footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon>
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="/"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="https://www.playbook.com/features/">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="/mcp/">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="https://www.playbook.com/integrations-all/">Tools and integrations</a></li><li><a href="/pricing/">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="/enterprise/">Enterprise</a></li><li><a href="/media-and-entertainment/">Media and entertainment</a></li><li><a href="/creative-agency/">Creative agencies</a></li><li><a href="/consumer-brands/">Consumer brands</a></li><li><a href="/games/">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="https://www.playbook.com/blog/">Blog</a></li><li><a href="https://www.playbook.com/customers/">Customer stories</a></li><li><a href="https://www.playbook.com/tutorial/">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="https://www.playbook.com/about-us/">About us</a></li><li><a href="https://www.playbook.com/the-story-of-playbook/">Story of Playbook</a></li><li><a href="https://www.playbook.com/contact/">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="/p/privacy/">Privacy</a><a href="/p/terms/">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+<script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+</script>
+</body>
+</html>

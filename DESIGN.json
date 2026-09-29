@@ -412,7 +412,11 @@
         "confidence": "high",
         "status": "confirmed",
         "candidateId": "candidate-related-posts",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/related-posts.html",
+          "sha": "f69072eb0d8e28e0"
+        }
       },
       {
         "id": "cta-band",
@@ -484,7 +488,11 @@
         "confidence": "high",
         "status": "confirmed",
         "candidateId": "candidate-closing-cta",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/cta-band.html",
+          "sha": "51dd3138ac555073"
+        }
       },
       {
         "id": "tool-crosspromo",
@@ -539,7 +547,11 @@
         "confidence": "high",
         "status": "confirmed",
         "candidateId": "candidate-app-crosspromo",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/tool-crosspromo.html",
+          "sha": "5c113a77a1ce5bd4"
+        }
       },
       {
         "id": "logo-marquee",
@@ -578,7 +590,11 @@
         "confidence": "medium",
         "status": "confirmed",
         "candidateId": "candidate-logo-marquee",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/logo-marquee.html",
+          "sha": "d732d83806d3b390"
+        }
       },
       {
         "id": "feature-grid",
@@ -724,7 +740,105 @@
         "confidence": "high",
         "status": "confirmed",
         "candidateId": "candidate-comparison-table",
-        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)"
+        "confirmedBy": "hands-off (evidence ≥2 instances, heading signal priority 1)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/comparison-table.html",
+          "sha": "fa0592ba054af931"
+        }
+      },
+      {
+        "id": "hero",
+        "label": "Page hero",
+        "slots": [
+          {
+            "name": "eyebrow",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "lede",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "ctas",
+            "type": "list<link>",
+            "required": true
+          },
+          {
+            "name": "media",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "[data-module=\"hero\"]"
+          }
+        ],
+        "status": "confirmed",
+        "confirmedBy": "canon-author net-new (index)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/hero.html",
+          "sha": "ce875d2263ce5a85"
+        }
+      },
+      {
+        "id": "product-tabs",
+        "label": "Product capability cards",
+        "slots": [
+          {
+            "name": "items",
+            "type": "list<{media:image,eyebrow:text,title:text,body:text}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "[data-module=\"product-tabs\"]"
+          }
+        ],
+        "status": "confirmed",
+        "confirmedBy": "canon-author net-new (index)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/product-tabs.html",
+          "sha": "637fe6bb2693f70a"
+        }
+      },
+      {
+        "id": "pricing-teaser",
+        "label": "Pricing plan cards",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "plans",
+            "type": "list<{name,price,billing,features[]}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "[data-module=\"pricing-teaser\"]"
+          }
+        ],
+        "status": "confirmed",
+        "confirmedBy": "canon-author net-new (index)",
+        "canonicalRendering": {
+          "path": "stardust/canon/modules/pricing-teaser.html",
+          "sha": "8ce8c985f58adae0"
+        }
       }
     ],
     "colorReservations": [
@@ -854,6 +968,123 @@
         }
       ],
       "references_used": []
+    },
+    "canon": {
+      "files": [
+        {
+          "path": "stardust/canon/header.html",
+          "sha": "bfc3ecd0386bb141",
+          "region": "header",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/footer.html",
+          "sha": "4872530e85f02023",
+          "region": "footer",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/skip-link.html",
+          "sha": "2cc5f6931f2489c4",
+          "region": "skip-link",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/hero.html",
+          "sha": "ce875d2263ce5a85",
+          "region": "module:hero",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/logo-marquee.html",
+          "sha": "d732d83806d3b390",
+          "region": "module:logo-marquee",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/product-tabs.html",
+          "sha": "637fe6bb2693f70a",
+          "region": "module:product-tabs",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/tool-crosspromo.html",
+          "sha": "5c113a77a1ce5bd4",
+          "region": "module:tool-crosspromo",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/comparison-table.html",
+          "sha": "fa0592ba054af931",
+          "region": "module:comparison-table",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/related-posts.html",
+          "sha": "f69072eb0d8e28e0",
+          "region": "module:related-posts",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/pricing-teaser.html",
+          "sha": "8ce8c985f58adae0",
+          "region": "module:pricing-teaser",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/modules/cta-band.html",
+          "sha": "51dd3138ac555073",
+          "region": "module:cta-band",
+          "source": "index"
+        },
+        {
+          "path": "stardust/canon/canon.css",
+          "sha": "c75c61e0e18e4e0b",
+          "region": "compound-css",
+          "source": "index"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-29T06:46:42.718Z",
+          "source": "index",
+          "mode": "author",
+          "result": {
+            "header": "added",
+            "footer": "added",
+            "skip": "added",
+            "module:hero": "added",
+            "module:logo-marquee": "added",
+            "module:product-tabs": "added",
+            "module:tool-crosspromo": "added",
+            "module:comparison-table": "added",
+            "module:related-posts": "added",
+            "module:pricing-teaser": "added",
+            "module:cta-band": "added",
+            "css": "added"
+          }
+        }
+      ],
+      "author": "index",
+      "pinned": {
+        "sectionPadding.desktop": "64px",
+        "sectionPadding.tablet": "48px",
+        "sectionPadding.mobile": "32px",
+        "densityTier": "balanced",
+        "typeScale": 1.25,
+        "lineHeights.display": 1.05,
+        "lineHeights.body": 1.55,
+        "lineHeights.small": 1.45,
+        "containerMaxWidth": "1200px"
+      },
+      "compositionalMoves": [
+        "Heroes lead with captured product photography in a rounded inset frame, copy stacked above; the frame is the page signature, never a gradient blob.",
+        "Sections alternate canvas and paper grounds; dark ink-strong panels are reserved for one emphasis moment plus the closing cta-band.",
+        "Captured eyebrows sit above section H2s as small uppercase tracked labels — only where the source page had them.",
+        "Card grids are asymmetric (a wide lead card plus standard cards) rather than three identical tiles.",
+        "Every page ends with the cta-band (Start free + Book a demo) before the footer.",
+        "Chips and pills (999px, warm hairline) carry lists of features, tags and competitor links."
+      ]
     }
   },
   "components": [

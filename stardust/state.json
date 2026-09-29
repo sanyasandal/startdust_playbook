@@ -861,7 +861,7 @@
       "url": "https://www.playbook.com/",
       "title": "Playbook | Your all-in-one media management solution",
       "type": "landing",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -871,13 +871,23 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "to": "prototyped",
+          "at": "2026-09-29T06:46:42.799Z"
+        },
+        {
+          "to": "approved",
+          "at": "2026-09-29T06:46:42.799Z",
+          "by": "hands-off (all gates P0/P1-clean)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null,
+      "canonAuthor": true
     },
     {
       "slug": "integrations-all",
