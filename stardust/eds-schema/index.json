@@ -1,0 +1,14 @@
+{
+  "page": "index",
+  "source": "stardust/migrated/index.html",
+  "sections": [
+    { "module": "hero", "block": "hero", "tier": "template-slotted", "units": 1 },
+    { "module": "logo-marquee", "block": "logos", "tier": "reconstructive", "units": 10 },
+    { "module": "product-tabs", "block": "cards", "variant": "tabs", "tier": "reconstructive", "units": 3 },
+    { "module": "tool-crosspromo", "block": "cards", "variant": "mcp", "tier": "template-slotted", "units": 3 },
+    { "module": "comparison-table", "block": "table", "variant": "comparison", "tier": "template-slotted", "units": 3 },
+    { "module": "related-posts", "block": "cards", "variant": "posts", "tier": "reconstructive", "units": 10 },
+    { "module": "pricing-teaser", "block": "cards", "variant": "pricing", "tier": "reconstructive", "units": 4 },
+    { "module": "cta-band", "defaultContent": true, "style": "cta-band", "tier": "default-content", "units": 1 }
+  ]
+}

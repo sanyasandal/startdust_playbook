@@ -1,0 +1,17 @@
+/* stylelint-disable selector-class-pattern, declaration-block-single-line-max-declarations, no-descending-specificity */
+.table .pb-enterprise__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.table .pb-compare-card { padding: 24px; }
+.table .pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.table .pb-compare-card--dark h3 { color: #fff; }
+.table .pb-chip-list, .table .pb-strike-list { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; padding: 0; list-style: none; }
+.table .pb-chip-list li { border: 1px solid var(--color-border); border-radius: var(--radius-pill); padding: 9px 12px; background: #fff; font-size: 15px; }
+.table .pb-strike-list li { color: rgb(255 255 255 / 82%); text-decoration: line-through; text-decoration-color: var(--color-accent); text-decoration-thickness: 2px; }
+.table .pb-export { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .62fr); gap: 18px; margin-top: 18px; border-radius: var(--radius); padding: 28px; background: var(--color-ink-strong); color: #fff; }
+.table .pb-export h3 { color: #fff; }
+.table .pb-export p { color: rgb(255 255 255 / 78%); }
+.table .pb-export > * { min-width: 0; }
+.table .pb-export__panel { display: grid; align-self: stretch; gap: 14px; border-radius: var(--radius); padding: 22px; background: #fff; color: var(--color-ink-strong); }
+.table .pb-export__panel p { margin: 0; color: var(--color-muted); }
+.table .pb-export__stat { color: var(--color-signal-deep); font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: 500; letter-spacing: -.035em; line-height: 1; }
+
+@media (width <= 900px) { .table .pb-enterprise__grid, .table .pb-export { grid-template-columns: 1fr; } }
