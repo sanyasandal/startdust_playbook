@@ -15,8 +15,6 @@ export default async function decorate(block) {
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
   const fragment = await loadFragment(navPath);
-  const brandSource = section(fragment, 1)?.querySelector('.default-content-wrapper')
-    || section(fragment, 1) || fragment;
   const linkSource = section(fragment, 2)?.querySelector('.default-content-wrapper')
     || section(fragment, 2) || fragment;
   const actionSource = section(fragment, 3)?.querySelector('.default-content-wrapper')
@@ -28,7 +26,10 @@ export default async function decorate(block) {
   inner.className = 'wrap pb-header__inner';
   const brand = document.createElement('div');
   brand.className = 'pb-header__brand';
-  moveChildren(brandSource, brand);
+  brand.innerHTML = '<p><a class="pb-wordmark" href="/">'
+    + '<span class="pb-wordmark__mark" aria-hidden="true">P</span>'
+    + '<span>Playbook</span></a></p>';
+  // Authored brand text is intentionally not moved: DA strips the mark span/classes.
   const button = document.createElement('button');
   button.className = 'pb-nav-burger';
   button.type = 'button';

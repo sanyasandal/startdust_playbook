@@ -22,14 +22,19 @@ export default function decorate(block) {
   for (let i = 0; i < 2; i += 1) {
     const card = document.createElement('article');
     card.className = i === 1 ? 'pb-card pb-compare-card pb-compare-card--dark' : 'pb-card pb-compare-card';
-    card.append(nodes.shift(), nodes.shift());
+    const title = nodes.shift();
+    const list = nodes.shift();
+    if (list) list.className = i === 0 ? 'pb-chip-list' : 'pb-strike-list';
+    card.append(title, list);
     if (i === 1 && nodes[0]?.textContent.includes('controls')) card.append(nodes.shift());
     grid.append(card);
   }
   root.append(grid);
   const exp = document.createElement('article'); exp.className = 'pb-export';
   const copy = document.createElement('div');
-  copy.append(nodes.shift(), nodes.shift(), nodes.shift());
+  const kicker = nodes.shift();
+  if (kicker) kicker.className = 'pb-eyebrow';
+  copy.append(kicker, nodes.shift(), nodes.shift());
   const cta = nodes.shift(); if (cta) { addButtonClasses(cta); copy.append(cta); }
   const panel = document.createElement('div'); panel.className = 'pb-export__panel';
   const label = nodes.shift(); const stat = nodes.shift(); const foot = nodes.shift();

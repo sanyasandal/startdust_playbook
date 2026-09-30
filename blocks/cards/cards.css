@@ -55,3 +55,15 @@
 }
 
 @media (width <= 600px) { .cards .pb-export { padding: 20px; } }
+
+.cards.posts .pb-section__head .pb-button {
+  width: 100%;
+}
+
+.cards .pb-mcp-step > div {
+  min-width: 0;
+}
+
+.cards .pb-mcp-step code {
+  white-space: nowrap;
+}

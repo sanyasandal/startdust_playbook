@@ -7,9 +7,10 @@ function authoredNodes(block) {
   return nodes.length ? nodes : [...block.children];
 }
 
-function addButtonClasses(container) {
+function addButtonClasses(container, first = 'primary') {
   container?.querySelectorAll('a').forEach((a, i) => {
-    a.classList.add('pb-button', i === 0 ? 'pb-button--primary' : 'pb-button--secondary');
+    const variant = i === 0 ? first : 'secondary';
+    a.classList.add('pb-button', `pb-button--${variant}`);
   });
 }
 
@@ -50,7 +51,7 @@ function decorateMcp(block) {
   if (eyebrow) { eyebrow.className = 'pb-eyebrow'; intro.append(eyebrow); }
   if (heading) intro.append(heading);
   if (lede) { lede.className = 'pb-lede'; intro.append(lede); }
-  if (links) { links.className = 'pb-mcp__links'; addButtonClasses(links); intro.append(links); }
+  if (links) { links.className = 'pb-mcp__links'; addButtonClasses(links, 'secondary'); intro.append(links); }
   const chat = document.createElement('div');
   chat.className = 'pb-chat';
   rest.filter((n) => n.tagName === 'P' && !n.querySelector('a')).slice(0, 3).forEach((p, i) => {
@@ -64,10 +65,13 @@ function decorateMcp(block) {
     ol.className = 'pb-mcp__steps';
     [...ol.children].forEach((li, i) => {
       li.className = 'pb-mcp-step';
+      [...li.querySelectorAll(':scope > p')].find((p) => p.textContent.trim() === String(i + 1))?.remove();
       const num = document.createElement('span');
       num.className = 'pb-mcp-step__num';
       num.textContent = String(i + 1);
-      li.prepend(num);
+      const body = document.createElement('div');
+      body.append(...li.childNodes);
+      li.append(num, body);
     });
   }
   root.append(intro);
@@ -85,7 +89,7 @@ function decoratePosts(block) {
   const more = nodes.shift();
   if (eyebrow) { eyebrow.className = 'pb-eyebrow'; head.append(eyebrow); }
   if (h2) head.append(h2);
-  if (more) { addButtonClasses(more); head.append(more); }
+  if (more) { addButtonClasses(more, 'secondary'); head.append(more); }
   root.append(head);
   const grid = document.createElement('div');
   grid.className = 'pb-stories__grid';
@@ -130,7 +134,7 @@ function decoratePricing(block) {
   head.dataset.align = 'center';
   head.append(nodes.shift(), nodes.shift());
   const link = nodes.shift();
-  if (link) { addButtonClasses(link); head.append(link); }
+  if (link) { addButtonClasses(link, 'secondary'); head.append(link); }
   root.append(head);
   const grid = document.createElement('div');
   grid.className = 'pb-pricing__grid';
@@ -141,7 +145,17 @@ function decoratePricing(block) {
     const price = nodes.shift();
     const note = nodes.shift();
     const ul = nodes.shift();
-    if (price) price.className = 'pb-plan-card__price';
+    if (price) {
+      price.className = 'pb-plan-card__price';
+      const parts = price.textContent.trim().split(/\s+(.+)/);
+      const [amount, unitText] = parts;
+      if (unitText) {
+        price.textContent = `${amount} `;
+        const unit = document.createElement('span');
+        unit.textContent = unitText;
+        price.append(unit);
+      }
+    }
     card.append(h3, price, note, ul);
     grid.append(card);
   }

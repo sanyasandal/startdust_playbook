@@ -214,3 +214,35 @@ main .section.cta-band .default-content-wrapper {
 main .section.cta-band h2 { max-width: 780px; color: #fff; }
 main .section.cta-band p { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 0; }
 main .section.cta-band a.button.secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / 34%); }
+
+main .section.cta-band p > strong > a:any-link,
+main .section.cta-band p > em > a:any-link {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+main .section.cta-band p > strong > a:any-link {
+  background: var(--color-signal-deep);
+  color: #fff;
+}
+
+main .section.cta-band p > em > a:any-link {
+  border-color: rgb(255 255 255 / 34%);
+  background: transparent;
+  color: #fff;
+  font-style: normal;
+}
+
+main .section.cta-band p > :is(strong, em) {
+  font-style: normal;
+}
