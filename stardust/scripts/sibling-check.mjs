@@ -16,5 +16,6 @@ const b = await chromium.launch(); const p = await b.newPage(); const errs = [];
 for (const w of [360, 1440]) { await p.setViewportSize({ width: w, height: 900 }); await p.goto('file://' + fs.realpathSync(file)); const o = await p.evaluate(() => [document.documentElement.scrollWidth, document.documentElement.clientWidth, getComputedStyle(document.querySelector('.skip-link') || document.body).position]); if (o[0] > o[1]) fails.push(`overflow@${w}:${o[0]}`); if (w === 360 && o[2] !== 'fixed' && document) {} }
 const skip = await p.evaluate(() => { const e = document.querySelector('.skip-link'); return e ? e.getBoundingClientRect().bottom : -1; }); if (skip > 0) fails.push('skip-link-visible');
 if (errs.length) fails.push('js-errors:' + errs[0].slice(0, 60)); await b.close();
+const st = run('node', ['stardust/scripts/structure-check.mjs', slug, file]); process.stdout.write(st.out); if (!st.ok) fails.push('structure');
 const nav = run('node', ['stardust/scripts/mobile-nav-audit.mjs', file]); if (!nav.ok) fails.push('mobile-nav-audit');
 console.log(fails.length ? `FAIL ${slug}: ${fails.join(', ')}` : `PASS ${slug}`); process.exit(fails.length ? 1 : 0);

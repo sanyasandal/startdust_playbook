@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-09-30T06:10:25Z
+  page:             Client Approval Software for Creative Teams in 2026
+  slug:             blog-client-approval-software-for-creative-teams
+  pagePath:         migrated/blog/client-approval-software-for-creative-teams/index.html
+  renderBranch:     A'
+  template:         blog-brand-portal-api
+  archetypePath:    stardust/prototypes/blog-brand-portal-api-proposed.html
+  archetypeSha:     41f9333dca68
+  sourceCurrent:    stardust/current/pages/blog-client-approval-software-for-creative-teams.json
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  designMd:         DESIGN.md (sha: 833916554b4d)
+  designJson:       DESIGN.json (sha: 3ea50209949e)
+  canonShas:        header:0e491b179edd footer:b11f2ddc22f2 css:01e4a1e44711
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 11
+  stardustVersion:  0.25.0
+-->
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+</style>
+<link rel="stylesheet" href="../../assets/canon.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Client Approval Software for Creative Teams in 2026","description":"Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.","mainEntityOfPage":"https://www.playbook.com/blog/client-approval-software-for-creative-teams/"}</script><!-- stardust:provenance
+{
+  "writtenBy": "stardust:prototype",
+  "writtenAt": "2026-09-29T06:52:34Z",
+  "page": "blog-brand-portal-api",
+  "pageUrl": "https://www.playbook.com/blog/brand-portal-api/",
+  "template": "article",
+  "againstDirection": "stardust/direction.md (Active 2026-09-29T06:30:00Z)",
+  "readArtifacts": [
+    "stardust/current/pages/blog-brand-portal-api.json",
+    "stardust/current/pages/blog-brand-portal-api.html",
+    "DESIGN.md",
+    "DESIGN.json",
+    "stardust/direction.md",
+    "stardust/canon/header.html",
+    "stardust/canon/footer.html",
+    "stardust/canon/canon.css",
+    "stardust/canon/modules/cta-band.html",
+    "stardust/canon/modules/related-posts.html"
+  ],
+  "capturedAuthor": null,
+  "capturedDate": "July 14, 2026",
+  "capturedHeroImage": null,
+  "unsourcedContent": [],
+  "modules": [
+    "faq",
+    "feature-grid",
+    "related-posts",
+    "cta-band"
+  ],
+  "canonInjected": [
+    "skip-link.html",
+    "header.html",
+    "footer.html",
+    "canon.css",
+    "modules/cta-band.html"
+  ],
+  "copyCadenceBypass": {
+    "basis": "article body is captured-verbatim",
+    "rulesIgnored": [
+      "copy-cadence"
+    ]
+  },
+  "reflexRejectAudit": {
+    "bypassed": "Mode A brand-faithful render with captured stabil_grotesk pinned"
+  },
+  "fidelity": "quick",
+  "critique": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "manual vision check + deterministic detector review (hands-off)",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "findings": [],
+      "fixesApplied": [
+        "Restored global Playbook typography rules from the home prototype so the article renders in stabil_grotesk rather than browser serif defaults.",
+        "Tightened display tracking from -0.055em to -0.04em after detector warning."
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "impeccable detect --json + Playwright structural/a11y/perf checks",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 3
+      },
+      "findings": [
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "cramped-padding",
+          "status": "dismissed false positive",
+          "reason": "Section children sit inside .wrap gutters; cta-band box has clamp(32px, 7vw, 72px) padding from canon."
+        },
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "cramped-padding",
+          "status": "dismissed false positive",
+          "reason": "Canonical cta-band padding is present; detector did not resolve clamp padding."
+        },
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "marquee",
+          "status": "dismissed false positive",
+          "reason": "Full canon.css is required by the brief; this article renders no logo-marquee DOM."
+        }
+      ],
+      "checks": {
+        "contrastFailures": 0,
+        "missingAlt": 0,
+        "h1Count": 1,
+        "externalCss": false,
+        "externalJs": false,
+        "lcpImage": "no image intersects first viewport; first article figure is eager/high priority"
+      },
+      "fixesApplied": [
+        "Added global base typography/reset rules after canon.css.",
+        "Kept first article figure loading=eager and fetchpriority=high."
+      ]
+    }
+  ],
+  "adapt": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "mobile-nav-audit.mjs + Playwright overflow probes",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "breakpoints": [
+        360,
+        414,
+        800,
+        1280,
+        1920
+      ],
+      "navAudit": "pass at 360px",
+      "horizontalOverflow": {
+        "360": 0,
+        "414": 0,
+        "800": 0,
+        "1280": 0,
+        "1920": 0
+      },
+      "navCollapse": "hamburger (canon stock)"
+    }
+  ],
+  "visionCheck": {
+    "verdict": "pass",
+    "observations": [
+      "Source and prototype both keep the editorial article shape: date, left TOC rail, single reading column and inline product UI figures.",
+      "Prototype unifies chrome to the home canon and makes the captured feature-grid/FAQ/related modules explicit without fabricated copy or media.",
+      "Hierarchy is stronger than the source while retaining the Playbook white canvas, signal CTA and product screenshot focus."
+    ]
+  },
+  "assumptions": [
+    "Hands-off mode: no user confirmation requested",
+    "No byline or lead hero image was present in captured slots, so neither was invented"
+  ],
+  "validationArtifacts": [
+    "stardust/validation/blog-brand-portal-api/proposed-1440.png",
+    "stardust/.work/thumbs/blog-brand-portal-api-thumb.png",
+    "stardust/.work/thumbs/proposed-1440-thumb.png"
+  ]
+}
+  orchestratorFixes:
+    - "related-posts text-only cards: removed empty lead-card media area, top-aligned titles (2026-09-29T07:00:21.750Z)"
+-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Approval Software for Creative Teams in 2026</title>
+  <meta name="description" content="Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.">
+  <link rel="icon" href="../../assets/favicon.ico">
+  <style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('../../assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+/* compound CSS lifted from index */
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: auto; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; text-wrap: balance; color: var(--color-ink-strong); }
+h1 { font-size: clamp(2.75rem, 7vw, var(--heading-xxl)); letter-spacing: -.035em; }
+h2 { font-size: clamp(2rem, 4.8vw, var(--heading-xl)); letter-spacing: -.025em; }
+h3 { font-size: clamp(1.25rem, 2.5vw, var(--heading-md)); letter-spacing: -.015em; }
+p { text-wrap: pretty; }
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; }
+.pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: pbMarquee 42s linear infinite; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.18; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+
+/* Article archetype page-specific CSS */
+.pb-article-hero { padding: 70px 0 38px; border-bottom: 1px solid var(--color-hairline-warm); background: linear-gradient(180deg, #fff 0%, #fff 72%, var(--color-paper) 100%); }
+.pb-article-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: clamp(28px, 6vw, 82px); align-items: end; }
+.pb-article-hero__meta { margin: 0 0 16px; color: var(--color-muted); font-size: 15px; font-weight: 500; }
+.pb-article-hero h1 { max-width: 870px; margin: 0; font-size: clamp(2.6rem, 6.8vw, 5.65rem); line-height: .95; letter-spacing: -.04em; }
+.pb-article-hero__deck { max-width: 68ch; margin: 24px 0 0; color: var(--color-ink-soft); font-size: clamp(1.08rem, 2vw, 1.35rem); line-height: 1.48; }
+.pb-article-hero__note { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; padding: 18px; color: var(--color-muted); font-size: 14px; }
+.pb-article-hero__note strong { display: block; color: var(--color-ink-strong); font-size: 16px; margin-bottom: 8px; }
+.pb-article-layout { padding: 54px 0 70px; }
+.pb-article-grid { display: grid; grid-template-columns: 230px minmax(0, 760px); gap: clamp(28px, 5vw, 70px); align-items: start; justify-content: center; }
+.pb-toc { position: sticky; top: 104px; display: grid; gap: 14px; align-self: start; }
+.pb-toc__label { color: var(--color-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-toc ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.pb-toc a { display: block; padding: 9px 0 9px 12px; border-left: 1px solid var(--color-hairline-warm); color: var(--color-ink-soft); font-size: 14px; line-height: 1.3; text-decoration: none; }
+.pb-toc a:hover { color: var(--color-signal-deep); border-color: var(--color-signal-deep); }
+.pb-article { max-width: 68ch; }
+.pb-article h2 { margin: 58px 0 18px; font-size: clamp(1.8rem, 4vw, 2.75rem); }
+.pb-article h2:first-child { margin-top: 0; }
+.pb-article p, .pb-article li { color: var(--color-ink-soft); font-size: 18px; line-height: 1.66; }
+.pb-article p { margin: 0 0 22px; }
+.pb-article a { color: var(--color-ink-strong); text-decoration-color: var(--color-signal-deep); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.pb-article a:hover { color: var(--color-signal-deep); }
+.pb-article code { border: 1px solid var(--color-border); border-radius: 7px; background: var(--color-paper); padding: .1em .34em; color: var(--color-ink-strong); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .88em; }
+.pb-article figure { margin: 36px 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--color-hairline-warm); background: var(--color-paper); }
+.pb-article figure img { width: 100%; height: auto; }
+.pb-article figcaption { padding: 13px 16px 15px; color: var(--color-muted); font-size: 14px; line-height: 1.45; }
+.pb-feature-grid { margin: 38px 0 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.pb-feature-item { position: relative; padding: 20px; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); }
+.pb-feature-item::before { content: ""; display: block; width: 40px; height: 3px; margin-bottom: 14px; border-radius: var(--radius-pill); background: linear-gradient(90deg,#6cb4ee,#d46bca,#ff3c8e,#ff6b35); }
+.pb-feature-item h3 { margin: 0 0 8px; font-size: 18px; line-height: 1.25; }
+.pb-feature-item p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--color-ink-soft); }
+.pb-faq { margin-top: 28px; display: grid; gap: 10px; }
+.pb-faq details { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; padding: 0; overflow: hidden; }
+.pb-faq summary { cursor: pointer; padding: 18px 20px; color: var(--color-ink-strong); font-weight: 500; list-style-position: outside; }
+.pb-faq details[open] summary { border-bottom: 1px solid var(--color-hairline-warm); }
+.pb-faq__answer { padding: 18px 20px 20px; }
+.pb-faq__answer p { margin: 0; }
+.pb-related.pb-stories { background: var(--color-paper); }
+.pb-related .pb-stories__grid { grid-template-columns: repeat(3, 1fr); }
+.pb-related .pb-story-card { min-height: 225px; padding: 22px; align-items: stretch; background: #fff; border: 1px solid var(--color-hairline-warm); color: var(--color-ink-strong); }
+.pb-related .pb-story-card::after { display: none; }
+.pb-related .pb-story-card h3 { color: var(--color-ink-strong); padding: 0; font-size: clamp(1.15rem, 2vw, 1.55rem); line-height: 1.15; letter-spacing: -.02em; align-self: end; }
+.pb-related .pb-story-card span { display: inline-flex; align-self: start; width: max-content; border-radius: var(--radius-pill); border: 1px solid var(--color-border); padding: 6px 10px; color: var(--color-muted); font-size: 13px; }
+.pb-related .pb-section__head h3 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.75rem); letter-spacing: -.025em; }
+@media (prefers-reduced-motion: no-preference) { .pb-feature-item, .pb-faq details, .pb-related .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-feature-item:hover, .pb-related .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+@media (max-width: 980px) { .pb-article-hero__grid, .pb-article-grid { grid-template-columns: 1fr; } .pb-toc { position: static; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); padding: 16px; background: var(--color-paper); } .pb-toc ul { display: flex; flex-wrap: wrap; gap: 8px; } .pb-toc a { border: 1px solid var(--color-border); border-radius: var(--radius-pill); background: #fff; padding: 7px 10px; } .pb-article { max-width: none; } .pb-article-hero__note { max-width: 520px; } }
+@media (max-width: 760px) { .pb-article-hero { padding: 42px 0 30px; } .pb-article-hero h1 { font-size: clamp(2.45rem, 14vw, 4rem); } .pb-article-layout { padding: 32px 0 44px; } .pb-feature-grid, .pb-related .pb-stories__grid { grid-template-columns: 1fr; } .pb-article p, .pb-article li { font-size: 16px; line-height: 1.62; } .pb-article h2 { margin-top: 42px; } }
+@media (max-width: 600px) { .pb-article-hero__note { display: none; } .pb-toc ul { display: grid; } .pb-feature-item, .pb-faq summary, .pb-faq__answer { padding: 16px; } }
+
+  .pb-related .pb-stories__grid{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row}
+.pb-related .pb-story-card,.pb-related .pb-story-card:first-child{display:block;min-height:0;grid-column:auto;grid-row:auto;padding:24px;justify-content:flex-start}
+@media (max-width:900px){.pb-related .pb-stories__grid{grid-template-columns:1fr}}
+</style>
+  <link rel="canonical" href="https://www.playbook.com/blog/client-approval-software-for-creative-teams/">
+  <meta property="og:title" content="Client Approval Software for Creative Teams in 2026">
+  <meta property="og:description" content="Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.">
+  <meta property="og:image" content="https://img.playbook.com/ouxEc3QZtzuWdg-Yv-r0NB_kuDPJe8Y8jyk6peUnD8A/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RkNzM4NmU3/LTU2MWItNDUxYy05/MjA0LTdiNjEyZTRk/MTlmZg">
+  <meta property="og:type" content="article">
+<style data-sibling>
+.pb-article-grid>*{min-width:0}.pb-article{min-width:0;overflow-wrap:anywhere}.pb-article pre{max-width:100%;overflow:auto;white-space:pre-wrap;word-break:break-word}.pb-article :is(ul,ol){margin:18px 0 28px;padding-left:1.35em;color:var(--color-ink-soft)}
+.pb-article :is(li){margin:8px 0}.pb-article blockquote{margin:30px 0;padding:22px 26px;border-left:4px solid var(--color-accent);background:var(--color-paper);border-radius:var(--radius)}
+.pb-article table{width:100%;border-collapse:collapse;margin:28px 0;font-size:15px;display:block;overflow-x:auto}.pb-article th,.pb-article td{border:1px solid var(--color-border);padding:12px;text-align:left;vertical-align:top}.pb-article thead{background:var(--color-paper)}
+.pb-article iframe,.pb-article video{width:100%;max-width:100%;aspect-ratio:16/9;border:0;border-radius:var(--radius);background:#111}.pb-article .kg-card{margin:28px 0}.pb-article .kg-bookmark-card a{display:block;border:1px solid var(--color-border);border-radius:var(--radius);padding:18px;text-decoration:none;color:inherit;background:var(--color-paper)}
+.pb-tutorial-index{background:var(--color-paper)}.pb-tutorial-index__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.pb-tutorial-index__card{display:flex;min-height:68px;align-items:center;padding:16px;border:1px solid var(--color-hairline-warm);border-radius:var(--radius);background:#fff;color:var(--color-ink-strong);text-decoration:none;font-size:15px;line-height:1.25}.pb-tutorial-index__card:hover{box-shadow:var(--shadow-lift)}
+@media (max-width:900px){.pb-tutorial-index__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:560px){.pb-tutorial-index__grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon="">
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="../../index.html" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="../../product/index.html">Product</a>
+      <a href="../../sdk/index.html">API &amp; SDK</a>
+      <a href="../../enterprise/index.html">Solutions</a>
+      <a href="../../blog/index.html">Resources</a>
+      <a href="../../pricing/index.html">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="../../contact/index.html">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+  <main id="main" data-template="article">
+    <section class="pb-article-hero" data-section="article-hero" data-intent="orient reader" data-layout="contained">
+      <div class="wrap pb-article-hero__grid">
+        <div>
+          <p class="pb-article-hero__meta" data-slot="date">August 19, 2026</p>
+          <h1 data-slot="headline">Client Approval Software for Creative Teams in 2026</h1>
+          <p class="pb-article-hero__deck" data-slot="deck">Client approval software for creative teams, compared. Five tools for review, proofing, and sign-off, and what happens to the asset after approval.</p>
+        </div>
+        <aside class="pb-article-hero__note" aria-label="Article context"><strong>Client Approval Software for Creative Teams in 2026</strong><span>Frequently asked questions</span></aside>
+      </div>
+    </section>
+    <section class="pb-section pb-article-layout" data-section="article-body" data-intent="educate" data-layout="side-rail" data-slot="article-body">
+      <div class="wrap pb-article-grid">
+        <aside class="pb-toc" aria-label="On this page">
+          <span class="pb-toc__label">On this page</span>
+          <ul>
+        <li><a href="#how-we-ordered-this-list">How we ordered this list</a></li>
+        <li><a href="#quick-comparison">Quick comparison</a></li>
+        <li><a href="#1-playbook-best-for-teams-who-want-approval-inside-the-asset-library">1. Playbook: best for teams who want approval inside the asset library</a></li>
+        <li><a href="#2-filestage-best-for-marketing-teams-running-fixed-review-rounds">2. Filestage: best for marketing teams running fixed review rounds</a></li>
+        <li><a href="#3-ziflow-best-for-enterprise-proofing-with-compliance-needs">3. Ziflow: best for enterprise proofing with compliance needs</a></li>
+        <li><a href="#4-frameio-best-for-video-and-post-production">4. Frame.io: best for video and post production</a></li>
+        <li><a href="#5-pageproof-best-for-regulated-work-needing-strict-audit-trails">5. PageProof: best for regulated work needing strict audit trails</a></li>
+        <li><a href="#how-to-choose-client-approval-software">How to choose client approval software</a></li>
+        <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
+          </ul>
+        </aside>
+        <article class="pb-article">
+
+              <p>Client approval software is a tool that collects structured feedback on creative work and records a formal sign-off, so that approvals live on the asset itself instead of scattered across email, Slack, and meeting notes. If your team is still chasing "looks good to me" replies across four channels, that is the problem this category exists to solve.</p><p>This guide compares five tools creative teams actually use for client approval in 2026, and it asks one question most comparisons skip: <strong>what happens to the asset after someone approves it?</strong> Review is a moment. The library is forever. A tool that nails the moment and drops the asset afterwards has solved half your problem.</p><p>Want to see approvals and the asset library in one place? <a href="../../contact/index.html">Schedule a demo</a>.</p><h2 id="how-we-ordered-this-list">How we ordered this list</h2><p>Five criteria, applied in this order:</p><ul><li><strong>Does the client need an account?</strong> Every login you require is feedback you do not get.</li><li><strong>Is the feedback anchored to the work?</strong> A comment pinned to a timestamp or a coordinate beats a paragraph describing a region of the image.</li><li><strong>Is sign-off a record, or a vibe?</strong> Approval should be an auditable event with a name and a date attached.</li><li><strong>What file types does it actually handle?</strong> Video, PDF, and layered design files behave very differently under review.</li><li><strong>Where does the asset live afterwards?</strong> This is the criterion that separates a proofing tool from a system of record.</li></ul><h2 id="quick-comparison">Quick comparison</h2>
+<!--kg-card-begin: html-->
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Best for</th>
+<th>Client login required</th>
+<th>Asset library after approval</th>
+<th>Pricing (at the time of writing)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Playbook</td>
+<td>Teams who want approval inside the asset library</td>
+<td>No, share by link</td>
+<td>Yes, the library is the product</td>
+<td>Free, Pro $18/mo, Team $25/mo, Business $500/mo flat</td>
+</tr>
+<tr>
+<td>Filestage</td>
+<td>Marketing teams running fixed review rounds</td>
+<td>No, reviewer links</td>
+<td>No, proofing only</td>
+<td>Per seat, published on their pricing page</td>
+</tr>
+<tr>
+<td>Ziflow</td>
+<td>Enterprise proofing with compliance needs</td>
+<td>Optional</td>
+<td>No, proofing only</td>
+<td>Per seat, published on their pricing page</td>
+</tr>
+<tr>
+<td>Frame.io</td>
+<td>Video and post production</td>
+<td>Yes for most workflows</td>
+<td>Partial, project based</td>
+<td>Free, Pro $15/mo, Team $25/mo</td>
+</tr>
+<tr>
+<td>PageProof</td>
+<td>Regulated work needing strict audit trails</td>
+<td>No, reviewer links</td>
+<td>No, proofing only</td>
+<td>From $249/mo or $2,499/yr</td>
+</tr>
+</tbody></table>
+<!--kg-card-end: html-->
+<h2 id="1-playbook-best-for-teams-who-want-approval-inside-the-asset-library">1. Playbook: best for teams who want approval inside the asset library</h2><p>Playbook is a visual home for creative work where client approval is one motion inside the library rather than a separate product. You share a board or a single asset by link, the client comments directly on the work without creating an account, and the approved file stays exactly where the rest of your library lives.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/8rjmywhfH4CvvXMDqGAdz7gN61wIyGzl2i_09y3dK5w/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzA5YmQ1MGIz/LWU0NTYtNDg0ZS1i/YmI3LTZiN2FhODRm/OWI0Yw" class="kg-image" alt="Playbook product screenshot" loading="eager" fetchpriority="high"><figcaption>image source: <a href="../../index.html" target="_blank" rel="noopener">Playbook</a></figcaption></figure><p><strong>Strengths</strong></p><ul><li>Per-second comments on video and pinned comments on stills, so feedback points at the frame instead of describing it</li><li>Guests never take a paid seat, and they are unlimited on Pro and above</li><li>Role-based permissions, so a client sees one board and not your whole library</li><li><a href="../../brand-portal/index.html">Published brand portals</a> that update once and serve every market</li><li>The approved asset is already filed, tagged, and searchable the moment it is approved</li></ul><p><strong>Limitations</strong></p><ul><li>Playbook is not a dedicated compliance proofing suite, so teams in pharma or regulated finance may still need a specialist tool alongside it</li><li>Playbook Intelligence starts on the Team plan, not on Free or Pro</li></ul><p><a href="https://www.playbook.com/blog/wbd-sports/">WBD Sports</a>, the marketing engine behind TNT Sports, Eurosport, and Bleacher Report, runs legal review this way across a 10,000-asset library. Before Playbook, assets sat in SharePoint and Google Drive while promo scripts moved by email. VP of Marketing David Bret described the old process simply: "There was a lot of wasted time and energy." Timestamped video comments turned legal review into something precise and asynchronous.</p><p><a href="https://www.playbook.com/blog/dorst-and-lesser/">Dorst &amp; Lesser</a>, a 75-person social agency in Amsterdam, moves roughly 400 assets a week across 40 clients and 30 influencers, with the conversations tab carrying feedback between team, client, and creator.</p><p>The reason this matters: <strong>the filing problem and the approval problem are the same problem.</strong> Playbook's board rules tag and place every new upload automatically, so an approved asset does not need a human to remember where it belongs. See how <a href="../../collaboration-editing/index.html">review and collaboration</a> work together for more.</p><p>At the time of writing, Playbook is free to start, Pro is $18 per member per month or $120 per year, Team is $25 per member per month or $240 per year, and Business is a flat $500 per month or $4,800 per year with unlimited members, SSO, and API access. Current tiers are on the <a href="../../pricing/index.html">pricing page</a>.</p><h2 id="2-filestage-best-for-marketing-teams-running-fixed-review-rounds">2. Filestage: best for marketing teams running fixed review rounds</h2><p>Filestage is online proofing software built around explicit review steps, where each round has named reviewers and a due date. It is a good fit for marketing teams whose approval process is genuinely sequential: creative reviews, then brand, then legal.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/BY302nsNXqn_5uqvqHoriwgs8UQV8wqY9khsHLSbeOs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzI1ZDc5MTA1/LTBmMWItNGU3Yy1i/M2Y5LTljNjczOTE2/YzFkNQ" class="kg-image" alt="Filestage product screenshot" loading="lazy"><figcaption>image source: <a href="https://filestage.io" target="_blank" rel="noopener">Filestage</a></figcaption></figure><p><strong>Strengths</strong></p><ul><li>Review steps with due dates make the status of a round unambiguous</li><li>Reviewers comment without an account</li><li>Handles video, PDF, and web content in one review surface</li><li>Automated reminders reduce the chasing</li></ul><p><strong>Limitations</strong></p><ul><li>It is a proofing tool, so approved files still need a home somewhere else</li><li>Per-seat pricing gets expensive as the internal reviewer list grows</li></ul><p>Pricing is published per seat on the <a href="https://filestage.io/pricing/">Filestage pricing page</a> and is worth checking directly, since tiers change.</p><h2 id="3-ziflow-best-for-enterprise-proofing-with-compliance-needs">3. Ziflow: best for enterprise proofing with compliance needs</h2><p>Ziflow is enterprise-grade online proofing with automated workflow routing, built for organizations where a review path has to be enforced rather than suggested. If your approvals need to follow the same documented route every time, this is the category leader for that job.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/FzS-uc-RAFi3shNQ4YDYEY8TIDex-sajlBW3JZ0YxzE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzM1NjM2ZjVl/LTY2ZDgtNDhiMS1i/YmMxLTNhZGFlZWE0/ZjFlNQ" class="kg-image" alt="Ziflow product screenshot" loading="lazy"><figcaption>image source: <a href="https://www.ziflow.com" target="_blank" rel="noopener">Ziflow</a></figcaption></figure><p><strong>Strengths</strong></p><ul><li>Automated routing sends a proof to the next stage without anyone remembering to</li><li>Very broad file type support, including packaging and print formats</li><li>Detailed audit trails suited to regulated review</li><li>Integrations with the major work management platforms</li></ul><p><strong>Limitations</strong></p><ul><li>More setup than a small team needs, and the workflow builder rewards a dedicated owner</li><li>Like other proofing suites, it manages the approval and not the library behind it</li></ul><p>See the <a href="https://www.ziflow.com/pricing">Ziflow pricing page</a> for current tiers.</p><h2 id="4-frameio-best-for-video-and-post-production">4. Frame.io: best for video and post production</h2><p>Frame.io is a video-first review platform, now part of Adobe, with frame-accurate commenting and tight integration into Premiere Pro and After Effects. For teams whose approvals are mostly moving pictures, the editorial integration is the strongest on this list.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/jgtN2SLYg9eAZtsW6VvIm7jAOecx52BVnY7WDtOfwgw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2E5MjIzZWUw/LTVlZjUtNGQ2My04/ZWQ3LTMwNjAxNTM2/MWM5Mg" class="kg-image" alt="Frame.io product screenshot" loading="lazy"><figcaption>image source: <a href="https://frame.io" target="_blank" rel="noopener">Frame.io</a></figcaption></figure><p><strong>Strengths</strong></p><ul><li>Frame-accurate comments and drawing tools built for editorial review</li><li>Camera to Cloud gets footage into review while the shoot is still running</li><li>Deep Adobe integration for teams already in Creative Cloud</li><li>Generous free tier for small teams</li></ul><p><strong>Limitations</strong></p><ul><li>Strongest on video, less natural for stills, packaging, and static campaign work</li><li>Organized around projects, so assets tend to stay locked to the job they were made for rather than becoming a reusable library</li></ul><p>At the time of writing, Frame.io lists a free tier, Pro at $15 per month, Team at $25 per month, and custom Enterprise pricing on the <a href="https://frame.io/pricing">Frame.io pricing page</a>.</p><h2 id="5-pageproof-best-for-regulated-work-needing-strict-audit-trails">5. PageProof: best for regulated work needing strict audit trails</h2><p>PageProof is proofing software with an emphasis on security and a complete, defensible record of who approved what. Teams in pharma, finance, and other regulated categories choose it for exactly that reason.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/wQYNZeepHLN69aWZjCsqwzJHcJ1nYm6aNWwxl6WGiNo/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y4M2U2MzU0/LTUwM2QtNDNkNS04/ZWYwLTAxY2EyZTlj/ZGZmMw" class="kg-image" alt="PageProof product screenshot" loading="lazy"><figcaption>image source: <a href="https://pageproof.com" target="_blank" rel="noopener">PageProof</a></figcaption></figure><p><strong>Strengths</strong></p><ul><li>Encrypted proofs and a rigorous approval record</li><li>Smart compare highlights what changed between versions</li><li>Reviewers do not need an account</li><li>Works alongside Adobe tools</li></ul><p><strong>Limitations</strong></p><ul><li>Entry pricing is high for small teams relative to the rest of this list</li><li>Again, a proofing specialist rather than a place your assets live</li></ul><p>At the time of writing, published plans start at $249 per month or $2,499 per year, with a higher tier at $499 per month or $4,999 per year. Check the <a href="https://pageproof.com/pricing/">PageProof pricing page</a> for current figures.</p><h2 id="how-to-choose-client-approval-software">How to choose client approval software</h2><p>Work through these in order and the shortlist tends to pick itself.</p><ul><li><strong>If most of your work is video</strong>, weight frame-accurate commenting and editorial integration highest.</li><li><strong>If your review path is legally mandated</strong>, weight audit trails and enforced routing highest.</li><li><strong>If clients ignore your review links</strong>, weight no-account access highest. This is the single most common reason approval tools fail to get adopted.</li><li><strong>If you keep re-shooting things you already own</strong>, the bottleneck is not approval at all. It is that approved work disappears into a project folder. Fix the library first.</li><li><strong>If you are an agency juggling many clients</strong>, weight per-client permissions and guest pricing, because seat-based tools punish you for the thing you do most. Our <a href="../../creative-agency/index.html">agency guide</a> covers that math.</li></ul><p><strong>The honest summary: if you need deep compliance proofing, buy a proofing specialist. If your real problem is that approved work vanishes, buy a library that happens to do approvals.</strong> <a href="../../contact/index.html">Schedule a demo</a> and we will tell you which one you are.</p><h2 id="frequently-asked-questions">Frequently asked questions</h2><h3 id="what-is-client-approval-software">What is client approval software?</h3><p>Client approval software collects structured feedback on creative work and records a formal sign-off. Reviewers comment directly on the asset, usually without an account, and the approval is stored as a dated, attributable event rather than an email reply.</p><h3 id="what-is-the-best-client-approval-software-for-creative-teams">What is the best client approval software for creative teams?</h3><p>It depends on the file type that dominates your work. Video-heavy teams tend to choose Frame.io. Teams needing enforced compliance routing choose Ziflow or PageProof. Teams who want approvals and their asset library in one system choose Playbook.</p><h3 id="is-online-proofing-software-the-same-as-client-approval-software">Is online proofing software the same as client approval software?</h3><p>Mostly yes. "Online proofing" is the older term from print and packaging, where a proof was a physical artifact. Both describe tools for marking up creative work and recording sign-off.</p><h3 id="do-i-still-need-proofing-software-if-i-have-a-dam">Do I still need proofing software if I have a DAM?</h3><p>Often not. A DAM with per-second video comments, pinned annotations, and role-based sharing covers the majority of approval workflows. Keep a dedicated proofing tool if you have regulated, multi-stage routing that must be enforced by the system.</p><h3 id="how-much-does-client-approval-software-cost">How much does client approval software cost?</h3><p>Most tools price per seat, which is why guest access matters so much. At the time of writing, entry points on this list range from free tiers up to $249 per month, with enterprise proofing suites quoted individually.</p><h3 id="can-clients-leave-feedback-without-creating-an-account">Can clients leave feedback without creating an account?</h3><p>With most tools on this list, yes. Playbook, Filestage, and PageProof all support reviewing by link without an account. Requiring a login is the fastest way to reduce the amount of feedback you actually receive.</p><p><strong>Approvals should not be the reason work sits still, and an approved asset should not be the last time anyone sees it.</strong> <a href="../../contact/index.html">Schedule a demo</a> to see review and the library working as one system.</p>
+            
+        </article>
+      </div>
+    </section>
+    
+    <section class="pb-cta-band" data-section="closing-cta" data-intent="drive action" data-layout="contained" data-module="cta-band"><div class="wrap"><div class="pb-cta-band__box"><h2 class="pb-cta-band__headline" data-slot="headline">Start with one folder and see what possibilities await.</h2><div class="pb-cta-band__actions" data-slot="cta"><a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a><a class="pb-button pb-button--secondary" href="../../contact/index.html">Book a demo</a></div></div></div></section>
+  </main>
+  <footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon="">
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="../../index.html"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="../../features/index.html">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="../../mcp/index.html">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="../../integrations-all/index.html">Tools and integrations</a></li><li><a href="../../pricing/index.html">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="../../enterprise/index.html">Enterprise</a></li><li><a href="../../media-and-entertainment/index.html">Media and entertainment</a></li><li><a href="../../creative-agency/index.html">Creative agencies</a></li><li><a href="../../consumer-brands/index.html">Consumer brands</a></li><li><a href="../../games/index.html">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="../../blog/index.html">Blog</a></li><li><a href="../../customers/index.html">Customer stories</a></li><li><a href="../../tutorial/index.html">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="../../about-us/index.html">About us</a></li><li><a href="../../the-story-of-playbook/index.html">Story of Playbook</a></li><li><a href="../../contact/index.html">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="../../p/privacy/index.html">Privacy</a><a href="../../p/terms/index.html">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+  <script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+  </script>
+</body>
+</html>

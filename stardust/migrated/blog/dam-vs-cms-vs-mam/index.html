@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-09-30T06:10:25Z
+  page:             DAM vs CMS vs MAM: Which System Does Your Team Actually Need?
+  slug:             blog-dam-vs-cms-vs-mam
+  pagePath:         migrated/blog/dam-vs-cms-vs-mam/index.html
+  renderBranch:     A'
+  template:         blog-brand-portal-api
+  archetypePath:    stardust/prototypes/blog-brand-portal-api-proposed.html
+  archetypeSha:     41f9333dca68
+  sourceCurrent:    stardust/current/pages/blog-dam-vs-cms-vs-mam.json
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  designMd:         DESIGN.md (sha: 833916554b4d)
+  designJson:       DESIGN.json (sha: 3ea50209949e)
+  canonShas:        header:0e491b179edd footer:b11f2ddc22f2 css:01e4a1e44711
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 12
+  stardustVersion:  0.25.0
+-->
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+</style>
+<link rel="stylesheet" href="../../assets/canon.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"DAM vs CMS vs MAM: Which System Does Your Team Actually Need?","description":"DAM vs CMS vs MAM explained, plus how MDM fits in. What each system stores, who owns it, and how to tell which one your team is actually missing.","mainEntityOfPage":"https://www.playbook.com/blog/dam-vs-cms-vs-mam/"}</script><!-- stardust:provenance
+{
+  "writtenBy": "stardust:prototype",
+  "writtenAt": "2026-09-29T06:52:34Z",
+  "page": "blog-brand-portal-api",
+  "pageUrl": "https://www.playbook.com/blog/brand-portal-api/",
+  "template": "article",
+  "againstDirection": "stardust/direction.md (Active 2026-09-29T06:30:00Z)",
+  "readArtifacts": [
+    "stardust/current/pages/blog-brand-portal-api.json",
+    "stardust/current/pages/blog-brand-portal-api.html",
+    "DESIGN.md",
+    "DESIGN.json",
+    "stardust/direction.md",
+    "stardust/canon/header.html",
+    "stardust/canon/footer.html",
+    "stardust/canon/canon.css",
+    "stardust/canon/modules/cta-band.html",
+    "stardust/canon/modules/related-posts.html"
+  ],
+  "capturedAuthor": null,
+  "capturedDate": "July 14, 2026",
+  "capturedHeroImage": null,
+  "unsourcedContent": [],
+  "modules": [
+    "faq",
+    "feature-grid",
+    "related-posts",
+    "cta-band"
+  ],
+  "canonInjected": [
+    "skip-link.html",
+    "header.html",
+    "footer.html",
+    "canon.css",
+    "modules/cta-band.html"
+  ],
+  "copyCadenceBypass": {
+    "basis": "article body is captured-verbatim",
+    "rulesIgnored": [
+      "copy-cadence"
+    ]
+  },
+  "reflexRejectAudit": {
+    "bypassed": "Mode A brand-faithful render with captured stabil_grotesk pinned"
+  },
+  "fidelity": "quick",
+  "critique": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "manual vision check + deterministic detector review (hands-off)",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "findings": [],
+      "fixesApplied": [
+        "Restored global Playbook typography rules from the home prototype so the article renders in stabil_grotesk rather than browser serif defaults.",
+        "Tightened display tracking from -0.055em to -0.04em after detector warning."
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "impeccable detect --json + Playwright structural/a11y/perf checks",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 3
+      },
+      "findings": [
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "cramped-padding",
+          "status": "dismissed false positive",
+          "reason": "Section children sit inside .wrap gutters; cta-band box has clamp(32px, 7vw, 72px) padding from canon."
+        },
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "cramped-padding",
+          "status": "dismissed false positive",
+          "reason": "Canonical cta-band padding is present; detector did not resolve clamp padding."
+        },
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "marquee",
+          "status": "dismissed false positive",
+          "reason": "Full canon.css is required by the brief; this article renders no logo-marquee DOM."
+        }
+      ],
+      "checks": {
+        "contrastFailures": 0,
+        "missingAlt": 0,
+        "h1Count": 1,
+        "externalCss": false,
+        "externalJs": false,
+        "lcpImage": "no image intersects first viewport; first article figure is eager/high priority"
+      },
+      "fixesApplied": [
+        "Added global base typography/reset rules after canon.css.",
+        "Kept first article figure loading=eager and fetchpriority=high."
+      ]
+    }
+  ],
+  "adapt": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "mobile-nav-audit.mjs + Playwright overflow probes",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "breakpoints": [
+        360,
+        414,
+        800,
+        1280,
+        1920
+      ],
+      "navAudit": "pass at 360px",
+      "horizontalOverflow": {
+        "360": 0,
+        "414": 0,
+        "800": 0,
+        "1280": 0,
+        "1920": 0
+      },
+      "navCollapse": "hamburger (canon stock)"
+    }
+  ],
+  "visionCheck": {
+    "verdict": "pass",
+    "observations": [
+      "Source and prototype both keep the editorial article shape: date, left TOC rail, single reading column and inline product UI figures.",
+      "Prototype unifies chrome to the home canon and makes the captured feature-grid/FAQ/related modules explicit without fabricated copy or media.",
+      "Hierarchy is stronger than the source while retaining the Playbook white canvas, signal CTA and product screenshot focus."
+    ]
+  },
+  "assumptions": [
+    "Hands-off mode: no user confirmation requested",
+    "No byline or lead hero image was present in captured slots, so neither was invented"
+  ],
+  "validationArtifacts": [
+    "stardust/validation/blog-brand-portal-api/proposed-1440.png",
+    "stardust/.work/thumbs/blog-brand-portal-api-thumb.png",
+    "stardust/.work/thumbs/proposed-1440-thumb.png"
+  ]
+}
+  orchestratorFixes:
+    - "related-posts text-only cards: removed empty lead-card media area, top-aligned titles (2026-09-29T07:00:21.750Z)"
+-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAM vs CMS vs MAM: Which System Does Your Team Actually Need?</title>
+  <meta name="description" content="DAM vs CMS vs MAM explained, plus how MDM fits in. What each system stores, who owns it, and how to tell which one your team is actually missing.">
+  <link rel="icon" href="../../assets/favicon.ico">
+  <style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('../../assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+/* compound CSS lifted from index */
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: auto; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; text-wrap: balance; color: var(--color-ink-strong); }
+h1 { font-size: clamp(2.75rem, 7vw, var(--heading-xxl)); letter-spacing: -.035em; }
+h2 { font-size: clamp(2rem, 4.8vw, var(--heading-xl)); letter-spacing: -.025em; }
+h3 { font-size: clamp(1.25rem, 2.5vw, var(--heading-md)); letter-spacing: -.015em; }
+p { text-wrap: pretty; }
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; }
+.pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: pbMarquee 42s linear infinite; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.18; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+
+/* Article archetype page-specific CSS */
+.pb-article-hero { padding: 70px 0 38px; border-bottom: 1px solid var(--color-hairline-warm); background: linear-gradient(180deg, #fff 0%, #fff 72%, var(--color-paper) 100%); }
+.pb-article-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: clamp(28px, 6vw, 82px); align-items: end; }
+.pb-article-hero__meta { margin: 0 0 16px; color: var(--color-muted); font-size: 15px; font-weight: 500; }
+.pb-article-hero h1 { max-width: 870px; margin: 0; font-size: clamp(2.6rem, 6.8vw, 5.65rem); line-height: .95; letter-spacing: -.04em; }
+.pb-article-hero__deck { max-width: 68ch; margin: 24px 0 0; color: var(--color-ink-soft); font-size: clamp(1.08rem, 2vw, 1.35rem); line-height: 1.48; }
+.pb-article-hero__note { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; padding: 18px; color: var(--color-muted); font-size: 14px; }
+.pb-article-hero__note strong { display: block; color: var(--color-ink-strong); font-size: 16px; margin-bottom: 8px; }
+.pb-article-layout { padding: 54px 0 70px; }
+.pb-article-grid { display: grid; grid-template-columns: 230px minmax(0, 760px); gap: clamp(28px, 5vw, 70px); align-items: start; justify-content: center; }
+.pb-toc { position: sticky; top: 104px; display: grid; gap: 14px; align-self: start; }
+.pb-toc__label { color: var(--color-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-toc ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.pb-toc a { display: block; padding: 9px 0 9px 12px; border-left: 1px solid var(--color-hairline-warm); color: var(--color-ink-soft); font-size: 14px; line-height: 1.3; text-decoration: none; }
+.pb-toc a:hover { color: var(--color-signal-deep); border-color: var(--color-signal-deep); }
+.pb-article { max-width: 68ch; }
+.pb-article h2 { margin: 58px 0 18px; font-size: clamp(1.8rem, 4vw, 2.75rem); }
+.pb-article h2:first-child { margin-top: 0; }
+.pb-article p, .pb-article li { color: var(--color-ink-soft); font-size: 18px; line-height: 1.66; }
+.pb-article p { margin: 0 0 22px; }
+.pb-article a { color: var(--color-ink-strong); text-decoration-color: var(--color-signal-deep); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.pb-article a:hover { color: var(--color-signal-deep); }
+.pb-article code { border: 1px solid var(--color-border); border-radius: 7px; background: var(--color-paper); padding: .1em .34em; color: var(--color-ink-strong); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .88em; }
+.pb-article figure { margin: 36px 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--color-hairline-warm); background: var(--color-paper); }
+.pb-article figure img { width: 100%; height: auto; }
+.pb-article figcaption { padding: 13px 16px 15px; color: var(--color-muted); font-size: 14px; line-height: 1.45; }
+.pb-feature-grid { margin: 38px 0 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.pb-feature-item { position: relative; padding: 20px; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); }
+.pb-feature-item::before { content: ""; display: block; width: 40px; height: 3px; margin-bottom: 14px; border-radius: var(--radius-pill); background: linear-gradient(90deg,#6cb4ee,#d46bca,#ff3c8e,#ff6b35); }
+.pb-feature-item h3 { margin: 0 0 8px; font-size: 18px; line-height: 1.25; }
+.pb-feature-item p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--color-ink-soft); }
+.pb-faq { margin-top: 28px; display: grid; gap: 10px; }
+.pb-faq details { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; padding: 0; overflow: hidden; }
+.pb-faq summary { cursor: pointer; padding: 18px 20px; color: var(--color-ink-strong); font-weight: 500; list-style-position: outside; }
+.pb-faq details[open] summary { border-bottom: 1px solid var(--color-hairline-warm); }
+.pb-faq__answer { padding: 18px 20px 20px; }
+.pb-faq__answer p { margin: 0; }
+.pb-related.pb-stories { background: var(--color-paper); }
+.pb-related .pb-stories__grid { grid-template-columns: repeat(3, 1fr); }
+.pb-related .pb-story-card { min-height: 225px; padding: 22px; align-items: stretch; background: #fff; border: 1px solid var(--color-hairline-warm); color: var(--color-ink-strong); }
+.pb-related .pb-story-card::after { display: none; }
+.pb-related .pb-story-card h3 { color: var(--color-ink-strong); padding: 0; font-size: clamp(1.15rem, 2vw, 1.55rem); line-height: 1.15; letter-spacing: -.02em; align-self: end; }
+.pb-related .pb-story-card span { display: inline-flex; align-self: start; width: max-content; border-radius: var(--radius-pill); border: 1px solid var(--color-border); padding: 6px 10px; color: var(--color-muted); font-size: 13px; }
+.pb-related .pb-section__head h3 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.75rem); letter-spacing: -.025em; }
+@media (prefers-reduced-motion: no-preference) { .pb-feature-item, .pb-faq details, .pb-related .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-feature-item:hover, .pb-related .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+@media (max-width: 980px) { .pb-article-hero__grid, .pb-article-grid { grid-template-columns: 1fr; } .pb-toc { position: static; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); padding: 16px; background: var(--color-paper); } .pb-toc ul { display: flex; flex-wrap: wrap; gap: 8px; } .pb-toc a { border: 1px solid var(--color-border); border-radius: var(--radius-pill); background: #fff; padding: 7px 10px; } .pb-article { max-width: none; } .pb-article-hero__note { max-width: 520px; } }
+@media (max-width: 760px) { .pb-article-hero { padding: 42px 0 30px; } .pb-article-hero h1 { font-size: clamp(2.45rem, 14vw, 4rem); } .pb-article-layout { padding: 32px 0 44px; } .pb-feature-grid, .pb-related .pb-stories__grid { grid-template-columns: 1fr; } .pb-article p, .pb-article li { font-size: 16px; line-height: 1.62; } .pb-article h2 { margin-top: 42px; } }
+@media (max-width: 600px) { .pb-article-hero__note { display: none; } .pb-toc ul { display: grid; } .pb-feature-item, .pb-faq summary, .pb-faq__answer { padding: 16px; } }
+
+  .pb-related .pb-stories__grid{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row}
+.pb-related .pb-story-card,.pb-related .pb-story-card:first-child{display:block;min-height:0;grid-column:auto;grid-row:auto;padding:24px;justify-content:flex-start}
+@media (max-width:900px){.pb-related .pb-stories__grid{grid-template-columns:1fr}}
+</style>
+  <link rel="canonical" href="https://www.playbook.com/blog/dam-vs-cms-vs-mam/">
+  <meta property="og:title" content="DAM vs CMS vs MAM: Which System Does Your Team Actually Need?">
+  <meta property="og:description" content="DAM vs CMS vs MAM explained, plus how MDM fits in. What each system stores, who owns it, and how to tell which one your team is actually missing.">
+  <meta property="og:image" content="https://img.playbook.com/pY4rde4rn0u9T-Biyjzfm8ruNtHxXGNGNY0pA6Hj-yI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzFlZDMxNjIx/LWVlMGMtNDVkMi04/ODQ2LTVhNTExZjU4/OWNjOQ">
+  <meta property="og:type" content="article">
+<style data-sibling>
+.pb-article-grid>*{min-width:0}.pb-article{min-width:0;overflow-wrap:anywhere}.pb-article pre{max-width:100%;overflow:auto;white-space:pre-wrap;word-break:break-word}.pb-article :is(ul,ol){margin:18px 0 28px;padding-left:1.35em;color:var(--color-ink-soft)}
+.pb-article :is(li){margin:8px 0}.pb-article blockquote{margin:30px 0;padding:22px 26px;border-left:4px solid var(--color-accent);background:var(--color-paper);border-radius:var(--radius)}
+.pb-article table{width:100%;border-collapse:collapse;margin:28px 0;font-size:15px;display:block;overflow-x:auto}.pb-article th,.pb-article td{border:1px solid var(--color-border);padding:12px;text-align:left;vertical-align:top}.pb-article thead{background:var(--color-paper)}
+.pb-article iframe,.pb-article video{width:100%;max-width:100%;aspect-ratio:16/9;border:0;border-radius:var(--radius);background:#111}.pb-article .kg-card{margin:28px 0}.pb-article .kg-bookmark-card a{display:block;border:1px solid var(--color-border);border-radius:var(--radius);padding:18px;text-decoration:none;color:inherit;background:var(--color-paper)}
+.pb-tutorial-index{background:var(--color-paper)}.pb-tutorial-index__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.pb-tutorial-index__card{display:flex;min-height:68px;align-items:center;padding:16px;border:1px solid var(--color-hairline-warm);border-radius:var(--radius);background:#fff;color:var(--color-ink-strong);text-decoration:none;font-size:15px;line-height:1.25}.pb-tutorial-index__card:hover{box-shadow:var(--shadow-lift)}
+@media (max-width:900px){.pb-tutorial-index__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:560px){.pb-tutorial-index__grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon="">
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="../../index.html" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="../../product/index.html">Product</a>
+      <a href="../../sdk/index.html">API &amp; SDK</a>
+      <a href="../../enterprise/index.html">Solutions</a>
+      <a href="../../blog/index.html">Resources</a>
+      <a href="../../pricing/index.html">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="../../contact/index.html">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+  <main id="main" data-template="article">
+    <section class="pb-article-hero" data-section="article-hero" data-intent="orient reader" data-layout="contained">
+      <div class="wrap pb-article-hero__grid">
+        <div>
+          <p class="pb-article-hero__meta" data-slot="date">August 19, 2026</p>
+          <h1 data-slot="headline">DAM vs CMS vs MAM: Which System Does Your Team Actually Need?</h1>
+          <p class="pb-article-hero__deck" data-slot="deck">DAM vs CMS vs MAM explained, plus how MDM fits in. What each system stores, who owns it, and how to tell which one your team is actually missing.</p>
+        </div>
+        <aside class="pb-article-hero__note" aria-label="Article context"><strong>DAM vs CMS vs MAM: Which System Does Your Team Actually Need?</strong><span>Frequently asked questions</span></aside>
+      </div>
+    </section>
+    <section class="pb-section pb-article-layout" data-section="article-body" data-intent="educate" data-layout="side-rail" data-slot="article-body">
+      <div class="wrap pb-article-grid">
+        <aside class="pb-toc" aria-label="On this page">
+          <span class="pb-toc__label">On this page</span>
+          <ul>
+        <li><a href="#quick-comparison">Quick comparison</a></li>
+        <li><a href="#what-is-a-digital-asset-management-system">What is a digital asset management system?</a></li>
+        <li><a href="#what-is-a-content-management-system">What is a content management system?</a></li>
+        <li><a href="#what-is-a-media-asset-management-system">What is a media asset management system?</a></li>
+        <li><a href="#where-mdm-fits-and-why-it-is-not-mam">Where MDM fits, and why it is not MAM</a></li>
+        <li><a href="#how-the-three-systems-work-together">How the three systems work together</a></li>
+        <li><a href="#which-do-you-actually-need">Which do you actually need?</a></li>
+        <li><a href="#where-playbook-fits">Where Playbook fits</a></li>
+        <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
+          </ul>
+        </aside>
+        <article class="pb-article">
+
+              <p>A DAM stores the assets your team creates, a CMS publishes the pages your audience reads, and a MAM manages high-volume video and broadcast media through production. They overlap enough to be confused for one another and differ enough that buying the wrong one is expensive. <strong>The fastest way to tell them apart: a DAM is organised around the asset, a CMS around the page, and a MAM around the timeline.</strong></p><p>This guide explains what each system actually does, where MDM fits in (it is a different thing entirely, despite the initials), and how to work out which one your team is missing.</p><p>Not sure which gap you have? <a href="../../contact/index.html">Schedule a demo</a> and we will help you scope it honestly.</p><h2 id="quick-comparison">Quick comparison</h2>
+<!--kg-card-begin: html-->
+<table>
+<thead>
+<tr>
+<th></th>
+<th>DAM</th>
+<th>CMS</th>
+<th>MAM</th>
+<th>MDM</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Stands for</strong></td>
+<td>Digital asset management</td>
+<td>Content management system</td>
+<td>Media asset management</td>
+<td>Master data management</td>
+</tr>
+<tr>
+<td><strong>Manages</strong></td>
+<td>Finished and in-progress creative assets</td>
+<td>Web pages and published content</td>
+<td>Video, audio, and broadcast media</td>
+<td>Core business records</td>
+</tr>
+<tr>
+<td><strong>Organised around</strong></td>
+<td>The asset</td>
+<td>The page</td>
+<td>The timeline</td>
+<td>The record</td>
+</tr>
+<tr>
+<td><strong>Primary user</strong></td>
+<td>Creative, brand, marketing</td>
+<td>Web, content, editorial</td>
+<td>Post production, broadcast</td>
+<td>IT, data governance</td>
+</tr>
+<tr>
+<td><strong>Typical question it answers</strong></td>
+<td>Where is the approved hero image?</td>
+<td>What does this page say?</td>
+<td>Which take is this clip from?</td>
+<td>What is the authoritative product record?</td>
+</tr>
+<tr>
+<td><strong>Handles approvals</strong></td>
+<td>Usually</td>
+<td>Rarely</td>
+<td>Sometimes</td>
+<td>No</td>
+</tr>
+</tbody></table>
+<!--kg-card-end: html-->
+<h2 id="what-is-a-digital-asset-management-system">What is a digital asset management system?</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/I3pST9ZYTvUuS5SOyTFXi5ArXijEW2kJJLxYrUh3FMA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzhiYTc2NWEx/LWM0Y2ItNDE3Zi1i/M2IwLTRjZWY0YjU4/Y2E1Yw" class="kg-image" alt="Bulk tagging keeps metadata attached to every asset, which is what separates a DAM from storage." loading="eager" fetchpriority="high"><figcaption>Bulk tagging keeps metadata attached to every asset, which is what separates a DAM from storage.</figcaption></figure><p>A digital asset management system is a platform that stores, organises, and distributes a team's creative files, keeping metadata, permissions, and version history attached to each asset. It is the system of record for the things your team makes: photography, video, design files, logos, packaging artwork, and the approved final versions of all of them.</p><p>The defining characteristic is that a DAM knows what is inside a file. Storage knows a file exists and where it sits. A DAM knows this is a product shot, taken on this shoot, featuring this SKU, approved on this date, licensed until that one.</p><p>That is also why "we already have Google Drive" is not an answer. <a href="https://www.playbook.com/blog/dyla-brands/">Dyla Brands</a>, the 60-person New York beverage company behind Stur and partner brands including Dole, Ocean Spray, and Liquid Death, ran exactly that setup across OneDrive and Google Drive before switching. Senior Design Manager Emma Madia's summary of the old system: "It was a huge headache." Their library is now over 15,000 assets, and the sales team can find a specific flavour's product shot without interrupting a designer.</p><p><strong>Buy a DAM when the recurring pain is "we cannot find it" or "we made that already".</strong></p><h2 id="what-is-a-content-management-system">What is a content management system?</h2><p>A content management system is a platform for creating, editing, and publishing content to a website or app, organised around pages and templates rather than around individual files. WordPress, Contentful, Sanity, and Webflow all sit in this category.</p><p>A CMS does store images, and this is the source of most of the confusion. But it stores them as page dependencies. Upload the same logo to twelve pages and a CMS is perfectly happy to hold twelve copies, because its job is to render page twelve correctly, not to know that all twelve are the same asset. There is usually no approval state, no licence expiry, no version lineage, and no way for the brand team to update the logo everywhere at once.</p><p><strong>Buy a CMS when the recurring pain is publishing and updating what your audience reads.</strong> Buy it in addition to a DAM, not instead of one.</p><h2 id="what-is-a-media-asset-management-system">What is a media asset management system?</h2><p>A media asset management system is a DAM specialised for video and audio, built around timecode, proxies, and the mechanics of post production. Where a DAM treats a video as one asset, a MAM treats it as a timeline you can search into: this frame, this take, this camera, this transcript.</p><p>MAMs are standard in broadcast, film, and large-scale content operations, where a single project generates terabytes of footage and the useful unit is a moment rather than a file. They typically handle proxy generation so editors can work without pulling full-resolution media, and they integrate with editorial tools rather than replacing them.</p><p>The practical distinction: <strong>if your search needs to land on a moment inside a file, you need MAM capability. If it needs to land on the file, a DAM is enough.</strong></p><p>Most brand and marketing teams that think they need a MAM actually need a DAM that handles video properly. <a href="https://www.playbook.com/blog/wbd-sports/">WBD Sports</a>, the marketing team behind TNT Sports, Eurosport, and Bleacher Report, runs a 10,000-asset library with timestamped video comments for legal review across markets. That is video-native review inside a DAM, not a broadcast MAM, and for marketing output it is the right depth.</p><h2 id="where-mdm-fits-and-why-it-is-not-mam">Where MDM fits, and why it is not MAM</h2><p>Master data management is not a media system at all. MDM governs the authoritative version of core business records: customers, suppliers, products, locations. It exists so that "product 4417" means the same thing in your ERP, your ecommerce platform, and your finance system.</p><p>People search "MDM vs MAM" because the acronyms rhyme, not because the systems compete. They almost never sit in the same evaluation.</p><p>The system that genuinely sits between them is PIM, product information management, which holds product attributes like dimensions, ingredients, and copy. PIM and DAM are frequent partners in retail and CPG: the PIM holds what the product <em>is</em>, the DAM holds what it <em>looks like</em>, and they are joined by SKU.</p><h2 id="how-the-three-systems-work-together">How the three systems work together</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/pjFjbxh0-hj99NBM0-msa8af8JMr1XfOtZSxJ3C370k/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2Y5MmUwNTMz/LTM4ODQtNDhiYy1h/MGYyLTlmMTMyNGRl/MGQ5NQ" class="kg-image" alt="Publishing a board creates a link that stays current, so downstream channels pull from one source." loading="lazy"><figcaption>Publishing a board creates a link that stays current, so downstream channels pull from one source.</figcaption></figure><p>In a mature setup the flow runs in one direction, and each system does one job.</p><ul><li><strong>The DAM is upstream.</strong> Work is created, reviewed, approved, and filed here. This is where the single source of truth lives.</li><li><strong>The CMS is downstream.</strong> It pulls approved assets from the DAM to build pages. It should not be the place assets are stored, only the place they are used.</li><li><strong>The MAM sits beside the DAM</strong> where video volume justifies it, handling production media while the DAM holds the finished, approved cuts.</li><li><strong>PIM and MDM sit alongside</strong>, holding the data that describes the thing the assets depict.</li></ul><p>The failure mode almost every team hits is using the CMS as the DAM. It works until the second channel appears. The moment you have a website, a retail partner portal, a paid social team, and an app all needing the same approved asset, a page-shaped system cannot serve them, and you get four divergent copies of the brand.</p><h2 id="which-do-you-actually-need">Which do you actually need?</h2><p>Work through these honestly.</p><ul><li><strong>You cannot find approved work, or you keep recreating assets you already own.</strong> You need a DAM. This is the most common gap by a wide margin.</li><li><strong>Your website is hard to update without a developer.</strong> You need a CMS. This is not a DAM problem.</li><li><strong>Your searches need to land inside a video, at a specific frame or spoken phrase.</strong> You need MAM capability.</li><li><strong>The same product is described differently in three systems.</strong> That is MDM or PIM, not a media problem.</li><li><strong>External partners keep emailing you for files.</strong> You need a DAM with <a href="../../brand-portal/index.html">published brand portals</a>, so the answer becomes a link that stays current.</li></ul><p>A useful test: ask where the approved final version of last quarter's campaign hero image lives, and time how long it takes someone to produce it. Under a minute means your system works. Anything over five means the gap is a DAM, whatever else you own.</p><h2 id="where-playbook-fits">Where Playbook fits</h2><p>Playbook is a digital asset management platform built as a visual home for creative work, with video review depth that covers what most teams would otherwise buy a MAM for. It is deliberately not a CMS. It is the upstream library that a CMS should pull from.</p><p>The part that changes the daily experience is that filing is not a chore anyone has to remember. Set a board rule once and every new upload is tagged and placed automatically. Search reads the actual visual content, so you can ask for <em>"all assets featuring models"</em> or <em>"every file tagged #socialReady"</em> rather than guessing at filenames. And because guests never take a paid seat, the partner portal problem stops being a licensing negotiation.</p><p>Playbook Intelligence, which starts on the Team plan, covers the three motions this article keeps circling: organise without manual filing, search and act on results directly, and chain repeated steps into one instruction. At the time of writing, Playbook is free to start, Pro is $18 per member per month or $120 per year, Team is $25 per member per month or $240 per year, and Business is a flat $500 per month or $4,800 per year with unlimited members, SSO, and API access. See the <a href="../../pricing/index.html">pricing page</a> for current tiers, and <a href="https://dev.playbook.com/">dev.playbook.com</a> if you plan to pipe assets into a CMS programmatically.</p><p>For a narrower comparison, <a href="https://www.playbook.com/blog/dam-vs-cloud-storage-whats-best-for-in-house-designers/">DAM vs cloud storage</a> covers the question in-house design teams ask most.</p><p><strong>Most teams do not need more systems. They need the upstream one they never bought.</strong> <a href="../../contact/index.html">Schedule a demo</a> and bring the asset you always struggle to find.</p><h2 id="frequently-asked-questions">Frequently asked questions</h2><h3 id="what-is-the-difference-between-a-dam-and-a-cms">What is the difference between a DAM and a CMS?</h3><p>A DAM manages assets; a CMS manages pages. A DAM is the source of truth for where an approved file lives and who may use it. A CMS is the tool that publishes content to an audience. Most organisations need both, with the CMS pulling from the DAM.</p><h3 id="can-a-cms-replace-a-dam">Can a CMS replace a DAM?</h3><p>Not past a single channel. A CMS stores images as dependencies of pages, so the same asset gets duplicated per page with no shared version history, approval state, or licence tracking. It works until a second channel needs the same file.</p><h3 id="what-is-the-difference-between-dam-and-mam">What is the difference between DAM and MAM?</h3><p>A MAM is a DAM specialised for video and audio, organised around timecode, proxies, and post-production workflows. A DAM treats a video as a single asset. If you need to search to a specific moment inside footage, you need MAM capability.</p><h3 id="is-mdm-the-same-as-mam">Is MDM the same as MAM?</h3><p>No. Master data management governs authoritative business records such as customers and products. Media asset management handles video and audio files. The acronyms are similar and the systems are unrelated.</p><h3 id="do-i-need-a-pim-as-well-as-a-dam">Do I need a PIM as well as a DAM?</h3><p>If you sell products with detailed attributes, usually yes. A PIM holds what a product is, a DAM holds what it looks like, and the two are linked by SKU. Retail and CPG teams commonly run both.</p><h3 id="which-should-we-buy-first">Which should we buy first?</h3><p>Buy the one that removes the most repeated work. For most creative and marketing teams that is the DAM, because the cost of not having one is invisible: assets get remade rather than reused, and nobody logs the hours.</p>
+            
+        </article>
+      </div>
+    </section>
+    
+    <section class="pb-cta-band" data-section="closing-cta" data-intent="drive action" data-layout="contained" data-module="cta-band"><div class="wrap"><div class="pb-cta-band__box"><h2 class="pb-cta-band__headline" data-slot="headline">Start with one folder and see what possibilities await.</h2><div class="pb-cta-band__actions" data-slot="cta"><a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a><a class="pb-button pb-button--secondary" href="../../contact/index.html">Book a demo</a></div></div></div></section>
+  </main>
+  <footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon="">
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="../../index.html"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="../../features/index.html">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="../../mcp/index.html">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="../../integrations-all/index.html">Tools and integrations</a></li><li><a href="../../pricing/index.html">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="../../enterprise/index.html">Enterprise</a></li><li><a href="../../media-and-entertainment/index.html">Media and entertainment</a></li><li><a href="../../creative-agency/index.html">Creative agencies</a></li><li><a href="../../consumer-brands/index.html">Consumer brands</a></li><li><a href="../../games/index.html">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="../../blog/index.html">Blog</a></li><li><a href="../../customers/index.html">Customer stories</a></li><li><a href="../../tutorial/index.html">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="../../about-us/index.html">About us</a></li><li><a href="../../the-story-of-playbook/index.html">Story of Playbook</a></li><li><a href="../../contact/index.html">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="../../p/privacy/index.html">Privacy</a><a href="../../p/terms/index.html">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+  <script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+  </script>
+</body>
+</html>

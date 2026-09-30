@@ -1,0 +1,162 @@
+{
+  "slug": "gifmaker",
+  "type": "program",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "tool-widget",
+    "tool-crosspromo",
+    "faq",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-cta-band"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    }
+  ],
+  "metadata": {
+    "title": "GIF Maker: Transform moments into motion on Playbook",
+    "description": "Add a playful, personal touch to your photos to make them unforgettable. Customize loop count and frame speed to animate your images instantly.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "GIF Maker: Transform moments into motion on Playbook",
+    "description": "Add a playful, personal touch to your photos to make them unforgettable. Customize loop count and frame speed to animate your images instantly.",
+    "url": "https://www.playbook.com/gifmaker/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "fd637d1e08ad",
+  "sourceProposedSha": "f948f8203817",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK"
+  },
+  "contentDeviations": [
+    {
+      "kind": "content-drop",
+      "source": "Mux HLS video",
+      "target": null,
+      "reason": "source 404; poster used"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "gifmaker/index.html",
+  "outputPathDefault": null,
+  "sidecar": "gifmaker/_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/sign-up?openMiniApp=gifmaker",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up?openMiniApp=gifmaker"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

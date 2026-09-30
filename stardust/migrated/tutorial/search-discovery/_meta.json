@@ -1,0 +1,574 @@
+{
+  "slug": "tutorial-search-discovery",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "blog-brand-portal-api",
+  "modules": [
+    "related-posts",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "pb-article-hero",
+    "pb-section",
+    "pb-section",
+    "pb-cta-band"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    }
+  ],
+  "metadata": {
+    "title": "Search &amp; discovery",
+    "description": "How to find assets by name and metadata, or use AI Search to discover assetsin Playbook.",
+    "canonical": "https://www.playbook.com/tutorial/search-discovery/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Search &amp; discovery",
+    "description": "How to find assets by name and metadata, or use AI Search to discover assetsin Playbook.",
+    "mainEntityOfPage": "https://www.playbook.com/tutorial/search-discovery/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "1df05d382810",
+  "sourceProposedSha": "4def6c264571",
+  "fidelityTier": "sibling",
+  "archetypeSource": "blog-brand-portal-api",
+  "archetypeSha": "41f9333dca68",
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability",
+    "structure"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK",
+    "structure": "structure-check.mjs: dump/dup/heading-order/crop/image-context/empty/cta/chrome/stack/short-text; orchestrator visual review vs source screenshot"
+  },
+  "contentDeviations": [
+    {
+      "kind": "template-adapted",
+      "source": "tutorial-index",
+      "target": null,
+      "reason": "Tutorial source carries a tutorial-link index outside the article body; rendered as source-link cards to satisfy captured CTA coverage."
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "tutorial/search-discovery/index.html",
+  "outputPathDefault": null,
+  "sidecar": "tutorial/search-discovery/_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/p/tutorial/what-is-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/what-is-playbook/"
+      }
+    },
+    {
+      "href": "/p/tutorial/getting-started/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/getting-started/"
+      }
+    },
+    {
+      "href": "/p/tutorial/create-a-board/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/create-a-board/"
+      }
+    },
+    {
+      "href": "/p/tutorial/how-to-upload/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/how-to-upload/"
+      }
+    },
+    {
+      "href": "/p/tutorial/how-to-import/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/how-to-import/"
+      }
+    },
+    {
+      "href": "/p/tutorial/share-first-link/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/share-first-link/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-faq/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-faq/"
+      }
+    },
+    {
+      "href": "/p/tutorial/moving-copy-batch-actions/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/moving-copy-batch-actions/"
+      }
+    },
+    {
+      "href": "/p/tutorial/using-groups-to-manage-iterations/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/using-groups-to-manage-iterations/"
+      }
+    },
+    {
+      "href": "/p/tutorial/custom-fields-status/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/custom-fields-status/"
+      }
+    },
+    {
+      "href": "/p/tutorial/how-to-create-and-manage-tags/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/how-to-create-and-manage-tags/"
+      }
+    },
+    {
+      "href": "/p/tutorial/archive-vs-delete/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/archive-vs-delete/"
+      }
+    },
+    {
+      "href": "/p/tutorial/analytics/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/analytics/"
+      }
+    },
+    {
+      "href": "/p/tutorial/members-guests-permissions/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/members-guests-permissions/"
+      }
+    },
+    {
+      "href": "/p/tutorial/comments-timestamps/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/comments-timestamps/"
+      }
+    },
+    {
+      "href": "/p/tutorial/reactions-star-ratings/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/reactions-star-ratings/"
+      }
+    },
+    {
+      "href": "/p/tutorial/conversations-notifications/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/conversations-notifications/"
+      }
+    },
+    {
+      "href": "/p/tutorial/sharing-controls-protection/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/sharing-controls-protection/"
+      }
+    },
+    {
+      "href": "/p/tutorial/collecting-files-with-dropzone/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/collecting-files-with-dropzone/"
+      }
+    },
+    {
+      "href": "/p/tutorial/publishing-board/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/publishing-board/"
+      }
+    },
+    {
+      "href": "/p/tutorial/publish-brand-guidelines/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/publish-brand-guidelines/"
+      }
+    },
+    {
+      "href": "/p/tutorial/publish-product-catalog/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/publish-product-catalog/"
+      }
+    },
+    {
+      "href": "/p/tutorial/publish-media-production-pipeline/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/publish-media-production-pipeline/"
+      }
+    },
+    {
+      "href": "/p/tutorial/publish-client-delivery-portal/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/publish-client-delivery-portal/"
+      }
+    },
+    {
+      "href": "/p/tutorial/publish-photography-delivery/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/publish-photography-delivery/"
+      }
+    },
+    {
+      "href": "/p/tutorial/search-discovery/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/search-discovery/"
+      }
+    },
+    {
+      "href": "/p/tutorial/filtering-workspace-or-boards/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/filtering-workspace-or-boards/"
+      }
+    },
+    {
+      "href": "/p/tutorial/finding-similar-assets/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/finding-similar-assets/"
+      }
+    },
+    {
+      "href": "/p/tutorial/working-with-video/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/working-with-video/"
+      }
+    },
+    {
+      "href": "/p/tutorial/how-to-download/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/how-to-download/"
+      }
+    },
+    {
+      "href": "/p/tutorial/board-rules/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/board-rules/"
+      }
+    },
+    {
+      "href": "/p/tutorial/deduplication-and-auto-group/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/deduplication-and-auto-group/"
+      }
+    },
+    {
+      "href": "/p/tutorial/version-history-and-compare/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/version-history-and-compare/"
+      }
+    },
+    {
+      "href": "/p/tutorial/what-is-playbook-intelligence/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/what-is-playbook-intelligence/"
+      }
+    },
+    {
+      "href": "/p/tutorial/starting-a-chat/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/starting-a-chat/"
+      }
+    },
+    {
+      "href": "/p/tutorial/conversational-chained-commands/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/conversational-chained-commands/"
+      }
+    },
+    {
+      "href": "/p/tutorial/find-and-action-on-results/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/find-and-action-on-results/"
+      }
+    },
+    {
+      "href": "/p/tutorial/more-ways-to-chat/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/more-ways-to-chat/"
+      }
+    },
+    {
+      "href": "/p/tutorial/desktop-sync-and-integrations/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/desktop-sync-and-integrations/"
+      }
+    },
+    {
+      "href": "/p/tutorial/integrations-and-apps/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/integrations-and-apps/"
+      }
+    },
+    {
+      "href": "/p/tutorial/api-mcp/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/api-mcp/"
+      }
+    },
+    {
+      "href": "/p/tutorial/miniapps/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/miniapps/"
+      }
+    },
+    {
+      "href": "/p/tutorial/mobile-app/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/mobile-app/"
+      }
+    },
+    {
+      "href": "/p/tutorial/comfyui/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/comfyui/"
+      }
+    },
+    {
+      "href": "/p/tutorial/canva-app/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/canva-app/"
+      }
+    },
+    {
+      "href": "/p/tutorial/slack/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/slack/"
+      }
+    },
+    {
+      "href": "/p/tutorial/zapier/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/zapier/"
+      }
+    },
+    {
+      "href": "/p/tutorial/figma/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/tutorial/figma/"
+      }
+    },
+    {
+      "href": "/p/tutorial/midjourney-discord/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/midjourney-discord/"
+      }
+    },
+    {
+      "href": "/p/tutorial/workspace-settings-preferences/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/workspace-settings-preferences/"
+      }
+    },
+    {
+      "href": "/p/tutorial/notifications-settings/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/notifications-settings/"
+      }
+    },
+    {
+      "href": "/p/tutorial/account-settings/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/tutorial/account-settings/"
+      }
+    },
+    {
+      "href": "/blog/playbook-faq/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/playbook-faq/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

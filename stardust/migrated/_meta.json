@@ -1,0 +1,258 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "logo-marquee",
+    "product-tabs",
+    "tool-crosspromo",
+    "comparison-table",
+    "related-posts",
+    "pricing-teaser",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "pb-hero",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-cta-band"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    },
+    {
+      "kind": "variance-probe-not-applicable",
+      "reason": "redesign flow: content re-laid onto archetypes; replica sibling variance probe does not apply"
+    }
+  ],
+  "metadata": {
+    "title": "Playbook | Your all-in-one media management solution",
+    "description": "Designed for freelancers and teams to store, search, and share photos, videos, design files in one secure, beautiful media library.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Playbook | Your all-in-one media management solution",
+    "description": "Designed for freelancers and teams to store, search, and share photos, videos, design files in one secure, beautiful media library.",
+    "url": "https://www.playbook.com/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "5dd01dc830d5",
+  "sourceProposedSha": "a6ba3f0d1655",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK"
+  },
+  "contentDeviations": [
+    {
+      "kind": "content-drop",
+      "source": "duplicate marquee set, showcase tab images, story logos",
+      "target": null,
+      "reason": "archetype composition (approved prototype)"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/wilderdog/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/wilderdog/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/the-vault-stock/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/the-vault-stock/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/dorst-and-lesser/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/dorst-and-lesser/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/wbd-sports/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/wbd-sports/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/ymca-snoco/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/ymca-snoco/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/dyla-brands/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/dyla-brands/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/opendoor/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/opendoor/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/supermush/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/supermush/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/invictus-media",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/invictus-media"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/p/blendjet/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blendjet/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

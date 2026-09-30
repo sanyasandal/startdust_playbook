@@ -1,0 +1,165 @@
+{
+  "slug": "gpt",
+  "type": "landing",
+  "renderBranch": "A'",
+  "template": "index",
+  "modules": [
+    "hero",
+    "feature-grid",
+    "product-tabs",
+    "cta-band",
+    "faq"
+  ],
+  "slotsFilled": [
+    "pb-gpt-hero",
+    "pb-section",
+    "pb-gpt-feature",
+    "pb-gpt-feature",
+    "pb-gpt-feature",
+    "pb-gpt-demo",
+    "pb-gpt-faq"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    }
+  ],
+  "metadata": {
+    "title": "AI-Powered Creative Search | Find Any Asset Instantly | Playbook",
+    "description": "Search your entire creative library naturally with Playbook&#39;s GPT-powered search. Find campaigns, photoshoots, and assets buried deep in your archives in seconds.",
+    "canonical": "https://www.playbook.com/gpt/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AI-Powered Creative Search | Find Any Asset Instantly | Playbook",
+    "description": "Search your entire creative library naturally with Playbook&#39;s GPT-powered search. Find campaigns, photoshoots, and assets buried deep in your archives in seconds.",
+    "url": "https://www.playbook.com/gpt/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "8fbad547cc07",
+  "sourceProposedSha": "8cde917bad7b",
+  "fidelityTier": "sibling",
+  "archetypeSource": "index",
+  "archetypeSha": "a6ba3f0d1655",
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability",
+    "structure"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK",
+    "structure": "structure-check.mjs: dump/dup/heading-order/crop/image-context/empty/cta/chrome/stack/short-text; orchestrator visual review vs source screenshot"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "gpt/index.html",
+  "outputPathDefault": null,
+  "sidecar": "gpt/_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/gpt-demo/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/gpt-demo/"
+      }
+    },
+    {
+      "href": "/gpt-demo/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/gpt-demo/"
+      }
+    },
+    {
+      "href": "/gpt-demo/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/gpt-demo/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

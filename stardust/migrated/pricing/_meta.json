@@ -1,0 +1,239 @@
+{
+  "slug": "pricing",
+  "type": "unique",
+  "renderBranch": "B",
+  "template": null,
+  "modules": [
+    "hero",
+    "pricing-teaser",
+    "comparison-table",
+    "logo-marquee",
+    "feature-grid",
+    "pricing-calculator",
+    "faq",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "pb-hero",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-cta-band"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    },
+    {
+      "kind": "unique-render",
+      "reason": "only pricing page; toggle + calculator client-only JS",
+      "decisions": "stardust/.work/gen/pricing.mjs + pricing.decisions.json"
+    }
+  ],
+  "metadata": {
+    "title": "Pricing — Plans for Creatives, Teams &amp; Enterprise | Playbook",
+    "description": "We have a plan for all your files. Never run out of creative space, again.",
+    "canonical": "https://www.playbook.com/pricing/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Pricing — Plans for Creatives, Teams &amp; Enterprise | Playbook",
+    "description": "We have a plan for all your files. Never run out of creative space, again.",
+    "url": "https://www.playbook.com/pricing/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "8a565878aef1",
+  "sourceProposedSha": "d9f92bbd26d1",
+  "fidelityTier": "thin",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability",
+    "structure"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK",
+    "structure": "structure-check.mjs: dump/dup/heading-order/crop/image-context/empty/cta/chrome/stack/short-text; orchestrator visual review vs source screenshot"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "pricing/index.html",
+  "outputPathDefault": null,
+  "sidecar": "pricing/_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/sign-up?plan=free",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up?plan=free"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/photoroom/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/photoroom/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/picsart/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/picsart/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/picsart/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/picsart/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/sign-up?plan=free",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up?plan=free"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

@@ -63,7 +63,7 @@
       "url": "https://www.playbook.com/about-us/",
       "title": "Playbook Team",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -73,20 +73,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/about-us.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/about-us/index.html"
     },
     {
       "slug": "blog-adobe-playbook-integration",
       "url": "https://www.playbook.com/blog/adobe-playbook-integration/",
       "title": "Adobe and Playbook Integration: Sync Your Adobe Files Without Manual Export",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -96,20 +102,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-adobe-playbook-integration.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/adobe-playbook-integration/index.html"
     },
     {
       "slug": "blog-ai-media-pipeline",
       "url": "https://www.playbook.com/blog/ai-media-pipeline/",
       "title": "The AI Media Pipeline That Files Itself",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -119,20 +131,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-ai-media-pipeline.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/ai-media-pipeline/index.html"
     },
     {
       "slug": "blog-best-air-alternatives-creative-agencies",
       "url": "https://www.playbook.com/blog/best-air-alternatives-creative-agencies/",
       "title": "Best Air Alternatives for Creative Agencies in 2026",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -142,20 +160,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-best-air-alternatives-creative-agencies.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/best-air-alternatives-creative-agencies/index.html"
     },
     {
       "slug": "blog-best-air-alternatives-for-consumer-brands",
       "url": "https://www.playbook.com/blog/best-air-alternatives-for-consumer-brands/",
       "title": "Best Air Alternatives for Consumer Brands in 2026",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -165,20 +189,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-best-air-alternatives-for-consumer-brands.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/best-air-alternatives-for-consumer-brands/index.html"
     },
     {
       "slug": "blog-best-air-alternatives-marketing-teams",
       "url": "https://www.playbook.com/blog/best-air-alternatives-marketing-teams/",
       "title": "Best Air Alternatives for Marketing Teams in 2026",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -188,20 +218,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-best-air-alternatives-marketing-teams.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/best-air-alternatives-marketing-teams/index.html"
     },
     {
       "slug": "blog-brand-portal-api",
       "url": "https://www.playbook.com/blog/brand-portal-api/",
       "title": "Your Brand Portal Should Be an API Call",
       "type": "article",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -220,13 +256,19 @@
           "to": "approved",
           "at": "2026-09-29T07:00:21.750Z",
           "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
+        },
+        {
+          "from": "approved",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-brand-portal-api.json",
       "prototypePath": "stardust/prototypes/blog-brand-portal-api-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "stardust/migrated/blog/brand-portal-api/index.html",
       "archetype": true
     },
     {
@@ -234,7 +276,7 @@
       "url": "https://www.playbook.com/blog/canopy/",
       "title": "How Canopy built a content pipeline that runs itself on Playbook",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -244,20 +286,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-canopy.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/canopy/index.html"
     },
     {
       "slug": "blog-client-approval-software-for-creative-teams",
       "url": "https://www.playbook.com/blog/client-approval-software-for-creative-teams/",
       "title": "Client Approval Software for Creative Teams in 2026",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -267,20 +315,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-client-approval-software-for-creative-teams.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/client-approval-software-for-creative-teams/index.html"
     },
     {
       "slug": "blog-client-gallery-api",
       "url": "https://www.playbook.com/blog/client-gallery-api/",
       "title": "Client Gallery API: Spin Up Branded, Permissioned Galleries From Your App",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -290,20 +344,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-client-gallery-api.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/client-gallery-api/index.html"
     },
     {
       "slug": "blog-dam-vs-cms-vs-mam",
       "url": "https://www.playbook.com/blog/dam-vs-cms-vs-mam/",
       "title": "DAM vs CMS vs MAM: Which System Does Your Team Actually Need?",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -313,20 +373,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-dam-vs-cms-vs-mam.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/dam-vs-cms-vs-mam/index.html"
     },
     {
       "slug": "blog-digital-asset-marketplace-api",
       "url": "https://www.playbook.com/blog/digital-asset-marketplace-api/",
       "title": "Your Digital Asset Marketplace API Is Already Built",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -335,6 +401,12 @@
         {
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
           "by": "hands-off"
         }
       ],
@@ -342,14 +414,14 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-digital-asset-marketplace-api.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/digital-asset-marketplace-api/index.html"
     },
     {
       "slug": "blog-migrate-from-air-to-playbook",
       "url": "https://www.playbook.com/blog/migrate-from-air-to-playbook/",
       "title": "How to Migrate from Air to Playbook",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -359,20 +431,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-migrate-from-air-to-playbook.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/migrate-from-air-to-playbook/index.html"
     },
     {
       "slug": "blog-playbook-figma-plugin",
       "url": "https://www.playbook.com/blog/playbook-figma-plugin/",
       "title": "How to Pull Files From Playbook Into Figma With the Plugin",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -382,20 +460,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-playbook-figma-plugin.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/playbook-figma-plugin/index.html"
     },
     {
       "slug": "blog-playbook-integrations-you-didnt-know",
       "url": "https://www.playbook.com/blog/playbook-integrations-you-didnt-know/",
       "title": "9 Playbook Integrations You Probably Didn't Know About",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -405,20 +489,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-playbook-integrations-you-didnt-know.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/playbook-integrations-you-didnt-know/index.html"
     },
     {
       "slug": "blog-playbook-vs-perforce",
       "url": "https://www.playbook.com/blog/playbook-vs-perforce/",
       "title": "Playbook vs Perforce: The Best Perforce Alternative for Creative Asset Version Control (2026)",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -428,20 +518,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-playbook-vs-perforce.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/playbook-vs-perforce/index.html"
     },
     {
       "slug": "blog-playbook-vs-simian",
       "url": "https://www.playbook.com/blog/playbook-vs-simian/",
       "title": "Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -451,20 +547,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-playbook-vs-simian.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/playbook-vs-simian/index.html"
     },
     {
       "slug": "blog-playbook-vs-wiredrive",
       "url": "https://www.playbook.com/blog/playbook-vs-wiredrive/",
       "title": "Playbook vs Wiredrive: The Best Wiredrive Alternative for Video Review Teams (2026)",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -474,20 +576,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-playbook-vs-wiredrive.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/playbook-vs-wiredrive/index.html"
     },
     {
       "slug": "blog-presentation-deck-api",
       "url": "https://www.playbook.com/blog/presentation-deck-api/",
       "title": "Your Pitch Deck Ships Stale. This Presentation Deck API Doesn't.",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -497,20 +605,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-presentation-deck-api.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/presentation-deck-api/index.html"
     },
     {
       "slug": "blog-product-catalog-api",
       "url": "https://www.playbook.com/blog/product-catalog-api/",
       "title": "Product Catalog API: One Source of Truth for Every Product Image",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -519,6 +633,12 @@
         {
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
+          "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
           "by": "hands-off"
         }
       ],
@@ -526,14 +646,14 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-product-catalog-api.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/product-catalog-api/index.html"
     },
     {
       "slug": "blog-sales-catalog-api",
       "url": "https://www.playbook.com/blog/sales-catalog-api/",
       "title": "Ship a Sales Catalog API, Not Another Stale Shared Drive",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -543,20 +663,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog-sales-catalog-api.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blog/sales-catalog-api/index.html"
     },
     {
       "slug": "blog",
       "url": "https://www.playbook.com/blog/",
       "title": "Playbook (Page 1)",
       "type": "listing",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -575,13 +701,19 @@
           "to": "approved",
           "at": "2026-09-29T07:00:21.750Z",
           "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
+        },
+        {
+          "from": "approved",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blog.json",
       "prototypePath": "stardust/prototypes/blog-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "stardust/migrated/blog/index.html",
       "archetype": true
     },
     {
@@ -589,7 +721,7 @@
       "url": "https://www.playbook.com/brand-portal/",
       "title": "Professional brand portals with free templates",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -599,20 +731,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/brand-portal.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/brand-portal/index.html"
     },
     {
       "slug": "collaboration-editing",
       "url": "https://www.playbook.com/collaboration-editing/",
       "title": "Creative Collaboration & Editing — Annotation, Video Comments | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -622,20 +760,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/collaboration-editing.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/collaboration-editing/index.html"
     },
     {
       "slug": "consumer-brands",
       "url": "https://www.playbook.com/consumer-brands/",
       "title": "End-to-End Workflow Management for Consumer Goods | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -645,20 +789,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/consumer-brands.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/consumer-brands/index.html"
     },
     {
       "slug": "contact",
       "url": "https://www.playbook.com/contact/",
       "title": "Schedule your demo",
       "type": "form",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -677,13 +827,19 @@
           "to": "approved",
           "at": "2026-09-29T07:00:21.750Z",
           "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
+        },
+        {
+          "from": "approved",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/contact.json",
       "prototypePath": "stardust/prototypes/contact-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "stardust/migrated/contact/index.html",
       "archetype": true
     },
     {
@@ -691,7 +847,7 @@
       "url": "https://www.playbook.com/creative-agency/",
       "title": "Creative Agency Asset Management & Client Delivery | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -701,20 +857,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/creative-agency.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/creative-agency/index.html"
     },
     {
       "slug": "customers",
       "url": "https://www.playbook.com/customers/",
       "title": "Customer Stories — Brands & Agencies on Playbook",
       "type": "listing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -724,20 +886,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/customers.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/customers/index.html"
     },
     {
       "slug": "desktop",
       "url": "https://www.playbook.com/desktop/",
       "title": "Playbook Desktop App | Sync & Access Creative Files Offline",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -747,20 +915,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/desktop.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/desktop/index.html"
     },
     {
       "slug": "enterprise",
       "url": "https://www.playbook.com/enterprise/",
       "title": "Enterprise Digital Asset Management for Creative Teams | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -770,20 +944,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/enterprise.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/enterprise/index.html"
     },
     {
       "slug": "features",
       "url": "https://www.playbook.com/features/",
       "title": "Features | Streamline your creative workflow",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -793,20 +973,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/features.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/features/index.html"
     },
     {
       "slug": "freelancers",
       "url": "https://www.playbook.com/freelancers/",
       "title": "Professional freelancers",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -816,20 +1002,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/freelancers.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/freelancers/index.html"
     },
     {
       "slug": "games",
       "url": "https://www.playbook.com/games/",
       "title": "AI-Native DAM for Game Studios | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -839,20 +1031,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/games.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/games/index.html"
     },
     {
       "slug": "gifmaker",
       "url": "https://www.playbook.com/gifmaker/",
       "title": "GIF Maker: Transform moments into motion on Playbook",
       "type": "program",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -871,13 +1069,19 @@
           "to": "approved",
           "at": "2026-09-29T07:00:21.750Z",
           "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
+        },
+        {
+          "from": "approved",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/gifmaker.json",
       "prototypePath": "stardust/prototypes/gifmaker-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "stardust/migrated/gifmaker/index.html",
       "archetype": true
     },
     {
@@ -885,7 +1089,7 @@
       "url": "https://www.playbook.com/gpt/",
       "title": "AI-Powered Creative Search | Find Any Asset Instantly | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -895,20 +1099,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/gpt.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/gpt/index.html"
     },
     {
       "slug": "index",
       "url": "https://www.playbook.com/",
       "title": "Playbook | Your all-in-one media management solution",
       "type": "landing",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -927,13 +1137,19 @@
           "to": "approved",
           "at": "2026-09-29T06:46:42.799Z",
           "by": "hands-off (all gates P0/P1-clean)"
+        },
+        {
+          "from": "approved",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
       "prototypePath": "stardust/prototypes/index-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "stardust/migrated/index.html",
       "canonAuthor": true
     },
     {
@@ -941,7 +1157,7 @@
       "url": "https://www.playbook.com/integrations-all/",
       "title": "All tools & integrations",
       "type": "listing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -951,20 +1167,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/integrations-all.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/integrations-all/index.html"
     },
     {
       "slug": "large-file-sharing",
       "url": "https://www.playbook.com/large-file-sharing/",
       "title": "Large File Sharing for Creative Teams | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -974,20 +1196,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/large-file-sharing.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/large-file-sharing/index.html"
     },
     {
       "slug": "logomaker",
       "url": "https://www.playbook.com/logomaker/",
       "title": "Logo Maker: Create custom logos with Playbook x Picsart",
       "type": "program",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -997,20 +1225,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/logomaker.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/logomaker/index.html"
     },
     {
       "slug": "mcp",
       "url": "https://www.playbook.com/mcp/",
       "title": "MCP Server for Creative Teams | Connect Playbook to Your AI Tools",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1020,20 +1254,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/mcp.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/mcp/index.html"
     },
     {
       "slug": "media-and-entertainment",
       "url": "https://www.playbook.com/media-and-entertainment/",
       "title": "DAM & Media Library for Production Teams | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1043,20 +1283,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/media-and-entertainment.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/media-and-entertainment/index.html"
     },
     {
       "slug": "p-privacy",
       "url": "https://www.playbook.com/p/privacy/",
       "title": "Playbook Privacy Policy",
       "type": "static",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1075,13 +1321,19 @@
           "to": "approved",
           "at": "2026-09-29T07:00:21.750Z",
           "by": "hands-off (gates P0/P1-clean after orchestrator verification)"
+        },
+        {
+          "from": "approved",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/p-privacy.json",
       "prototypePath": "stardust/prototypes/p-privacy-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "stardust/migrated/p/privacy/index.html",
       "archetype": true
     },
     {
@@ -1089,7 +1341,7 @@
       "url": "https://www.playbook.com/p/terms/",
       "title": "Terms of Service — Playbook Creative Storage",
       "type": "static",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1099,20 +1351,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/p-terms.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/p/terms/index.html"
     },
     {
       "slug": "photo-gallery",
       "url": "https://www.playbook.com/photo-gallery/",
       "title": "Playbook for Photographers - Free Portfolio Templates",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1122,20 +1380,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/photo-gallery.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/photo-gallery/index.html"
     },
     {
       "slug": "pricing",
       "url": "https://www.playbook.com/pricing/",
       "title": "Pricing — Plans for Creatives, Teams & Enterprise | Playbook",
       "type": "unique",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1145,20 +1409,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/pricing.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/pricing/index.html"
     },
     {
       "slug": "product",
       "url": "https://www.playbook.com/product/",
       "title": "Playbook | Your go-to creative management solution",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1168,20 +1438,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/product.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/product/index.html"
     },
     {
       "slug": "publish",
       "url": "https://www.playbook.com/publish/",
       "title": "Playbook Publish",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1191,20 +1467,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/publish.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/publish/index.html"
     },
     {
       "slug": "sdk",
       "url": "https://www.playbook.com/sdk/",
       "title": "Enterprise SDK — A Media Library That Scales With You | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1214,20 +1496,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/sdk.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/sdk/index.html"
     },
     {
       "slug": "smarter-storage",
       "url": "https://www.playbook.com/smarter-storage/",
       "title": "Smarter Storage — A Visual Workspace Beyond Folders | Playbook",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1237,20 +1525,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/smarter-storage.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/smarter-storage/index.html"
     },
     {
       "slug": "teams",
       "url": "https://www.playbook.com/teams/",
       "title": "Design Teams",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1260,20 +1554,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/teams.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/teams/index.html"
     },
     {
       "slug": "the-story-of-playbook",
       "url": "https://www.playbook.com/the-story-of-playbook/",
       "title": "The Story of Playbook — Why We Built It",
       "type": "static",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1283,20 +1583,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/the-story-of-playbook.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/the-story-of-playbook/index.html"
     },
     {
       "slug": "tutorial-api-mcp",
       "url": "https://www.playbook.com/tutorial/api-mcp/",
       "title": "API & MCP",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1306,20 +1612,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-api-mcp.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/api-mcp/index.html"
     },
     {
       "slug": "tutorial-board-rules",
       "url": "https://www.playbook.com/tutorial/board-rules/",
       "title": "Board rules",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1329,20 +1641,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-board-rules.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/board-rules/index.html"
     },
     {
       "slug": "tutorial-create-a-board",
       "url": "https://www.playbook.com/tutorial/create-a-board/",
       "title": "How to create & use boards",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1352,20 +1670,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-create-a-board.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/create-a-board/index.html"
     },
     {
       "slug": "tutorial-figma",
       "url": "https://www.playbook.com/tutorial/figma/",
       "title": "Figma",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1375,20 +1699,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-figma.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/figma/index.html"
     },
     {
       "slug": "tutorial-getting-started",
       "url": "https://www.playbook.com/tutorial/getting-started/",
       "title": "Start here",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1398,20 +1728,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-getting-started.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/getting-started/index.html"
     },
     {
       "slug": "tutorial-how-to-upload",
       "url": "https://www.playbook.com/tutorial/how-to-upload/",
       "title": "How to upload",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1421,20 +1757,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-how-to-upload.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/how-to-upload/index.html"
     },
     {
       "slug": "tutorial-mobile-app",
       "url": "https://www.playbook.com/tutorial/mobile-app/",
       "title": "Mobile app",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1444,20 +1786,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-mobile-app.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/mobile-app/index.html"
     },
     {
       "slug": "tutorial-search-discovery",
       "url": "https://www.playbook.com/tutorial/search-discovery/",
       "title": "Search & discovery",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1467,20 +1815,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-search-discovery.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/search-discovery/index.html"
     },
     {
       "slug": "tutorial-share-first-link",
       "url": "https://www.playbook.com/tutorial/share-first-link/",
       "title": "Share your first link",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1490,20 +1844,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-share-first-link.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/share-first-link/index.html"
     },
     {
       "slug": "tutorial-slack",
       "url": "https://www.playbook.com/tutorial/slack/",
       "title": "Slack",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1513,20 +1873,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-slack.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/slack/index.html"
     },
     {
       "slug": "tutorial-what-is-playbook",
       "url": "https://www.playbook.com/tutorial/what-is-playbook/",
       "title": "What is Playbook?",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1536,20 +1902,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-what-is-playbook.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/what-is-playbook/index.html"
     },
     {
       "slug": "tutorial-working-with-video",
       "url": "https://www.playbook.com/tutorial/working-with-video/",
       "title": "Searching with video",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1559,20 +1931,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial-working-with-video.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/working-with-video/index.html"
     },
     {
       "slug": "tutorial",
       "url": "https://www.playbook.com/tutorial/",
       "title": "Tutorials, Help, and Support for Playbook",
       "type": "listing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1582,20 +1960,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/tutorial.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/tutorial/index.html"
     },
     {
       "slug": "vectorizer",
       "url": "https://www.playbook.com/vectorizer/",
       "title": "Free Online Vectorizer — Convert PNG/JPG to SVG",
       "type": "program",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1605,20 +1989,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/vectorizer.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/vectorizer/index.html"
     },
     {
       "slug": "video-captions",
       "url": "https://www.playbook.com/video-captions/",
       "title": "Video Captions",
       "type": "program",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1628,20 +2018,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/video-captions.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/video-captions/index.html"
     },
     {
       "slug": "video-converter",
       "url": "https://www.playbook.com/video-converter/",
       "title": "Video Converter",
       "type": "program",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1651,20 +2047,26 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/video-converter.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/video-converter/index.html"
     },
     {
       "slug": "watermarks",
       "url": "https://www.playbook.com/watermarks/",
       "title": "Playbook Watermark Editor: Add text and image watermarks",
       "type": "program",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1674,13 +2076,19 @@
           "to": "directed",
           "at": "2026-09-29T06:18:34.248Z",
           "by": "hands-off"
+        },
+        {
+          "from": "directed",
+          "to": "migrated",
+          "at": "2026-09-30T07:05:18.704Z",
+          "by": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/watermarks.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/watermarks/index.html"
     }
   ],
   "prep": {
@@ -1707,6 +2115,782 @@
       "ownerBatch": 3,
       "hostBound": 0,
       "listings": "0 index-backed / 1 document-first"
+    }
+  },
+  "migrate": {
+    "at": "2026-09-30T07:05:18.704Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/about-us/",
+        "outputPath": "about-us/index.html",
+        "slug": "about-us",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/adobe-playbook-integration/",
+        "outputPath": "blog/adobe-playbook-integration/index.html",
+        "slug": "blog-adobe-playbook-integration",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/ai-media-pipeline/",
+        "outputPath": "blog/ai-media-pipeline/index.html",
+        "slug": "blog-ai-media-pipeline",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/best-air-alternatives-creative-agencies/",
+        "outputPath": "blog/best-air-alternatives-creative-agencies/index.html",
+        "slug": "blog-best-air-alternatives-creative-agencies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/best-air-alternatives-for-consumer-brands/",
+        "outputPath": "blog/best-air-alternatives-for-consumer-brands/index.html",
+        "slug": "blog-best-air-alternatives-for-consumer-brands",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/best-air-alternatives-marketing-teams/",
+        "outputPath": "blog/best-air-alternatives-marketing-teams/index.html",
+        "slug": "blog-best-air-alternatives-marketing-teams",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/brand-portal-api/",
+        "outputPath": "blog/brand-portal-api/index.html",
+        "slug": "blog-brand-portal-api",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/canopy/",
+        "outputPath": "blog/canopy/index.html",
+        "slug": "blog-canopy",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/client-approval-software-for-creative-teams/",
+        "outputPath": "blog/client-approval-software-for-creative-teams/index.html",
+        "slug": "blog-client-approval-software-for-creative-teams",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/client-gallery-api/",
+        "outputPath": "blog/client-gallery-api/index.html",
+        "slug": "blog-client-gallery-api",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/dam-vs-cms-vs-mam/",
+        "outputPath": "blog/dam-vs-cms-vs-mam/index.html",
+        "slug": "blog-dam-vs-cms-vs-mam",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/digital-asset-marketplace-api/",
+        "outputPath": "blog/digital-asset-marketplace-api/index.html",
+        "slug": "blog-digital-asset-marketplace-api",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/migrate-from-air-to-playbook/",
+        "outputPath": "blog/migrate-from-air-to-playbook/index.html",
+        "slug": "blog-migrate-from-air-to-playbook",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/playbook-figma-plugin/",
+        "outputPath": "blog/playbook-figma-plugin/index.html",
+        "slug": "blog-playbook-figma-plugin",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/playbook-integrations-you-didnt-know/",
+        "outputPath": "blog/playbook-integrations-you-didnt-know/index.html",
+        "slug": "blog-playbook-integrations-you-didnt-know",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/playbook-vs-perforce/",
+        "outputPath": "blog/playbook-vs-perforce/index.html",
+        "slug": "blog-playbook-vs-perforce",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/playbook-vs-simian/",
+        "outputPath": "blog/playbook-vs-simian/index.html",
+        "slug": "blog-playbook-vs-simian",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/playbook-vs-wiredrive/",
+        "outputPath": "blog/playbook-vs-wiredrive/index.html",
+        "slug": "blog-playbook-vs-wiredrive",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/presentation-deck-api/",
+        "outputPath": "blog/presentation-deck-api/index.html",
+        "slug": "blog-presentation-deck-api",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/product-catalog-api/",
+        "outputPath": "blog/product-catalog-api/index.html",
+        "slug": "blog-product-catalog-api",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/sales-catalog-api/",
+        "outputPath": "blog/sales-catalog-api/index.html",
+        "slug": "blog-sales-catalog-api",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/",
+        "outputPath": "blog/index.html",
+        "slug": "blog",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/brand-portal/",
+        "outputPath": "brand-portal/index.html",
+        "slug": "brand-portal",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/collaboration-editing/",
+        "outputPath": "collaboration-editing/index.html",
+        "slug": "collaboration-editing",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/consumer-brands/",
+        "outputPath": "consumer-brands/index.html",
+        "slug": "consumer-brands",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/contact/",
+        "outputPath": "contact/index.html",
+        "slug": "contact",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/creative-agency/",
+        "outputPath": "creative-agency/index.html",
+        "slug": "creative-agency",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customers/",
+        "outputPath": "customers/index.html",
+        "slug": "customers",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/desktop/",
+        "outputPath": "desktop/index.html",
+        "slug": "desktop",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/enterprise/",
+        "outputPath": "enterprise/index.html",
+        "slug": "enterprise",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/features/",
+        "outputPath": "features/index.html",
+        "slug": "features",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/freelancers/",
+        "outputPath": "freelancers/index.html",
+        "slug": "freelancers",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/games/",
+        "outputPath": "games/index.html",
+        "slug": "games",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gifmaker/",
+        "outputPath": "gifmaker/index.html",
+        "slug": "gifmaker",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gpt/",
+        "outputPath": "gpt/index.html",
+        "slug": "gpt",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/integrations-all/",
+        "outputPath": "integrations-all/index.html",
+        "slug": "integrations-all",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/large-file-sharing/",
+        "outputPath": "large-file-sharing/index.html",
+        "slug": "large-file-sharing",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/logomaker/",
+        "outputPath": "logomaker/index.html",
+        "slug": "logomaker",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mcp/",
+        "outputPath": "mcp/index.html",
+        "slug": "mcp",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/media-and-entertainment/",
+        "outputPath": "media-and-entertainment/index.html",
+        "slug": "media-and-entertainment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/p/privacy/",
+        "outputPath": "p/privacy/index.html",
+        "slug": "p-privacy",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/p/terms/",
+        "outputPath": "p/terms/index.html",
+        "slug": "p-terms",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/photo-gallery/",
+        "outputPath": "photo-gallery/index.html",
+        "slug": "photo-gallery",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/pricing/",
+        "outputPath": "pricing/index.html",
+        "slug": "pricing",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/product/",
+        "outputPath": "product/index.html",
+        "slug": "product",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/publish/",
+        "outputPath": "publish/index.html",
+        "slug": "publish",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/sdk/",
+        "outputPath": "sdk/index.html",
+        "slug": "sdk",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/smarter-storage/",
+        "outputPath": "smarter-storage/index.html",
+        "slug": "smarter-storage",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/teams/",
+        "outputPath": "teams/index.html",
+        "slug": "teams",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-story-of-playbook/",
+        "outputPath": "the-story-of-playbook/index.html",
+        "slug": "the-story-of-playbook",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/api-mcp/",
+        "outputPath": "tutorial/api-mcp/index.html",
+        "slug": "tutorial-api-mcp",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/board-rules/",
+        "outputPath": "tutorial/board-rules/index.html",
+        "slug": "tutorial-board-rules",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/create-a-board/",
+        "outputPath": "tutorial/create-a-board/index.html",
+        "slug": "tutorial-create-a-board",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/figma/",
+        "outputPath": "tutorial/figma/index.html",
+        "slug": "tutorial-figma",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/getting-started/",
+        "outputPath": "tutorial/getting-started/index.html",
+        "slug": "tutorial-getting-started",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/how-to-upload/",
+        "outputPath": "tutorial/how-to-upload/index.html",
+        "slug": "tutorial-how-to-upload",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/mobile-app/",
+        "outputPath": "tutorial/mobile-app/index.html",
+        "slug": "tutorial-mobile-app",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/search-discovery/",
+        "outputPath": "tutorial/search-discovery/index.html",
+        "slug": "tutorial-search-discovery",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/share-first-link/",
+        "outputPath": "tutorial/share-first-link/index.html",
+        "slug": "tutorial-share-first-link",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/slack/",
+        "outputPath": "tutorial/slack/index.html",
+        "slug": "tutorial-slack",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/what-is-playbook/",
+        "outputPath": "tutorial/what-is-playbook/index.html",
+        "slug": "tutorial-what-is-playbook",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/working-with-video/",
+        "outputPath": "tutorial/working-with-video/index.html",
+        "slug": "tutorial-working-with-video",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/tutorial/",
+        "outputPath": "tutorial/index.html",
+        "slug": "tutorial",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/vectorizer/",
+        "outputPath": "vectorizer/index.html",
+        "slug": "vectorizer",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/video-captions/",
+        "outputPath": "video-captions/index.html",
+        "slug": "video-captions",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/video-converter/",
+        "outputPath": "video-converter/index.html",
+        "slug": "video-converter",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/watermarks/",
+        "outputPath": "watermarks/index.html",
+        "slug": "watermarks",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 6,
+    "bundledAssets": [
+      "canon.css",
+      "favicon.ico",
+      "fonts/StabilGrotesk-Light.woff2",
+      "fonts/StabilGrotesk-Medium.woff2",
+      "fonts/StabilGrotesk-Regular.woff2",
+      "fonts/VictorSerif-Regular.woff"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-brand-portal-api",
+        "file": "stardust/migrated/blog/brand-portal-api/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog",
+        "file": "stardust/migrated/blog/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "gifmaker",
+        "file": "stardust/migrated/gifmaker/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "contact",
+        "file": "stardust/migrated/contact/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "p-privacy",
+        "file": "stardust/migrated/p/privacy/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "about-us",
+        "file": "stardust/migrated/about-us/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-adobe-playbook-integration",
+        "file": "stardust/migrated/blog/adobe-playbook-integration/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-ai-media-pipeline",
+        "file": "stardust/migrated/blog/ai-media-pipeline/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-best-air-alternatives-creative-agencies",
+        "file": "stardust/migrated/blog/best-air-alternatives-creative-agencies/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-best-air-alternatives-for-consumer-brands",
+        "file": "stardust/migrated/blog/best-air-alternatives-for-consumer-brands/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-best-air-alternatives-marketing-teams",
+        "file": "stardust/migrated/blog/best-air-alternatives-marketing-teams/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-canopy",
+        "file": "stardust/migrated/blog/canopy/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-client-approval-software-for-creative-teams",
+        "file": "stardust/migrated/blog/client-approval-software-for-creative-teams/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-client-gallery-api",
+        "file": "stardust/migrated/blog/client-gallery-api/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-dam-vs-cms-vs-mam",
+        "file": "stardust/migrated/blog/dam-vs-cms-vs-mam/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-digital-asset-marketplace-api",
+        "file": "stardust/migrated/blog/digital-asset-marketplace-api/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-migrate-from-air-to-playbook",
+        "file": "stardust/migrated/blog/migrate-from-air-to-playbook/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-playbook-figma-plugin",
+        "file": "stardust/migrated/blog/playbook-figma-plugin/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-playbook-integrations-you-didnt-know",
+        "file": "stardust/migrated/blog/playbook-integrations-you-didnt-know/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-playbook-vs-perforce",
+        "file": "stardust/migrated/blog/playbook-vs-perforce/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-playbook-vs-simian",
+        "file": "stardust/migrated/blog/playbook-vs-simian/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-playbook-vs-wiredrive",
+        "file": "stardust/migrated/blog/playbook-vs-wiredrive/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-presentation-deck-api",
+        "file": "stardust/migrated/blog/presentation-deck-api/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-product-catalog-api",
+        "file": "stardust/migrated/blog/product-catalog-api/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "blog-sales-catalog-api",
+        "file": "stardust/migrated/blog/sales-catalog-api/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "brand-portal",
+        "file": "stardust/migrated/brand-portal/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "collaboration-editing",
+        "file": "stardust/migrated/collaboration-editing/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "consumer-brands",
+        "file": "stardust/migrated/consumer-brands/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "creative-agency",
+        "file": "stardust/migrated/creative-agency/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customers",
+        "file": "stardust/migrated/customers/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "desktop",
+        "file": "stardust/migrated/desktop/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "enterprise",
+        "file": "stardust/migrated/enterprise/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "features",
+        "file": "stardust/migrated/features/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "freelancers",
+        "file": "stardust/migrated/freelancers/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "games",
+        "file": "stardust/migrated/games/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "gpt",
+        "file": "stardust/migrated/gpt/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "integrations-all",
+        "file": "stardust/migrated/integrations-all/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "large-file-sharing",
+        "file": "stardust/migrated/large-file-sharing/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "logomaker",
+        "file": "stardust/migrated/logomaker/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "mcp",
+        "file": "stardust/migrated/mcp/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "media-and-entertainment",
+        "file": "stardust/migrated/media-and-entertainment/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "p-terms",
+        "file": "stardust/migrated/p/terms/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "photo-gallery",
+        "file": "stardust/migrated/photo-gallery/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "pricing",
+        "file": "stardust/migrated/pricing/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "product",
+        "file": "stardust/migrated/product/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "publish",
+        "file": "stardust/migrated/publish/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "sdk",
+        "file": "stardust/migrated/sdk/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "smarter-storage",
+        "file": "stardust/migrated/smarter-storage/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "teams",
+        "file": "stardust/migrated/teams/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "the-story-of-playbook",
+        "file": "stardust/migrated/the-story-of-playbook/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-api-mcp",
+        "file": "stardust/migrated/tutorial/api-mcp/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-board-rules",
+        "file": "stardust/migrated/tutorial/board-rules/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-create-a-board",
+        "file": "stardust/migrated/tutorial/create-a-board/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-figma",
+        "file": "stardust/migrated/tutorial/figma/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-getting-started",
+        "file": "stardust/migrated/tutorial/getting-started/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-how-to-upload",
+        "file": "stardust/migrated/tutorial/how-to-upload/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-mobile-app",
+        "file": "stardust/migrated/tutorial/mobile-app/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-search-discovery",
+        "file": "stardust/migrated/tutorial/search-discovery/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-share-first-link",
+        "file": "stardust/migrated/tutorial/share-first-link/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-slack",
+        "file": "stardust/migrated/tutorial/slack/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-what-is-playbook",
+        "file": "stardust/migrated/tutorial/what-is-playbook/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial-working-with-video",
+        "file": "stardust/migrated/tutorial/working-with-video/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "tutorial",
+        "file": "stardust/migrated/tutorial/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "vectorizer",
+        "file": "stardust/migrated/vectorizer/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "video-captions",
+        "file": "stardust/migrated/video-captions/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "video-converter",
+        "file": "stardust/migrated/video-converter/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "watermarks",
+        "file": "stardust/migrated/watermarks/index.html",
+        "assetsBundled": 6
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-09-30T07:05:18.704Z",
+      "rendered": 68,
+      "unchanged": [],
+      "refused": 0,
+      "passthrough": [],
+      "failures": []
     }
   }
 }

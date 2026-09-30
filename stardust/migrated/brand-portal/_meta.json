@@ -1,0 +1,199 @@
+{
+  "slug": "brand-portal",
+  "type": "landing",
+  "renderBranch": "A'",
+  "template": "index",
+  "modules": [
+    "hero",
+    "feature-grid",
+    "testimonial",
+    "static-hero",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "pb-brand-portal-hero",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-section",
+    "pb-brand-portal-final"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    }
+  ],
+  "metadata": {
+    "title": "Professional brand portals with free templates",
+    "description": "Create brand guidelines, client presentations, and more directly from your stored files with Playbook Publish. Save time with one-click templates that are easily accessible, editable and stay up-to-date with your latest assets.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Professional brand portals with free templates",
+    "description": "Create brand guidelines, client presentations, and more directly from your stored files with Playbook Publish. Save time with one-click templates that are easily accessible, editable and stay up-to-date with your latest assets.",
+    "url": "https://www.playbook.com/brand-portal/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "37ecb556508e",
+  "sourceProposedSha": "9e5b4ba64dbc",
+  "fidelityTier": "sibling",
+  "archetypeSource": "index",
+  "archetypeSha": "a6ba3f0d1655",
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability",
+    "structure"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK",
+    "structure": "structure-check.mjs: dump/dup/heading-order/crop/image-context/empty/cta/chrome/stack/short-text; orchestrator visual review vs source screenshot"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "brand-portal/index.html",
+  "outputPathDefault": null,
+  "sidecar": "brand-portal/_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/s/community/template-gallery",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/s/community/template-gallery"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/s/community/template-gallery?assetToken=3RhkSK3u9QXME2HFcdyy91hs",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/s/community/template-gallery?assetToken=3RhkSK3u9QXME2HFcdyy91hs"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/s/community/template-gallery?assetToken=LsNgqAdqNfy6KrDnssV331Xx",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/s/community/template-gallery?assetToken=LsNgqAdqNfy6KrDnssV331Xx"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/s/community/template-gallery?assetToken=zoxa7f8cTLRXEYbtdALSfDvZ",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/s/community/template-gallery?assetToken=zoxa7f8cTLRXEYbtdALSfDvZ"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/s/community/template-gallery?assetToken=L4HF92ep7pPyirzL1P1ycPRV",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/s/community/template-gallery?assetToken=L4HF92ep7pPyirzL1P1ycPRV"
+      }
+    },
+    {
+      "href": "/picsart/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/picsart/"
+      }
+    },
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-09-30T06:10:25Z
+  page:             Playbook for Photographers - Free Portfolio Templates
+  slug:             photo-gallery
+  pagePath:         migrated/photo-gallery/index.html
+  renderBranch:     A'
+  template:         index
+  archetypePath:    stardust/prototypes/index-proposed.html
+  archetypeSha:     a6ba3f0d1655
+  sourceCurrent:    stardust/current/pages/photo-gallery.json
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  designMd:         DESIGN.md (sha: 833916554b4d)
+  designJson:       DESIGN.json (sha: 3ea50209949e)
+  canonShas:        header:0e491b179edd footer:b11f2ddc22f2 css:01e4a1e44711
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 16
+  stardustVersion:  0.25.0
+-->
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+</style>
+<link rel="stylesheet" href="../assets/canon.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Playbook for Photographers - Free Portfolio Templates","description":"Playbook for Photographers: Effortlessly create elegant photo galleries from your stored files. Organize, edit, and share your photos—all in one place.","url":"https://www.playbook.com/photo-gallery/"}</script>
+<!-- stardust:provenance
+  writtenBy:        stardust:prototype
+  writtenAt:        2026-09-29T06:45:00Z
+  page:             index
+  pageUrl:          https://www.playbook.com/
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  shapeBrief:       stardust/prototypes/index-shape.md
+  sourceRecord:     stardust/current/pages/index.json + index.html
+  mode:             A (brand-faithful)
+  surpriseTier:     low
+  fidelity:         quick
+  dominantDimension: composition/modular-catalogue
+  signatureElements:
+    - kind: "hero photographic landscape + scroll-inset"
+      capturedSource: "index.html .pb-hero__img s:1920:1080 URL"
+      mechanism: "CSS view-timeline animation gated by @supports (animation-timeline: view()) and prefers-reduced-motion:no-preference"
+      fallback: "static rounded inset frame"
+  unsourcedContent: []
+  orchestratorFixes:
+    - "removed uncaptured section head (Product catalogue / Three workflows, one library.) — content-sourcing violation"
+    - "restored 8 signed img.playbook.com URLs verbatim from capture (slashes had been collapsed → 403)"
+    - "replaced 2 local logo refs (old-project paths) with captured CDN URLs"
+    - "added @font-face for stabil_grotesk/victor_serif from assets/fonts"
+  gateResults:
+    critique: { P0: 0, P1: 0, P2: 1, P3: 0 }
+    audit: { P0: 0, P1: 0, P2: 12, P3: 0, detectorWarnings: 12 }
+    adapt: { P0: 0, P1: 0, P2: 0, P3: 0 }
+  critique:
+    - { priority: "P2", category: "design", note: "Dense canon-author home intentionally preserves all ten story cards; sibling pages may reuse a shorter story-card subset." }
+  audit:
+    - { priority: "P0", category: "a11y", status: "fixed", note: "skip link, landmarks, focus-visible, single H1, and alt text present" }
+    - { priority: "P1", category: "perf/lcp", status: "fixed", note: "hero image is first above-fold image and uses loading=eager fetchpriority=high" }
+    - { priority: "P1", category: "contrast", status: "fixed", note: "primary button uses signal-deep #e01f47 instead of accent #ff2753 for AA white text" }
+  adapt:
+    - { timestamp: "2026-09-29T06:45:00Z", breakpoints: [1200,900,760,600], navCollapse: "hamburger (stock)", status: "clean; mobile-nav-audit pass at 360px; overflow clean at 360/375/414/800/1280/1920" }
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playbook for Photographers - Free Portfolio Templates</title>
+<meta name="description" content="Playbook for Photographers: Effortlessly create elegant photo galleries from your stored files. Organize, edit, and share your photos—all in one place.">
+<link rel="icon" href="../assets/favicon.ico">
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.3;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('../assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('../assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: auto; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; text-wrap: balance; color: var(--color-ink-strong); }
+h1 { font-size: clamp(2.75rem, 7vw, var(--heading-xxl)); letter-spacing: -.035em; }
+h2 { font-size: clamp(2rem, 4.8vw, var(--heading-xl)); letter-spacing: -.025em; }
+h3 { font-size: clamp(1.25rem, 2.5vw, var(--heading-md)); letter-spacing: -.015em; }
+p { text-wrap: pretty; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; } .pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+
+.pb-hero { padding-top: 62px; padding-bottom: 36px; overflow: clip; }
+.pb-hero__copy { max-width: 940px; margin: 0 auto 36px; text-align: center; display: grid; justify-items: center; gap: 16px; }
+.pb-hero__copy h1 { max-width: 900px; margin: 0; }
+.pb-hero__copy .pb-lede { margin: 0; max-width: 760px; }
+.pb-hero__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 4px; }
+.pb-hero__media-wrap { width: min(100% - 24px, 1440px); margin: 0 auto; }
+.pb-hero__frame { overflow: hidden; border-radius: clamp(18px, 4vw, 42px); border: 1px solid var(--color-hairline-warm); background: var(--color-surface); transform-origin: top center; }
+.pb-hero__img { width: 100%; min-height: clamp(280px, 56vw, 740px); object-fit: cover; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: none; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+
+.pb-product-tabs__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: stretch; }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-product-tabs__card { display: flex; flex-direction: column; min-height: 100%; }
+.pb-product-tabs__media { aspect-ratio: 16 / 10; background: #ddd; overflow: hidden; }
+.pb-product-tabs__media img { width: 100%; height: 100%; object-fit: cover; }
+.pb-product-tabs__body { padding: 24px; display: grid; gap: 12px; }
+.pb-product-tabs__body h2 { font-size: clamp(1.55rem, 2.3vw, 2rem); }
+.pb-product-tabs__body p { color: var(--color-muted); margin: 0; }
+.pb-review-list { display: grid; gap: 8px; margin: 10px 0 0; padding: 0; list-style: none; color: var(--color-ink-soft); font-size: 15px; }
+.pb-review-list li { display: flex; gap: 8px; align-items: baseline; }
+.pb-review-list li::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--color-accent); flex: 0 0 auto; }
+
+.pb-mcp { background: var(--color-paper); }
+.pb-mcp__shell { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: 24px; align-items: stretch; }
+.pb-mcp__intro { display: grid; align-content: start; gap: 18px; }
+.pb-mcp__links { display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-mcp__steps { display: grid; gap: 12px; padding-left: 0; margin: 0; list-style: none; }
+.pb-mcp-step { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius); padding: 18px; display: grid; grid-template-columns: 38px 1fr; gap: 14px; }
+.pb-mcp-step__num { width: 34px; height: 34px; border-radius: 50%; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-mcp-step h3 { font-size: 20px; margin-bottom: 6px; }
+.pb-mcp-step p { margin: 0; color: var(--color-muted); font-size: 16px; }
+.pb-mcp code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--color-signal-deep); background: rgb(224 31 71 / .08); border-radius: 8px; padding: 4px 6px; overflow-wrap: anywhere; }
+.pb-chat { margin-top: 18px; border-radius: var(--radius); background: var(--color-ink-strong); color: #fff; padding: 18px; display: grid; gap: 12px; }
+.pb-chat__msg { padding: 14px 16px; border-radius: 14px; max-width: 84%; margin: 0; font-size: 15px; }
+.pb-chat__msg[data-role="user"] { background: #fff; color: var(--color-ink-strong); justify-self: end; }
+.pb-chat__msg[data-role="status"] { background: rgb(255 255 255 / .12); color: rgb(255 255 255 / .78); }
+.pb-chat__msg[data-role="assistant"] { background: rgb(255 255 255 / .18); }
+
+.pb-enterprise__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list, .pb-strike-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 16px 0 0; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-strike-list li { color: rgb(255 255 255 / .82); text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: var(--color-accent); }
+.pb-export { margin-top: 18px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .62fr); gap: 18px; background: var(--color-ink-strong); color: #fff; border-radius: var(--radius); padding: 28px; }
+.pb-export h3 { color: #fff; }
+.pb-export p { color: rgb(255 255 255 / .78); }
+.pb-export > * { min-width: 0; }
+.pb-export__panel { background: #fff; color: var(--color-ink-strong); border-radius: var(--radius); padding: 22px; align-self: stretch; display: grid; gap: 14px; }
+.pb-export__panel p { color: var(--color-muted); margin: 0; }
+.pb-export__stat { font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1.3; color: var(--color-signal-deep); font-weight: 500; letter-spacing: -.035em; }
+
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height:1.3; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1.3; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; } }
+</style>
+
+<style data-sibling>
+main :is(h1,h2,h3,h4,blockquote){line-height:1.35!important}.pb-section{padding-left:8px;padding-right:8px;padding-top:72px}.pb-photo-hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#fff 62%,var(--color-paper) 100%);padding:78px 0 54px}.pb-photo-hero__grid{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:34px;align-items:center}.pb-photo-hero__copy{display:grid;gap:18px;align-content:center}.pb-photo-hero__copy h1{font-size:clamp(3rem,7vw,6.15rem);line-height:1.3;letter-spacing:-.038em;max-width:9.2ch}.pb-photo-hero__copy .pb-lede{max-width:560px}.pb-photo-hero__stage{position:relative;min-height:530px;border-radius:28px;overflow:hidden;border:1px solid var(--color-hairline-warm);background:#0e0f10;box-shadow:0 24px 60px rgb(22 22 22 / .12)}.pb-photo-hero__stage video,.pb-photo-hero__stage img{width:100%;height:100%;min-height:530px;object-fit:cover}.pb-photo-hero__badge{position:absolute;left:22px;bottom:22px;right:22px;display:flex;gap:10px;align-items:center;justify-content:space-between;padding:12px 14px;border-radius:18px;background:rgb(255 255 255 / .9);backdrop-filter:blur(14px);font-size:14px;color:var(--color-ink-soft)}.pb-photo-template-intro{text-align:center}.pb-photo-template-intro .pb-section__head{margin-bottom:0}.pb-photo-template-grid{padding-top:24px}.pb-photo-template-grid__items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.pb-photo-template-card{display:grid;gap:14px;text-decoration:none}.pb-photo-template-card__media{aspect-ratio:1.52;border-radius:var(--radius);overflow:hidden;background:var(--color-paper);border:1px solid var(--color-hairline-warm);box-shadow:0 12px 36px rgb(22 22 22 / .08)}.pb-photo-template-card img{width:100%;height:100%;object-fit:cover}.pb-photo-template-card h4{margin:0;font-size:20px;line-height:1.3;color:var(--color-ink-strong);font-weight:500}.pb-photo-quote{background:var(--color-paper);padding:72px 24px}.pb-photo-quote blockquote{margin:0;max-width:1100px;font-size:clamp(2rem,4.4vw,4.2rem);line-height:1.3;letter-spacing:-.045em;color:#111;font-weight:500}.pb-photo-quote figcaption{margin-top:22px;color:var(--color-ink-soft);font-size:16px}.pb-photo-feature-heading{text-align:center}.pb-photo-feature-heading .pb-section__head{margin-bottom:0}.pb-photo-feature{padding-block:32px 72px}.pb-photo-feature__row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;min-height:420px}.pb-photo-feature__row+.pb-photo-feature__row{margin-top:34px}.pb-photo-feature__row:nth-child(even) .pb-photo-feature__media{order:2}.pb-photo-feature__copy{max-width:520px;display:grid;gap:12px}.pb-photo-feature__copy h4{margin:0;color:var(--color-ink-strong);font-size:clamp(1.55rem,2.8vw,2.4rem);line-height:1.3;letter-spacing:-.025em;font-weight:500}.pb-photo-feature__copy p{margin:0;color:var(--color-muted);font-size:18px}.pb-photo-feature__media{position:relative;min-height:310px;border-radius:24px;background:linear-gradient(145deg,#fff,var(--color-paper));border:1px solid var(--color-hairline-warm);box-shadow:0 18px 48px rgb(22 22 22 / .08);overflow:hidden;display:grid;place-items:center;padding:24px}.pb-photo-feature__media video{max-width:100%;max-height:330px;object-fit:contain;border-radius:16px}.pb-photo-feature__media img{max-width:100%;max-height:330px;object-fit:contain}.pb-photo-alt{background:var(--color-paper);text-align:center}.pb-photo-alt .pb-lede{margin-inline:auto}.pb-photo-tools__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.pb-photo-tool{padding:0 0 26px;text-align:center;display:grid;align-content:start;gap:16px;text-decoration:none}.pb-photo-tool__media{height:250px;border-radius:var(--radius);overflow:hidden;background:linear-gradient(180deg,#fff,var(--color-paper));display:grid;place-items:center;border-bottom:1px solid var(--color-hairline-warm)}.pb-photo-tool__media img{width:100%;height:100%;object-fit:cover}.pb-photo-tool__media img[data-contain]{object-fit:contain;padding:18px}.pb-photo-tool h4{margin:0 20px;font-size:24px;line-height:1.3;color:var(--color-ink-strong)}.pb-photo-tool p{margin:0 24px;color:var(--color-muted)}.pb-photo-tool span{font-weight:500;color:var(--color-ink-strong)}.pb-photo-final{position:relative;min-height:500px;padding:64px 24px;display:grid;place-items:center;overflow:hidden;background:#0b1320;color:#fff;text-align:center}.pb-photo-final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.72}.pb-photo-final::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgb(0 0 0 / .08),rgb(0 0 0 / .34))}.pb-photo-final__content{position:relative;z-index:1;display:grid;gap:18px;justify-items:center}.pb-photo-final h3{color:#fff;font-size:clamp(2rem,4.6vw,3.9rem);line-height:1.3;letter-spacing:-.04em;max-width:980px}.pb-photo-final .pb-button{border-radius:var(--radius-sm)}@media(max-width:900px){.pb-photo-hero__grid,.pb-photo-feature__row{grid-template-columns:1fr}.pb-photo-hero__copy h1{max-width:12ch}.pb-photo-feature__row:nth-child(even) .pb-photo-feature__media{order:0}.pb-photo-template-grid__items,.pb-photo-tools__grid{grid-template-columns:1fr 1fr}.pb-photo-feature{padding-top:12px}}@media(max-width:600px){.pb-section{padding-top:40px}.pb-photo-hero{padding-top:46px}.pb-photo-hero__stage,.pb-photo-hero__stage video,.pb-photo-hero__stage img{min-height:330px}.pb-photo-hero__copy h1{font-size:44px}.pb-photo-template-grid__items,.pb-photo-tools__grid{grid-template-columns:1fr}.pb-photo-quote{padding-block:44px}.pb-photo-feature__row{gap:22px;min-height:auto}.pb-photo-feature__media{min-height:230px}.pb-photo-tool__media{height:210px}.pb-photo-final{min-height:380px}.pb-photo-final__content{padding:0 16px}.pb-photo-hero__badge{position:static;margin-top:12px}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon="">
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="../index.html" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="../product/index.html">Product</a>
+      <a href="../sdk/index.html">API &amp; SDK</a>
+      <a href="../enterprise/index.html">Solutions</a>
+      <a href="../blog/index.html">Resources</a>
+      <a href="../pricing/index.html">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="../contact/index.html">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+<main id="main" data-template="landing">
+  <section class="pb-photo-hero" data-section="hero" data-intent="introduce photo galleries and convert" data-layout="split-media" data-media="image" data-module="hero">
+    <div class="wrap pb-photo-hero__grid">
+      <div class="pb-photo-hero__copy" data-slot="copy">
+        <h2 class="pb-eyebrow">Playbook for Photographers</h2>
+        <h1>Elegant photo galleries, straight from your stored files</h1>
+        <p class="pb-lede">Organize, edit, and share your photos - all in one place.</p>
+        <div class="pb-hero__actions" data-slot="actions"><a class="pb-button pb-button--primary" href="https://www.playbook.com/s/community/template-gallery">Explore templates</a><a class="pb-button pb-button--secondary" href="../contact/index.html">Book a demo</a></div>
+      </div>
+      <figure class="pb-photo-hero__stage" data-slot="media">
+        <img src="https://image.mux.com/8eoclJ1nxthU9gmPcaCU33kHKWVcDJmDJgeu27i00KLk/thumbnail.jpg?width=1200&amp;time=1" alt="Photo gallery preview" loading="eager" fetchpriority="high" decoding="async">
+        <figcaption class="pb-photo-hero__badge"><span>Photography gallery templates</span><span>Built from stored files</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="pb-section pb-photo-template-grid" data-section="template-gallery" data-intent="show available gallery templates" data-layout="card-grid" data-items="4" data-media="image" data-module="feature-grid">
+    <div class="wrap">
+      <div class="pb-section__head" data-align="center" data-slot="heading"><h2 class="pb-eyebrow">Professional templates</h2><h3>Photography gallery templates that make your work shine.</h3></div>
+      <div class="pb-photo-template-grid__items" data-slot="items">
+      <a class="pb-photo-template-card" href="https://www.playbook.com/s/community/template-gallery?assetToken=Bk1zKwctGWsEYMmfkJyQgA8z"><div class="pb-photo-template-card__media"><img src="https://img.playbook.com/x3PZF9Vy-_r540TbRwCwjFAVDX4I4-XZvM_NJFdxy-4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzRmNjlkN2Mx/LTE1MjktNDBlMi1h/Nzc0LTY0MzcyYjI1/YTcwZQ" alt="Portfolio Site" loading="eager" fetchpriority="high" decoding="async"></div><h4>Portfolio Site</h4></a>
+      <a class="pb-photo-template-card" href="https://www.playbook.com/s/community/template-gallery?assetToken=vpeoxpSx6sqjkbVuUhh452oE"><div class="pb-photo-template-card__media"><img src="https://img.playbook.com/TUcZmzO9n-CHVNfj_KIUHqIBSQtLPaHoOGIYh_faOIM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY4ZjgxOGI2/LTE0YTktNGUzYi1i/NDM4LWI5ZWFiODQ3/MTBlNA" alt="Wedding Photo Gallery" loading="lazy" decoding="async"></div><h4>Wedding Photo Gallery</h4></a>
+      <a class="pb-photo-template-card" href="https://www.playbook.com/s/community/template-gallery?assetToken=RVK1qSM3cHBak1nzvrioQvy4"><div class="pb-photo-template-card__media"><img src="https://img.playbook.com/ourM2MR2T7nVHgKnqyt7_blHeTZSdRPULtFxcEbi75E/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2FmZmQwMzQx/LTQ2ZDMtNDU1Ni05/ZTIzLTM0YzdkYmI0/YWYyZA" alt="Client Proofing Gallery" loading="lazy" decoding="async"></div><h4>Client Proofing Gallery</h4></a>
+      <a class="pb-photo-template-card" href="https://www.playbook.com/s/community/template-gallery?assetToken=9QUgNye9pwJzLqLss3QEMVgK"><div class="pb-photo-template-card__media"><img src="https://img.playbook.com/MlXEPsk8rbvCV_DKz4iEQyKOL0db4ODa285G5vWsPDA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzBkNjA1MmMx/LTAxOTktNDA1My1i/OWZkLTQ5MmE1YjVi/N2NhZg" alt="Product Photography" loading="lazy" decoding="async"></div><h4>Product Photography</h4></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-photo-quote" data-section="testimonial-layouts" data-intent="show photographer proof" data-layout="quote" data-module="static-hero"><div class="wrap"><figure><blockquote>"I migrated to Playbook because of the layouts. Every client gallery looks stunning, and that makes a real difference."</blockquote><figcaption>Thayran Costa, freelance photographer based in Portugal</figcaption></figure></div></section>
+
+  <section class="pb-photo-feature" data-section="publishing-features" data-intent="explain publish and customize workflow" data-layout="alternating-feature-rows" data-items="2" data-media="image" data-module="feature-grid">
+    <div class="wrap">
+      <div class="pb-section__head" data-align="center" data-slot="heading"><h2 class="pb-eyebrow">One-click publish</h2><h3>Organize and edit - all in Playbook. Publish instantly, customize easily.</h3></div>
+      <div data-slot="items">
+      <article class="pb-photo-feature__row"><div class="pb-photo-feature__media"><img src="https://image.mux.com/DjUM01ZCujxt1J32NhR5Rar601toBgxUk01TRWSzZpse01s/thumbnail.jpg?width=1200&amp;time=1" alt="One-click publish gallery controls" loading="lazy" decoding="async"></div><div class="pb-photo-feature__copy"><h4>Beautiful galleries in one click</h4><p>Transform your internal boards into stunning public galleries instantly. No exporting, importing, or waiting - just select a template and publish. Your content stays in sync automatically, making updates effortless.</p></div></article>
+      <article class="pb-photo-feature__row"><div class="pb-photo-feature__media"><img src="https://image.mux.com/5bZ02oAr2I01WQpGE8ktp01SbpTrdRyPlLlnFEvNu3upUY/thumbnail.jpg?width=1200&amp;time=1" alt="Drag-and-drop gallery customization" loading="lazy" decoding="async"></div><div class="pb-photo-feature__copy"><h4>Customize so it's just right</h4><p>Edit your page with drag-and-drop text, images, and links. Add banners, menus, sections, and more.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-photo-quote" data-section="testimonial-proofing" data-intent="show client proofing proof" data-layout="quote" data-module="static-hero"><div class="wrap"><figure><blockquote>"I like being able to send clients 2 published links: 1) to view their lo-res images and make their selects by commenting and rating and 2) to download their final assets at the end of the project."</blockquote><figcaption>Carissa Flores, Freelance Photographer based in Philadelphia, Pennsylvania</figcaption></figure></div></section>
+
+  <section class="pb-photo-feature" data-section="feedback-features" data-intent="explain permissions and feedback" data-layout="alternating-feature-rows" data-items="2" data-media="image" data-module="feature-grid">
+    <div class="wrap">
+      <div class="pb-section__head" data-align="center" data-slot="heading"><h2 class="pb-eyebrow">Easy feedback</h2><h3>A workflow built for modern photographers</h3></div>
+      <div data-slot="items">
+      <article class="pb-photo-feature__row"><div class="pb-photo-feature__media"><img src="https://img.playbook.com/rWgZ-mM1xYfD7TixjfbxCFpVefXOMs5Isxio-6iJ6lk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzY1ZmI1Zjlk/LTIwZWYtNGU0NS1h/M2I5LWVlOTUxN2Y2/YjYxOA" alt="" loading="lazy" decoding="async"></div><div class="pb-photo-feature__copy"><h4>Set permissions for viewing, downloading, and proofing</h4><p>Share with confidence using advanced permission controls. Enable comments, restrict downloads, add watermarks, set expiration dates, and collect viewer information.</p></div></article>
+      <article class="pb-photo-feature__row"><div class="pb-photo-feature__media"><img src="https://img.playbook.com/KPba9Q7y-BtNTyy5GMnfrJvTRjeo2ZOJ51zTFYaAXNU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2UwODI4ZDhh/LTIxN2MtNGIxNC05/YjJlLWJjYzNhOThm/MTc0ZA" alt="" loading="lazy" decoding="async"></div><div class="pb-photo-feature__copy"><h4>Feedback made easy for clients</h4><p>Clients can react, comment, and request edits in real-time, right where the content lives. Say goodbye to scattered email chains and hello to streamlined collaboration, with every interaction organized and accessible.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-section pb-photo-alt" data-section="all-in-one" data-intent="position as alternative" data-layout="centered-copy" data-module="comparison-table"><div class="wrap pb-section__head" data-align="center" data-slot="heading"><h2 class="pb-eyebrow">All in one</h2><h3>Looking for a Pixieset, Photoroom, AND Dropbox alternative? Look no further.</h3><p class="pb-lede">From organizing, editing, to sharing, Playbook has you covered end to end.</p></div></section>
+
+  <section class="pb-section" data-section="more-features" data-intent="route to related tools" data-layout="card-grid" data-items="3" data-media="image" data-module="tool-crosspromo">
+    <div class="wrap">
+      <div class="pb-section__head" data-align="center" data-slot="heading"><h2 class="pb-eyebrow">Explore more features</h2><h3>Your entire workflow can start and end with Playbook.</h3></div>
+      <div class="pb-photo-tools__grid" data-slot="items">
+      <a class="pb-card pb-photo-tool" href="https://www.playbook.com/picsart/"><div class="pb-photo-tool__media"><img src="https://img.playbook.com/mR7BMh7ywIgq0EUa2V6XVYlBeBSAIPiyKA0SZ5Vb4XU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzA3MTI0ZDE4/LTcyMzItNDU1MC1h/NDQ2LTRmNjA2MmY0/MDM0ZQ" alt="" loading="lazy" decoding="async"></div><h4>Edit images</h4><p>Improve image resolution and apply aesthetic filters to images instantly</p><span>Learn more →</span></a>
+      <a class="pb-card pb-photo-tool" href="https://www.playbook.com/photoroom/"><div class="pb-photo-tool__media"><img src="https://img.playbook.com/sSoXPPGPuJRvo1w5TlSZ0mmGigFLVgDcvCbnhqK7_n8/s:500:522/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJkNWZkNzZm/LWRhMzYtNGFjYy1i/YTUwLTNhY2FjNmNk/NTFhNw" alt="" loading="lazy" decoding="async"></div><h4>Remove background</h4><p>One click to erase or add backgrounds</p><span>Learn more →</span></a>
+      <a class="pb-card pb-photo-tool" href="../watermarks/index.html"><div class="pb-photo-tool__media"><img data-contain src="https://img.playbook.com/tiaLc5OwasTtFqpC1wLXMw6muGThRtxNGa13-rNnXyU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2YxMjMyNWVi/LTg0NTAtNGQwNy05/ODViLTUwZDNkNTFk/ZDRiOA" alt="" loading="lazy" decoding="async"></div><h4>Design custom watermarks</h4><p>Protect and promote your brand with custom watermarks</p><span>Learn more →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-photo-final" data-section="final-cta" data-intent="convert photographers" data-layout="image-cta-band" data-media="image" data-module="cta-band">
+    <img src="https://img.playbook.com/Ikhoni-izSItaN3sevkgyKN41TmL9k6dn7cHk-vEzL0/s:2000:652/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzhkNjNiNjRh/LWZiYmItNDBlNy05/ODhhLTI5NTliMTAz/YjViNA" alt="" loading="lazy" decoding="async">
+    <div class="pb-photo-final__content" data-slot="body"><h3>The most stunning photo galleries are built in Playbook.</h3><a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a></div>
+  </section>
+</main>
+<footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon="">
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="../index.html"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="../features/index.html">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="../mcp/index.html">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="../integrations-all/index.html">Tools and integrations</a></li><li><a href="../pricing/index.html">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="../enterprise/index.html">Enterprise</a></li><li><a href="../media-and-entertainment/index.html">Media and entertainment</a></li><li><a href="../creative-agency/index.html">Creative agencies</a></li><li><a href="../consumer-brands/index.html">Consumer brands</a></li><li><a href="../games/index.html">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="../blog/index.html">Blog</a></li><li><a href="../customers/index.html">Customer stories</a></li><li><a href="../tutorial/index.html">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="../about-us/index.html">About us</a></li><li><a href="../the-story-of-playbook/index.html">Story of Playbook</a></li><li><a href="../contact/index.html">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="../p/privacy/index.html">Privacy</a><a href="../p/terms/index.html">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+<script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+</script>
+</body>
+</html>

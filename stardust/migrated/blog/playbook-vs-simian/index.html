@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-09-30T06:10:25Z
+  page:             Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)
+  slug:             blog-playbook-vs-simian
+  pagePath:         migrated/blog/playbook-vs-simian/index.html
+  renderBranch:     A'
+  template:         blog-brand-portal-api
+  archetypePath:    stardust/prototypes/blog-brand-portal-api-proposed.html
+  archetypeSha:     41f9333dca68
+  sourceCurrent:    stardust/current/pages/blog-playbook-vs-simian.json
+  againstDirection: stardust/direction.md (Active 2026-09-29T06:30:00Z)
+  designMd:         DESIGN.md (sha: 833916554b4d)
+  designJson:       DESIGN.json (sha: 3ea50209949e)
+  canonShas:        header:0e491b179edd footer:b11f2ddc22f2 css:01e4a1e44711
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 12
+  stardustVersion:  0.25.0
+-->
+<style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+</style>
+<link rel="stylesheet" href="../../assets/canon.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)","description":"Looking for a Simian alternative? See how Playbook's video frame search, timestamped comments, and API/MCP compare to Simian's seat-gated pricing.","mainEntityOfPage":"https://www.playbook.com/blog/playbook-vs-simian/"}</script><!-- stardust:provenance
+{
+  "writtenBy": "stardust:prototype",
+  "writtenAt": "2026-09-29T06:52:34Z",
+  "page": "blog-brand-portal-api",
+  "pageUrl": "https://www.playbook.com/blog/brand-portal-api/",
+  "template": "article",
+  "againstDirection": "stardust/direction.md (Active 2026-09-29T06:30:00Z)",
+  "readArtifacts": [
+    "stardust/current/pages/blog-brand-portal-api.json",
+    "stardust/current/pages/blog-brand-portal-api.html",
+    "DESIGN.md",
+    "DESIGN.json",
+    "stardust/direction.md",
+    "stardust/canon/header.html",
+    "stardust/canon/footer.html",
+    "stardust/canon/canon.css",
+    "stardust/canon/modules/cta-band.html",
+    "stardust/canon/modules/related-posts.html"
+  ],
+  "capturedAuthor": null,
+  "capturedDate": "July 14, 2026",
+  "capturedHeroImage": null,
+  "unsourcedContent": [],
+  "modules": [
+    "faq",
+    "feature-grid",
+    "related-posts",
+    "cta-band"
+  ],
+  "canonInjected": [
+    "skip-link.html",
+    "header.html",
+    "footer.html",
+    "canon.css",
+    "modules/cta-band.html"
+  ],
+  "copyCadenceBypass": {
+    "basis": "article body is captured-verbatim",
+    "rulesIgnored": [
+      "copy-cadence"
+    ]
+  },
+  "reflexRejectAudit": {
+    "bypassed": "Mode A brand-faithful render with captured stabil_grotesk pinned"
+  },
+  "fidelity": "quick",
+  "critique": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "manual vision check + deterministic detector review (hands-off)",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "findings": [],
+      "fixesApplied": [
+        "Restored global Playbook typography rules from the home prototype so the article renders in stabil_grotesk rather than browser serif defaults.",
+        "Tightened display tracking from -0.055em to -0.04em after detector warning."
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "impeccable detect --json + Playwright structural/a11y/perf checks",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 3
+      },
+      "findings": [
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "cramped-padding",
+          "status": "dismissed false positive",
+          "reason": "Section children sit inside .wrap gutters; cta-band box has clamp(32px, 7vw, 72px) padding from canon."
+        },
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "cramped-padding",
+          "status": "dismissed false positive",
+          "reason": "Canonical cta-band padding is present; detector did not resolve clamp padding."
+        },
+        {
+          "priority": "P3",
+          "source": "impeccable detect",
+          "rule": "marquee",
+          "status": "dismissed false positive",
+          "reason": "Full canon.css is required by the brief; this article renders no logo-marquee DOM."
+        }
+      ],
+      "checks": {
+        "contrastFailures": 0,
+        "missingAlt": 0,
+        "h1Count": 1,
+        "externalCss": false,
+        "externalJs": false,
+        "lcpImage": "no image intersects first viewport; first article figure is eager/high priority"
+      },
+      "fixesApplied": [
+        "Added global base typography/reset rules after canon.css.",
+        "Kept first article figure loading=eager and fetchpriority=high."
+      ]
+    }
+  ],
+  "adapt": [
+    {
+      "at": "2026-09-29T06:54:37Z",
+      "method": "mobile-nav-audit.mjs + Playwright overflow probes",
+      "counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      },
+      "breakpoints": [
+        360,
+        414,
+        800,
+        1280,
+        1920
+      ],
+      "navAudit": "pass at 360px",
+      "horizontalOverflow": {
+        "360": 0,
+        "414": 0,
+        "800": 0,
+        "1280": 0,
+        "1920": 0
+      },
+      "navCollapse": "hamburger (canon stock)"
+    }
+  ],
+  "visionCheck": {
+    "verdict": "pass",
+    "observations": [
+      "Source and prototype both keep the editorial article shape: date, left TOC rail, single reading column and inline product UI figures.",
+      "Prototype unifies chrome to the home canon and makes the captured feature-grid/FAQ/related modules explicit without fabricated copy or media.",
+      "Hierarchy is stronger than the source while retaining the Playbook white canvas, signal CTA and product screenshot focus."
+    ]
+  },
+  "assumptions": [
+    "Hands-off mode: no user confirmation requested",
+    "No byline or lead hero image was present in captured slots, so neither was invented"
+  ],
+  "validationArtifacts": [
+    "stardust/validation/blog-brand-portal-api/proposed-1440.png",
+    "stardust/.work/thumbs/blog-brand-portal-api-thumb.png",
+    "stardust/.work/thumbs/proposed-1440-thumb.png"
+  ]
+}
+  orchestratorFixes:
+    - "related-posts text-only cards: removed empty lead-card media area, top-aligned titles (2026-09-29T07:00:21.750Z)"
+-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)</title>
+  <meta name="description" content="Looking for a Simian alternative? See how Playbook's video frame search, timestamped comments, and API/MCP compare to Simian's seat-gated pricing.">
+  <link rel="icon" href="../../assets/favicon.ico">
+  <style>
+:root {
+  --heading-font-family: 'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --body-font-family:    'stabil_grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --heading-xxl: 56px;
+  --heading-xl:  44px;
+  --heading-lg:  35px;
+  --heading-md:  28px;
+  --body:        18px;
+  --body-sm:     14px;
+
+  --line-height-heading: 1.1;
+  --line-height-body:    1.5;
+
+  --color-bg:     #ffffff;
+  --color-fg:     #292929;
+  --color-accent: #ff2753;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-soft: #434140;
+  --color-muted:  #666666;
+  --color-paper:  #fafafa;
+  --color-surface:#eeeeee;
+  --color-border: #dadbdf;
+  --color-hairline-warm: rgb(82 74 62 / .16);
+  --color-signal-deep: #e01f47;
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 64px;
+
+  --section-padding: 64px;
+  --max-width:       1200px;
+  --radius:          14px;
+  --radius-sm:       10px;
+  --radius-img:      8px;
+  --radius-pill:     999px;
+  --shadow-lift:     0 10px 30px rgb(22 22 22 / .10);
+  --ease-playbook:   cubic-bezier(.42,0,0,1);
+}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'stabil_grotesk';src:url('../../assets/fonts/StabilGrotesk-Medium.woff2') format('woff2');font-weight:500 700;font-display:swap}
+@font-face{font-family:'victor_serif';src:url('../../assets/fonts/VictorSerif-Regular.woff') format('woff');font-weight:400;font-display:swap}
+/* compound CSS lifted from index */
+
+* { box-sizing: border-box; }
+html { hanging-punctuation: first; scroll-behavior: auto; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--heading-font-family); line-height: var(--line-height-heading); font-weight: 500; text-wrap: balance; color: var(--color-ink-strong); }
+h1 { font-size: clamp(2.75rem, 7vw, var(--heading-xxl)); letter-spacing: -.035em; }
+h2 { font-size: clamp(2rem, 4.8vw, var(--heading-xl)); letter-spacing: -.025em; }
+h3 { font-size: clamp(1.25rem, 2.5vw, var(--heading-md)); letter-spacing: -.015em; }
+p { text-wrap: pretty; }
+.skip-link { position: fixed; inset: 12px auto auto 12px; z-index: 100; transform: translateY(-160%); background: var(--color-ink-strong); color: white; padding: 10px 14px; border-radius: var(--radius-sm); }
+.skip-link:focus { transform: translateY(0); }
+.wrap { width: min(calc(100% - 48px), var(--max-width)); margin-inline: auto; }
+.pb-eyebrow { margin: 0 0 14px; color: var(--color-muted); font-size: var(--body-sm); font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-lede { max-width: 760px; color: var(--color-muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+.pb-section { padding-block: var(--section-padding); }
+.pb-section__head { display: grid; gap: 12px; margin-bottom: 32px; }
+.pb-section__head[data-align="center"] { justify-items: center; text-align: center; }
+.pb-button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1px solid transparent; font-size: 18px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.pb-button--primary { background: var(--color-signal-deep); color: #fff; }
+.pb-button--secondary { background: #fff; color: var(--color-ink-strong); border-color: var(--color-border); border-radius: var(--radius-sm); }
+.pb-button--primary:hover { background: #c91b3f; }
+.pb-button--secondary:hover { border-color: var(--color-ink-soft); }
+@media (prefers-reduced-motion: no-preference) { .pb-card, .pb-button, .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-card:hover, .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+.pb-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--color-hairline-warm); background: rgb(255 255 255 / .94); backdrop-filter: blur(14px) saturate(140%); }
+.pb-header__inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.pb-wordmark { display: inline-flex; align-items: center; gap: 10px; color: var(--color-ink-strong); font-size: 21px; font-weight: 500; letter-spacing: -.02em; text-decoration: none; }
+.pb-wordmark__mark { width: 28px; height: 28px; border-radius: 9px; background: var(--color-signal-deep); color: #fff; display: grid; place-items: center; font-weight: 500; }
+.pb-nav-toggle { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+.pb-nav-burger { display: none; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); cursor: pointer; user-select: none; font-size: var(--body-sm); font-weight: 500; background: #fff; }
+.pb-nav-burger__icon { width: 18px; height: 12px; position: relative; }
+.pb-nav-burger__icon::before, .pb-nav-burger__icon::after { content: ""; position: absolute; left: 0; right: 0; height: 2px; border-radius: 2px; background: currentColor; }
+.pb-nav-burger__icon::before { top: 1px; }
+.pb-nav-burger__icon::after { bottom: 1px; }
+.pb-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
+.pb-nav a { color: var(--color-ink-soft); text-decoration: none; font-size: 15px; font-weight: 500; }
+.pb-nav a:hover { color: var(--color-signal-deep); }
+.pb-header__actions { display: flex; align-items: center; gap: 10px; }
+.pb-header .pb-button { min-height: 42px; padding: 9px 16px; font-size: 15px; }
+@supports (animation-timeline: view()) { @media (prefers-reduced-motion: no-preference) { .pb-hero__frame { animation: pbHeroInset both linear; animation-timeline: view(); animation-range: 10% 58%; } @keyframes pbHeroInset { from { transform: scale(1.015); border-radius: 0; } to { transform: scale(.93); border-radius: 42px; } } } }
+.pb-logo-marquee { overflow: hidden; }
+.pb-logo-marquee__frame { border-block: 1px solid var(--color-hairline-warm); padding-block: 28px; overflow: hidden; }
+.pb-logo-marquee__title { text-align: center; color: var(--color-muted); margin: 0 0 22px; font-size: 16px; }
+.pb-logo-marquee__track { display: flex; width: max-content; gap: 42px; align-items: center; animation: pbMarquee 42s linear infinite; }
+.pb-logo-marquee__set { display: flex; gap: 42px; align-items: center; padding-right: 42px; }
+.pb-logo-marquee__item { width: 118px; height: 48px; display: grid; place-items: center; filter: grayscale(1); opacity: .58; }
+.pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
+@keyframes pbMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; } .pb-logo-marquee__set[aria-hidden="true"] { display: none; } }
+.pb-card { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); overflow: hidden; }
+.pb-compare-card { padding: 24px; }
+.pb-compare-card--dark { background: var(--color-ink-strong); color: #fff; }
+.pb-compare-card--dark h3 { color: #fff; }
+.pb-chip-list li { padding: 9px 12px; border-radius: var(--radius-pill); background: #fff; border: 1px solid var(--color-border); font-size: 15px; }
+.pb-stories { background: var(--color-paper); }
+.pb-stories__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; }
+.pb-story-card { position: relative; min-height: 270px; border-radius: var(--radius); overflow: hidden; text-decoration: none; display: flex; align-items: end; isolation: isolate; background: var(--color-ink-strong); }
+.pb-story-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.pb-story-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(0 0 0 / .05), rgb(0 0 0 / .78)); }
+.pb-story-card h3 { color: #fff; font-size: 18px; padding: 18px; margin: 0; }
+.pb-story-card:nth-child(1), .pb-story-card:nth-child(4) { grid-column: span 2; }
+.pb-quote { margin: 26px 0 0; border-radius: var(--radius); background: #fff; border: 1px solid var(--color-border); padding: 26px; display: grid; gap: 10px; }
+.pb-quote blockquote { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.18; letter-spacing: -.025em; }
+.pb-quote figcaption { color: var(--color-muted); }
+.pb-pricing__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pb-plan-card { padding: 24px; display: grid; gap: 16px; }
+.pb-plan-card h3 { margin: 0; }
+.pb-plan-card__price { font-size: 34px; letter-spacing: -.035em; line-height: 1; font-weight: 500; color: var(--color-ink-strong); }
+.pb-plan-card__price span { font-size: 15px; color: var(--color-muted); font-weight: 400; letter-spacing: 0; }
+.pb-plan-card ul { margin: 0; padding-left: 18px; color: var(--color-ink-soft); font-size: 15px; display: grid; gap: 8px; }
+.pb-pricing__trust { text-align: center; color: var(--color-muted); margin: 24px auto 0; max-width: 820px; }
+.pb-cta-band { padding-bottom: var(--section-padding); }
+.pb-cta-band__box { border-radius: var(--radius-lg, 14px); background: var(--color-ink-strong); color: #fff; padding: clamp(32px, 7vw, 72px); text-align: center; display: grid; justify-items: center; gap: 20px; }
+.pb-cta-band h2 { color: #fff; max-width: 780px; }
+.pb-cta-band__actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.pb-cta-band .pb-button--secondary { background: transparent; color: #fff; border-color: rgb(255 255 255 / .34); }
+.pb-footer { background: var(--color-ink-strong); color: #fff; padding: 58px 0 26px; }
+.pb-footer a { color: rgb(255 255 255 / .78); text-decoration: none; }
+.pb-footer a:hover { color: #fff; }
+.pb-footer__top { display: grid; grid-template-columns: 220px 1fr; gap: 46px; }
+.pb-footer__brand .pb-wordmark { color: #fff; }
+.pb-footer__social { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+.pb-footer__social a, .pb-footer__compare a { border: 1px solid rgb(255 255 255 / .18); border-radius: var(--radius-pill); padding: 8px 12px; font-size: 14px; }
+.pb-footer__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.pb-footer__col h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+.pb-footer__col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; font-size: 14px; }
+.pb-footer__compare { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / .14); display: flex; flex-wrap: wrap; gap: 10px; }
+.pb-footer__legal { margin-top: 28px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: rgb(255 255 255 / .58); font-size: 14px; }
+.pb-footer__legal nav { display: flex; gap: 16px; flex-wrap: wrap; }
+@media (max-width: 1200px) { .pb-stories__grid { grid-template-columns: repeat(3, 1fr); } .pb-pricing__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pb-product-tabs__grid, .pb-mcp__shell, .pb-enterprise__grid, .pb-export { grid-template-columns: 1fr; } .pb-footer__top { grid-template-columns: 1fr; } .pb-footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) {
+  .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+  .pb-logo-marquee__track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; transform: none; }
+  .pb-logo-marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+  .pb-logo-marquee__set[aria-hidden="true"] { display: none; }
+  .pb-header__inner { min-height: 66px; }
+  .pb-nav-burger { display: inline-flex; }
+  .pb-nav { position: absolute; top: 100%; left: 16px; right: 16px; flex-direction: column; align-items: stretch; gap: 0; padding: 14px; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; box-shadow: 0 10px 24px rgb(60 60 60 / .05); transform: translateY(-8px); opacity: 0; visibility: hidden; pointer-events: none; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 180ms; }
+  .pb-nav a { padding: 12px 4px; font-size: 16px; border-bottom: 1px solid var(--color-border); }
+  .pb-nav a:last-child { border-bottom: 0; }
+  .pb-nav-toggle:checked ~ .pb-nav { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; transition: transform 180ms var(--ease-playbook), opacity 180ms var(--ease-playbook), visibility 0s linear 0s; }
+  .pb-header__actions { display: none; }
+  .pb-section { padding-block: 32px; }
+  .pb-hero { padding-top: 40px; }
+  .pb-hero__copy { text-align: left; justify-items: start; }
+  .pb-hero__actions { justify-content: flex-start; }
+  .pb-product-tabs__grid, .pb-stories__grid, .pb-pricing__grid, .pb-footer__grid { grid-template-columns: 1fr; }
+  .pb-story-card:nth-child(n) { grid-column: span 1; }
+  .pb-footer__legal { flex-direction: column; }
+}
+@media (max-width: 600px) { h1 { font-size: 40px; } h2 { font-size: 32px; } .pb-button { width: 100%; white-space: normal; text-align: center; } .pb-export { padding: 20px; } .pb-hero__actions, .pb-cta-band__actions { width: 100%; } .pb-logo-marquee__item { width: 96px; } }
+
+/* Article archetype page-specific CSS */
+.pb-article-hero { padding: 70px 0 38px; border-bottom: 1px solid var(--color-hairline-warm); background: linear-gradient(180deg, #fff 0%, #fff 72%, var(--color-paper) 100%); }
+.pb-article-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: clamp(28px, 6vw, 82px); align-items: end; }
+.pb-article-hero__meta { margin: 0 0 16px; color: var(--color-muted); font-size: 15px; font-weight: 500; }
+.pb-article-hero h1 { max-width: 870px; margin: 0; font-size: clamp(2.6rem, 6.8vw, 5.65rem); line-height: .95; letter-spacing: -.04em; }
+.pb-article-hero__deck { max-width: 68ch; margin: 24px 0 0; color: var(--color-ink-soft); font-size: clamp(1.08rem, 2vw, 1.35rem); line-height: 1.48; }
+.pb-article-hero__note { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; padding: 18px; color: var(--color-muted); font-size: 14px; }
+.pb-article-hero__note strong { display: block; color: var(--color-ink-strong); font-size: 16px; margin-bottom: 8px; }
+.pb-article-layout { padding: 54px 0 70px; }
+.pb-article-grid { display: grid; grid-template-columns: 230px minmax(0, 760px); gap: clamp(28px, 5vw, 70px); align-items: start; justify-content: center; }
+.pb-toc { position: sticky; top: 104px; display: grid; gap: 14px; align-self: start; }
+.pb-toc__label { color: var(--color-muted); font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: .075em; }
+.pb-toc ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.pb-toc a { display: block; padding: 9px 0 9px 12px; border-left: 1px solid var(--color-hairline-warm); color: var(--color-ink-soft); font-size: 14px; line-height: 1.3; text-decoration: none; }
+.pb-toc a:hover { color: var(--color-signal-deep); border-color: var(--color-signal-deep); }
+.pb-article { max-width: 68ch; }
+.pb-article h2 { margin: 58px 0 18px; font-size: clamp(1.8rem, 4vw, 2.75rem); }
+.pb-article h2:first-child { margin-top: 0; }
+.pb-article p, .pb-article li { color: var(--color-ink-soft); font-size: 18px; line-height: 1.66; }
+.pb-article p { margin: 0 0 22px; }
+.pb-article a { color: var(--color-ink-strong); text-decoration-color: var(--color-signal-deep); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.pb-article a:hover { color: var(--color-signal-deep); }
+.pb-article code { border: 1px solid var(--color-border); border-radius: 7px; background: var(--color-paper); padding: .1em .34em; color: var(--color-ink-strong); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .88em; }
+.pb-article figure { margin: 36px 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--color-hairline-warm); background: var(--color-paper); }
+.pb-article figure img { width: 100%; height: auto; }
+.pb-article figcaption { padding: 13px 16px 15px; color: var(--color-muted); font-size: 14px; line-height: 1.45; }
+.pb-feature-grid { margin: 38px 0 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.pb-feature-item { position: relative; padding: 20px; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: var(--color-paper); }
+.pb-feature-item::before { content: ""; display: block; width: 40px; height: 3px; margin-bottom: 14px; border-radius: var(--radius-pill); background: linear-gradient(90deg,#6cb4ee,#d46bca,#ff3c8e,#ff6b35); }
+.pb-feature-item h3 { margin: 0 0 8px; font-size: 18px; line-height: 1.25; }
+.pb-feature-item p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--color-ink-soft); }
+.pb-faq { margin-top: 28px; display: grid; gap: 10px; }
+.pb-faq details { border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); background: #fff; padding: 0; overflow: hidden; }
+.pb-faq summary { cursor: pointer; padding: 18px 20px; color: var(--color-ink-strong); font-weight: 500; list-style-position: outside; }
+.pb-faq details[open] summary { border-bottom: 1px solid var(--color-hairline-warm); }
+.pb-faq__answer { padding: 18px 20px 20px; }
+.pb-faq__answer p { margin: 0; }
+.pb-related.pb-stories { background: var(--color-paper); }
+.pb-related .pb-stories__grid { grid-template-columns: repeat(3, 1fr); }
+.pb-related .pb-story-card { min-height: 225px; padding: 22px; align-items: stretch; background: #fff; border: 1px solid var(--color-hairline-warm); color: var(--color-ink-strong); }
+.pb-related .pb-story-card::after { display: none; }
+.pb-related .pb-story-card h3 { color: var(--color-ink-strong); padding: 0; font-size: clamp(1.15rem, 2vw, 1.55rem); line-height: 1.15; letter-spacing: -.02em; align-self: end; }
+.pb-related .pb-story-card span { display: inline-flex; align-self: start; width: max-content; border-radius: var(--radius-pill); border: 1px solid var(--color-border); padding: 6px 10px; color: var(--color-muted); font-size: 13px; }
+.pb-related .pb-section__head h3 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.75rem); letter-spacing: -.025em; }
+@media (prefers-reduced-motion: no-preference) { .pb-feature-item, .pb-faq details, .pb-related .pb-story-card { transition: transform 380ms var(--ease-playbook), box-shadow 380ms var(--ease-playbook), border-color 180ms ease; } .pb-feature-item:hover, .pb-related .pb-story-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); } }
+@media (max-width: 980px) { .pb-article-hero__grid, .pb-article-grid { grid-template-columns: 1fr; } .pb-toc { position: static; border: 1px solid var(--color-hairline-warm); border-radius: var(--radius); padding: 16px; background: var(--color-paper); } .pb-toc ul { display: flex; flex-wrap: wrap; gap: 8px; } .pb-toc a { border: 1px solid var(--color-border); border-radius: var(--radius-pill); background: #fff; padding: 7px 10px; } .pb-article { max-width: none; } .pb-article-hero__note { max-width: 520px; } }
+@media (max-width: 760px) { .pb-article-hero { padding: 42px 0 30px; } .pb-article-hero h1 { font-size: clamp(2.45rem, 14vw, 4rem); } .pb-article-layout { padding: 32px 0 44px; } .pb-feature-grid, .pb-related .pb-stories__grid { grid-template-columns: 1fr; } .pb-article p, .pb-article li { font-size: 16px; line-height: 1.62; } .pb-article h2 { margin-top: 42px; } }
+@media (max-width: 600px) { .pb-article-hero__note { display: none; } .pb-toc ul { display: grid; } .pb-feature-item, .pb-faq summary, .pb-faq__answer { padding: 16px; } }
+
+  .pb-related .pb-stories__grid{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row}
+.pb-related .pb-story-card,.pb-related .pb-story-card:first-child{display:block;min-height:0;grid-column:auto;grid-row:auto;padding:24px;justify-content:flex-start}
+@media (max-width:900px){.pb-related .pb-stories__grid{grid-template-columns:1fr}}
+</style>
+  <link rel="canonical" href="https://www.playbook.com/blog/playbook-vs-simian/">
+  <meta property="og:title" content="Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)">
+  <meta property="og:description" content="Looking for a Simian alternative? See how Playbook's video frame search, timestamped comments, and API/MCP compare to Simian's seat-gated pricing.">
+  <meta property="og:image" content="https://img.playbook.com/4V5_9zX-B3qIbhSmYKQwrqHjZ-gB6F6EOPQfppKGcDw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhMzY5YTU5/LWRkZGQtNGIzYS1i/Njg5LWJkMzk4ODY4/NjFkMA">
+  <meta property="og:type" content="article">
+<style data-sibling>
+.pb-article-grid>*{min-width:0}.pb-article{min-width:0;overflow-wrap:anywhere}.pb-article pre{max-width:100%;overflow:auto;white-space:pre-wrap;word-break:break-word}.pb-article :is(ul,ol){margin:18px 0 28px;padding-left:1.35em;color:var(--color-ink-soft)}
+.pb-article :is(li){margin:8px 0}.pb-article blockquote{margin:30px 0;padding:22px 26px;border-left:4px solid var(--color-accent);background:var(--color-paper);border-radius:var(--radius)}
+.pb-article table{width:100%;border-collapse:collapse;margin:28px 0;font-size:15px;display:block;overflow-x:auto}.pb-article th,.pb-article td{border:1px solid var(--color-border);padding:12px;text-align:left;vertical-align:top}.pb-article thead{background:var(--color-paper)}
+.pb-article iframe,.pb-article video{width:100%;max-width:100%;aspect-ratio:16/9;border:0;border-radius:var(--radius);background:#111}.pb-article .kg-card{margin:28px 0}.pb-article .kg-bookmark-card a{display:block;border:1px solid var(--color-border);border-radius:var(--radius);padding:18px;text-decoration:none;color:inherit;background:var(--color-paper)}
+.pb-tutorial-index{background:var(--color-paper)}.pb-tutorial-index__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.pb-tutorial-index__card{display:flex;min-height:68px;align-items:center;padding:16px;border:1px solid var(--color-hairline-warm);border-radius:var(--radius);background:#fff;color:var(--color-ink-strong);text-decoration:none;font-size:15px;line-height:1.25}.pb-tutorial-index__card:hover{box-shadow:var(--shadow-lift)}
+@media (max-width:900px){.pb-tutorial-index__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:560px){.pb-tutorial-index__grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="pb-header" data-section="header" data-intent="navigation" data-layout="contained" data-module="site-header" data-nav-collapse="hamburger" data-canon="">
+  <div class="wrap pb-header__inner">
+    <a class="pb-wordmark" href="../../index.html" data-slot="logo"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a>
+    <input class="pb-nav-toggle" type="checkbox" id="pb-nav-toggle">
+    <label class="pb-nav-burger" for="pb-nav-toggle" role="button" tabindex="0" aria-controls="pb-main-nav" aria-expanded="false"><span class="pb-nav-burger__icon" aria-hidden="true"></span><span>Menu</span></label>
+    <nav class="pb-nav" id="pb-main-nav" aria-label="Main" data-slot="nav">
+      <a href="../../product/index.html">Product</a>
+      <a href="../../sdk/index.html">API &amp; SDK</a>
+      <a href="../../enterprise/index.html">Solutions</a>
+      <a href="../../blog/index.html">Resources</a>
+      <a href="../../pricing/index.html">Pricing</a>
+    </nav>
+    <div class="pb-header__actions" data-slot="actions">
+      <a class="pb-button pb-button--secondary" href="../../contact/index.html">Book a demo</a>
+      <a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a>
+    </div>
+  </div>
+</header>
+  <main id="main" data-template="article">
+    <section class="pb-article-hero" data-section="article-hero" data-intent="orient reader" data-layout="contained">
+      <div class="wrap pb-article-hero__grid">
+        <div>
+          
+          <h1 data-slot="headline">Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)</h1>
+          <p class="pb-article-hero__deck" data-slot="deck">Looking for a Simian alternative? See how Playbook's video frame search, timestamped comments, and API/MCP compare to Simian's seat-gated pricing.</p>
+        </div>
+        <aside class="pb-article-hero__note" aria-label="Article context"><strong>Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)</strong><span>Frequently asked questions</span></aside>
+      </div>
+    </section>
+    <section class="pb-section pb-article-layout" data-section="article-body" data-intent="educate" data-layout="side-rail" data-slot="article-body">
+      <div class="wrap pb-article-grid">
+        <aside class="pb-toc" aria-label="On this page">
+          <span class="pb-toc__label">On this page</span>
+          <ul>
+        <li><a href="#what-is-simian">What is Simian?</a></li>
+        <li><a href="#playbook-vs-simian-feature-comparison">Playbook vs Simian: feature comparison</a></li>
+        <li><a href="#what-playbook-does-that-simian-doesnt">What Playbook does that Simian doesn't</a></li>
+        <li><a href="#what-to-look-for-in-a-simian-alternative">What to look for in a Simian alternative</a></li>
+        <li><a href="#see-it-against-your-own-cut">See it against your own cut</a></li>
+        <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
+          </ul>
+        </aside>
+        <article class="pb-article">
+
+          <p><strong>TL;DR:</strong> Simian ("Media Sharing. Evolved.") is a capable showreel and review platform built specifically for production studios and agencies finishing advertising content, with real-time viewer analytics as its standout feature. Playbook is the Simian alternative for teams that want that same review precision plus AI video frame search, side-by-side asset comparison, branded shared pages from a 1000+ template gallery, and a REST API and MCP layer to build your own workflow, at a published price instead of a seat-gated quote.</p><p>Simian earns loyalty from studios like SMUGGLER, Wieden &amp; Kennedy, and BUCK for a reason: AI-tagged showreels, per-scene viewer analytics that show which cuts a producer rewatched or skipped, and time-stamped review tools built specifically for advertising's fast turnaround. Where teams hit friction is scale and openness. Company plans start at $99/month for 10 seats, so growing past a small crew means a new quote, and there is no way to point your own tools or agents at the library between reel cycles.</p><p>The reframe: a showreel is a moment in a much longer library. The footage behind it, the alts, the raw cuts, the client-approved version, needs a permanent home that is just as easy to search a year later as it was the day the reel shipped. Playbook is built to be that home, with the same frame-level review precision production teams expect from Simian.</p><p><a href="../../contact/index.html">Schedule a demo</a> and bring a real cut to test it against.</p><h2 id="what-is-simian">What is Simian?</h2><p>Simian is a cloud-based media sharing and review platform built for companies that create, shoot, edit, and finish advertising content: production studios, ad agencies, and creative firms. It centers on AI-tagged showreels, time-stamped commenting, and real-time viewer analytics.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/Fh4oAxEPD3TZ3GbuCLlzQNy5oOd5kTnc7cHei7aklwE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RjMGE0NmNj/LWJkNGItNDBlNC1i/MGJiLWY1YzFjMDgy/ZGY2NA" class="kg-image" alt="Simian product screenshot" loading="eager" width="3088" height="2285" fetchpriority="high"><figcaption><span style="white-space: pre-wrap;">image source: </span><a href="https://www.gosimian.com/" target="_blank" rel="noopener"><span style="white-space: pre-wrap;">Simian</span></a></figcaption></figure><p><strong>Strengths:</strong></p><ul><li>AI-powered tagging that locates specific shots and scenes inside showreels quickly</li><li>Real-time viewer analytics showing which scenes a producer watched, rewatched, or skipped</li><li>Time-stamped commenting and version comparison for structured review</li><li>Adobe Creative Cloud plugin and mobile apps (Simian Go!, Simian Projects) for reel builds on the go</li></ul><p><strong>Limitations:</strong></p><ul><li>Company plans start at $99/month for 10 seats; growing past that or unlocking SSO and developer API access requires an Enterprise quote</li><li>Built around the showreel and the review cycle around it, with less built for storing and searching a full production archive over time</li><li>No published template gallery for turning a board into a full branded destination beyond a microsite</li></ul><p><strong>Rating:</strong> 4.3 out of 5 based on a small sample of reviews on <a href="https://www.g2.com/products/simian/reviews">G2</a> at the time of writing; treat this as directional given the low review count.</p><p><strong>Pricing:</strong> Simian Lite is $49/month for one seat, Company starts at $99/month for 10 seats, and Enterprise (unlimited users, SSO, developer API access) is quote-only, per <a href="https://www.gosimian.com/pricing/">Simian's pricing page</a>.</p><h2 id="playbook-vs-simian-feature-comparison">Playbook vs Simian: feature comparison</h2>
+<!--kg-card-begin: html-->
+<div class="comp-table-wrap"><table class="simple-table">
+  
+  <tbody>
+
+    <!-- Pricing -->
+    <tr data-cat="cat-1" class="comp-cat-row is-open">
+      <td class="block-color-pink_background">Pricing and accessibility</td>
+      <td class="block-color-pink_background"></td>
+      <td class="block-color-pink_background">−</td>
+    </tr>
+    <tr data-parent-cat="cat-1" class="comp-data-row">
+      <td><strong>Published pricing</strong></td>
+      <td> Published, from $0 (Free) to $120/year (Pro), annual pricing</td>
+      <td> Lite $49/mo, Company from $99/mo, Enterprise by quote</td>
+    </tr>
+    <tr data-parent-cat="cat-1" class="comp-data-row">
+      <td><strong>Free plan</strong></td>
+      <td> Yes, 100GB / 300 assets, no card required</td>
+      <td> No</td>
+    </tr>
+
+    <!-- Video workflows -->
+    <tr data-cat="cat-2" class="comp-cat-row is-open">
+      <td class="block-color-pink_background">Video workflows</td>
+      <td class="block-color-pink_background"></td>
+      <td class="block-color-pink_background">−</td>
+    </tr>
+    <tr data-parent-cat="cat-2" class="comp-data-row">
+      <td><strong>Timestamped video comments</strong></td>
+      <td> Yes, plus pinned point and box/draw annotation on any frame</td>
+      <td> Yes</td>
+    </tr>
+    <tr data-parent-cat="cat-2" class="comp-data-row">
+      <td><strong>AI shot/scene tagging</strong></td>
+      <td> Video frame/shot search across your whole library, not just reels (Team+)</td>
+      <td> Yes, for showreel organization</td>
+    </tr>
+    <tr data-parent-cat="cat-2" class="comp-data-row">
+      <td><strong>Frame scrubbing</strong></td>
+      <td> Instant frame scrubbing with thumbnail preview (Team+)</td>
+      <td> Standard</td>
+    </tr>
+    <tr data-parent-cat="cat-2" class="comp-data-row">
+      <td><strong>Asset types beyond video</strong></td>
+      <td> Video, images, Adobe files, PDFs, docs in one library</td>
+      <td> Limited</td>
+    </tr>
+
+    <!-- Feature set -->
+    <tr data-cat="cat-3" class="comp-cat-row is-open">
+      <td class="block-color-pink_background">Feature set</td>
+      <td class="block-color-pink_background"></td>
+      <td class="block-color-pink_background">−</td>
+    </tr>
+    <tr data-parent-cat="cat-3" class="comp-data-row">
+      <td><strong>Version comparison</strong></td>
+      <td> Side-by-side version compare with one-click revert (Business+)</td>
+      <td> Yes</td>
+    </tr>
+    <tr data-parent-cat="cat-3" class="comp-data-row">
+      <td><strong>Branded shared pages</strong></td>
+      <td> 1000+ template gallery, drag-and-drop page builder, slideshow mode</td>
+      <td> Microsites for pitch decks</td>
+    </tr>
+    <tr data-parent-cat="cat-3" class="comp-data-row">
+      <td><strong>REST API / MCP</strong></td>
+      <td> REST API, SDK, and MCP support from Pro up</td>
+      <td> Developer API on Enterprise only</td>
+    </tr>
+
+  </tbody>
+</table></div>
+<!--kg-card-end: html-->
+<p></p><h2 id="what-playbook-does-that-simian-doesnt">What Playbook does that Simian doesn't</h2><p>Playbook isn't a showreel tool with storage attached. It's a visual home for creative work where review, search, sharing, and building your own workflow are all one motion inside the same library, not a separate reel-building step.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/8rjmywhfH4CvvXMDqGAdz7gN61wIyGzl2i_09y3dK5w/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzA5YmQ1MGIz/LWU0NTYtNDg0ZS1i/YmI3LTZiN2FhODRm/OWI0Yw" class="kg-image" alt="Playbook product screenshot" loading="lazy" width="1800" height="1125"><figcaption><span style="white-space: pre-wrap;">image source: </span><a href="../../index.html" target="_blank" rel="noopener"><span style="white-space: pre-wrap;">Playbook</span></a></figcaption></figure><h3 id="timestamp-and-position-commenting-down-to-the-pixel">Timestamp and position commenting, down to the pixel</h3><p>Comments in Playbook auto-attach to the exact frame and timecode on video, or pin to a precise point, box, or freeform region on an image, so notes point at the exact spot and moment that needs a change. Dorst &amp; Lesser, a 75-person social agency in Amsterdam producing roughly 400 assets a week across 40 clients, called this out directly: "One feature which is very nice is how you can give feedback per second," said co-founder Robert Withagen, per the <a href="https://www.playbook.com/blog/dorst-and-lesser/">Dorst &amp; Lesser story</a>. The agency also gets original-quality downloads for posting, a gap it hit with its previous DAM.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/-anQ4dbycur_4Lv3vjinANShAk-K_W85n05iwjBQYJs/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2ViNTJlMWJm/LTYzNzAtNDcxZC1i/ZjAyLTViYzRkYjAz/NDI3Mg" class="kg-image" alt="Timestamped video comment in Playbook" loading="lazy" width="1800" height="1125"><figcaption><span style="white-space: pre-wrap;">Comments attach to the exact timecode or a pinned point on the frame, so feedback points at the moment, not just the file.</span></figcaption></figure><h3 id="video-frame-search-across-the-whole-library-not-just-the-reel">Video frame search across the whole library, not just the reel</h3><p>Simian's AI tagging helps you find a shot inside a showreel you built. Playbook's video frame search works across your entire library: every uploaded video is automatically split into AI-tagged, vectorized shots, so a natural-language search surfaces the right moment from any clip, not just the ones already curated into a reel (Team plan and up). That means archived dailies and raw cuts stay just as findable as the polished reel.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/4V5_9zX-B3qIbhSmYKQwrqHjZ-gB6F6EOPQfppKGcDw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2NhMzY5YTU5/LWRkZGQtNGIzYS1i/Njg5LWJkMzk4ODY4/NjFkMA" class="kg-image" alt="Playbook video frame search results" loading="lazy" width="1536" height="1152"><figcaption><span style="white-space: pre-wrap;">AI Search finds the exact shot inside a video, not just the file it lives in, with the matching timestamp shown on each result.</span></figcaption></figure><h3 id="frame-scrubbing-and-side-by-side-asset-comparison">Frame scrubbing and side-by-side asset comparison</h3><p>Playbook's player offers instant, frame-accurate scrubbing with a thumbnail preview on hover, so a producer can land on the exact frame under discussion without a full download. Version history keeps every cut layered on the same asset record instead of a folder of <code>spot_v6_FINAL</code> files, with a side-by-side compare view so two edits, or two regional versions of the same spot, can play against each other before sign-off. WBD Sports, managing broadcast marketing across TNT Sports, Eurosport, and Bleacher Report, moved legal review onto timestamped video comments and cut review rounds from four to two, with asset requests down about 50 percent, per the <a href="https://www.playbook.com/blog/wbd-sports/">WBD Sports story</a>.</p><h3 id="shared-pages-and-a-template-gallery-not-just-a-microsite">Shared pages and a template gallery, not just a microsite</h3><p>A Simian microsite covers a pitch deck. A Playbook <a href="https://www.playbook.com/s/community/template-gallery">published page</a> is a full branded webpage: choose from 1000+ free templates, customize typography, cover image, and logo through a drag-and-drop page builder, and publish a client gallery, portfolio, or brand portal in one click. A slideshow/presentation mode plays a board full-screen for a pitch, and the internal board and public page share the same content, so a late-breaking edit shows up for the client without resending a link.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/CNKFAXHpASHKYXI6NPbc4uzIpUVaBwGg-n9go5KDsgM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzU4ZWFlZDYy/LTkzYTUtNDcyNy1h/MjExLWJiNDVjMjJl/NWQwNg" class="kg-image" alt="Published board page in Playbook" loading="lazy" width="1800" height="1125"><figcaption><span style="white-space: pre-wrap;">Publish a board as a branded page from a 1000+ template gallery, live-updating and open without an account.</span></figcaption></figure><h3 id="build-your-own-workflow-with-the-playbook-api-and-mcp">Build your own workflow with the Playbook API and MCP</h3><p>Simian's developer API sits behind the Enterprise tier. Playbook's <a href="https://dev.playbook.com/">REST API and MCP support</a> are available starting on the Pro plan: read and mutate assets, boards, comments, and search programmatically, or connect an MCP-capable agent (Claude, Cursor, and others) so it can organize incoming footage, kick off a review request, or sync approved cuts into a delivery system from a prompt, no waiting on a vendor's roadmap.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://img.playbook.com/Zg_QwTrMFYTv8vZUs4Az32enWF-CiiDeWEX3dp_isj0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzYzODQxZmM2/LTFlYjUtNDI5Yy04/M2I3LWZiN2U2NGIy/OTBjNQ" class="kg-image" alt="Playbook Developer tab with API token" loading="lazy" width="1200" height="750"><figcaption><span style="white-space: pre-wrap;">The Developer tab issues an API token in seconds, ready for the REST API, SDK, or an MCP-connected agent.</span></figcaption></figure><h3 id="pricing-and-access">Pricing and access</h3><p>Playbook publishes every tier: <a href="../../pricing/index.html">Free</a> (100GB, 300 assets, no card), Pro at $120/year, Team at $240/year/member (video frame search, video frame scrubbing, and AI tagging start here), Business at $4,800/year flat with unlimited members and version history, and custom Enterprise. Guests comment, review, and download on every plan without taking a paid seat, unlike a per-seat review tool.</p><h2 id="what-to-look-for-in-a-simian-alternative">What to look for in a Simian alternative</h2><ol><li><strong>Does search cover your whole archive, not just the reel you built?</strong> If a search only finds shots you already curated, the raw footage behind it stays effectively lost.</li><li><strong>Is pricing published past the entry tier?</strong> A quote wall at the point you need SSO or an API is a budgeting problem waiting to happen.</li><li><strong>Is feedback pinned to a frame or a pixel?</strong> Precise, timecoded, positioned comments remove the round-trips vague notes create.</li><li><strong>What happens to the footage after the reel ships?</strong> A tool built only around the showreel needs somewhere for everything else to live.</li><li><strong>Can you build on it before Enterprise?</strong> An API and MCP layer available from an early tier means you can automate a workflow without a six-figure contract first.</li></ol><h2 id="see-it-against-your-own-cut">See it against your own cut</h2><p>Playbook gives production and ad agency teams the showreel review precision of Simian, plus video frame search across the whole library, version comparison, branded shared pages, and an API to build on top of, at a published price. <a href="../../contact/index.html">Schedule a demo</a> and bring a real cut to test it against.</p><h2 id="frequently-asked-questions">Frequently asked questions</h2><div class="comp-faq-list"><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">What is the best Simian alternative for ad production teams?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p>Playbook is the strongest fit for teams that want Simian's showreel review precision plus video frame search across the whole library, version comparison, and a published, self-serve API, without waiting for an Enterprise quote.</p></div></div><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">How much does Simian cost?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p>Simian Lite is $49/month for one seat, Company starts at $99/month for 10 seats, and Enterprise (unlimited users, SSO, developer API) is quote-only, per Simian's pricing page at the time of writing.</p></div></div><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">Does Simian have an API?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p>Simian's developer API is listed under its Enterprise plan. Playbook's <a href="https://dev.playbook.com/">REST API and MCP support</a> are available starting on the Pro plan, so you can build custom workflows earlier.</p></div></div><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">Can I search inside a video file in Playbook, not just inside a showreel?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p>Yes. Playbook automatically splits every uploaded video into AI-tagged, searchable shots on the Team plan and up, covering your whole library, not just clips already curated into a reel.</p></div></div><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">Does Playbook support timestamped video comments like Simian?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p>Yes. Comments auto-attach to the exact frame and timecode on video, and can also pin to a point, box, or freeform region on an image, available on every plan.</p></div></div><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">Is there a free plan?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p>Yes. Playbook's Free plan includes 100GB of storage, up to 300 assets, and unlimited guests, with no credit card required. Simian's lowest published tier starts at $49/month.</p></div></div><div class="comp-faq-item"><button class="comp-faq-btn" aria-expanded="false"><span class="q-text">Can clients and freelancers review work in Playbook without a paid seat?</span><span class="comp-faq-icon">+</span></button><div class="comp-faq-answer"><p> Yes. Guests can comment, review, and download on every Playbook plan, including Free, without taking a paid seat.</p></div></div></div>
+        
+        </article>
+      </div>
+    </section>
+    
+    <section class="pb-cta-band" data-section="closing-cta" data-intent="drive action" data-layout="contained" data-module="cta-band"><div class="wrap"><div class="pb-cta-band__box"><h2 class="pb-cta-band__headline" data-slot="headline">Start with one folder and see what possibilities await.</h2><div class="pb-cta-band__actions" data-slot="cta"><a class="pb-button pb-button--primary" href="https://www.playbook.com/sign-up/">Start free</a><a class="pb-button pb-button--secondary" href="../../contact/index.html">Book a demo</a></div></div></div></section>
+  </main>
+  <footer class="pb-footer" data-section="footer" data-intent="navigation" data-layout="mega" data-module="site-footer" data-canon="">
+  <div class="wrap"><div class="pb-footer__top"><div class="pb-footer__brand"><a class="pb-wordmark" href="../../index.html"><span class="pb-wordmark__mark" aria-hidden="true">P</span><span>Playbook</span></a><div class="pb-footer__social" aria-label="Social links"><a href="https://www.twitter.com/playbook_hq">Twitter</a><a href="https://www.instagram.com/playbook_hq">Instagram</a><a href="https://www.linkedin.com/company/playbook-hq">LinkedIn</a></div></div><div class="pb-footer__grid" data-slot="link-groups"><div class="pb-footer__col"><h3>Product</h3><ul><li><a href="../../features/index.html">Digital asset management</a></li><li><a href="https://www.playbook.com/launch/">Playbook Intelligence</a></li><li><a href="../../mcp/index.html">MCP for creative teams</a></li><li><a href="https://dev.playbook.com/docs/getting_started/">Developer API</a></li><li><a href="../../integrations-all/index.html">Tools and integrations</a></li><li><a href="../../pricing/index.html">Pricing</a></li></ul></div><div class="pb-footer__col"><h3>Playbook for</h3><ul><li><a href="../../enterprise/index.html">Enterprise</a></li><li><a href="../../media-and-entertainment/index.html">Media and entertainment</a></li><li><a href="../../creative-agency/index.html">Creative agencies</a></li><li><a href="../../consumer-brands/index.html">Consumer brands</a></li><li><a href="../../games/index.html">Game studios</a></li></ul></div><div class="pb-footer__col"><h3>Resources</h3><ul><li><a href="../../blog/index.html">Blog</a></li><li><a href="../../customers/index.html">Customer stories</a></li><li><a href="../../tutorial/index.html">Help center</a></li><li><a href="https://discord.com/invite/MKpZvuvqg3">Discord community</a></li><li><a href="https://www.playbook.com/school/">For students</a></li></ul></div><div class="pb-footer__col"><h3>Company</h3><ul><li><a href="../../about-us/index.html">About us</a></li><li><a href="../../the-story-of-playbook/index.html">Story of Playbook</a></li><li><a href="../../contact/index.html">Contact us</a></li></ul></div></div></div><nav class="pb-footer__compare" aria-label="Product comparisons" data-slot="comparison-links"><a href="https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/">Playbook vs Plytix</a><a href="https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/">Playbook vs Air</a><a href="https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/">Playbook vs Tagbox</a><a href="https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/">Playbook vs Dropbox</a><a href="https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/">Playbook vs Google Drive</a></nav><div class="pb-footer__legal"><span>© 2026 Playbook Digital, Inc. All rights reserved.</span><nav aria-label="Legal"><a href="../../p/privacy/index.html">Privacy</a><a href="../../p/terms/index.html">Terms</a><a href="#">Consent Preferences</a><a href="https://status.playbook.com">Platform Status</a></nav></div></div>
+</footer>
+  <script>
+(() => { const t = document.getElementById('pb-nav-toggle'); const b = document.querySelector('.pb-nav-burger'); if (!t || !b) return; const sync = () => b.setAttribute('aria-expanded', String(t.checked)); t.addEventListener('change', sync); sync(); addEventListener('keydown', e => { if (e.key === 'Escape' && t.checked) { t.checked = false; sync(); b.focus(); } }); })();
+  </script>
+</body>
+</html>

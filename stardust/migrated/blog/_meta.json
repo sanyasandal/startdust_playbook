@@ -1,0 +1,1753 @@
+{
+  "slug": "blog",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "post-list"
+  ],
+  "slotsFilled": [
+    "pb-sibling-hero",
+    "pb-blog-list"
+  ],
+  "canonShas": {
+    "header": "0e491b179edd",
+    "footer": "b11f2ddc22f2",
+    "css": "01e4a1e44711"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "link-resolution",
+      "rule": "source redirect aliases → migrated page; out-of-inventory → absolute source URL",
+      "debt": "stardust/migrate/link-debt.json"
+    }
+  ],
+  "metadata": {
+    "title": "Playbook (Page 1)",
+    "description": "",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Playbook (Page 1)",
+    "description": "",
+    "url": "https://www.playbook.com/blog/"
+  },
+  "migratedAt": "2026-09-30T06:10:25Z",
+  "designMdSha": "833916554b4d",
+  "designJsonSha": "3ea50209949e",
+  "sourceCurrentSha": "5e771f6df4b9",
+  "sourceProposedSha": "89f188413c0f",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "sibling-check",
+    "portability",
+    "structure"
+  ],
+  "gateEvidence": {
+    "sibling-check": "stardust/scripts/sibling-check.mjs PASS (content-count, verbatim media, one H1, canon chrome, overflow 360/1440, JS errors)",
+    "portability": "pagemap-audit OK, file-protocol-audit OK, runtime file:// 360px OK",
+    "structure": "structure-check.mjs: dump/dup/heading-order/crop/image-context/empty/cta/chrome/stack/short-text; orchestrator visual review vs source screenshot"
+  },
+  "contentDeviations": [
+    {
+      "kind": "template-extension",
+      "source": "archetype: 13-card excerpt",
+      "target": "101 cards",
+      "reason": "listing carries the full source post index (101/101 cards) rather than the archetype's excerpt"
+    },
+    {
+      "kind": "template-adapted",
+      "source": null,
+      "target": null,
+      "reason": "Hand-composed listing page from captured section/card groupings; no source dump."
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "blog/index.html",
+  "outputPathDefault": null,
+  "sidecar": "blog/_meta.json",
+  "driverVersion": "1",
+  "resolvedLinks": [
+    {
+      "href": "/sign-up/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/sign-up/"
+      }
+    },
+    {
+      "href": "/p/blog/finding-that-shot-from-memory-introducing-multimodal-search-for-production-quality-video/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/finding-that-shot-from-memory-introducing-multimodal-search-for-production-quality-video/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-integrations-you-didnt-know/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/blog/playbook-integrations-you-didnt-know/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-integrations-you-didnt-know/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "alias",
+        "to": "/blog/playbook-integrations-you-didnt-know/"
+      }
+    },
+    {
+      "href": "/p/blog/version-control-for-creative-files/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/version-control-for-creative-files/"
+      }
+    },
+    {
+      "href": "/p/blog/version-control-for-creative-files/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/version-control-for-creative-files/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-vs-enterprise-dam/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-vs-enterprise-dam/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-vs-enterprise-dam/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-vs-enterprise-dam/"
+      }
+    },
+    {
+      "href": "/p/blog/best-brand-asset-management-software-for-2026/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-brand-asset-management-software-for-2026/"
+      }
+    },
+    {
+      "href": "/p/blog/best-brand-asset-management-software-for-2026/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-brand-asset-management-software-for-2026/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-pricing-what-youre-paying-for/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-pricing-what-youre-paying-for/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-pricing-what-youre-paying-for/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-pricing-what-youre-paying-for/"
+      }
+    },
+    {
+      "href": "/p/blog/best-frame-io-alternatives-for-video-teams-2026/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-frame-io-alternatives-for-video-teams-2026/"
+      }
+    },
+    {
+      "href": "/p/blog/best-frame-io-alternatives-for-video-teams-2026/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-frame-io-alternatives-for-video-teams-2026/"
+      }
+    },
+    {
+      "href": "/p/blog/brandfolder-vs-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/brandfolder-vs-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/brandfolder-vs-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/brandfolder-vs-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/canto-alternative-for-modern-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/canto-alternative-for-modern-creative-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/canto-alternative-for-modern-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/canto-alternative-for-modern-creative-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/frame-io-vs-playbook-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/frame-io-vs-playbook-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/frame-io-vs-playbook-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/frame-io-vs-playbook-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/enterprise-creative-asset-governance/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/enterprise-creative-asset-governance/"
+      }
+    },
+    {
+      "href": "/p/blog/enterprise-creative-asset-governance/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/enterprise-creative-asset-governance/"
+      }
+    },
+    {
+      "href": "/p/blog/practical-video-search-for-media-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/practical-video-search-for-media-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/practical-video-search-for-media-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/practical-video-search-for-media-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-faq/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-faq/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-faq/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-faq/"
+      }
+    },
+    {
+      "href": "/p/blog/automate-creative-file-tasks-with-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/automate-creative-file-tasks-with-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/automate-creative-file-tasks-with-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/automate-creative-file-tasks-with-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/how-freelancers-organize-and-share-assets/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-freelancers-organize-and-share-assets/"
+      }
+    },
+    {
+      "href": "/p/blog/how-freelancers-organize-and-share-assets/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-freelancers-organize-and-share-assets/"
+      }
+    },
+    {
+      "href": "/p/blog/tragik-2025-playbook-photo-competition-winner-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/tragik-2025-playbook-photo-competition-winner-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/tragik-2025-playbook-photo-competition-winner-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/tragik-2025-playbook-photo-competition-winner-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/the-media-drop-kit/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/the-media-drop-kit/"
+      }
+    },
+    {
+      "href": "/p/blog/the-media-drop-kit/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/the-media-drop-kit/"
+      }
+    },
+    {
+      "href": "/p/blog/top-dam-solutions-2025/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-dam-solutions-2025/"
+      }
+    },
+    {
+      "href": "/p/blog/top-dam-solutions-2025/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-dam-solutions-2025/"
+      }
+    },
+    {
+      "href": "/p/blog/wbd-sports/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/wbd-sports/"
+      }
+    },
+    {
+      "href": "/p/blog/wbd-sports/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/wbd-sports/"
+      }
+    },
+    {
+      "href": "/p/blog/freelancers-google-drive-vs-dam/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/freelancers-google-drive-vs-dam/"
+      }
+    },
+    {
+      "href": "/p/blog/freelancers-google-drive-vs-dam/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/freelancers-google-drive-vs-dam/"
+      }
+    },
+    {
+      "href": "/p/blog/managing-client-feedback-marketing-and-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/managing-client-feedback-marketing-and-design/"
+      }
+    },
+    {
+      "href": "/p/blog/managing-client-feedback-marketing-and-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/managing-client-feedback-marketing-and-design/"
+      }
+    },
+    {
+      "href": "/p/blog/jarrett-murphy-2025-playbook-photo-competition-winner-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/jarrett-murphy-2025-playbook-photo-competition-winner-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/jarrett-murphy-2025-playbook-photo-competition-winner-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/jarrett-murphy-2025-playbook-photo-competition-winner-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/marco-serventi-2025-playbook-photo-competition-winner-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/marco-serventi-2025-playbook-photo-competition-winner-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/marco-serventi-2025-playbook-photo-competition-winner-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/marco-serventi-2025-playbook-photo-competition-winner-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/top-5-platforms-for-sharing-creative-assets/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-5-platforms-for-sharing-creative-assets/"
+      }
+    },
+    {
+      "href": "/p/blog/top-5-platforms-for-sharing-creative-assets/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-5-platforms-for-sharing-creative-assets/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-case-study/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-case-study/"
+      }
+    },
+    {
+      "href": "/p/blog/playbook-case-study/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/playbook-case-study/"
+      }
+    },
+    {
+      "href": "/p/blog/mentaport-in-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/mentaport-in-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/mentaport-in-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/mentaport-in-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/dorst-lesser-case-study/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/dorst-lesser-case-study/"
+      }
+    },
+    {
+      "href": "/p/blog/dorst-lesser-case-study/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/dorst-lesser-case-study/"
+      }
+    },
+    {
+      "href": "/p/blog/the-freelancers-growth-toolkit/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/the-freelancers-growth-toolkit/"
+      }
+    },
+    {
+      "href": "/p/blog/the-freelancers-growth-toolkit/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/the-freelancers-growth-toolkit/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-collaboration-marketing-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-collaboration-marketing-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-collaboration-marketing-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-collaboration-marketing-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/dam-for-marketing-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/dam-for-marketing-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/dam-for-marketing-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/dam-for-marketing-teams/"
+      }
+    },
+    {
+      "href": "/p/blog/building-a-moodboard-in-5-minutes/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/building-a-moodboard-in-5-minutes/"
+      }
+    },
+    {
+      "href": "/p/blog/building-a-moodboard-in-5-minutes/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/building-a-moodboard-in-5-minutes/"
+      }
+    },
+    {
+      "href": "/p/blog/why-every-creative-should-have-an-embedded-toolkit/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/why-every-creative-should-have-an-embedded-toolkit/"
+      }
+    },
+    {
+      "href": "/p/blog/why-every-creative-should-have-an-embedded-toolkit/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/why-every-creative-should-have-an-embedded-toolkit/"
+      }
+    },
+    {
+      "href": "/p/blog/social-media-hacks-quick-design-tools/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/social-media-hacks-quick-design-tools/"
+      }
+    },
+    {
+      "href": "/p/blog/social-media-hacks-quick-design-tools/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/social-media-hacks-quick-design-tools/"
+      }
+    },
+    {
+      "href": "/p/blog/top-6-tools-in-2025-for-creatives/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-6-tools-in-2025-for-creatives/"
+      }
+    },
+    {
+      "href": "/p/blog/top-6-tools-in-2025-for-creatives/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-6-tools-in-2025-for-creatives/"
+      }
+    },
+    {
+      "href": "/p/blog/10-best-website-templates-for-photographers-designers-and-brand-agencies/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/10-best-website-templates-for-photographers-designers-and-brand-agencies/"
+      }
+    },
+    {
+      "href": "/p/blog/10-best-website-templates-for-photographers-designers-and-brand-agencies/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/10-best-website-templates-for-photographers-designers-and-brand-agencies/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-social-media-managers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-social-media-managers/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-social-media-managers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-social-media-managers/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-artists-designers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-artists-designers/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-artists-designers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-artists-designers/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-brand-portals/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-brand-portals/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-brand-portals/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-brand-portals/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-photographers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-photographers/"
+      }
+    },
+    {
+      "href": "/p/blog/5-best-website-templates-for-photographers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-best-website-templates-for-photographers/"
+      }
+    },
+    {
+      "href": "/p/blog/laura-gao-imagination-fund-recipient-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/laura-gao-imagination-fund-recipient-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/laura-gao-imagination-fund-recipient-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/laura-gao-imagination-fund-recipient-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/paul-melville-imagination-fund-recipient-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/paul-melville-imagination-fund-recipient-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/paul-melville-imagination-fund-recipient-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/paul-melville-imagination-fund-recipient-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/geena-yin-imagination-fund-recipient-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/geena-yin-imagination-fund-recipient-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/geena-yin-imagination-fund-recipient-spotlight/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/geena-yin-imagination-fund-recipient-spotlight/"
+      }
+    },
+    {
+      "href": "/p/blog/5-game-changing-hacks-every-remote-creative-team-needs-in-2025/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-game-changing-hacks-every-remote-creative-team-needs-in-2025/"
+      }
+    },
+    {
+      "href": "/p/blog/5-game-changing-hacks-every-remote-creative-team-needs-in-2025/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/5-game-changing-hacks-every-remote-creative-team-needs-in-2025/"
+      }
+    },
+    {
+      "href": "/p/blog/mobile-app-launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/mobile-app-launch/"
+      }
+    },
+    {
+      "href": "/p/blog/mobile-app-launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/mobile-app-launch/"
+      }
+    },
+    {
+      "href": "/p/blog/introducing-the-imagination-fund-winners/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/introducing-the-imagination-fund-winners/"
+      }
+    },
+    {
+      "href": "/p/blog/introducing-the-imagination-fund-winners/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/introducing-the-imagination-fund-winners/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-director-portfolio-2/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-director-portfolio-2/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-director-portfolio-2/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-director-portfolio-2/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-graphic-design-in-the-50s/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-graphic-design-in-the-50s/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-graphic-design-in-the-50s/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-graphic-design-in-the-50s/"
+      }
+    },
+    {
+      "href": "/p/blog/top-10-fonts-for-your-design-portfolio/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-10-fonts-for-your-design-portfolio/"
+      }
+    },
+    {
+      "href": "/p/blog/top-10-fonts-for-your-design-portfolio/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/top-10-fonts-for-your-design-portfolio/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-merge-shapes-in-illustrator/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-merge-shapes-in-illustrator/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-merge-shapes-in-illustrator/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-merge-shapes-in-illustrator/"
+      }
+    },
+    {
+      "href": "/p/blog/announcing-the-imagination-fund-winners-celebrating-48-creative-visions-for-2024/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/announcing-the-imagination-fund-winners-celebrating-48-creative-visions-for-2024/"
+      }
+    },
+    {
+      "href": "/p/blog/announcing-the-imagination-fund-winners-celebrating-48-creative-visions-for-2024/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/announcing-the-imagination-fund-winners-celebrating-48-creative-visions-for-2024/"
+      }
+    },
+    {
+      "href": "/p/blog/sharing-files-securely/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/sharing-files-securely/"
+      }
+    },
+    {
+      "href": "/p/blog/sharing-files-securely/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/sharing-files-securely/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-choose-a-digital-asset-management-system/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-choose-a-digital-asset-management-system/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-choose-a-digital-asset-management-system/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-choose-a-digital-asset-management-system/"
+      }
+    },
+    {
+      "href": "/p/blog/digital-asset-management-trends/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/digital-asset-management-trends/"
+      }
+    },
+    {
+      "href": "/p/blog/digital-asset-management-trends/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/digital-asset-management-trends/"
+      }
+    },
+    {
+      "href": "/p/blog/play-photo-organizing-software/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-photo-organizing-software/"
+      }
+    },
+    {
+      "href": "/p/blog/play-photo-organizing-software/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-photo-organizing-software/"
+      }
+    },
+    {
+      "href": "/p/blog/color-trends/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/color-trends/"
+      }
+    },
+    {
+      "href": "/p/blog/color-trends/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/color-trends/"
+      }
+    },
+    {
+      "href": "/p/blog/visual-branding/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/visual-branding/"
+      }
+    },
+    {
+      "href": "/p/blog/visual-branding/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/visual-branding/"
+      }
+    },
+    {
+      "href": "/p/blog/state-of-digital-asset-management-2024-report/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/state-of-digital-asset-management-2024-report/"
+      }
+    },
+    {
+      "href": "/p/blog/state-of-digital-asset-management-2024-report/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/state-of-digital-asset-management-2024-report/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-pick-a-color-palette-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-pick-a-color-palette-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-pick-a-color-palette-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-pick-a-color-palette-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-asset-management-software/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-asset-management-software/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-asset-management-software/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-asset-management-software/"
+      }
+    },
+    {
+      "href": "/p/blog/imagination-fund/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/imagination-fund/"
+      }
+    },
+    {
+      "href": "/p/blog/imagination-fund/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/imagination-fund/"
+      }
+    },
+    {
+      "href": "/p/blog/best-dam-for-video/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-dam-for-video/"
+      }
+    },
+    {
+      "href": "/p/blog/best-dam-for-video/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-dam-for-video/"
+      }
+    },
+    {
+      "href": "/p/blog/best-digital-asset-management-software-for-marketing/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-digital-asset-management-software-for-marketing/"
+      }
+    },
+    {
+      "href": "/p/blog/best-digital-asset-management-software-for-marketing/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-digital-asset-management-software-for-marketing/"
+      }
+    },
+    {
+      "href": "/p/blog/best-dam-software-for-photographers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-dam-software-for-photographers/"
+      }
+    },
+    {
+      "href": "/p/blog/best-dam-software-for-photographers/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-dam-software-for-photographers/"
+      }
+    },
+    {
+      "href": "/p/blog/play-brandfolder-bynder-playbook-2/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-brandfolder-bynder-playbook-2/"
+      }
+    },
+    {
+      "href": "/p/blog/play-brandfolder-bynder-playbook-2/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-brandfolder-bynder-playbook-2/"
+      }
+    },
+    {
+      "href": "/p/blog/digital-asset-management-pricing/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/digital-asset-management-pricing/"
+      }
+    },
+    {
+      "href": "/p/blog/digital-asset-management-pricing/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/digital-asset-management-pricing/"
+      }
+    },
+    {
+      "href": "/p/blog/best-practices-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-practices-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/best-practices-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-practices-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/a-day-in-the-life-of-a-graphic-designer/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/a-day-in-the-life-of-a-graphic-designer/"
+      }
+    },
+    {
+      "href": "/p/blog/a-day-in-the-life-of-a-graphic-designer/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/a-day-in-the-life-of-a-graphic-designer/"
+      }
+    },
+    {
+      "href": "/p/blog/play-dash-alternatives/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-dash-alternatives/"
+      }
+    },
+    {
+      "href": "/p/blog/play-dash-alternatives/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-dash-alternatives/"
+      }
+    },
+    {
+      "href": "/p/blog/play-brandfolder-bynder-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-brandfolder-bynder-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/play-brandfolder-bynder-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-brandfolder-bynder-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-fashion-to-freelance-design-gina-journey/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-fashion-to-freelance-design-gina-journey/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-fashion-to-freelance-design-gina-journey/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-fashion-to-freelance-design-gina-journey/"
+      }
+    },
+    {
+      "href": "/p/blog/20-font-combinations-that-will-take-your-designs-to-the-next-level/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/20-font-combinations-that-will-take-your-designs-to-the-next-level/"
+      }
+    },
+    {
+      "href": "/p/blog/20-font-combinations-that-will-take-your-designs-to-the-next-level/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/20-font-combinations-that-will-take-your-designs-to-the-next-level/"
+      }
+    },
+    {
+      "href": "/p/blog/in-your-style-competition-2024/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/in-your-style-competition-2024/"
+      }
+    },
+    {
+      "href": "/p/blog/in-your-style-competition-2024/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/in-your-style-competition-2024/"
+      }
+    },
+    {
+      "href": "/p/blog/2024-in-your-style-competition-official-rules/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/2024-in-your-style-competition-official-rules/"
+      }
+    },
+    {
+      "href": "/p/blog/2024-in-your-style-competition-official-rules/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/2024-in-your-style-competition-official-rules/"
+      }
+    },
+    {
+      "href": "/p/blog/perception-io-the-ai-powered-color-palette-generator-available-as-add-on-on-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/perception-io-the-ai-powered-color-palette-generator-available-as-add-on-on-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/perception-io-the-ai-powered-color-palette-generator-available-as-add-on-on-playbook/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/perception-io-the-ai-powered-color-palette-generator-available-as-add-on-on-playbook/"
+      }
+    },
+    {
+      "href": "/p/blog/color-competition/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/color-competition/"
+      }
+    },
+    {
+      "href": "/p/blog/color-competition/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/color-competition/"
+      }
+    },
+    {
+      "href": "/p/blog/color-competition-official-rules/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/color-competition-official-rules/"
+      }
+    },
+    {
+      "href": "/p/blog/color-competition-official-rules/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/color-competition-official-rules/"
+      }
+    },
+    {
+      "href": "/p/blog/changes-to-playbook-plans/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/changes-to-playbook-plans/"
+      }
+    },
+    {
+      "href": "/p/blog/changes-to-playbook-plans/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/changes-to-playbook-plans/"
+      }
+    },
+    {
+      "href": "/p/blog/ux-design-project-management-infographic/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/ux-design-project-management-infographic/"
+      }
+    },
+    {
+      "href": "/p/blog/ux-design-project-management-infographic/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/ux-design-project-management-infographic/"
+      }
+    },
+    {
+      "href": "/p/blog/best-creative-asset-management-platforms/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-creative-asset-management-platforms/"
+      }
+    },
+    {
+      "href": "/p/blog/best-creative-asset-management-platforms/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/best-creative-asset-management-platforms/"
+      }
+    },
+    {
+      "href": "/p/blog/abstract-art-ideas/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/abstract-art-ideas/"
+      }
+    },
+    {
+      "href": "/p/blog/abstract-art-ideas/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/abstract-art-ideas/"
+      }
+    },
+    {
+      "href": "/p/blog/digital-design-interview-questions/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/digital-design-interview-questions/"
+      }
+    },
+    {
+      "href": "/p/blog/digital-design-interview-questions/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/digital-design-interview-questions/"
+      }
+    },
+    {
+      "href": "/p/blog/brutalism-in-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/brutalism-in-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/brutalism-in-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/brutalism-in-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-merge-layers-in-procreate/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-merge-layers-in-procreate/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-merge-layers-in-procreate/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-merge-layers-in-procreate/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/creative-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/creative-asset-management/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-how-to-draw-backgrounds/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-how-to-draw-backgrounds/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-how-to-draw-backgrounds/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-how-to-draw-backgrounds/"
+      }
+    },
+    {
+      "href": "/p/blog/art-director-portfolio/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/art-director-portfolio/"
+      }
+    },
+    {
+      "href": "/p/blog/art-director-portfolio/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/art-director-portfolio/"
+      }
+    },
+    {
+      "href": "/p/blog/b2b-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/b2b-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/b2b-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/b2b-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/2024-photography-competition/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/2024-photography-competition/"
+      }
+    },
+    {
+      "href": "/p/blog/2024-photography-competition/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/2024-photography-competition/"
+      }
+    },
+    {
+      "href": "/p/blog/play-brandfolder-alternatives/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-brandfolder-alternatives/"
+      }
+    },
+    {
+      "href": "/p/blog/play-brandfolder-alternatives/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/play-brandfolder-alternatives/"
+      }
+    },
+    {
+      "href": "/p/blog/join-beta/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/join-beta/"
+      }
+    },
+    {
+      "href": "/p/blog/join-beta/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/join-beta/"
+      }
+    },
+    {
+      "href": "/p/blog/year-in-review-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/year-in-review-design/"
+      }
+    },
+    {
+      "href": "/p/blog/year-in-review-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/year-in-review-design/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-use-halftone-overlay-2/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-use-halftone-overlay-2/"
+      }
+    },
+    {
+      "href": "/p/blog/how-to-use-halftone-overlay-2/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/how-to-use-halftone-overlay-2/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-graphic-design-in-the-sixties/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-graphic-design-in-the-sixties/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-graphic-design-in-the-sixties/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-graphic-design-in-the-sixties/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-ai-tools-for-ux-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-ai-tools-for-ux-design/"
+      }
+    },
+    {
+      "href": "/p/blog/blog-ai-tools-for-ux-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/blog-ai-tools-for-ux-design/"
+      }
+    },
+    {
+      "href": "/p/blog/iconography-in-ui-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/iconography-in-ui-design/"
+      }
+    },
+    {
+      "href": "/p/blog/iconography-in-ui-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/iconography-in-ui-design/"
+      }
+    },
+    {
+      "href": "/p/blog/experiential-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/experiential-graphic-design/"
+      }
+    },
+    {
+      "href": "/p/blog/experiential-graphic-design/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/p/blog/experiential-graphic-design/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/launch/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/launch/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/school/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/school/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-plytix-alternatives-for-cpg-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-air-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-tagbox-alternative-for-digital-asset-management/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-dropbox-alternative-for-creative-teams/"
+      }
+    },
+    {
+      "href": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/",
+      "reason": "not-in-inventory",
+      "resolved": {
+        "kind": "source-absolute",
+        "to": "https://www.playbook.com/blog/best-google-drive-alternative-for-creative-teams/"
+      }
+    }
+  ]
+}

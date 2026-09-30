@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://main--startdust_playbook--sanyasandal.aem.live/sitemap.xml
