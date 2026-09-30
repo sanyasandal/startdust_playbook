@@ -23,6 +23,10 @@ export default function encode(section, ctx, wrapperClass) {
   const wrap = ctx.doc.createElement('section');
   wrap.className = wrapperClass;
   wrap.innerHTML = ctx.localize(section.innerHTML)
+    .replace(/&amp;lt;([^&<>]{1,80})&amp;gt;/g, '$1')
+    .replace(/&amp;lt;|&amp;gt;/g, '')
+    .replace(/&lt;([^&<>]{1,80})&gt;/g, '$1')
+    .replace(/&lt;|&gt;/g, '')
     .replace(/<\/?div([^>]*)>/g, (match, attrs) => (match.startsWith('</') ? '</section>' : '<section' + attrs + '>'));
   div.append(wrap);
   return div;

@@ -1,0 +1,30 @@
+/* stylelint-disable selector-class-pattern, declaration-block-single-line-max-declarations */
+.pricing-calculator { padding-block: var(--section-padding); background: var(--color-paper); }
+
+.pricing-calculator .pb-pricing-calculator__shell,
+.pricing-calculator .pb-calc__grid {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(320px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.pricing-calculator input,
+.pricing-calculator select,
+.pricing-calculator textarea {
+  max-width: 100%;
+}
+
+.pricing-calculator .pb-card,
+.pricing-calculator form,
+.pricing-calculator .pb-calc__box {
+  border: 1px solid var(--color-hairline-warm);
+  border-radius: var(--radius);
+  padding: 24px;
+  background: #fff;
+}
+
+@media (width <= 900px) {
+  .pricing-calculator .pb-pricing-calculator__shell,
+  .pricing-calculator .pb-calc__grid { grid-template-columns: 1fr; }
+}

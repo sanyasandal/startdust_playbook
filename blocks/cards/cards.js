@@ -138,7 +138,7 @@ function decoratePricing(block) {
   root.append(head);
   const grid = document.createElement('div');
   grid.className = 'pb-pricing__grid';
-  while (nodes.length && nodes[0].tagName === 'H3') {
+  while (nodes.length && ['H2', 'H3'].includes(nodes[0].tagName)) {
     const card = document.createElement('article');
     card.className = 'pb-card pb-plan-card';
     const h3 = nodes.shift();
@@ -165,6 +165,110 @@ function decoratePricing(block) {
   block.replaceChildren(root);
 }
 
+function decorateListing(block) {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const rule = document.createElement('div');
+  rule.className = 'pb-blog-list__rule';
+  const grid = document.createElement('div');
+  grid.className = 'pb-blog-grid pb-sibling-grid';
+  while (nodes.length) {
+    const media = nodes[0]?.querySelector?.('img') ? nodes.shift() : null;
+    const heading = nodes.find((n) => n.matches?.('h2, h3'));
+    if (!heading) break;
+    nodes.splice(nodes.indexOf(heading), 1);
+    const descIndex = nodes.findIndex((n) => n.tagName === 'P' && !n.querySelector('img, a'));
+    const desc = descIndex >= 0 ? nodes.splice(descIndex, 1)[0] : null;
+    const card = document.createElement('article');
+    card.className = 'pb-card pb-sibling-card pb-blog-card';
+    if (media) {
+      const a = media.querySelector('a') || document.createElement('a');
+      a.className = 'pb-sibling-card__media';
+      if (!a.parentElement) a.append(media.querySelector('img'));
+      card.append(a);
+    }
+    const body = document.createElement('div');
+    body.className = 'pb-sibling-card__body';
+    body.append(heading);
+    if (desc) body.append(desc);
+    card.append(body);
+    grid.append(card);
+  }
+  root.append(grid);
+  block.prepend(rule);
+  block.append(root);
+}
+
+function decorateRelated(block) {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const head = document.createElement('div');
+  head.className = 'pb-section__head';
+  const first = nodes.shift();
+  if (first) head.append(first);
+  const grid = document.createElement('div');
+  grid.className = 'pb-stories__grid';
+  nodes.filter((n) => n.matches?.('h2, h3')).forEach((heading) => {
+    const link = heading.querySelector('a');
+    const a = document.createElement('a');
+    a.className = 'pb-story-card';
+    a.href = link?.href || '#';
+    if (link) link.replaceWith(...link.childNodes);
+    a.append(heading);
+    grid.append(a);
+  });
+  root.append(head, grid);
+  block.replaceChildren(root);
+}
+
+function decorateSimpleGrid(block, className = 'pb-feature-grid') {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const head = document.createElement('div');
+  head.className = 'pb-section__head';
+  while (nodes[0] && !nodes[0].querySelector?.('img') && !nodes[0].matches?.('h3')) {
+    head.append(nodes.shift());
+    if (head.children.length > 3) break;
+  }
+  if (head.children.length) root.append(head);
+  const grid = document.createElement('div');
+  grid.className = className;
+  while (nodes.length) {
+    const card = document.createElement('article');
+    card.className = 'pb-card pb-feature-item';
+    const media = nodes[0]?.querySelector?.('img') ? nodes.shift() : null;
+    const heading = nodes.find((n) => n.matches?.('h2, h3'));
+    if (heading) nodes.splice(nodes.indexOf(heading), 1);
+    const para = nodes.find((n) => n.tagName === 'P' && !n.querySelector('a, img'));
+    if (para) nodes.splice(nodes.indexOf(para), 1);
+    if (media) card.append(media.querySelector('img') || media);
+    if (heading) card.append(heading);
+    if (para) card.append(para);
+    if (!card.children.length) break;
+    grid.append(card);
+  }
+  root.append(grid);
+  block.replaceChildren(root);
+}
+
+function decorateToolCrosspromo(block) {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const grid = document.createElement('div');
+  grid.className = 'pb-tool-crosspromo__grid';
+  nodes.filter((n) => n.matches?.('h2, h3') || n.querySelector?.('a')).forEach((node) => {
+    const link = node.querySelector('a') || document.createElement('a');
+    const a = document.createElement('a');
+    a.className = 'pb-card pb-tool-tile';
+    a.href = link.href || '#';
+    if (node.matches?.('h2, h3')) a.append(node);
+    else a.textContent = link.textContent;
+    grid.append(a);
+  });
+  root.append(grid);
+  block.replaceChildren(root);
+}
+
 export default function decorate(block) {
   block.classList.add('pb-section');
   if (block.classList.contains('tabs')) {
@@ -182,5 +286,19 @@ export default function decorate(block) {
   if (block.classList.contains('pricing')) {
     block.classList.add('pb-pricing');
     decoratePricing(block);
+  }
+  if (block.classList.contains('listing')) {
+    block.classList.add('pb-blog-list');
+    decorateListing(block);
+  }
+  if (block.classList.contains('related')) {
+    block.classList.add('pb-stories', 'pb-related');
+    decorateRelated(block);
+  }
+  if (block.classList.contains('features') || block.classList.contains('tiles')) {
+    decorateSimpleGrid(block);
+  }
+  if (block.classList.contains('tools')) {
+    decorateToolCrosspromo(block);
   }
 }

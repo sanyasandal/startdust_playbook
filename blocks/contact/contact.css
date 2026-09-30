@@ -1,0 +1,37 @@
+/* stylelint-disable selector-class-pattern */
+.contact.pb-contact-hero { padding-block: var(--section-padding); }
+
+.contact .pb-contact-hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(320px, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.contact form,
+.contact iframe,
+.contact .pb-demo-form,
+.contact .pb-contact-form {
+  width: 100%;
+  min-height: 620px;
+  border: 1px solid var(--color-hairline-warm);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.contact .pb-cursor-stack {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.contact .pb-cursor-chip img {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+@media (width <= 900px) {
+  .contact .pb-contact-hero__grid { grid-template-columns: 1fr; }
+}

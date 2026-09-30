@@ -1,0 +1,3110 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-30T11:01:03.990Z",
+    "pageCount": 68,
+    "lintClean": 68,
+    "fallbackCount": 56
+  },
+  "pages": [
+    {
+      "page": "/about-us",
+      "source": "stardust/migrated/about-us/index.html",
+      "output": "content/about-us.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "stats",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "mission",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "principles",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 5,
+          "section": "team",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 6,
+          "section": "team-photo",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "founder-quote",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 3,
+          "section": "mission",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "team-photo",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/adobe-playbook-integration",
+      "source": "stardust/migrated/blog/adobe-playbook-integration/index.html",
+      "output": "content/blog/adobe-playbook-integration.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/ai-media-pipeline",
+      "source": "stardust/migrated/blog/ai-media-pipeline/index.html",
+      "output": "content/blog/ai-media-pipeline.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/best-air-alternatives-creative-agencies",
+      "source": "stardust/migrated/blog/best-air-alternatives-creative-agencies/index.html",
+      "output": "content/blog/best-air-alternatives-creative-agencies.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/best-air-alternatives-for-consumer-brands",
+      "source": "stardust/migrated/blog/best-air-alternatives-for-consumer-brands/index.html",
+      "output": "content/blog/best-air-alternatives-for-consumer-brands.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/best-air-alternatives-marketing-teams",
+      "source": "stardust/migrated/blog/best-air-alternatives-marketing-teams/index.html",
+      "output": "content/blog/best-air-alternatives-marketing-teams.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/brand-portal-api",
+      "source": "stardust/migrated/blog/brand-portal-api/index.html",
+      "output": "content/blog/brand-portal-api.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/canopy",
+      "source": "stardust/migrated/blog/canopy/index.html",
+      "output": "content/blog/canopy.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/client-approval-software-for-creative-teams",
+      "source": "stardust/migrated/blog/client-approval-software-for-creative-teams/index.html",
+      "output": "content/blog/client-approval-software-for-creative-teams.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/client-gallery-api",
+      "source": "stardust/migrated/blog/client-gallery-api/index.html",
+      "output": "content/blog/client-gallery-api.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/dam-vs-cms-vs-mam",
+      "source": "stardust/migrated/blog/dam-vs-cms-vs-mam/index.html",
+      "output": "content/blog/dam-vs-cms-vs-mam.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/digital-asset-marketplace-api",
+      "source": "stardust/migrated/blog/digital-asset-marketplace-api/index.html",
+      "output": "content/blog/digital-asset-marketplace-api.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog",
+      "source": "stardust/migrated/blog/index.html",
+      "output": "content/blog.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "post-list",
+          "module": "post-list",
+          "mappedTo": "cards listing"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/migrate-from-air-to-playbook",
+      "source": "stardust/migrated/blog/migrate-from-air-to-playbook/index.html",
+      "output": "content/blog/migrate-from-air-to-playbook.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/playbook-figma-plugin",
+      "source": "stardust/migrated/blog/playbook-figma-plugin/index.html",
+      "output": "content/blog/playbook-figma-plugin.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/playbook-integrations-you-didnt-know",
+      "source": "stardust/migrated/blog/playbook-integrations-you-didnt-know/index.html",
+      "output": "content/blog/playbook-integrations-you-didnt-know.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/playbook-vs-perforce",
+      "source": "stardust/migrated/blog/playbook-vs-perforce/index.html",
+      "output": "content/blog/playbook-vs-perforce.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/playbook-vs-simian",
+      "source": "stardust/migrated/blog/playbook-vs-simian/index.html",
+      "output": "content/blog/playbook-vs-simian.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/playbook-vs-wiredrive",
+      "source": "stardust/migrated/blog/playbook-vs-wiredrive/index.html",
+      "output": "content/blog/playbook-vs-wiredrive.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/presentation-deck-api",
+      "source": "stardust/migrated/blog/presentation-deck-api/index.html",
+      "output": "content/blog/presentation-deck-api.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/product-catalog-api",
+      "source": "stardust/migrated/blog/product-catalog-api/index.html",
+      "output": "content/blog/product-catalog-api.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "🟡 D15 content/blog/product-catalog-api.html: \"PLAYBOOK_TOKEN\" reads like a campaign/tracking token lifted as copy — confirm it is genuine content\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/blog/sales-catalog-api",
+      "source": "stardust/migrated/blog/sales-catalog-api/index.html",
+      "output": "content/blog/sales-catalog-api.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "related-posts",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/brand-portal",
+      "source": "stardust/migrated/brand-portal/index.html",
+      "output": "content/brand-portal.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "templates",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "molly-quote",
+          "module": "testimonial",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "one-click-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 5,
+          "section": "matt-quote",
+          "module": "testimonial",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "workflow-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 7,
+          "section": "all-in-one",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "more-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 9,
+          "section": "final-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 3,
+          "section": "molly-quote",
+          "module": "testimonial",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "matt-quote",
+          "module": "testimonial",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "all-in-one",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/collaboration-editing",
+      "source": "stardust/migrated/collaboration-editing/index.html",
+      "output": "content/collaboration-editing.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "benefits",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/consumer-brands",
+      "source": "stardust/migrated/consumer-brands/index.html",
+      "output": "content/consumer-brands.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "roi-benefits",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "popular-use-cases",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "testimonial",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "centralize-product-catalog",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "simplify-approvals",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "share-once",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "customer-stories",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 9,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "roi-benefits",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "popular-use-cases",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "testimonial",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "centralize-product-catalog",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "simplify-approvals",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "share-once",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "customer-stories",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/contact",
+      "source": "stardust/migrated/contact/index.html",
+      "output": "content/contact.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "contact-demo",
+          "module": null,
+          "mappedTo": "contact"
+        },
+        {
+          "index": 2,
+          "section": "logo-marquee",
+          "module": "logo-marquee",
+          "mappedTo": "logos"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/creative-agency",
+      "source": "stardust/migrated/creative-agency/index.html",
+      "output": "content/creative-agency.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "process",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "feature-01",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 4,
+          "section": "feature-02",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 5,
+          "section": "feature-03",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 6,
+          "section": "feature-04",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 7,
+          "section": "feature-05",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 8,
+          "section": "toolkit",
+          "module": "tool-crosspromo",
+          "mappedTo": "cards tools"
+        },
+        {
+          "index": 9,
+          "section": "cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/customers",
+      "source": "stardust/migrated/customers/index.html",
+      "output": "content/customers.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "trusted-logos",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "stats",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "case-studies",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "trusted-logos",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "stats",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "case-studies",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/desktop",
+      "source": "stardust/migrated/desktop/index.html",
+      "output": "content/desktop.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "desktop-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "download-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        },
+        {
+          "index": 4,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "🟡 D5 content/desktop.html: section (unnamed) → block \"accordion\" row 1 cell 1: nested list whose items carry headings/paragraphs — model as one block row per item\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/enterprise",
+      "source": "stardust/migrated/enterprise/index.html",
+      "output": "content/enterprise.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "enterprise-hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "trusted-brands",
+          "module": "logo-marquee",
+          "mappedTo": "logos"
+        },
+        {
+          "index": 3,
+          "section": "feature-1",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "feature-2",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "feature-3",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "feature-4",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "feature-5",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "creative-tools",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 9,
+          "section": "enterprise-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 3,
+          "section": "feature-1",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "feature-2",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "feature-3",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "feature-4",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "feature-5",
+          "module": "feature-row",
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/features",
+      "source": "stardust/migrated/features/index.html",
+      "output": "content/features.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "core-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/freelancers",
+      "source": "stardust/migrated/freelancers/index.html",
+      "output": "content/freelancers.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "freelancer-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/games",
+      "source": "stardust/migrated/games/index.html",
+      "output": "content/games.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "content-2",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "content-3",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "content-4",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "content-5",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "content-6",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "content-7",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "content-8",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 9,
+          "section": "links",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "content-2",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "content-3",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "content-4",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "content-5",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "content-6",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "content-7",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "content-8",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 9,
+          "section": "links",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/gifmaker",
+      "source": "stardust/migrated/gifmaker/index.html",
+      "output": "content/gifmaker.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "try-tiles",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "tool-crosspromo",
+          "module": "tool-crosspromo",
+          "mappedTo": "cards tools"
+        },
+        {
+          "index": 6,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 7,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/gpt",
+      "source": "stardust/migrated/gpt/index.html",
+      "output": "content/gpt.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "creative-teams",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "proof-claim",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 4,
+          "section": "natural-search",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 5,
+          "section": "repurpose-assets",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 6,
+          "section": "demo-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        },
+        {
+          "index": 7,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/",
+      "source": "stardust/migrated/index.html",
+      "output": "content/index.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "logo-marquee",
+          "module": "logo-marquee",
+          "mappedTo": "logos"
+        },
+        {
+          "index": 3,
+          "section": "product-tabs",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 4,
+          "section": "mcp-connect",
+          "module": "tool-crosspromo",
+          "mappedTo": "cards mcp"
+        },
+        {
+          "index": 5,
+          "section": "enterprise",
+          "module": "comparison-table",
+          "mappedTo": "table comparison"
+        },
+        {
+          "index": 6,
+          "section": "customer-stories",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 7,
+          "section": "pricing-teaser",
+          "module": "pricing-teaser",
+          "mappedTo": "cards pricing"
+        },
+        {
+          "index": 8,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "🟡 D5 content/index.html: section (unnamed) → block \"cards\" row 1 cell 1: nested list whose items carry headings/paragraphs — model as one block row per item\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/integrations-all",
+      "source": "stardust/migrated/integrations-all/index.html",
+      "output": "content/integrations-all.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "integrations-directory",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "creative-workflows",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "integrations-directory",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "creative-workflows",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/large-file-sharing",
+      "source": "stardust/migrated/large-file-sharing/index.html",
+      "output": "content/large-file-sharing.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "key-benefits",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/logomaker",
+      "source": "stardust/migrated/logomaker/index.html",
+      "output": "content/logomaker.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 3,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        },
+        {
+          "index": 5,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 3,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/mcp",
+      "source": "stardust/migrated/mcp/index.html",
+      "output": "content/mcp.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "quick-setup",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 3,
+          "section": "tools",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 4,
+          "section": "examples",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 5,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 6,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/media-and-entertainment",
+      "source": "stardust/migrated/media-and-entertainment/index.html",
+      "output": "content/media-and-entertainment.html",
+      "sections": [],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/p/privacy",
+      "source": "stardust/migrated/p/privacy/index.html",
+      "output": "content/p/privacy.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "legal-hero",
+          "module": "static-hero",
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "policy-body",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/p/terms",
+      "source": "stardust/migrated/p/terms/index.html",
+      "output": "content/p/terms.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "static-hero",
+          "module": "static-hero",
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "policy-body",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "static-hero",
+          "module": "static-hero",
+          "mappedTo": "default page-hero"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/photo-gallery",
+      "source": "stardust/migrated/photo-gallery/index.html",
+      "output": "content/photo-gallery.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "template-gallery",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "testimonial-layouts",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "publishing-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 5,
+          "section": "testimonial-proofing",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "feedback-features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 7,
+          "section": "all-in-one",
+          "module": "comparison-table",
+          "mappedTo": "table comparison"
+        },
+        {
+          "index": 8,
+          "section": "more-features",
+          "module": "tool-crosspromo",
+          "mappedTo": "cards tools"
+        },
+        {
+          "index": 9,
+          "section": "final-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 3,
+          "section": "testimonial-layouts",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "testimonial-proofing",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/pricing",
+      "source": "stardust/migrated/pricing/index.html",
+      "output": "content/pricing.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "plans",
+          "module": "pricing-teaser",
+          "mappedTo": "cards pricing"
+        },
+        {
+          "index": 3,
+          "section": "enterprise-addons",
+          "module": "comparison-table",
+          "mappedTo": "table comparison"
+        },
+        {
+          "index": 4,
+          "section": "brand-trust",
+          "module": "logo-marquee",
+          "mappedTo": "logos"
+        },
+        {
+          "index": 5,
+          "section": "mini-apps",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 6,
+          "section": "calculator",
+          "module": "pricing-calculator",
+          "mappedTo": "pricing-calculator"
+        },
+        {
+          "index": 7,
+          "section": "comparison-table",
+          "module": "comparison-table",
+          "mappedTo": "table comparison"
+        },
+        {
+          "index": 8,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 9,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/product",
+      "source": "stardust/migrated/product/index.html",
+      "output": "content/product.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "features",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "collaborative-space",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "testimonials",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 5,
+          "section": "trusted-logos",
+          "module": "logo-marquee",
+          "mappedTo": "logos"
+        },
+        {
+          "index": 6,
+          "section": "final-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 3,
+          "section": "collaborative-space",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/publish",
+      "source": "stardust/migrated/publish/index.html",
+      "output": "content/publish.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/sdk",
+      "source": "stardust/migrated/sdk/index.html",
+      "output": "content/sdk.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "sdk-feature-cards",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "build-vs-sdk",
+          "module": "comparison-table",
+          "mappedTo": "table comparison"
+        },
+        {
+          "index": 4,
+          "section": "sdk-in-action",
+          "module": "product-tabs",
+          "mappedTo": "cards tabs"
+        },
+        {
+          "index": 5,
+          "section": "trusted-by-creative-teams",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 6,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 7,
+          "section": "developer-access",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "🟡 D5 content/sdk.html: section (unnamed) → block \"cards\" row 1 cell 1: nested list whose items carry headings/paragraphs — model as one block row per item\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/smarter-storage",
+      "source": "stardust/migrated/smarter-storage/index.html",
+      "output": "content/smarter-storage.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "feature-sequence",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 3,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/teams",
+      "source": "stardust/migrated/teams/index.html",
+      "output": "content/teams.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "trusted-by",
+          "module": "logo-marquee",
+          "mappedTo": "logos"
+        },
+        {
+          "index": 3,
+          "section": "organize-search",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 4,
+          "section": "blendjet-quote",
+          "module": "quote",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "sync-share",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 6,
+          "section": "block-quote",
+          "module": "quote",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 7,
+          "section": "secure-scale",
+          "module": "feature-grid",
+          "mappedTo": "cards features"
+        },
+        {
+          "index": 8,
+          "section": "onboarding",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 9,
+          "section": "more-features",
+          "module": "tool-crosspromo",
+          "mappedTo": "cards tools"
+        },
+        {
+          "index": 10,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 4,
+          "section": "blendjet-quote",
+          "module": "quote",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 6,
+          "section": "block-quote",
+          "module": "quote",
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 8,
+          "section": "onboarding",
+          "module": "static-hero",
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/the-story-of-playbook",
+      "source": "stardust/migrated/the-story-of-playbook/index.html",
+      "output": "content/the-story-of-playbook.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "static-hero",
+          "module": "static-hero",
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "policy-body",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "static-hero",
+          "module": "static-hero",
+          "mappedTo": "default page-hero"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/api-mcp",
+      "source": "stardust/migrated/tutorial/api-mcp/index.html",
+      "output": "content/tutorial/api-mcp.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/board-rules",
+      "source": "stardust/migrated/tutorial/board-rules/index.html",
+      "output": "content/tutorial/board-rules.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/create-a-board",
+      "source": "stardust/migrated/tutorial/create-a-board/index.html",
+      "output": "content/tutorial/create-a-board.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/figma",
+      "source": "stardust/migrated/tutorial/figma/index.html",
+      "output": "content/tutorial/figma.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/getting-started",
+      "source": "stardust/migrated/tutorial/getting-started/index.html",
+      "output": "content/tutorial/getting-started.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/how-to-upload",
+      "source": "stardust/migrated/tutorial/how-to-upload/index.html",
+      "output": "content/tutorial/how-to-upload.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial",
+      "source": "stardust/migrated/tutorial/index.html",
+      "output": "content/tutorial.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "popular-guides",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "all-tutorials",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": null,
+          "mappedTo": "default page-hero"
+        },
+        {
+          "index": 2,
+          "section": "popular-guides",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "all-tutorials",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/mobile-app",
+      "source": "stardust/migrated/tutorial/mobile-app/index.html",
+      "output": "content/tutorial/mobile-app.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/search-discovery",
+      "source": "stardust/migrated/tutorial/search-discovery/index.html",
+      "output": "content/tutorial/search-discovery.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/share-first-link",
+      "source": "stardust/migrated/tutorial/share-first-link/index.html",
+      "output": "content/tutorial/share-first-link.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/slack",
+      "source": "stardust/migrated/tutorial/slack/index.html",
+      "output": "content/tutorial/slack.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/what-is-playbook",
+      "source": "stardust/migrated/tutorial/what-is-playbook/index.html",
+      "output": "content/tutorial/what-is-playbook.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/tutorial/working-with-video",
+      "source": "stardust/migrated/tutorial/working-with-video/index.html",
+      "output": "content/tutorial/working-with-video.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "article-hero",
+          "module": null,
+          "mappedTo": "default article-hero"
+        },
+        {
+          "index": 2,
+          "section": "article-body",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tutorial-index",
+          "module": "related-posts",
+          "mappedTo": "cards related"
+        },
+        {
+          "index": 4,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/vectorizer",
+      "source": "stardust/migrated/vectorizer/index.html",
+      "output": "content/vectorizer.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "try-tiles",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "tool-crosspromo",
+          "module": "tool-crosspromo",
+          "mappedTo": "cards tools"
+        },
+        {
+          "index": 6,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 7,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/video-captions",
+      "source": "stardust/migrated/video-captions/index.html",
+      "output": "content/video-captions.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "try-tiles",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        },
+        {
+          "index": 6,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/video-converter",
+      "source": "stardust/migrated/video-converter/index.html",
+      "output": "content/video-converter.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "tool-upload-tiles",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 6,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    },
+    {
+      "page": "/watermarks",
+      "source": "stardust/migrated/watermarks/index.html",
+      "output": "content/watermarks.html",
+      "sections": [
+        {
+          "index": 1,
+          "section": "hero",
+          "module": "hero",
+          "mappedTo": "hero"
+        },
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 3,
+          "section": "try-tiles",
+          "module": "tool-widget",
+          "mappedTo": "cards tiles"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 5,
+          "section": "faq",
+          "module": "faq",
+          "mappedTo": "accordion"
+        },
+        {
+          "index": 6,
+          "section": "closing-cta",
+          "module": "cta-band",
+          "mappedTo": "default cta-band"
+        }
+      ],
+      "fallbacks": [
+        {
+          "index": 2,
+          "section": "value-split",
+          "module": null,
+          "mappedTo": "default prose"
+        },
+        {
+          "index": 4,
+          "section": "features",
+          "module": null,
+          "mappedTo": "default prose"
+        }
+      ],
+      "lint": {
+        "status": "pass",
+        "red": 0,
+        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-/* stylelint-disable selector-class-pattern, declaration-block-single-line-max-declarations, no-descending-specificity */
+/* stylelint-disable selector-class-pattern, declaration-block-single-line-max-declarations, no-descending-specificity, no-duplicate-selectors */
 .cards .pb-product-tabs__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: stretch; }
 .cards .pb-product-tabs__card { display: flex; flex-direction: column; min-height: 100%; }
 .cards .pb-product-tabs__media { overflow: hidden; aspect-ratio: 16 / 10; background: #ddd; }
@@ -66,4 +66,91 @@
 
 .cards .pb-mcp-step code {
   white-space: nowrap;
+}
+
+.cards .pb-blog-list__rule {
+  width: min(calc(100% - 48px), var(--max-width));
+  height: 4px;
+  margin: 0 auto 28px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6cb4ee, #d46bca, #ff3c8e, #ff6b35);
+}
+
+.cards .pb-blog-grid,
+.cards .pb-sibling-grid,
+.cards .pb-feature-grid,
+.cards .pb-tool-crosspromo__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.cards .pb-blog-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100%;
+  background: #fff;
+}
+
+.cards .pb-sibling-card__media {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / .72;
+  background: var(--color-surface);
+}
+
+.cards .pb-sibling-card__media img,
+.cards .pb-feature-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards .pb-sibling-card__body {
+  display: grid;
+  align-content: start;
+  min-height: 156px;
+  padding: 20px;
+}
+
+.cards .pb-blog-card h2,
+.cards .pb-blog-card h3 {
+  font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+  line-height: 1.16;
+  letter-spacing: -.025em;
+}
+
+.cards .pb-feature-item,
+.cards .pb-tool-tile {
+  display: grid;
+  gap: 12px;
+  padding: 24px;
+  text-decoration: none;
+}
+
+.cards .pb-tool-tile {
+  min-height: 150px;
+  align-items: end;
+}
+
+.cards .pb-mcp__steps {
+  align-content: start;
+}
+
+.cards .pb-mcp-step {
+  align-self: start;
+}
+
+@media (width <= 900px) {
+  .cards .pb-blog-grid,
+  .cards .pb-sibling-grid,
+  .cards .pb-feature-grid,
+  .cards .pb-tool-crosspromo__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (width <= 600px) {
+  .cards .pb-blog-grid,
+  .cards .pb-sibling-grid,
+  .cards .pb-feature-grid,
+  .cards .pb-tool-crosspromo__grid { grid-template-columns: 1fr; }
 }

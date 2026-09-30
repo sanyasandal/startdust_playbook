@@ -159,6 +159,40 @@ main .section.prose { padding: 32px 0; }
 main .section.prose .default-content-wrapper, main .section.article-hero .default-content-wrapper,
 main .section.page-hero .default-content-wrapper { width: min(calc(100% - 48px), 820px); margin-inline: auto; }
 
+main .section.prose .default-content-wrapper:has(.pb-article-grid, .pb-legal-grid) {
+  width: min(calc(100% - 48px), var(--max-width));
+}
+
+main .section.prose :is(.pb-article-grid, .pb-legal-grid) {
+  display: grid;
+  grid-template-columns: minmax(170px, .26fr) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 64px);
+  align-items: start;
+}
+
+main .section.prose :is(.pb-toc, .pb-legal-toc) {
+  position: sticky;
+  top: calc(var(--nav-height) + 24px);
+  font-size: 14px;
+}
+
+main .section.prose :is(.pb-article, .pb-policy) {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+main .section.prose :is(a, strong, code) {
+  overflow-wrap: anywhere;
+}
+
+main .section.prose :is(figure, img, pre, table) {
+  max-width: 100%;
+}
+
+main .section.prose pre {
+  overflow-x: auto;
+}
+
 .prosemirror-editor p > :is(strong, em) > a:any-link,
 .prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
   display: inline-flex;
@@ -180,6 +214,18 @@ a .prosemirror-editor a:any-link { color: inherit; text-decoration: none; }
 @media (width <= 760px) {
   :root { --nav-height: 66px; --section-padding: 32px; }
   .wrap { width: min(calc(100% - 32px), var(--max-width)); }
+
+  main .section.prose .default-content-wrapper:has(.pb-article-grid, .pb-legal-grid) {
+    width: min(calc(100% - 32px), var(--max-width));
+  }
+
+  main .section.prose :is(.pb-article-grid, .pb-legal-grid) {
+    grid-template-columns: 1fr;
+  }
+
+  main .section.prose :is(.pb-toc, .pb-legal-toc) {
+    position: static;
+  }
 }
 
 @media (width <= 600px) {

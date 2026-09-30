@@ -1,0 +1,91 @@
+<body><header></header><main><div><div class="metadata"><div><div>Title</div><div>API &amp; MCP | Playbook</div></div><div><div>Description</div><div>Use the Playbook REST API and MCP server to automate your workspace and connect AI agents like Claude, ChatGPT and Cursor.</div></div><div><div>template</div><div>page</div></div></div></div><div><section class="article-hero">
+      <section class="wrap pb-article-hero__grid">
+        <section>
+          <p class="pb-article-hero__meta" data-slot="date">Tutorials</p>
+          <h1 data-slot="headline">API &amp; MCP</h1>
+          <p class="pb-article-hero__deck" data-slot="deck">Use the Playbook REST API and MCP server to automate your workspace and connect AI agents like Claude, ChatGPT and Cursor.</p>
+        </section>
+        <aside class="pb-article-hero__note" aria-label="Article context"><strong>API &amp; MCP</strong><span>MCP (Model Context Protocol)</span></aside>
+      </section>
+    </section><div class="section-metadata"><div><div>style</div><div>article-hero</div></div></div></div><div><section class="prose">
+      <section class="wrap pb-article-grid">
+        <aside class="pb-toc" aria-label="On this page">
+          <span class="pb-toc__label">On this page</span>
+          <ul>
+        <li><a href="#rest-api">REST API</a></li>
+        <li><a href="#mcp-model-context-protocol">MCP (Model Context Protocol)</a></li>
+          </ul>
+        </aside>
+        <article class="pb-article">
+<section>
+          <p><em>Build custom workflows and connect your own agents to Playbook using our REST API and Model Context Protocol (MCP) support</em></p><p>For teams that want deeper, more tailored control over their Playbook workspace, Playbook offers a REST API and MCP integration, so developers and power users can automate workflows, query assets programmatically, and wire up AI agents directly to their storage.</p><p><strong>How to get started:</strong> open the <strong>Developer</strong> tab in the left sidebar of your workspace and create an API token. API access is included on <strong>Free, Pro, Team, Business and Enterprise</strong>, so you do not need to upgrade to try it. The <strong>Artist &amp; Designer</strong> plan does not include it. On Free a token expires after 30 days and you create a new one; on paid plans tokens do not expire.</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/0d/b2/0db24546-8866-4db6-b770-424195b8c5f9/content/images/2026/05/Developer-Tab.jpg" class="kg-image medium-zoom-image" alt="" loading="eager" fetchpriority="high"></figure><h2 id="rest-api">REST API</h2><p>The Playbook REST API gives developers full programmatic access to their workspace, on Free, Pro, Team, Business and Enterprise plans.</p><p>You can use the API to build custom integrations, automate asset management, sync Playbook with internal tools, or pull data into your own dashboards and pipelines.</p><p><a href="https://dev.playbook.com/docs/api/">View the full API documentation →</a></p><p></p><h2 id="mcp-model-context-protocol">MCP (Model Context Protocol)</h2><p>MCP is an open standard that lets an AI assistant use a tool directly instead of guessing about it. Playbook runs an MCP server, so an agent can search your library, file things away and hand work back without you describing where anything lives.</p><p><strong>Connect it</strong></p><p>The connector URL is <code>https://mcp.playbook.com</code>. You authorize once, the first time you connect.</p><ul><li><strong>Claude:</strong> Settings, then Connectors, then add a custom connector and paste the URL.</li><li><strong>ChatGPT:</strong> Settings, then Apps, then add a custom MCP. You may need Developer Mode switched on.</li><li><strong>Cursor:</strong> install Playbook from Cursor's MCP directory, or add the URL to <code>.cursor/mcp.json</code>.</li><li><strong>Anything else that speaks MCP</strong> works the same way, with the same URL.</li></ul><p><strong>What an agent can do</strong></p><ul><li><strong>Find things:</strong> natural-language and visual search, filtering by tag, status, custom field or file type, and reading assets and previews.</li><li><strong>Organize:</strong> create and update boards, move and copy assets between them.</li><li><strong>Label:</strong> set status, change tags, read and write custom fields, and approve assets in bulk.</li><li><strong>Version and review:</strong> add a version, list history, roll back, and read or leave comments.</li><li><strong>Share:</strong> share or publish a board and mint permalinks.</li><li><strong>Bring things in:</strong> upload straight from URLs.</li><li><strong>Remove:</strong> delete assets, boards and custom fields.</li></ul><p>So an agent can be asked to tag last week's uploads, pull every approved hero shot for a campaign into a board and share it, or find the clip someone described from memory, and it does the whole errand rather than telling you where to click.</p><p><strong>What to know before you connect</strong></p><ul><li><strong>It acts as you.</strong> The agent inherits your permissions exactly, and can do nothing in the workspace that you could not do yourself.</li><li><strong>Deleted assets and boards are recoverable.</strong> They go to trash like any other delete. <strong>Deleting a custom field is permanent</strong>, so be specific when you ask an agent to tidy up fields.</li><li><strong>Replacing a file keeps the original</strong> as a version you can roll back to, on plans with version history.</li><li><strong>Calls are metered.</strong> MCP requests count toward your workspace's monthly API allowance, which rises with your plan. See <a href="/pricing">pricing</a> for the current numbers.</li><li><strong>Your assets are not used to train models.</strong></li></ul><p><a href="/mcp">View the full MCP documentation →</a></p>
+        </section>
+        </article>
+      </section>
+    </section><div class="section-metadata"><div><div>style</div><div>prose</div></div></div></div><div><div class="cards related"><div><div><section class="wrap">
+    <section class="pb-section__head"><h2 id="all-tutorials">All Tutorials</h2></section>
+    <section class="pb-tutorial-index__grid" data-slot="cards">
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial">All Tutorials</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/what-is-playbook">What is Playbook?</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/getting-started">Start here</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/create-a-board">How to create &amp; use boards</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/how-to-upload">How to upload</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/how-to-import/">How to import</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/share-first-link">Share your first link</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/blog/playbook-faq/">Playbook FAQ</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/moving-copy-batch-actions/">Moving, copy &amp; batch actions</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/using-groups-to-manage-iterations/">Using groups to manage iterations</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/custom-fields-status/">Custom fields &amp; status</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/how-to-create-and-manage-tags/">How to create &amp; manage tags</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/archive-vs-delete/">Archive vs. Delete</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/analytics/">Analytics</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/members-guests-permissions/">Members, guests &amp; permissions</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/comments-timestamps/">Comments &amp; timestamps</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/reactions-star-ratings/">Star ratings &amp; reactions</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/conversations-notifications/">Conversations</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/sharing-controls-protection/">Sharing controls &amp; protection</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/collecting-files-with-dropzone/">Collecting files with Dropzone</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/publishing-board/">Publishing your board</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/publish-brand-guidelines/">Publish brand guidelines</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/publish-product-catalog/">Publish a product catalog</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/publish-media-production-pipeline/">Publish a media production pipeline</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/publish-client-delivery-portal/">Publish a client delivery portal</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/publish-photography-delivery/">Publish a photography delivery gallery</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/search-discovery">Search &amp; discovery</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/filtering-workspace-or-boards/">Filtering workspace or boards</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/finding-similar-assets/">Finding similar assets</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/working-with-video">Searching with video</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/how-to-download/">How to download your files</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/board-rules">Board rules</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/deduplication-and-auto-group/">Deduplicates &amp; auto-group</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/version-history-and-compare/">Version history &amp; compare</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/what-is-playbook-intelligence/">What is Playbook Intelligence?</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/starting-a-chat/">Starting a chat</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/conversational-chained-commands/">Conversational commands</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/find-and-action-on-results/">Find and action on results</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/more-ways-to-chat/">More ways to chat</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/desktop-sync-and-integrations/">Desktop Sync and Adobe integration</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/integrations-and-apps/">Import sync</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/api-mcp">API &amp; MCP</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/miniapps/">Partner mini-apps</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/mobile-app">Mobile app</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/comfyui/">ComfyUI</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/canva-app/">Canva</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/slack">Slack</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/zapier/">Zapier</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial/figma">Figma</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/midjourney-discord/">Midjourney</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/workspace-settings-preferences/">Workspace settings &amp; preferences</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/notifications-settings/">Notifications settings</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/p/tutorial/account-settings/">Account settings</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://www.playbook.com/blog/playbook-faq/">FAQs</a>
+      <a class="pb-card pb-tutorial-index__card" href="mailto:support@playbook.com">Email us</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://playbook.featurebase.app/changelog">Join our Discord</a>
+      <a class="pb-card pb-tutorial-index__card" href="/tutorial">Tutorials</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://dev.playbook.com/docs/api/">View the full API documentation →</a>
+      <a class="pb-card pb-tutorial-index__card" href="/pricing">pricing</a>
+      <a class="pb-card pb-tutorial-index__card" href="/mcp">View the full MCP documentation →</a>
+      <a class="pb-card pb-tutorial-index__card" href="mailto:support@playbook.com">support@playbook.com</a>
+      <a class="pb-card pb-tutorial-index__card" href="https://discord.com/invite/MKpZvuvqg3">Discord</a>
+    </section>
+  </section></div></div></div></div><div><h2 class="pb-cta-band__headline" data-slot="headline">Start with one folder and see what possibilities await.</h2><p><strong><a href="https://www.playbook.com/sign-up/">Start free</a></strong> <em><a href="/contact">Book a demo</a></em> </p><div class="section-metadata"><div><div>style</div><div>cta-band</div></div></div></div></main><footer></footer></body>

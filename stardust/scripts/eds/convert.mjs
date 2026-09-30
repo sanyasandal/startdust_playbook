@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { JSDOM } from 'jsdom';
 import hero from './encoders/hero.mjs';
 import logos from './encoders/logos.mjs';
@@ -8,8 +9,16 @@ import table from './encoders/table.mjs';
 import defaultContent from './encoders/default-content.mjs';
 
 const root = process.cwd();
+const migratedRoot = path.join(root, 'stardust/migrated');
+const reportPath = path.join(root, 'stardust/eds-convert-report.json');
 const sourceHost = 'www.playbook.com';
-const registry = { hero, logos, cards, table, defaultContent };
+const registry = {
+  hero,
+  logos,
+  cards,
+  table,
+  defaultContent,
+};
 
 function readHtml(file) {
   return fs.readFileSync(path.join(root, file), 'utf8');
@@ -19,34 +28,82 @@ function ensureDir(file) {
   fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true });
 }
 
+function pagePathFromFile(file) {
+  const rel = path.relative(migratedRoot, file).replaceAll(path.sep, '/');
+  const page = rel.replace(/\/index\.html$/, '').replace(/^index\.html$/, '');
+  return page ? `/${page}` : '/';
+}
+
+function contentPathFromPage(pagePath) {
+  if (pagePath === '/') return 'content/index.html';
+  return `content${pagePath}.html`;
+}
+
 function normalizePathname(pathname) {
   let out = pathname.replace(/\/index\.html$/, '').replace(/\.html$/, '');
   out = out.replace(/\/$/, '');
   return out || '/';
 }
 
-function localize(html) {
-  return html
-    .replaceAll('href="./index.html"', 'href="/"')
-    .replace(/href="\.\/([^"#?]+?)\/index\.html([#?][^"]*)?"/g, (m, p, q = '') => 'href="/' + p + q + '"')
-    .replace(/href="https:\/\/www\.playbook\.com\/([^"#?]*?)\/?([#?][^"]*)?"/g, (m, p, q = '') => {
-      if (!p || p === 'sign-up') return m;
-      return 'href="' + normalizePathname('/' + p) + (q || '') + '"';
-    });
+function migratedSet() {
+  const files = fs.readdirSync(migratedRoot, { recursive: true })
+    .filter((name) => name.endsWith('/index.html') || name === 'index.html')
+    .map((name) => pagePathFromFile(path.join(migratedRoot, name)));
+  return new Set(files);
 }
 
-function cleanSectionInner(section) {
+const localPages = migratedSet();
+
+function localizeHref(raw, basePage = '/') {
+  if (!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:')) return raw;
+  try {
+    const url = new URL(raw, `https://${sourceHost}${basePage === '/' ? '/' : `${basePage}/`}`);
+    if (url.hostname === sourceHost || url.hostname === 'playbook.com') {
+      const normalized = normalizePathname(url.pathname);
+      if (localPages.has(normalized)) return `${normalized}${url.search}${url.hash}`;
+      if (normalized === '/sign-up') return raw;
+    }
+    if (raw.startsWith('.') || raw.startsWith('/')) {
+      const normalized = normalizePathname(url.pathname);
+      if (localPages.has(normalized)) return `${normalized}${url.search}${url.hash}`;
+    }
+  } catch {
+    return raw;
+  }
+  return raw;
+}
+
+function localize(html, basePage = '/') {
+  return html.replace(/(^|\s)href="([^"]*)"/g, (match, prefix, href) => (
+    `${prefix}href="${localizeHref(href, basePage)}"`
+  ));
+}
+
+function cleanSectionInner(section, basePage) {
   section.querySelectorAll('script, style').forEach((el) => el.remove());
-  return localize(section.innerHTML.trim()).replace(/<\/?div([^>]*)>/g, (m, attrs) => m.startsWith('</') ? '</section>' : '<section' + attrs + '>');
+  section.querySelectorAll('[data-astro-cid-tv6l4wcq]').forEach((el) => {
+    el.removeAttribute('data-astro-cid-tv6l4wcq');
+  });
+  section.querySelectorAll('a[href]').forEach((a) => {
+    a.setAttribute('href', localizeHref(a.getAttribute('href'), basePage));
+  });
+  return localize(section.innerHTML.trim(), basePage)
+    .replace(/&amp;lt;([^&<>]{1,80})&amp;gt;/g, '$1')
+    .replace(/&amp;lt;|&amp;gt;/g, '')
+    .replace(/&lt;([^&<>]{1,80})&gt;/g, '$1')
+    .replace(/&lt;|&gt;/g, '')
+    .replace(/<\/?div([^>]*)>/g, (match, attrs) => (
+      match.startsWith('</') ? '</section>' : `<section${attrs}>`
+    ));
 }
 
-function createBlock(doc, section, className) {
+function createBlock(doc, section, className, basePage) {
   const outer = doc.createElement('div');
   const block = doc.createElement('div');
   block.setAttribute('class', className);
   const row = doc.createElement('div');
   const cell = doc.createElement('div');
-  cell.innerHTML = cleanSectionInner(section);
+  cell.innerHTML = cleanSectionInner(section, basePage);
   row.append(cell);
   block.append(row);
   outer.append(block);
@@ -81,31 +138,107 @@ function bodyDoc() {
   return dom.window.document;
 }
 
-function encodeHome() {
-  const source = new JSDOM(readHtml('stardust/migrated/index.html'));
+function titleFor(source, pagePath) {
+  const h1 = source.window.document.querySelector('main h1')?.textContent.trim();
+  if (pagePath === '/') return 'Playbook | Creative asset management for modern teams';
+  if (!h1) return 'Playbook | Creative asset management';
+  const title = `${h1} | Playbook`;
+  return title.length <= 62 ? title : h1;
+}
+
+function descriptionFor(source) {
+  const meta = source.window.document.querySelector('meta[name="description"]')?.content?.trim();
+  if (meta) return meta;
+  const p = source.window.document.querySelector('main p:not(:has(a)):not(:empty)')?.textContent.trim();
+  return (p || 'Explore Playbook resources, tools, pricing, and creative asset management workflows.')
+    .replace(/\s+/g, ' ')
+    .slice(0, 160);
+}
+
+function defaultStyle(section) {
+  const name = section.getAttribute('data-section') || '';
+  if (name.includes('hero')) return name.includes('article') ? 'article-hero' : 'page-hero';
+  if (name.includes('body') || name.includes('policy')) return 'prose';
+  if (section.classList.contains('pb-sibling-hero') || section.classList.contains('pb-legal-hero')) return 'page-hero';
+  if (section.classList.contains('pb-article-hero')) return 'article-hero';
+  return 'prose';
+}
+
+function addStyleMetadata(doc, outer, style) {
+  const meta = doc.createElement('div');
+  meta.className = 'section-metadata';
+  meta.innerHTML = `<div><div>style</div><div>${style}</div></div>`;
+  outer.append(meta);
+}
+
+function encodeDefault(section, ctx, style) {
+  const outer = registry.defaultContent(section, ctx, style);
+  addStyleMetadata(ctx.doc, outer, style);
+  return outer;
+}
+
+function blockFor(section) {
+  const module = section.getAttribute('data-module') || '';
+  const dataSection = section.getAttribute('data-section') || '';
+  const classes = [...section.classList];
+  if (module === 'hero') return { name: 'hero', fn: (s, ctx) => registry.hero(s, ctx), fallback: false };
+  if (module === 'logo-marquee') return { name: 'logos', fn: (s, ctx) => registry.logos(s, ctx), fallback: false };
+  if (module === 'product-tabs') return { name: 'cards tabs', fn: (s, ctx) => registry.cards(s, ctx, 'tabs'), fallback: false };
+  if (module === 'related-posts') return { name: 'cards related', fn: (s, ctx) => registry.cards(s, ctx, 'related'), fallback: false };
+  if (module === 'post-list') return { name: 'cards listing', fn: (s, ctx) => registry.cards(s, ctx, 'listing'), fallback: false };
+  if (module === 'pricing-teaser') return { name: 'cards pricing', fn: (s, ctx) => registry.cards(s, ctx, 'pricing'), fallback: false };
+  if (module === 'tool-widget') return { name: 'cards tiles', fn: (s, ctx) => registry.cards(s, ctx, 'tiles'), fallback: false };
+  if (module === 'feature-grid') return { name: 'cards features', fn: (s, ctx) => registry.cards(s, ctx, 'features'), fallback: false };
+  if (module === 'tool-crosspromo' && classes.includes('pb-mcp')) {
+    return { name: 'cards mcp', fn: (s, ctx) => registry.cards(s, ctx, 'mcp'), fallback: false };
+  }
+  if (module === 'tool-crosspromo') return { name: 'cards tools', fn: (s, ctx) => registry.cards(s, ctx, 'tools'), fallback: false };
+  if (module === 'faq') return { name: 'accordion', fn: (s, ctx) => ctx.block(s, 'accordion'), fallback: false };
+  if (module === 'comparison-table') return { name: 'table comparison', fn: (s, ctx) => registry.table(s, ctx), fallback: false };
+  if (module === 'pricing-calculator') return { name: 'pricing-calculator', fn: (s, ctx) => ctx.block(s, 'pricing-calculator'), fallback: false };
+  if (module === 'cta-band') return { name: 'default cta-band', fn: (s, ctx) => registry.defaultContent(s, ctx, 'pb-cta-band'), fallback: false };
+  if (dataSection === 'contact-demo') return { name: 'contact', fn: (s, ctx) => ctx.block(s, 'contact'), fallback: false };
+  if (classes.includes('pb-feature-stack')) return { name: 'cards features', fn: (s, ctx) => registry.cards(s, ctx, 'features'), fallback: false };
+  return {
+    name: `default ${defaultStyle(section)}`,
+    fn: (s, ctx) => encodeDefault(s, ctx, defaultStyle(s)),
+    fallback: !['article-hero', 'article-body', 'legal-hero', 'policy-body'].includes(dataSection),
+  };
+}
+
+function encodePage(file) {
+  const pagePath = pagePathFromFile(file);
+  const source = new JSDOM(fs.readFileSync(file, 'utf8'));
   const out = bodyDoc();
   const main = out.querySelector('main');
   main.append(metadata(out, {
-    Title: 'Playbook | Creative asset management for modern teams',
-    Description: 'Store, search, review, and share photos, videos, design files, and brand assets in one secure, AI-ready visual library.',
+    Title: titleFor(source, pagePath),
+    Description: descriptionFor(source),
+    template: pagePath === '/' ? 'home' : 'page',
   }));
-  const ctx = { doc: out, localize, block: (section, className) => createBlock(out, section, className) };
-  source.window.document.querySelectorAll('main > section').forEach((section) => {
-    const module = section.getAttribute('data-module') || '';
-    let encoded;
-    if (module === 'hero') encoded = registry.hero(section, ctx);
-    else if (module === 'logo-marquee') encoded = registry.logos(section, ctx);
-    else if (module === 'product-tabs') encoded = registry.cards(section, ctx, 'tabs');
-    else if (module === 'tool-crosspromo') encoded = registry.cards(section, ctx, 'mcp');
-    else if (module === 'comparison-table') encoded = registry.table(section, ctx);
-    else if (module === 'related-posts') encoded = registry.cards(section, ctx, 'posts');
-    else if (module === 'pricing-teaser') encoded = registry.cards(section, ctx, 'pricing');
-    else if (module === 'cta-band') encoded = registry.defaultContent(section, ctx, 'pb-cta-band');
-    else encoded = registry.defaultContent(section, ctx, 'prose');
-    main.append(encoded);
+  const mapped = [];
+  const fallbacks = [];
+  const ctx = {
+    doc: out,
+    localize: (html) => localize(html, pagePath),
+    block: (section, className) => createBlock(out, section, className, pagePath),
+  };
+  source.window.document.querySelectorAll('main > section').forEach((section, index) => {
+    const picked = blockFor(section);
+    main.append(picked.fn(section, ctx));
+    const entry = {
+      index: index + 1,
+      section: section.getAttribute('data-section') || section.className || `section-${index + 1}`,
+      module: section.getAttribute('data-module') || null,
+      mappedTo: picked.name,
+    };
+    mapped.push(entry);
+    if (picked.fallback) fallbacks.push(entry);
   });
-  ensureDir('content/index.html');
-  fs.writeFileSync(path.join(root, 'content/index.html'), out.body.outerHTML + '\n');
+  const contentPath = contentPathFromPage(pagePath);
+  ensureDir(contentPath);
+  fs.writeFileSync(path.join(root, contentPath), `${out.body.outerHTML}\n`);
+  return { page: pagePath, source: path.relative(root, file), output: contentPath, sections: mapped, fallbacks };
 }
 
 function writeNav() {
@@ -121,28 +254,71 @@ function writeNav() {
   const actions = out.createElement('div');
   actions.innerHTML = '<p><em><a href="/contact">Book a demo</a></em></p><p><strong><a href="https://www.playbook.com/sign-up/">Start free</a></strong></p>';
   main.append(actions);
-  fs.writeFileSync(path.join(root, 'content/nav.html'), out.body.outerHTML + '\n');
+  fs.writeFileSync(path.join(root, 'content/nav.html'), `${out.body.outerHTML}\n`);
 }
 
 function writeFooter() {
-  const source = new JSDOM(readHtml('stardust/canon/footer.html'));
-  const footer = source.window.document.querySelector('footer');
   const out = bodyDoc();
   const main = out.querySelector('main');
   main.append(metadata(out, { Title: 'Footer', Description: 'Footer fragment.', Robots: 'noindex' }));
   const div = out.createElement('div');
-  div.innerHTML = localize(footer.innerHTML);
+  div.innerHTML = `
+    <h2>Playbook</h2>
+    <p>Creative asset management for modern teams.</p>
+    <ul>
+      <li><a href="/product">Product</a></li>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <p>
+      <a href="https://twitter.com/playbook">Twitter</a>
+      <a href="https://www.instagram.com/playbook">Instagram</a>
+      <a href="https://www.linkedin.com/company/playbook-com/">LinkedIn</a>
+    </p>
+    <p>© Playbook Digital, Inc. <a href="/p/privacy">Privacy</a> <a href="/p/terms">Terms</a></p>`;
   main.append(div);
-  fs.writeFileSync(path.join(root, 'content/footer.html'), out.body.outerHTML + '\n');
+  fs.writeFileSync(path.join(root, 'content/footer.html'), `${out.body.outerHTML}\n`);
+}
+
+function runLint(contentPath) {
+  const lintScript = '/Users/ssandal/.copilot/installed-plugins/adobe-skills/stardust/skills/deploy/scripts/davids-model-lint.mjs';
+  if (!fs.existsSync(lintScript)) return { status: 'skipped', red: null, output: 'lint script unavailable' };
+  const result = spawnSync(process.execPath, [lintScript, contentPath], {
+    cwd: root,
+    encoding: 'utf8',
+  });
+  const output = `${result.stdout || ''}${result.stderr || ''}`.trim();
+  const redMatch = output.match(/(\d+)\s*🔴/u);
+  return {
+    status: result.status === 0 ? 'pass' : 'fail',
+    red: redMatch ? Number(redMatch[1]) : null,
+    output: output.split('\n').slice(-8).join('\n'),
+  };
 }
 
 function main() {
   const args = process.argv.slice(2);
-  if (!args.length || args.includes('--all') || args.includes('index')) {
-    encodeHome();
-    writeNav();
-    writeFooter();
-  }
+  const all = args.includes('--all');
+  const target = args.find((arg) => !arg.startsWith('--'));
+  const files = all || !target
+    ? fs.readdirSync(migratedRoot, { recursive: true })
+      .filter((name) => name.endsWith('/index.html') || name === 'index.html')
+      .map((name) => path.join(migratedRoot, name))
+      .sort()
+    : [path.join(migratedRoot, target.replace(/^\/+/, ''), 'index.html')];
+  const pages = files.map(encodePage);
+  writeNav();
+  writeFooter();
+  pages.forEach((page) => { page.lint = runLint(page.output); });
+  const summary = {
+    generatedAt: new Date().toISOString(),
+    pageCount: pages.length,
+    lintClean: pages.filter((page) => page.lint.status === 'pass').length,
+    fallbackCount: pages.reduce((sum, page) => sum + page.fallbacks.length, 0),
+  };
+  fs.writeFileSync(reportPath, `${JSON.stringify({ summary, pages }, null, 2)}\n`);
+  console.log(JSON.stringify(summary, null, 2));
 }
 
 main();

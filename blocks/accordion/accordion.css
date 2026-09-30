@@ -1,0 +1,29 @@
+/* stylelint-disable selector-class-pattern */
+.accordion.pb-faq { padding-block: var(--section-padding); }
+
+.accordion .pb-faq__list {
+  display: grid;
+  gap: 10px;
+}
+
+.accordion details {
+  overflow: hidden;
+  border: 1px solid var(--color-hairline-warm);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.accordion summary {
+  cursor: pointer;
+  padding: 18px 20px;
+  color: var(--color-ink-strong);
+  font-weight: 500;
+}
+
+.accordion details[open] summary {
+  border-bottom: 1px solid var(--color-hairline-warm);
+}
+
+.accordion details > :not(summary) {
+  padding: 18px 20px 20px;
+}
