@@ -1,7 +1,8 @@
 /**
- * @ew-exempt all — contact block synthesizes native form controls and resource
- * link cards from authored fallback rows.
+ * @ew-exempt all — contact block embeds the live demo-request form (it stays on its
+ * origin, never rebuilt natively) and synthesizes resource link cards from authored rows.
  */
+const DEMO_FORM_URL = 'https://www.playbook.com/demo-request';
 function authoredNodes(block) {
   const nodes = [...block.querySelectorAll(':scope > div > div > *')];
   return nodes.length ? nodes : [...block.children];
@@ -25,19 +26,19 @@ function makeLinkCard(anchor) {
   return card;
 }
 
-function addField(form, id, label, placeholder, textarea = false) {
-  const field = document.createElement('div');
-  field.className = 'pb-field';
-  const labelEl = document.createElement('label');
-  labelEl.htmlFor = id;
-  labelEl.textContent = label;
-  const input = document.createElement(textarea ? 'textarea' : 'input');
-  input.id = id;
-  input.placeholder = placeholder;
-  if (!textarea) input.type = id === 'work-email' ? 'email' : 'text';
-  if (label.includes('*')) input.required = true;
-  field.append(labelEl, input);
-  form.append(field);
+function embedForm(href) {
+  const panel = document.createElement('div');
+  panel.className = 'pb-demo-embed';
+  const iframe = document.createElement('iframe');
+  iframe.src = href;
+  iframe.title = 'Request a demo';
+  iframe.loading = 'lazy';
+  window.addEventListener('message', (e) => {
+    const height = Number(e.data?.height);
+    if (e.source === iframe.contentWindow && height) iframe.style.height = `${height}px`;
+  });
+  panel.append(iframe);
+  return panel;
 }
 
 export default function decorate(block) {
@@ -89,6 +90,7 @@ export default function decorate(block) {
     }
     copy.append(fig);
   }
+  const formLink = block.querySelector('a[href*="/demo-request"]');
   const links = nodes.find((node) => node.querySelectorAll?.('a').length > 1);
   if (links) {
     const cards = document.createElement('div');
@@ -104,21 +106,7 @@ export default function decorate(block) {
     formTitle.className = 'pb-form-card__title';
     formCard.append(formTitle);
   }
-  const form = document.createElement('form');
-  form.className = 'pb-demo-form';
-  form.action = 'https://www.playbook.com/demo-request';
-  form.method = 'get';
-  addField(form, 'work-email', 'Work email *', 'you@company.com');
-  addField(form, 'team-size', 'How big is your team? *', 'e.g. 6–20');
-  addField(form, 'location', 'Where are you located? *', 'e.g. New York, NY');
-  addField(form, 'looking-for', 'What are you looking for? *', 'Tell us what matters most to your team…', true);
-  addField(form, 'heard-about', 'How did you hear about Playbook?', 'e.g. Twitter, a friend, Google…');
-  const submit = document.createElement('button');
-  submit.className = 'pb-button pb-button--dark';
-  submit.type = 'submit';
-  submit.textContent = 'Submit';
-  form.append(submit);
-  formCard.append(form);
+  formCard.append(embedForm(formLink?.href || DEMO_FORM_URL));
   wrap.append(copy, formCard);
   block.classList.add('pb-section', 'pb-contact-hero');
   block.replaceChildren(wrap);

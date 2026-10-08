@@ -133,43 +133,11 @@
   font-size: clamp(1.5rem, 2.7vw, 2.1875rem);
 }
 
-.contact .pb-demo-form {
-  display: grid;
-  gap: 18px;
-}
-
-.contact .pb-field {
-  display: grid;
-  gap: 8px;
-}
-
-.contact .pb-field label {
-  color: var(--color-ink-strong);
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.contact .pb-field input,
-.contact .pb-field textarea {
+.contact .pb-demo-embed iframe {
+  display: block;
   width: 100%;
-  min-height: 50px;
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 13px 14px;
-  background: #fff;
-  color: var(--color-ink-strong);
-  font: inherit;
-}
-
-.contact .pb-field textarea {
-  min-height: 118px;
-  resize: vertical;
-}
-
-.contact .pb-demo-form .pb-button {
-  width: 100%;
-  border-radius: 10px;
-  cursor: pointer;
+  min-height: 550px;
+  border: 0;
 }
 
 @media (width <= 900px) {
