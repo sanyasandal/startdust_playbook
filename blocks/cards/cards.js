@@ -16,6 +16,118 @@ function addButtonClasses(container, first = 'primary') {
 
 function wrap() { const el = document.createElement('div'); el.className = 'wrap'; return el; }
 
+function preserveMediaSection(block) {
+  const source = block.querySelector(
+    '.pb-media-stats__grid, .pb-media-feature__row, .pb-media-tools__head',
+  );
+  if (!source) return false;
+  const sourceWrap = source.closest('.wrap') || source;
+  block.classList.add('pb-media-section');
+  block.replaceChildren(sourceWrap);
+  return true;
+}
+
+function decorateMediaStats(block, nodes) {
+  const strongs = nodes.filter((n) => n.querySelector?.('strong'));
+  if (strongs.length < 2 || !/Shot-level metadata/i.test(block.textContent)) return false;
+  const root = document.createElement('section');
+  root.className = 'wrap pb-media-stats__grid';
+  strongs.forEach((number) => {
+    const item = document.createElement('section');
+    const desc = nodes[nodes.indexOf(number) + 1];
+    item.append(number.querySelector('strong') || number);
+    if (desc?.tagName === 'P') item.append(desc);
+    root.append(item);
+  });
+  block.classList.add('pb-media-section');
+  block.replaceChildren(root);
+  return true;
+}
+
+function decorateMediaFeature(block, nodes) {
+  const kicker = nodes.find((n) => n.tagName === 'P' && /^\d\d\./.test(n.textContent.trim()));
+  const heading = nodes.find((n) => n.matches?.('h2, h3'));
+  const cardHeading = nodes.find((n) => n.matches?.('h3, h4'));
+  const media = nodes.find((n) => n.querySelector?.('img'));
+  if (!kicker || !heading || !cardHeading) return false;
+  const root = wrap();
+  const intro = document.createElement('section');
+  intro.className = 'pb-media-feature__intro';
+  kicker.className = 'pb-media-kicker';
+  const headingIndex = nodes.indexOf(heading);
+  const introText = nodes.slice(headingIndex + 1).find((n) => n.tagName === 'P');
+  intro.append(kicker, heading);
+  if (introText) intro.append(introText);
+  const row = document.createElement('section');
+  row.className = 'pb-media-feature__row';
+  const copy = document.createElement('section');
+  copy.className = 'pb-media-feature__copy';
+  const body = nodes.slice(nodes.indexOf(cardHeading) + 1).find((n) => n.tagName === 'P');
+  const chips = nodes.find((n) => n.matches?.('ul, ol'));
+  copy.append(cardHeading);
+  if (body) copy.append(body);
+  if (chips) {
+    chips.className = 'pb-media-chips';
+    copy.append(chips);
+  }
+  const fig = document.createElement('figure');
+  fig.className = 'pb-media-product';
+  const caption = nodes[nodes.indexOf(media) - 1];
+  if (caption && caption !== introText && caption !== body) {
+    const fc = document.createElement('figcaption');
+    fc.textContent = caption.textContent;
+    fig.append(fc);
+  }
+  const win = document.createElement('section');
+  win.className = 'pb-media-window';
+  win.innerHTML = '<span></span><span></span><span></span>';
+  fig.append(win);
+  [...(media?.querySelectorAll('img') || [])].forEach((img, i) => {
+    img.className = i === 0 ? 'pb-media-product__main' : 'pb-media-product__detail';
+    fig.append(img);
+  });
+  row.append(copy, fig);
+  root.append(intro, row);
+  block.classList.add('pb-media-section');
+  block.replaceChildren(root);
+  return true;
+}
+
+function decorateMediaTools(block, nodes) {
+  const kicker = nodes.find((n) => n.tagName === 'P' && /^06\./.test(n.textContent.trim()));
+  const heading = nodes.find((n) => n.matches?.('h2, h3'));
+  const media = nodes.find((n) => n.querySelector?.('img'));
+  if (!kicker || !heading || !media) return false;
+  const root = wrap();
+  const head = document.createElement('section');
+  head.className = 'pb-media-tools__head';
+  kicker.className = 'pb-media-kicker';
+  const lede = nodes.slice(nodes.indexOf(heading) + 1).find((n) => n.tagName === 'P');
+  head.append(kicker, heading);
+  if (lede) head.append(lede);
+  const fig = document.createElement('figure');
+  fig.className = 'pb-media-product pb-media-product--wide';
+  const caption = nodes.find((n) => n.tagName === 'P' && /Apps|Tools/i.test(n.textContent));
+  if (caption && caption !== lede) {
+    const fc = document.createElement('figcaption');
+    fc.textContent = caption.textContent;
+    fig.append(fc);
+  }
+  const win = document.createElement('section');
+  win.className = 'pb-media-window';
+  win.innerHTML = '<span></span><span></span><span></span>';
+  fig.append(win);
+  const img = media.querySelector('img');
+  if (img) {
+    img.className = 'pb-media-product__main';
+    fig.append(img);
+  }
+  root.append(head, fig);
+  block.classList.add('pb-media-section');
+  block.replaceChildren(root);
+  return true;
+}
+
 function decorateTabs(block) {
   const nodes = authoredNodes(block);
   const root = wrap();
@@ -343,6 +455,8 @@ function decorateRelated(block) {
 }
 
 function decorateSimpleGrid(block, className = 'pb-feature-grid') {
+  if (preserveMediaSection(block)) return;
+
   const pricingCards = [...block.querySelectorAll('a.pricing-bento-card')];
   if (pricingCards.length) {
     const sourceHead = block.querySelector('.pb-section__head');
@@ -364,6 +478,8 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   }
 
   const nodes = authoredNodes(block);
+  if (decorateMediaStats(block, nodes)) return;
+  if (decorateMediaFeature(block, nodes)) return;
   const isPricingBento = /Mini-apps/i.test(block.textContent);
   const root = wrap();
   const head = document.createElement('div');
@@ -495,6 +611,7 @@ function decorateToolCrosspromo(block) {
   }
 
   const nodes = authoredNodes(block);
+  if (decorateMediaTools(block, nodes)) return;
   const root = wrap();
   const grid = document.createElement('div');
   grid.className = 'pb-tool-crosspromo__grid';

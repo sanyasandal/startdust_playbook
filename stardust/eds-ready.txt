@@ -4,3 +4,4 @@
 /video-captions
 /video-converter
 /watermarks
+/media-and-entertainment

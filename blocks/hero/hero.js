@@ -13,6 +13,85 @@ function actionize(paragraph) {
   });
 }
 
+function preserveMediaHero(block) {
+  const source = block.querySelector('.pb-media-hero__wrap');
+  const mediaHeading = [...block.querySelectorAll('h1, h2')]
+    .find((h) => /Playbook for Media/i.test(h.textContent));
+  if (!source && !mediaHeading) return false;
+  block.classList.add('pb-media-hero');
+  if (source) {
+    source.querySelectorAll('img').forEach((img, i) => {
+      if (i === 0) {
+        img.setAttribute('loading', 'eager');
+        img.setAttribute('fetchpriority', 'high');
+      }
+    });
+    block.replaceChildren(source);
+    return true;
+  }
+  const nodes = authoredNodes(block);
+  const ps = nodes.filter((n) => n.tagName === 'P');
+  const actions = ps.find((p) => p.querySelector('a'));
+  const lede = ps.find((p) => !p.querySelector('a, img') && !/playbook\.com|AI Shot/i.test(p.textContent));
+  const caption = ps.find((p) => /playbook\.com/i.test(p.textContent));
+  const media = nodes.find((n) => n.querySelector?.('img'));
+  const railLabels = [
+    'AI Shot Tagging',
+    'Natural Language Search',
+    '3D Spatial Review',
+    'Version Control',
+    'Agentic Upload',
+    'Permissions & Access',
+    'Partner App Ecosystem',
+    'BYOS Storage',
+  ];
+  mediaHeading.innerHTML = mediaHeading.innerHTML.replace(
+    /^Playbook for Media\s*/i,
+    '<span>Playbook for Media</span> ',
+  );
+  const root = document.createElement('section');
+  root.className = 'wrap pb-media-hero__wrap';
+  const copy = document.createElement('section');
+  copy.className = 'pb-media-hero__copy';
+  copy.append(mediaHeading);
+  if (lede) copy.append(lede);
+  if (actions) {
+    actions.className = 'pb-media-actions';
+    actionize(actions);
+    copy.append(actions);
+  }
+  const fig = document.createElement('figure');
+  fig.className = 'pb-media-hero__stage';
+  if (caption) {
+    const fc = document.createElement('figcaption');
+    fc.textContent = caption.textContent;
+    fig.append(fc);
+  }
+  const win = document.createElement('section');
+  win.className = 'pb-media-window';
+  win.innerHTML = '<span></span><span></span><span></span>';
+  fig.append(win);
+  [...(media?.querySelectorAll('img') || [])].forEach((img, i) => {
+    img.className = i === 0 ? 'pb-media-hero__image' : 'pb-media-hero__float';
+    if (i === 0) {
+      img.setAttribute('loading', 'eager');
+      img.setAttribute('fetchpriority', 'high');
+    }
+    fig.append(img);
+  });
+  const rail = document.createElement('section');
+  rail.className = 'pb-media-rail';
+  railLabels.forEach((label) => {
+    const span = document.createElement('span');
+    span.textContent = label;
+    rail.append(span);
+  });
+  fig.append(rail);
+  root.append(copy, fig);
+  block.replaceChildren(root);
+  return true;
+}
+
 export default function decorate(block) {
   if (block.classList.contains('blog')) {
     const nodes = authoredNodes(block);
@@ -94,10 +173,17 @@ export default function decorate(block) {
     return;
   }
 
+  if (preserveMediaHero(block)) return;
+
   const nodes = authoredNodes(block);
-  const eyebrow = nodes.find((n) => n.tagName === 'P' && !n.querySelector('a, img'));
-  const heading = nodes.find((n) => n.matches('h1, h2'));
-  const lede = nodes.find((n) => n.tagName === 'P' && n !== eyebrow && !n.querySelector('a, img'));
+  const heading = nodes.find((n) => n.matches('h1')) || nodes.find((n) => n.matches('h2'));
+  const headingIndex = heading ? nodes.indexOf(heading) : -1;
+  const beforeHeading = headingIndex > 0 ? nodes.slice(0, headingIndex) : [];
+  const afterHeading = headingIndex >= 0 ? nodes.slice(headingIndex + 1) : nodes;
+  const eyebrow = beforeHeading.find((n) => (
+    n.matches?.('h2, h3') || (n.tagName === 'P' && !n.querySelector('a, img'))
+  ));
+  const lede = afterHeading.find((n) => n.tagName === 'P' && !n.querySelector('a, img'));
   const ctas = nodes.find((n) => n.tagName === 'P' && n.querySelector('a'));
   const media = nodes.find((n) => n.querySelector('img'));
   const copy = document.createElement('div');
