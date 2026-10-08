@@ -1,0 +1,224 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-30T07:05:32.560Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.25.0"
+  },
+  "generatedAt": "2026-09-30T07:05:32.560Z",
+  "templates": [
+    {
+      "id": "blog",
+      "representativeSlug": "blog",
+      "pages": [
+        "blog",
+        "customers",
+        "integrations-all",
+        "tutorial"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "cta-band",
+        "faq",
+        "post-list"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 4
+      }
+    },
+    {
+      "id": "blog-brand-portal-api",
+      "representativeSlug": "blog-brand-portal-api",
+      "pages": [
+        "blog-adobe-playbook-integration",
+        "blog-ai-media-pipeline",
+        "blog-best-air-alternatives-creative-agencies",
+        "blog-best-air-alternatives-for-consumer-brands",
+        "blog-best-air-alternatives-marketing-teams",
+        "blog-brand-portal-api",
+        "blog-canopy",
+        "blog-client-approval-software-for-creative-teams",
+        "blog-client-gallery-api",
+        "blog-dam-vs-cms-vs-mam",
+        "blog-digital-asset-marketplace-api",
+        "blog-migrate-from-air-to-playbook",
+        "blog-playbook-figma-plugin",
+        "blog-playbook-integrations-you-didnt-know",
+        "blog-playbook-vs-perforce",
+        "blog-playbook-vs-simian",
+        "blog-playbook-vs-wiredrive",
+        "blog-presentation-deck-api",
+        "blog-product-catalog-api",
+        "blog-sales-catalog-api",
+        "tutorial-api-mcp",
+        "tutorial-board-rules",
+        "tutorial-create-a-board",
+        "tutorial-figma",
+        "tutorial-getting-started",
+        "tutorial-how-to-upload",
+        "tutorial-mobile-app",
+        "tutorial-search-discovery",
+        "tutorial-share-first-link",
+        "tutorial-slack",
+        "tutorial-what-is-playbook",
+        "tutorial-working-with-video"
+      ],
+      "pageCount": 32,
+      "blocks": [
+        "cta-band",
+        "faq",
+        "feature-grid",
+        "related-posts"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 32
+      }
+    },
+    {
+      "id": "contact",
+      "representativeSlug": "contact",
+      "pages": [
+        "contact"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "logo-marquee"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "gifmaker",
+      "representativeSlug": "gifmaker",
+      "pages": [
+        "gifmaker",
+        "logomaker",
+        "vectorizer",
+        "video-captions",
+        "video-converter",
+        "watermarks"
+      ],
+      "pageCount": 6,
+      "blocks": [
+        "cta-band",
+        "faq",
+        "hero",
+        "tool-crosspromo",
+        "tool-widget"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 6
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "about-us",
+        "brand-portal",
+        "collaboration-editing",
+        "consumer-brands",
+        "creative-agency",
+        "desktop",
+        "enterprise",
+        "features",
+        "freelancers",
+        "games",
+        "gpt",
+        "index",
+        "large-file-sharing",
+        "mcp",
+        "media-and-entertainment",
+        "photo-gallery",
+        "product",
+        "publish",
+        "sdk",
+        "smarter-storage",
+        "teams"
+      ],
+      "pageCount": 21,
+      "blocks": [
+        "comparison-table",
+        "cta-band",
+        "faq",
+        "feature-grid",
+        "feature-row",
+        "hero",
+        "logo-marquee",
+        "pricing-teaser",
+        "product-tabs",
+        "quote",
+        "related-posts",
+        "static-hero",
+        "stats",
+        "testimonial",
+        "tool-crosspromo",
+        "tool-widget"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 21
+      }
+    },
+    {
+      "id": "p-privacy",
+      "representativeSlug": "p-privacy",
+      "pages": [
+        "p-privacy",
+        "p-terms",
+        "the-story-of-playbook"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "static-hero"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 3
+      }
+    },
+    {
+      "id": "unique",
+      "representativeSlug": "pricing",
+      "pages": [
+        "pricing"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "comparison-table",
+        "cta-band",
+        "faq",
+        "feature-grid",
+        "hero",
+        "logo-marquee",
+        "pricing-calculator",
+        "pricing-teaser"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    }
+  ]
+}

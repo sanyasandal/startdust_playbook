@@ -4,6 +4,7 @@
 .accordion .pb-faq__list {
   display: grid;
   gap: 10px;
+  max-width: 900px;
 }
 
 .accordion details {

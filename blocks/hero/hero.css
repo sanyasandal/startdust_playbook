@@ -2,6 +2,101 @@
 .hero-container .hero-wrapper { max-width: none; padding: 0; }
 .hero.pb-hero { padding-top: 62px; padding-bottom: 36px; overflow: clip; }
 
+.hero.pb-sibling-hero {
+  padding-block: clamp(56px, 9vw, 118px) 42px;
+  background: linear-gradient(180deg, #fff 0%, var(--color-paper) 100%);
+}
+
+.hero .pb-blog-hero__shell {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.hero.pb-sibling-hero h1 {
+  max-width: 940px;
+  font-size: clamp(3rem, 8vw, 6.8rem);
+  line-height: .92;
+  letter-spacing: -.07em;
+}
+
+.hero .pb-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero .pb-filter-row span {
+  display: inline-flex;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 9px 14px;
+  background: #fff;
+  color: var(--color-ink-soft);
+  font-size: 14px;
+}
+
+.hero.pb-program-hero {
+  padding-block: clamp(44px, 8vw, 84px) 40px;
+}
+
+.hero .pb-program-hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, .86fr) minmax(0, 1.14fr);
+  gap: clamp(28px, 5vw, 64px);
+  align-items: center;
+}
+
+.hero .pb-program-hero__copy {
+  display: grid;
+  gap: 18px;
+  align-content: center;
+}
+
+.hero .pb-program-hero__copy h1 {
+  max-width: 640px;
+  margin: 0;
+}
+
+.hero .pb-program-hero__copy .pb-lede {
+  margin: 0;
+}
+
+.hero .pb-program-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.hero .pb-program-hero__media {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--color-hairline-warm);
+  border-radius: clamp(18px, 3vw, 34px);
+  background: var(--color-surface);
+  box-shadow: 0 18px 50px rgb(22 22 22 / 8%);
+}
+
+.hero .pb-program-hero__media::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: linear-gradient(90deg, #6cb4ee, #d46bca, #ff3c8e, #ff6b35);
+}
+
+.hero .pb-program-hero__media :is(video, img) {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+  background: var(--color-surface);
+}
+
 .hero .pb-hero__copy {
   display: grid;
   justify-items: center;
@@ -41,6 +136,8 @@
 
 @media (width <= 760px) {
   .hero.pb-hero { padding-top: 40px; }
+  .hero .pb-program-hero__grid { grid-template-columns: 1fr; }
   .hero .pb-hero__copy { justify-items: start; text-align: left; }
   .hero .pb-hero__actions { justify-content: flex-start; }
+  .hero .pb-program-hero__actions { width: 100%; }
 }

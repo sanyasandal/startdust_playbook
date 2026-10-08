@@ -1,0 +1,1563 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-30T07:05:32.560Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.25.0"
+  },
+  "generatedAt": "2026-09-30T07:05:32.560Z",
+  "pages": [
+    {
+      "slug": "about-us",
+      "path": "/about-us",
+      "title": "Playbook Team",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/index.html",
+        "metaJson": "stardust/migrated/about-us/_meta.json",
+        "sourceHash": "sha256:de2787f6ae1c0e7fc99d2148c12b5f25be26238471fc114334dfea0bc2cc29b2"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "static-hero",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "title": "Playbook (Page 1)",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/index.html",
+        "metaJson": "stardust/migrated/blog/_meta.json",
+        "sourceHash": "sha256:d0e8a1cbd7b4a925b5691f62a9fa4f3a80dae3f1c038e09c03e219a73d808592"
+      },
+      "blocks": [
+        "post-list"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-adobe-playbook-integration",
+      "path": "/blog/adobe-playbook-integration",
+      "title": "Adobe and Playbook Integration: Sync Your Adobe Files Without Manual Export",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/adobe-playbook-integration/index.html",
+        "metaJson": "stardust/migrated/blog/adobe-playbook-integration/_meta.json",
+        "sourceHash": "sha256:3003cba55e175fd96fc71496eb7b5c2d7515f662d9c6074135af6007634dc31c"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-ai-media-pipeline",
+      "path": "/blog/ai-media-pipeline",
+      "title": "The AI Media Pipeline That Files Itself",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/ai-media-pipeline/index.html",
+        "metaJson": "stardust/migrated/blog/ai-media-pipeline/_meta.json",
+        "sourceHash": "sha256:1483d02a42c3a584c37c36835879af4776b9179d3cda8f8b3ea83d8bcb5df5f2"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-best-air-alternatives-creative-agencies",
+      "path": "/blog/best-air-alternatives-creative-agencies",
+      "title": "Best Air Alternatives for Creative Agencies in 2026",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/best-air-alternatives-creative-agencies/index.html",
+        "metaJson": "stardust/migrated/blog/best-air-alternatives-creative-agencies/_meta.json",
+        "sourceHash": "sha256:b2af46390e30c278ea375d6c22e53de6066042715008ccedf899a92f5b9fc267"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-best-air-alternatives-for-consumer-brands",
+      "path": "/blog/best-air-alternatives-for-consumer-brands",
+      "title": "Best Air Alternatives for Consumer Brands in 2026",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/best-air-alternatives-for-consumer-brands/index.html",
+        "metaJson": "stardust/migrated/blog/best-air-alternatives-for-consumer-brands/_meta.json",
+        "sourceHash": "sha256:911b80135ec052ebb0cc8ee6c654d34cce313d475abfbb0434a205e982639cf0"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-best-air-alternatives-marketing-teams",
+      "path": "/blog/best-air-alternatives-marketing-teams",
+      "title": "Best Air Alternatives for Marketing Teams in 2026",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/best-air-alternatives-marketing-teams/index.html",
+        "metaJson": "stardust/migrated/blog/best-air-alternatives-marketing-teams/_meta.json",
+        "sourceHash": "sha256:f396e025cd74798b68375183600b9fda04f81f0643e7e6f87289ccb0303bfd54"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-brand-portal-api",
+      "path": "/blog/brand-portal-api",
+      "title": "Your Brand Portal Should Be an API Call",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/brand-portal-api/index.html",
+        "metaJson": "stardust/migrated/blog/brand-portal-api/_meta.json",
+        "sourceHash": "sha256:3b3a3adae3b8e8fc276e285eb185d04d84fe378af6159cf2b6bcffb912cbc715"
+      },
+      "blocks": [
+        "feature-grid",
+        "faq",
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-canopy",
+      "path": "/blog/canopy",
+      "title": "How Canopy built a content pipeline that runs itself on Playbook",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/canopy/index.html",
+        "metaJson": "stardust/migrated/blog/canopy/_meta.json",
+        "sourceHash": "sha256:3b52d8d01967947ecc27631e740b79030ae368bc1383343e09431c9b2277180e"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-client-approval-software-for-creative-teams",
+      "path": "/blog/client-approval-software-for-creative-teams",
+      "title": "Client Approval Software for Creative Teams in 2026",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/client-approval-software-for-creative-teams/index.html",
+        "metaJson": "stardust/migrated/blog/client-approval-software-for-creative-teams/_meta.json",
+        "sourceHash": "sha256:c0bb389126ae9f86e1554b40b032cd8ffc56f7558923765dbf81174ab6a16d0a"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-client-gallery-api",
+      "path": "/blog/client-gallery-api",
+      "title": "Client Gallery API: Spin Up Branded, Permissioned Galleries From Your App",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/client-gallery-api/index.html",
+        "metaJson": "stardust/migrated/blog/client-gallery-api/_meta.json",
+        "sourceHash": "sha256:199c01e84d110051addeefe0e9f28e658bbd55615692ef9e577dc001219eaa31"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-dam-vs-cms-vs-mam",
+      "path": "/blog/dam-vs-cms-vs-mam",
+      "title": "DAM vs CMS vs MAM: Which System Does Your Team Actually Need?",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/dam-vs-cms-vs-mam/index.html",
+        "metaJson": "stardust/migrated/blog/dam-vs-cms-vs-mam/_meta.json",
+        "sourceHash": "sha256:76618465a033ea05359cccac970196f2ae6c90ac5c7cd257b731d97c7b17115c"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-digital-asset-marketplace-api",
+      "path": "/blog/digital-asset-marketplace-api",
+      "title": "Your Digital Asset Marketplace API Is Already Built",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/digital-asset-marketplace-api/index.html",
+        "metaJson": "stardust/migrated/blog/digital-asset-marketplace-api/_meta.json",
+        "sourceHash": "sha256:352c8b4cac0536c2541fe308752863ef2901ceaab7d78da811cd8d952b7eb430"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-migrate-from-air-to-playbook",
+      "path": "/blog/migrate-from-air-to-playbook",
+      "title": "How to Migrate from Air to Playbook",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/migrate-from-air-to-playbook/index.html",
+        "metaJson": "stardust/migrated/blog/migrate-from-air-to-playbook/_meta.json",
+        "sourceHash": "sha256:77faee84b61bc33d25083ecaddaa23192d5a733c6837659dc6b5eb8d261d3cba"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-playbook-figma-plugin",
+      "path": "/blog/playbook-figma-plugin",
+      "title": "How to Pull Files From Playbook Into Figma With the Plugin",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/playbook-figma-plugin/index.html",
+        "metaJson": "stardust/migrated/blog/playbook-figma-plugin/_meta.json",
+        "sourceHash": "sha256:fa1c08b97bfab923966e0d7faaa1a527c823a3127e4475f3f2fc113f51a68f53"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-playbook-integrations-you-didnt-know",
+      "path": "/blog/playbook-integrations-you-didnt-know",
+      "title": "9 Playbook Integrations You Probably Didn't Know About",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/playbook-integrations-you-didnt-know/index.html",
+        "metaJson": "stardust/migrated/blog/playbook-integrations-you-didnt-know/_meta.json",
+        "sourceHash": "sha256:b6c5410a8d5b468c718b99b9789c3ce0c96dbec0445071bf0a79e9707e5f05c1"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-playbook-vs-perforce",
+      "path": "/blog/playbook-vs-perforce",
+      "title": "Playbook vs Perforce: The Best Perforce Alternative for Creative Asset Version Control (2026)",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/playbook-vs-perforce/index.html",
+        "metaJson": "stardust/migrated/blog/playbook-vs-perforce/_meta.json",
+        "sourceHash": "sha256:606b98ace330ed74fb628f2ae555552f74458e466201da526cc6c374da1ff192"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-playbook-vs-simian",
+      "path": "/blog/playbook-vs-simian",
+      "title": "Playbook vs Simian: The Best Simian Alternative for Ad Production Teams (2026)",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/playbook-vs-simian/index.html",
+        "metaJson": "stardust/migrated/blog/playbook-vs-simian/_meta.json",
+        "sourceHash": "sha256:e994b7c48c7f16c0bc53a2a78eeb559923eb52d0f1481a0b908266a80088c4f5"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-playbook-vs-wiredrive",
+      "path": "/blog/playbook-vs-wiredrive",
+      "title": "Playbook vs Wiredrive: The Best Wiredrive Alternative for Video Review Teams (2026)",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/playbook-vs-wiredrive/index.html",
+        "metaJson": "stardust/migrated/blog/playbook-vs-wiredrive/_meta.json",
+        "sourceHash": "sha256:2460e8741a6dc5c7739fc17644b4a8fb8c7a5493662f3b35c96da6ac92012ff0"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-presentation-deck-api",
+      "path": "/blog/presentation-deck-api",
+      "title": "Your Pitch Deck Ships Stale. This Presentation Deck API Doesn't.",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/presentation-deck-api/index.html",
+        "metaJson": "stardust/migrated/blog/presentation-deck-api/_meta.json",
+        "sourceHash": "sha256:4cae75b2e23041844bac4b31d18b81e216d549038ee1cb522e22b63d9cef27fb"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-product-catalog-api",
+      "path": "/blog/product-catalog-api",
+      "title": "Product Catalog API: One Source of Truth for Every Product Image",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/product-catalog-api/index.html",
+        "metaJson": "stardust/migrated/blog/product-catalog-api/_meta.json",
+        "sourceHash": "sha256:9e57965942bf510a7b93d1f37cfe316b608290189a47d2a0038f58c63579cf68"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-sales-catalog-api",
+      "path": "/blog/sales-catalog-api",
+      "title": "Ship a Sales Catalog API, Not Another Stale Shared Drive",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/sales-catalog-api/index.html",
+        "metaJson": "stardust/migrated/blog/sales-catalog-api/_meta.json",
+        "sourceHash": "sha256:8b8c1edd60f3eaf29780b7b9441dde16cf30ba1ae0c16844a5f6cca866a554aa"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "brand-portal",
+      "path": "/brand-portal",
+      "title": "Professional brand portals with free templates",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/brand-portal/index.html",
+        "metaJson": "stardust/migrated/brand-portal/_meta.json",
+        "sourceHash": "sha256:aaba22b35803168469954d1bd9dc1105168bac862e60f2f9565ce9e2a11414b6"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "testimonial",
+        "static-hero",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "collaboration-editing",
+      "path": "/collaboration-editing",
+      "title": "Creative Collaboration & Editing — Annotation, Video Comments | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/collaboration-editing/index.html",
+        "metaJson": "stardust/migrated/collaboration-editing/_meta.json",
+        "sourceHash": "sha256:a96b7ed4f974c1f5d7fcd0269e9cf59b9845cb97c9c9379920a8bb6f87c9e524"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "consumer-brands",
+      "path": "/consumer-brands",
+      "title": "End-to-End Workflow Management for Consumer Goods | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/consumer-brands/index.html",
+        "metaJson": "stardust/migrated/consumer-brands/_meta.json",
+        "sourceHash": "sha256:ef3025900d6fada224e7c635e855d841c686132bc7d9bf0123f28c22d23b5c2b"
+      },
+      "blocks": [
+        "hero",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "title": "Schedule your demo",
+      "templateId": "contact",
+      "source": {
+        "migratedHtml": "stardust/migrated/contact/index.html",
+        "metaJson": "stardust/migrated/contact/_meta.json",
+        "sourceHash": "sha256:24e4c193b45ad659da29ea28bc9d25178fb0fe41eba345a78ebbd1b6ae9841fa"
+      },
+      "blocks": [
+        "logo-marquee"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "creative-agency",
+      "path": "/creative-agency",
+      "title": "Creative Agency Asset Management &amp; Client Delivery | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/creative-agency/index.html",
+        "metaJson": "stardust/migrated/creative-agency/_meta.json",
+        "sourceHash": "sha256:e9c7c9c3b1a9be38385843f93e84efd2c92ce94fc56a3888706cdb138f26b193"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "tool-crosspromo",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "customers",
+      "path": "/customers",
+      "title": "Customer Stories — Brands &amp; Agencies on Playbook",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/customers/index.html",
+        "metaJson": "stardust/migrated/customers/_meta.json",
+        "sourceHash": "sha256:acb61593d70092db3a853e3abe1089963c196ebf3a518647ee22f798a85db36c"
+      },
+      "blocks": [
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "desktop",
+      "path": "/desktop",
+      "title": "Playbook Desktop App | Sync &amp; Access Creative Files Offline",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/desktop/index.html",
+        "metaJson": "stardust/migrated/desktop/_meta.json",
+        "sourceHash": "sha256:753c184b00f986f5411dc948098de043be4d30ad361441b0b48908e565a2563f"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "cta-band",
+        "faq"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "enterprise",
+      "path": "/enterprise",
+      "title": "Enterprise Digital Asset Management for Creative Teams | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/enterprise/index.html",
+        "metaJson": "stardust/migrated/enterprise/_meta.json",
+        "sourceHash": "sha256:55e9d14b1a74d0e8ac92eb7f6aabd95d72a1867008955e8a0824bdb9bac433dd"
+      },
+      "blocks": [
+        "hero",
+        "logo-marquee",
+        "stats",
+        "feature-row",
+        "product-tabs",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "features",
+      "path": "/features",
+      "title": "Features | Streamline your creative workflow",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/features/index.html",
+        "metaJson": "stardust/migrated/features/_meta.json",
+        "sourceHash": "sha256:f5e083fccd464fb331d965cc6a312cb23fcd9c5f788390b37312bf0b75061fe7"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "freelancers",
+      "path": "/freelancers",
+      "title": "Professional freelancers",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/freelancers/index.html",
+        "metaJson": "stardust/migrated/freelancers/_meta.json",
+        "sourceHash": "sha256:2ab57774a883ed81dee645b0408ba0727639543748a52a4402e3137c041bfce4"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "games",
+      "path": "/games",
+      "title": "AI-Native DAM for Game Studios | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/games/index.html",
+        "metaJson": "stardust/migrated/games/_meta.json",
+        "sourceHash": "sha256:7c6e6940b77f414dd663adbe47b6d175a8fa49938e71e611481e74cf99ea62fd"
+      },
+      "blocks": [
+        "hero"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "gifmaker",
+      "path": "/gifmaker",
+      "title": "GIF Maker: Transform moments into motion on Playbook",
+      "templateId": "gifmaker",
+      "source": {
+        "migratedHtml": "stardust/migrated/gifmaker/index.html",
+        "metaJson": "stardust/migrated/gifmaker/_meta.json",
+        "sourceHash": "sha256:e3630ed64a26fe8f0307f83dece0ecd13a0c53a5c9a512253486f278911690c2"
+      },
+      "blocks": [
+        "hero",
+        "tool-widget",
+        "tool-crosspromo",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "gpt",
+      "path": "/gpt",
+      "title": "AI-Powered Creative Search | Find Any Asset Instantly | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/gpt/index.html",
+        "metaJson": "stardust/migrated/gpt/_meta.json",
+        "sourceHash": "sha256:21ef92100844d4828f6ad00765aa41858452ab74a894b44825026685e5312bd8"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "product-tabs",
+        "cta-band",
+        "faq"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Playbook | Your all-in-one media management solution",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:bc1f7ca62e275254e54ef2b0f884df5ae249cd420f5bfdadc8678b8da9e69b32"
+      },
+      "blocks": [
+        "hero",
+        "logo-marquee",
+        "product-tabs",
+        "tool-crosspromo",
+        "comparison-table",
+        "related-posts",
+        "pricing-teaser",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "integrations-all",
+      "path": "/integrations-all",
+      "title": "All tools &amp; integrations",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/integrations-all/index.html",
+        "metaJson": "stardust/migrated/integrations-all/_meta.json",
+        "sourceHash": "sha256:1faf9e4cacb6add71434aafde21dc71bdf9e9b76c5219689ece3366cc776116b"
+      },
+      "blocks": [
+        "faq"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "large-file-sharing",
+      "path": "/large-file-sharing",
+      "title": "Large File Sharing for Creative Teams | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/large-file-sharing/index.html",
+        "metaJson": "stardust/migrated/large-file-sharing/_meta.json",
+        "sourceHash": "sha256:4df55ce1c4064cb0c702bf78853426d179fa07d11bd57d44a5cceb1787dd2a2c"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "logomaker",
+      "path": "/logomaker",
+      "title": "Logo Maker: Create custom logos with Playbook x Picsart",
+      "templateId": "gifmaker",
+      "source": {
+        "migratedHtml": "stardust/migrated/logomaker/index.html",
+        "metaJson": "stardust/migrated/logomaker/_meta.json",
+        "sourceHash": "sha256:ae532eef47571f0275871536dbace7e4456d6324d69c83c155eca9335582f788"
+      },
+      "blocks": [
+        "hero",
+        "tool-widget",
+        "cta-band",
+        "faq"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "mcp",
+      "path": "/mcp",
+      "title": "MCP Server for Creative Teams | Connect Playbook to Your AI Tools",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/mcp/index.html",
+        "metaJson": "stardust/migrated/mcp/_meta.json",
+        "sourceHash": "sha256:6e794e3599e98f58524dcadf9ed30c999cb7513f69b3e1546aea7e5cdead3327"
+      },
+      "blocks": [
+        "hero",
+        "product-tabs",
+        "feature-grid",
+        "tool-widget",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "media-and-entertainment",
+      "path": "/media-and-entertainment",
+      "title": "DAM &amp; Media Library for Production Teams | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/media-and-entertainment/index.html",
+        "metaJson": "stardust/migrated/media-and-entertainment/_meta.json",
+        "sourceHash": "sha256:e81a3b03fcf419690a0f5c6e365a750b56c703423f6985322370c1fd495bd52e"
+      },
+      "blocks": [
+        "static-hero",
+        "hero",
+        "feature-grid",
+        "tool-crosspromo",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "p-privacy",
+      "path": "/p/privacy",
+      "title": "Playbook Privacy Policy",
+      "templateId": "p-privacy",
+      "source": {
+        "migratedHtml": "stardust/migrated/p/privacy/index.html",
+        "metaJson": "stardust/migrated/p/privacy/_meta.json",
+        "sourceHash": "sha256:e023e38a0a07c188bb69e0651e76030d0a0f8e93219bc81a943e0c8ceaabe28d"
+      },
+      "blocks": [
+        "static-hero"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "p-terms",
+      "path": "/p/terms",
+      "title": "Terms of Service — Playbook Creative Storage",
+      "templateId": "p-privacy",
+      "source": {
+        "migratedHtml": "stardust/migrated/p/terms/index.html",
+        "metaJson": "stardust/migrated/p/terms/_meta.json",
+        "sourceHash": "sha256:3a3a4905e8b8a22e293f989cdeb2d602c5ddf8e36e8bf56d6361cd99b39b9251"
+      },
+      "blocks": [
+        "static-hero"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "photo-gallery",
+      "path": "/photo-gallery",
+      "title": "Playbook for Photographers - Free Portfolio Templates",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/photo-gallery/index.html",
+        "metaJson": "stardust/migrated/photo-gallery/_meta.json",
+        "sourceHash": "sha256:2c7916669c8bec542a593c6f659852de914c16c662f5312f282881c8e6c9e216"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "static-hero",
+        "comparison-table",
+        "tool-crosspromo",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "pricing",
+      "path": "/pricing",
+      "title": "Pricing — Plans for Creatives, Teams &amp; Enterprise | Playbook",
+      "templateId": "unique",
+      "source": {
+        "migratedHtml": "stardust/migrated/pricing/index.html",
+        "metaJson": "stardust/migrated/pricing/_meta.json",
+        "sourceHash": "sha256:b7a9d3df55bbc36ac0c50f4f1d3767f53b05146f5e0548292cb965e85e631a2c"
+      },
+      "blocks": [
+        "hero",
+        "pricing-teaser",
+        "comparison-table",
+        "logo-marquee",
+        "feature-grid",
+        "pricing-calculator",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "product",
+      "path": "/product",
+      "title": "Playbook | Your go-to creative management solution",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/product/index.html",
+        "metaJson": "stardust/migrated/product/_meta.json",
+        "sourceHash": "sha256:ffc84ae20f1b2cb902a83f298b50ae0078545299f386e6e936286daed51962a4"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "static-hero",
+        "related-posts",
+        "logo-marquee",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "publish",
+      "path": "/publish",
+      "title": "Playbook Publish",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/publish/index.html",
+        "metaJson": "stardust/migrated/publish/_meta.json",
+        "sourceHash": "sha256:9d1cc55ea387749b58ef74072f99e423a7bf34b8bfd67e19a91641148aceefd4"
+      },
+      "blocks": [
+        "hero",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "sdk",
+      "path": "/sdk",
+      "title": "Enterprise SDK — A Media Library That Scales With You | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/sdk/index.html",
+        "metaJson": "stardust/migrated/sdk/_meta.json",
+        "sourceHash": "sha256:1294a569002d69df4e7d2f3f6b46863be30e7780a1cd3147205a345e8b3e14ee"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "comparison-table",
+        "product-tabs",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "smarter-storage",
+      "path": "/smarter-storage",
+      "title": "Smarter Storage — A Visual Workspace Beyond Folders | Playbook",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/smarter-storage/index.html",
+        "metaJson": "stardust/migrated/smarter-storage/_meta.json",
+        "sourceHash": "sha256:f5757e15ed5a0aa89ef2049addf96c2e2154e096a5e982e29339f1fd9e7c0e68"
+      },
+      "blocks": [
+        "hero",
+        "feature-grid",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "teams",
+      "path": "/teams",
+      "title": "Design Teams",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/teams/index.html",
+        "metaJson": "stardust/migrated/teams/_meta.json",
+        "sourceHash": "sha256:8d7ab25427ac8d47aef3b5743cf8efcfd79ecc71a8cde421f73d77ba3db79283"
+      },
+      "blocks": [
+        "hero",
+        "logo-marquee",
+        "feature-grid",
+        "quote",
+        "static-hero",
+        "tool-crosspromo",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "the-story-of-playbook",
+      "path": "/the-story-of-playbook",
+      "title": "The Story of Playbook — Why We Built It",
+      "templateId": "p-privacy",
+      "source": {
+        "migratedHtml": "stardust/migrated/the-story-of-playbook/index.html",
+        "metaJson": "stardust/migrated/the-story-of-playbook/_meta.json",
+        "sourceHash": "sha256:db94757084986a4632d738daed8fc7f9b8cfb5e4811df61cc76af2ac57dedf0a"
+      },
+      "blocks": [
+        "static-hero"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial",
+      "path": "/tutorial",
+      "title": "Tutorials, Help, and Support for Playbook",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/index.html",
+        "metaJson": "stardust/migrated/tutorial/_meta.json",
+        "sourceHash": "sha256:43197d7fc4e7f28c41ba3e13e5fa2a9dc6ee0efed48ab7be24cbc7644e37b5f0"
+      },
+      "blocks": [
+        "post-list",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-api-mcp",
+      "path": "/tutorial/api-mcp",
+      "title": "API &amp; MCP",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/api-mcp/index.html",
+        "metaJson": "stardust/migrated/tutorial/api-mcp/_meta.json",
+        "sourceHash": "sha256:fcd9deeff95ea7695b727a6a3d99bc18045b0e143ae1be922c596b2b854e5b3f"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-board-rules",
+      "path": "/tutorial/board-rules",
+      "title": "Board rules",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/board-rules/index.html",
+        "metaJson": "stardust/migrated/tutorial/board-rules/_meta.json",
+        "sourceHash": "sha256:bff910fb8872cf2c8639f91d0a2752d57838c0cdf8cb4f3abf86dcda96349587"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-create-a-board",
+      "path": "/tutorial/create-a-board",
+      "title": "How to create &amp; use boards",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/create-a-board/index.html",
+        "metaJson": "stardust/migrated/tutorial/create-a-board/_meta.json",
+        "sourceHash": "sha256:9fa97dd6b0f543a10380292c9d06f0dd4f478eae767b7619980a1ba61f8a0d2c"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-figma",
+      "path": "/tutorial/figma",
+      "title": "Figma",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/figma/index.html",
+        "metaJson": "stardust/migrated/tutorial/figma/_meta.json",
+        "sourceHash": "sha256:796f1fa24521eb29e91d6eddaeadeeb68727b8c27c537496ad01e2c397f5391b"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-getting-started",
+      "path": "/tutorial/getting-started",
+      "title": "Start here",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/getting-started/index.html",
+        "metaJson": "stardust/migrated/tutorial/getting-started/_meta.json",
+        "sourceHash": "sha256:d3b505e983da4dc32ca1eabdc9a30bd0e4f1c439990687b1c2df8367d8e0683f"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-how-to-upload",
+      "path": "/tutorial/how-to-upload",
+      "title": "How to upload",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/how-to-upload/index.html",
+        "metaJson": "stardust/migrated/tutorial/how-to-upload/_meta.json",
+        "sourceHash": "sha256:148612ecb0b2bd3d78e2b981b59fc081282458383720db35aa793340c576198d"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-mobile-app",
+      "path": "/tutorial/mobile-app",
+      "title": "Mobile app",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/mobile-app/index.html",
+        "metaJson": "stardust/migrated/tutorial/mobile-app/_meta.json",
+        "sourceHash": "sha256:b4e9d55999da08b89a31b65daa1e2ee118d6a3d296534ee0c70c3afd5f2ad38e"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-search-discovery",
+      "path": "/tutorial/search-discovery",
+      "title": "Search &amp; discovery",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/search-discovery/index.html",
+        "metaJson": "stardust/migrated/tutorial/search-discovery/_meta.json",
+        "sourceHash": "sha256:32a2730ece6d7f774c0bbb0bd90603b52dc20db755450eb40386e25e1a233912"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-share-first-link",
+      "path": "/tutorial/share-first-link",
+      "title": "Share your first link",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/share-first-link/index.html",
+        "metaJson": "stardust/migrated/tutorial/share-first-link/_meta.json",
+        "sourceHash": "sha256:656bce75b99007be0461f754c5ddff5342f5a4c18ad903e39f72ef6b16d1482c"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-slack",
+      "path": "/tutorial/slack",
+      "title": "Slack",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/slack/index.html",
+        "metaJson": "stardust/migrated/tutorial/slack/_meta.json",
+        "sourceHash": "sha256:ce41006b1d74747e0b9f6d5da297c4c28b3fc961bbd7d5da4c1e1c352f5615db"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-what-is-playbook",
+      "path": "/tutorial/what-is-playbook",
+      "title": "What is Playbook?",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/what-is-playbook/index.html",
+        "metaJson": "stardust/migrated/tutorial/what-is-playbook/_meta.json",
+        "sourceHash": "sha256:9d5ec78c15fdb7253c630a7a77b6da1ee69c45e8b19dd935d311c42e1cfde7c4"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "tutorial-working-with-video",
+      "path": "/tutorial/working-with-video",
+      "title": "Searching with video",
+      "templateId": "blog-brand-portal-api",
+      "source": {
+        "migratedHtml": "stardust/migrated/tutorial/working-with-video/index.html",
+        "metaJson": "stardust/migrated/tutorial/working-with-video/_meta.json",
+        "sourceHash": "sha256:d8efcb762f3bfdf1c598af72333e8e9fe3dae2b4829ad701e07c39a720a2df8c"
+      },
+      "blocks": [
+        "related-posts",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "vectorizer",
+      "path": "/vectorizer",
+      "title": "Free Online Vectorizer — Convert PNG/JPG to SVG",
+      "templateId": "gifmaker",
+      "source": {
+        "migratedHtml": "stardust/migrated/vectorizer/index.html",
+        "metaJson": "stardust/migrated/vectorizer/_meta.json",
+        "sourceHash": "sha256:5b94259cc428dfffda7bd9f669f42554e0aaeb50f7454964b0518a017de896f8"
+      },
+      "blocks": [
+        "hero",
+        "tool-widget",
+        "tool-crosspromo",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "video-captions",
+      "path": "/video-captions",
+      "title": "AI Video Captioning in 30+ Languages | Playbook",
+      "templateId": "gifmaker",
+      "source": {
+        "migratedHtml": "stardust/migrated/video-captions/index.html",
+        "metaJson": "stardust/migrated/video-captions/_meta.json",
+        "sourceHash": "sha256:b273804e4a05e37c931f39fcededa5d1875d44ef14aa9749d9dd4293dc500a06"
+      },
+      "blocks": [
+        "hero",
+        "tool-widget",
+        "cta-band",
+        "faq"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "video-converter",
+      "path": "/video-converter",
+      "title": "Video Converter",
+      "templateId": "gifmaker",
+      "source": {
+        "migratedHtml": "stardust/migrated/video-converter/index.html",
+        "metaJson": "stardust/migrated/video-converter/_meta.json",
+        "sourceHash": "sha256:7df37e81f7fa747d461286e2ade833aee3b7a027e53c90dd4701d9a31c8a76ad"
+      },
+      "blocks": [
+        "hero",
+        "tool-widget",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "watermarks",
+      "path": "/watermarks",
+      "title": "Playbook Watermark Editor: Add text and image watermarks",
+      "templateId": "gifmaker",
+      "source": {
+        "migratedHtml": "stardust/migrated/watermarks/index.html",
+        "metaJson": "stardust/migrated/watermarks/_meta.json",
+        "sourceHash": "sha256:9bf785fdaaba34d0f995439f7d21b0ea87994485bbc822997688a6f3a801003a"
+      },
+      "blocks": [
+        "hero",
+        "tool-widget",
+        "faq",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    }
+  ]
+}

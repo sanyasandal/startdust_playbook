@@ -110,6 +110,56 @@ function createBlock(doc, section, className, basePage) {
   return outer;
 }
 
+function encodeBlogHero(section, ctx) {
+  const outer = ctx.doc.createElement('div');
+  const block = ctx.doc.createElement('div');
+  block.className = 'hero blog';
+  const row = ctx.doc.createElement('div');
+  const cell = ctx.doc.createElement('div');
+  const eyebrow = section.querySelector('.pb-eyebrow, p')?.cloneNode(true);
+  const heading = section.querySelector('h1')?.cloneNode(true);
+  const filters = ctx.doc.createElement('ul');
+  section.querySelectorAll('.pb-filter-row span').forEach((span) => {
+    const li = ctx.doc.createElement('li');
+    li.textContent = span.textContent.trim();
+    filters.append(li);
+  });
+  [eyebrow, heading, filters].filter(Boolean).forEach((node) => cell.append(node));
+  row.append(cell);
+  block.append(row);
+  outer.append(block);
+  return outer;
+}
+
+function encodeContact(section, ctx) {
+  const outer = ctx.doc.createElement('div');
+  const block = ctx.doc.createElement('div');
+  block.className = 'contact';
+  const row = ctx.doc.createElement('div');
+  const cell = ctx.doc.createElement('div');
+  const cursor = ctx.doc.createElement('p');
+  section.querySelectorAll('.pb-cursor-stack img').forEach((img) => cursor.append(img.cloneNode(true)));
+  const links = ctx.doc.createElement('p');
+  section.querySelectorAll('.pb-contact-links a').forEach((a) => {
+    const clone = a.cloneNode(true);
+    clone.setAttribute('href', localizeHref(clone.getAttribute('href'), '/contact'));
+    links.append(clone);
+  });
+  [
+    cursor,
+    section.querySelector('h1')?.cloneNode(true),
+    section.querySelector('.pb-lede')?.cloneNode(true),
+    section.querySelector('blockquote')?.cloneNode(true),
+    section.querySelector('figcaption')?.cloneNode(true),
+    links,
+    section.querySelector('.pb-form-card__title')?.cloneNode(true),
+  ].filter(Boolean).forEach((node) => cell.append(node));
+  row.append(cell);
+  block.append(row);
+  outer.append(block);
+  return outer;
+}
+
 function metadata(doc, extra = {}) {
   const outer = doc.createElement('div');
   const block = doc.createElement('div');
@@ -181,6 +231,9 @@ function blockFor(section) {
   const module = section.getAttribute('data-module') || '';
   const dataSection = section.getAttribute('data-section') || '';
   const classes = [...section.classList];
+  if (module === 'hero' && section.classList.contains('pb-program-hero')) {
+    return { name: 'hero program', fn: (s, ctx) => ctx.block(s, 'hero program'), fallback: false };
+  }
   if (module === 'hero') return { name: 'hero', fn: (s, ctx) => registry.hero(s, ctx), fallback: false };
   if (module === 'logo-marquee') return { name: 'logos', fn: (s, ctx) => registry.logos(s, ctx), fallback: false };
   if (module === 'product-tabs') return { name: 'cards tabs', fn: (s, ctx) => registry.cards(s, ctx, 'tabs'), fallback: false };
@@ -197,8 +250,11 @@ function blockFor(section) {
   if (module === 'comparison-table') return { name: 'table comparison', fn: (s, ctx) => registry.table(s, ctx), fallback: false };
   if (module === 'pricing-calculator') return { name: 'pricing-calculator', fn: (s, ctx) => ctx.block(s, 'pricing-calculator'), fallback: false };
   if (module === 'cta-band') return { name: 'default cta-band', fn: (s, ctx) => registry.defaultContent(s, ctx, 'pb-cta-band'), fallback: false };
-  if (dataSection === 'contact-demo') return { name: 'contact', fn: (s, ctx) => ctx.block(s, 'contact'), fallback: false };
-  if (classes.includes('pb-feature-stack')) return { name: 'cards features', fn: (s, ctx) => registry.cards(s, ctx, 'features'), fallback: false };
+  if (section.classList.contains('pb-sibling-hero')) return { name: 'hero blog', fn: encodeBlogHero, fallback: false };
+  if (dataSection === 'contact-demo') return { name: 'contact', fn: encodeContact, fallback: false };
+  if (dataSection === 'value-split') return { name: 'cards value', fn: (s, ctx) => registry.cards(s, ctx, 'value'), fallback: false };
+  if (dataSection === 'features') return { name: 'cards feature-rows', fn: (s, ctx) => registry.cards(s, ctx, 'feature-rows'), fallback: false };
+  if (classes.includes('pb-feature-stack')) return { name: 'cards feature-rows', fn: (s, ctx) => registry.cards(s, ctx, 'feature-rows'), fallback: false };
   return {
     name: `default ${defaultStyle(section)}`,
     fn: (s, ctx) => encodeDefault(s, ctx, defaultStyle(s)),

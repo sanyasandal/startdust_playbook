@@ -127,14 +127,29 @@ function decoratePosts(block) {
 }
 
 function decoratePricing(block) {
+  const sourceGrid = block.querySelector('.pb-pricing__grid');
+  if (sourceGrid) {
+    const sourceWrap = sourceGrid.closest('.wrap') || sourceGrid;
+    block.replaceChildren(sourceWrap);
+    return;
+  }
+
   const nodes = authoredNodes(block);
   const root = wrap();
   const head = document.createElement('div');
   head.className = 'pb-section__head';
   head.dataset.align = 'center';
-  head.append(nodes.shift(), nodes.shift());
-  const link = nodes.shift();
-  if (link) { addButtonClasses(link, 'secondary'); head.append(link); }
+  const intro = [];
+  while (nodes[0] && !nodes[0].matches?.('h2, h3')) intro.push(nodes.shift());
+  const billing = document.createElement('div');
+  billing.className = 'pb-pricing-toggle-static';
+  billing.innerHTML = '<span>Monthly</span><strong>Yearly</strong>';
+  head.append(billing);
+  const savings = intro.find((node) => /save/i.test(node.textContent));
+  if (savings) {
+    savings.className = 'pb-pricing__savings';
+    head.append(savings);
+  }
   root.append(head);
   const grid = document.createElement('div');
   grid.className = 'pb-pricing__grid';
@@ -142,13 +157,32 @@ function decoratePricing(block) {
     const card = document.createElement('article');
     card.className = 'pb-card pb-plan-card';
     const h3 = nodes.shift();
-    const price = nodes.shift();
-    const note = nodes.shift();
-    const ul = nodes.shift();
+    const group = [];
+    while (nodes[0] && !nodes[0].matches?.('h2, h3')) group.push(nodes.shift());
+    const badge = group.find((node) => (
+      node.tagName === 'P' && /Unlimited members/i.test(node.textContent)
+    ));
+    const priceIndex = group.findIndex((node) => (
+      node.tagName === 'P' && /^(\$|Custom)/.test(node.textContent.trim())
+    ));
+    const desc = group.find((node, index) => (
+      node.tagName === 'P'
+      && index !== priceIndex
+      && node !== badge
+      && !node.querySelector('a')
+      && !node.querySelector('strong')
+      && !/per year|No credit|Only pay/i.test(node.textContent)
+    ));
+    const price = priceIndex >= 0 ? group[priceIndex] : null;
+    const note = group.find((node, index) => (
+      node.tagName === 'P' && index > priceIndex && !node.querySelector('a')
+    ));
+    const ctas = group.find((node) => node.querySelector?.('a'));
+    const label = group.find((node) => node.querySelector?.('strong'));
+    const ul = group.find((node) => node.tagName === 'UL');
     if (price) {
       price.className = 'pb-plan-card__price';
-      const parts = price.textContent.trim().split(/\s+(.+)/);
-      const [amount, unitText] = parts;
+      const [, amount, unitText] = price.textContent.trim().match(/^(\S+)\s*(.*)$/) || [];
       if (unitText) {
         price.textContent = `${amount} `;
         const unit = document.createElement('span');
@@ -156,7 +190,23 @@ function decoratePricing(block) {
         price.append(unit);
       }
     }
-    card.append(h3, price, note, ul);
+    const cardHead = document.createElement('div');
+    cardHead.className = 'pb-plan-card__head';
+    if (h3) cardHead.append(h3);
+    if (badge) {
+      badge.className = 'pb-plan-card__badge';
+      cardHead.append(badge);
+    }
+    card.append(cardHead);
+    if (desc) card.append(desc);
+    if (price) card.append(price);
+    if (note && note !== desc) card.append(note);
+    if (ctas) {
+      addButtonClasses(ctas, 'primary');
+      card.append(ctas);
+    }
+    if (label) card.append(label);
+    if (ul) card.append(ul);
     grid.append(card);
   }
   root.append(grid);
@@ -166,6 +216,77 @@ function decoratePricing(block) {
 }
 
 function decorateListing(block) {
+  const rows = [...block.children];
+  if (rows.length > 1) {
+    const root = wrap();
+    const rule = document.createElement('div');
+    rule.className = 'pb-blog-list__rule';
+    const grid = document.createElement('div');
+    grid.className = 'pb-blog-grid pb-sibling-grid';
+    rows.forEach((row) => {
+      const cell = row.firstElementChild;
+      if (!cell) return;
+      const card = document.createElement('article');
+      card.className = 'pb-card pb-sibling-card pb-blog-card';
+      const title = cell.querySelector('h2, h3');
+      const mediaLink = cell.querySelector('.pb-sibling-card__media, a:has(img)');
+      const href = mediaLink?.getAttribute('href') || title?.querySelector('a')?.href;
+      if (href) card.dataset.href = href;
+      if (mediaLink) {
+        mediaLink.className = 'pb-sibling-card__media';
+        card.append(mediaLink);
+      }
+      const body = document.createElement('div');
+      body.className = 'pb-sibling-card__body';
+      const textParagraphs = [...cell.querySelectorAll('p')]
+        .filter((p) => p.textContent.trim() && !p.querySelector('img, h1, h2, h3, a'));
+      const meta = cell.querySelector('.pb-sibling-meta')
+        || textParagraphs.find((p) => /·/.test(p.textContent) && p.textContent.length < 80);
+      if (meta) meta.className = 'pb-sibling-meta';
+      if (meta) body.append(meta);
+      if (title) {
+        title.querySelectorAll('a').forEach((link) => link.replaceWith(...link.childNodes));
+        body.append(title);
+      }
+      const desc = textParagraphs.find((p) => p !== meta);
+      if (desc) body.append(desc);
+      card.append(body);
+      card.addEventListener('click', (event) => {
+        if (event.target.closest('a')) return;
+        if (card.dataset.href) window.location.href = card.dataset.href;
+      });
+      grid.append(card);
+    });
+    root.append(grid);
+    block.replaceChildren(rule, root);
+    return;
+  }
+
+  const sourceGrid = block.querySelector('.pb-sibling-grid');
+  if (sourceGrid) {
+    const root = wrap();
+    const rule = block.querySelector('.pb-blog-list__rule') || document.createElement('div');
+    rule.className = 'pb-blog-list__rule';
+    sourceGrid.classList.add('pb-blog-grid');
+    sourceGrid.querySelectorAll('.pb-sibling-card').forEach((card) => {
+      card.classList.add('pb-blog-card');
+      const title = card.querySelector('h2, h3');
+      const href = card.querySelector('.pb-sibling-card__media')?.href
+        || title?.querySelector('a')?.href;
+      if (href) card.dataset.href = href;
+      title?.querySelectorAll('a').forEach((link) => {
+        link.replaceWith(...link.childNodes);
+      });
+      card.addEventListener('click', (event) => {
+        if (event.target.closest('a')) return;
+        if (card.dataset.href) window.location.href = card.dataset.href;
+      });
+    });
+    root.append(sourceGrid);
+    block.replaceChildren(rule, root);
+    return;
+  }
+
   const nodes = authoredNodes(block);
   const root = wrap();
   const rule = document.createElement('div');
@@ -222,6 +343,13 @@ function decorateRelated(block) {
 }
 
 function decorateSimpleGrid(block, className = 'pb-feature-grid') {
+  const sourceGrid = block.querySelector('.pb-try-tiles__grid, .pricing-bento');
+  if (sourceGrid) {
+    const sourceWrap = sourceGrid.closest('.wrap') || sourceGrid;
+    block.replaceChildren(sourceWrap);
+    return;
+  }
+
   const nodes = authoredNodes(block);
   const root = wrap();
   const head = document.createElement('div');
@@ -251,7 +379,91 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   block.replaceChildren(root);
 }
 
+function decorateValue(block) {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const grid = document.createElement('div');
+  grid.className = 'pb-value__grid';
+  nodes.filter((n) => n.matches?.('h2, p')).slice(0, 2).forEach((node) => {
+    if (node.tagName === 'P') node.className = 'pb-value__body';
+    grid.append(node);
+  });
+  root.append(grid);
+  block.replaceChildren(root);
+}
+
+function decorateTiles(block) {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const grid = document.createElement('div');
+  grid.className = 'pb-try-tiles__grid';
+  for (let i = 0; i < nodes.length; i += 2) {
+    const heading = nodes[i];
+    const body = nodes[i + 1];
+    if (heading?.matches?.('h2, h3')) {
+      const card = document.createElement('article');
+      card.className = 'pb-card pb-try-tiles__item';
+      heading.className = 'pb-try-tiles__title';
+      card.append(heading);
+      if (body) card.append(body);
+      grid.append(card);
+    }
+  }
+  root.append(grid);
+  block.replaceChildren(root);
+}
+
+function decorateFeatureRows(block) {
+  const nodes = authoredNodes(block);
+  const root = wrap();
+  const stack = document.createElement('div');
+  stack.className = 'pb-feature-stack';
+  let i = 0;
+  while (i < nodes.length) {
+    let media = null;
+    let heading = null;
+    let body = null;
+    if (nodes[i]?.querySelector?.('img')) {
+      media = nodes[i];
+      i += 1;
+    }
+    if (nodes[i]?.matches?.('h2, h3')) {
+      heading = nodes[i];
+      i += 1;
+    }
+    if (nodes[i]?.tagName === 'P' && !nodes[i].querySelector('img, a')) {
+      body = nodes[i];
+      i += 1;
+    }
+    if (heading || media) {
+      const row = document.createElement('article');
+      row.className = 'pb-feature-row';
+      const mediaBox = document.createElement('div');
+      mediaBox.className = 'pb-feature-row__media';
+      const img = media?.querySelector('img');
+      if (img) mediaBox.append(img);
+      const copy = document.createElement('div');
+      copy.className = 'pb-feature-row__copy';
+      if (heading) copy.append(heading);
+      if (body) copy.append(body);
+      row.append(mediaBox, copy);
+      stack.append(row);
+    } else {
+      i += 1;
+    }
+  }
+  root.append(stack);
+  block.replaceChildren(root);
+}
+
 function decorateToolCrosspromo(block) {
+  const sourceGrid = block.querySelector('.pb-tool-crosspromo__grid');
+  if (sourceGrid) {
+    const sourceWrap = sourceGrid.closest('.wrap') || sourceGrid;
+    block.replaceChildren(sourceWrap);
+    return;
+  }
+
   const nodes = authoredNodes(block);
   const root = wrap();
   const grid = document.createElement('div');
@@ -261,8 +473,10 @@ function decorateToolCrosspromo(block) {
     const a = document.createElement('a');
     a.className = 'pb-card pb-tool-tile';
     a.href = link.href || '#';
-    if (node.matches?.('h2, h3')) a.append(node);
-    else a.textContent = link.textContent;
+    if (node.matches?.('h2, h3')) {
+      link.replaceWith(...link.childNodes);
+      a.append(node);
+    } else a.textContent = link.textContent;
     grid.append(a);
   });
   root.append(grid);
@@ -295,7 +509,16 @@ export default function decorate(block) {
     block.classList.add('pb-stories', 'pb-related');
     decorateRelated(block);
   }
-  if (block.classList.contains('features') || block.classList.contains('tiles')) {
+  if (block.classList.contains('value')) {
+    decorateValue(block);
+  }
+  if (block.classList.contains('tiles')) {
+    decorateTiles(block);
+  }
+  if (block.classList.contains('feature-rows')) {
+    decorateFeatureRows(block);
+  }
+  if (block.classList.contains('features')) {
     decorateSimpleGrid(block);
   }
   if (block.classList.contains('tools')) {

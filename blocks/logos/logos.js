@@ -11,6 +11,14 @@ function stripInstrumentation(el) {
 }
 
 export default function decorate(block) {
+  const sourceFrame = block.querySelector('.pb-logo-marquee__frame');
+  if (sourceFrame) {
+    block.classList.add('pb-section', 'pb-logo-marquee');
+    if (sourceFrame.querySelectorAll('img').length > 20) block.classList.add('pricing-logos');
+    block.replaceChildren(sourceFrame);
+    return;
+  }
+
   const title = block.querySelector('p:not(:has(img))');
   const imgs = [...block.querySelectorAll('img')];
   const frame = document.createElement('div');

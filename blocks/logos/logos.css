@@ -27,6 +27,23 @@
 }
 .logos .pb-logo-marquee__item img { max-height: 42px; object-fit: contain; }
 
+.logos.pricing-logos .pb-logo-marquee__track {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  animation: none;
+}
+
+.logos.pricing-logos .pb-logo-marquee__set {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 0;
+}
+
+.logos.pricing-logos .pb-logo-marquee__item {
+  opacity: .65;
+}
+
 @keyframes pb-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 @media (prefers-reduced-motion: reduce), (width <= 760px) {

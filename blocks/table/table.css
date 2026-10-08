@@ -13,5 +13,14 @@
 .table .pb-export__panel { display: grid; align-self: stretch; gap: 14px; border-radius: var(--radius); padding: 22px; background: #fff; color: var(--color-ink-strong); }
 .table .pb-export__panel p { margin: 0; color: var(--color-muted); }
 .table .pb-export__stat { color: var(--color-signal-deep); font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: 500; letter-spacing: -.035em; line-height: 1; }
+.table .pb-export .pb-chip-list { align-content: start; margin: 0; }
+.table .pb-compare__scroll { overflow: auto; border: 1px solid var(--color-border); border-radius: var(--radius); background: #fff; }
+.table .pb-compare { width: 100%; min-width: 900px; border-collapse: collapse; }
+.table .pb-compare th, .table .pb-compare td { padding: 14px; border-bottom: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+.table .pb-compare thead th { position: sticky; top: 0; z-index: 1; background: #fff; }
+.table .pb-compare__section td { background: var(--color-paper); font-weight: 600; }
+.table .pb-compare svg { display: block; width: 24px; height: 24px; margin: auto; }
+.table .pb-compare__sub { display: block; color: var(--color-muted); font-size: 13px; }
+.table .pb-compare__cta { display: inline-flex; margin-top: 8px; color: var(--color-signal-deep); font-weight: 600; }
 
 @media (width <= 900px) { .table .pb-enterprise__grid, .table .pb-export { grid-template-columns: 1fr; } }

@@ -56,3 +56,11 @@ Use `stardust/.work/secsurvey.txt` as the source of truth. `∅ article-hero` ma
 - `content/` is ignored from code publishing via `.hlxignore`; local-only, no DA writes.
 - Fonts are self-hosted from captured assets. Licensing must be confirmed before live publish; see `fonts/LICENSING.md` and the banner in `styles/styles.css`.
 - Source media URLs remain fully-qualified; internal Playbook links are normalized root-relative extensionless by the converter/localize stage.
+
+## 2026-10-08 local visual fix pass
+- Added `stardust/scripts/eds/blog-pairing-probe.mjs`; it compares all 101 migrated blog cards against `content/blog.html` by title, image `src`, excerpt, and meta. Current result: `BLOG PAIRING OK: 101/101 cards`.
+- Blog listing remains `cards listing`; card titles are rendered as bold headings with anchors removed during decoration so the card body is the click target, and meta stays the small eyebrow above each title.
+- Program-template nits were handled in `cards` CSS: try-tile headings are reduced to small card-title scale and crosspromo tile labels are single-line, small labels; FAQ/closing CTA continue to render through `accordion` and default `cta-band`.
+- Contact/pricing source sections that already carry migrated structure are now either preserved by their owning blocks or re-encoded into safer author rows before decoration; pricing calculator/table/logos keep their migrated structures as local no-JS fallbacks.
+- Privacy remains default content per the locked model; local EDS flattens inner policy wrappers, so foundation CSS restores the red date and side-rail/table-of-contents structure from the flattened default-content shape.
+- Experience Workspace exemptions are explicit on template-owned hero/contact/table rows where migrated fallback markup is intentionally transformed into form controls, link cards, or pricing comparison UI.

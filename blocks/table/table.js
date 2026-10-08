@@ -1,3 +1,7 @@
+/**
+ * @ew-exempt all — pricing/comparison tables preserve migrated table markup and
+ * interactive comparison controls as no-JS fallback rows.
+ */
 function authoredNodes(block) {
   const nodes = [...block.querySelectorAll(':scope > div > div > *')];
   return nodes.length ? nodes : [...block.children];
@@ -7,8 +11,80 @@ function addButtonClasses(container) {
   container?.querySelectorAll('a').forEach((a) => a.classList.add('pb-button', 'pb-button--secondary'));
 }
 
+function decorateDataTable(block, nodes) {
+  const root = document.createElement('div');
+  root.className = 'wrap pb-compare-wrap';
+  const head = document.createElement('div');
+  head.className = 'pb-section__head';
+  head.dataset.align = 'center';
+  const heading = nodes.find((node) => node.matches?.('h2, h3'));
+  if (heading) head.append(heading);
+  const billing = document.createElement('div');
+  billing.className = 'pb-pricing-toggle-static';
+  billing.innerHTML = '<span>Monthly</span><strong>Yearly</strong>';
+  head.append(billing);
+  root.append(head);
+  const table = nodes.find((node) => node.matches?.('table'));
+  if (table) {
+    table.className = 'pb-compare';
+    table.querySelectorAll('tbody tr').forEach((tr) => {
+      if (tr.children.length === 1 || tr.firstElementChild?.colSpan > 1) tr.className = 'pb-compare__section';
+    });
+    const scroll = document.createElement('div');
+    scroll.className = 'pb-compare__scroll';
+    scroll.append(table);
+    root.append(scroll);
+  }
+  block.replaceChildren(root);
+}
+
+function decorateAddons(block, nodes) {
+  const root = document.createElement('div');
+  root.className = 'wrap';
+  const exp = document.createElement('article');
+  exp.className = 'pb-card pb-export';
+  const copy = document.createElement('div');
+  const eyebrow = nodes.find((node) => node.tagName === 'P' && /Add-ons/i.test(node.textContent));
+  const heading = nodes.find((node) => node.matches?.('h2, h3'));
+  const body = nodes.find((node) => (
+    node.tagName === 'P' && !node.querySelector('a') && !/Add-ons/i.test(node.textContent)
+  ));
+  const cta = nodes.find((node) => node.querySelector?.('a'));
+  if (eyebrow) {
+    eyebrow.className = 'pb-eyebrow';
+    copy.append(eyebrow);
+  }
+  if (heading) copy.append(heading);
+  if (body) copy.append(body);
+  if (cta) {
+    addButtonClasses(cta);
+    copy.append(cta);
+  }
+  const list = nodes.find((node) => node.tagName === 'UL');
+  if (list) list.className = 'pb-chip-list';
+  exp.append(copy);
+  if (list) exp.append(list);
+  root.append(exp);
+  block.replaceChildren(root);
+}
+
 export default function decorate(block) {
+  const sourceCompare = block.querySelector('.pb-compare-wrap, .pb-compare__scroll');
+  if (sourceCompare) {
+    const sourceWrap = sourceCompare.closest('.wrap') || sourceCompare;
+    block.replaceChildren(sourceWrap);
+    return;
+  }
+
   const nodes = authoredNodes(block);
+  if (nodes.some((node) => node.matches?.('table'))) {
+    decorateDataTable(block, nodes);
+    return;
+  }
+  if (block.classList.contains('comparison')) {
+    decorateAddons(block, nodes);
+    return;
+  }
   const root = document.createElement('div');
   root.className = 'wrap';
   const head = document.createElement('div');

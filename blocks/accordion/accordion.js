@@ -11,7 +11,21 @@ function authoredNodes(block) {
 export default function decorate(block) {
   const wrap = document.createElement('div');
   wrap.className = 'wrap pb-faq__list';
-  wrap.append(...authoredNodes(block).filter((node) => node.tagName === 'DETAILS'));
+  const details = [...block.querySelectorAll('details')];
+  if (details.length) {
+    wrap.append(...details);
+  } else {
+    const nodes = authoredNodes(block).filter((node) => node.textContent.trim());
+    for (let i = 0; i < nodes.length; i += 2) {
+      const item = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = nodes[i]?.textContent.trim() || '';
+      const answer = nodes[i + 1];
+      item.append(summary);
+      if (answer) item.append(answer);
+      wrap.append(item);
+    }
+  }
   block.classList.add('pb-section', 'pb-faq');
   block.replaceChildren(wrap);
 }

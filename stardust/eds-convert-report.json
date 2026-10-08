@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-30T11:01:03.990Z",
+    "generatedAt": "2026-10-08T08:37:05.697Z",
     "pageCount": 68,
     "lintClean": 68,
-    "fallbackCount": 56
+    "fallbackCount": 41
   },
   "pages": [
     {
@@ -460,7 +460,7 @@
           "index": 1,
           "section": "hero",
           "module": null,
-          "mappedTo": "default page-hero"
+          "mappedTo": "hero blog"
         },
         {
           "index": 2,
@@ -469,18 +469,11 @@
           "mappedTo": "cards listing"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 1,
-          "section": "hero",
-          "module": null,
-          "mappedTo": "default page-hero"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
-        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+        "output": "🟡 D1 content/blog.html: section (unnamed) → block \"hero\": single-column, 1-row block holding only prose elements — default-content candidate (justify in the conversion log if it is a genuine bespoke widget)\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
       }
     },
     {
@@ -1108,7 +1101,7 @@
           "index": 1,
           "section": "hero",
           "module": null,
-          "mappedTo": "default page-hero"
+          "mappedTo": "hero blog"
         },
         {
           "index": 2,
@@ -1137,12 +1130,6 @@
       ],
       "fallbacks": [
         {
-          "index": 1,
-          "section": "hero",
-          "module": null,
-          "mappedTo": "default page-hero"
-        },
-        {
           "index": 2,
           "section": "trusted-logos",
           "module": null,
@@ -1164,7 +1151,7 @@
       "lint": {
         "status": "pass",
         "red": 0,
-        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+        "output": "🟡 D1 content/customers.html: section (unnamed) → block \"hero\": single-column, 1-row block holding only prose elements — default-content candidate (justify in the conversion log if it is a genuine bespoke widget)\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
       }
     },
     {
@@ -1489,13 +1476,13 @@
           "index": 1,
           "section": "hero",
           "module": "hero",
-          "mappedTo": "hero"
+          "mappedTo": "hero program"
         },
         {
           "index": 2,
           "section": "value-split",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards value"
         },
         {
           "index": 3,
@@ -1507,7 +1494,7 @@
           "index": 4,
           "section": "features",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards feature-rows"
         },
         {
           "index": 5,
@@ -1528,20 +1515,7 @@
           "mappedTo": "default cta-band"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 2,
-          "section": "value-split",
-          "module": null,
-          "mappedTo": "default prose"
-        },
-        {
-          "index": 4,
-          "section": "features",
-          "module": null,
-          "mappedTo": "default prose"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
@@ -1673,7 +1647,7 @@
           "index": 1,
           "section": "hero",
           "module": null,
-          "mappedTo": "default page-hero"
+          "mappedTo": "hero blog"
         },
         {
           "index": 2,
@@ -1696,12 +1670,6 @@
       ],
       "fallbacks": [
         {
-          "index": 1,
-          "section": "hero",
-          "module": null,
-          "mappedTo": "default page-hero"
-        },
-        {
           "index": 2,
           "section": "integrations-directory",
           "module": null,
@@ -1717,7 +1685,7 @@
       "lint": {
         "status": "pass",
         "red": 0,
-        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+        "output": "🟡 D1 content/integrations-all.html: section (unnamed) → block \"hero\": single-column, 1-row block holding only prose elements — default-content candidate (justify in the conversion log if it is a genuine bespoke widget)\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
       }
     },
     {
@@ -1760,7 +1728,7 @@
           "index": 1,
           "section": "hero",
           "module": "hero",
-          "mappedTo": "hero"
+          "mappedTo": "hero program"
         },
         {
           "index": 2,
@@ -1772,7 +1740,7 @@
           "index": 3,
           "section": "features",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards feature-rows"
         },
         {
           "index": 4,
@@ -1787,14 +1755,7 @@
           "mappedTo": "accordion"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 3,
-          "section": "features",
-          "module": null,
-          "mappedTo": "default prose"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
@@ -2589,7 +2550,7 @@
           "index": 1,
           "section": "hero",
           "module": null,
-          "mappedTo": "default page-hero"
+          "mappedTo": "hero blog"
         },
         {
           "index": 2,
@@ -2606,12 +2567,6 @@
       ],
       "fallbacks": [
         {
-          "index": 1,
-          "section": "hero",
-          "module": null,
-          "mappedTo": "default page-hero"
-        },
-        {
           "index": 2,
           "section": "popular-guides",
           "module": null,
@@ -2627,7 +2582,7 @@
       "lint": {
         "status": "pass",
         "red": 0,
-        "output": "PASS — 0 🔴, 0 🟡 (rules: ../davids-model.md)"
+        "output": "🟡 D1 content/tutorial.html: section (unnamed) → block \"hero\": single-column, 1-row block holding only prose elements — default-content candidate (justify in the conversion log if it is a genuine bespoke widget)\nPASS — 0 🔴, 1 🟡 (rules: ../davids-model.md)"
       }
     },
     {
@@ -2861,13 +2816,13 @@
           "index": 1,
           "section": "hero",
           "module": "hero",
-          "mappedTo": "hero"
+          "mappedTo": "hero program"
         },
         {
           "index": 2,
           "section": "value-split",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards value"
         },
         {
           "index": 3,
@@ -2879,7 +2834,7 @@
           "index": 4,
           "section": "features",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards feature-rows"
         },
         {
           "index": 5,
@@ -2900,20 +2855,7 @@
           "mappedTo": "default cta-band"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 2,
-          "section": "value-split",
-          "module": null,
-          "mappedTo": "default prose"
-        },
-        {
-          "index": 4,
-          "section": "features",
-          "module": null,
-          "mappedTo": "default prose"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
@@ -2929,13 +2871,13 @@
           "index": 1,
           "section": "hero",
           "module": "hero",
-          "mappedTo": "hero"
+          "mappedTo": "hero program"
         },
         {
           "index": 2,
           "section": "value-split",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards value"
         },
         {
           "index": 3,
@@ -2947,7 +2889,7 @@
           "index": 4,
           "section": "features",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards feature-rows"
         },
         {
           "index": 5,
@@ -2962,20 +2904,7 @@
           "mappedTo": "accordion"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 2,
-          "section": "value-split",
-          "module": null,
-          "mappedTo": "default prose"
-        },
-        {
-          "index": 4,
-          "section": "features",
-          "module": null,
-          "mappedTo": "default prose"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
@@ -2991,13 +2920,13 @@
           "index": 1,
           "section": "hero",
           "module": "hero",
-          "mappedTo": "hero"
+          "mappedTo": "hero program"
         },
         {
           "index": 2,
           "section": "value-split",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards value"
         },
         {
           "index": 3,
@@ -3009,7 +2938,7 @@
           "index": 4,
           "section": "features",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards feature-rows"
         },
         {
           "index": 5,
@@ -3024,20 +2953,7 @@
           "mappedTo": "default cta-band"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 2,
-          "section": "value-split",
-          "module": null,
-          "mappedTo": "default prose"
-        },
-        {
-          "index": 4,
-          "section": "features",
-          "module": null,
-          "mappedTo": "default prose"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
@@ -3053,13 +2969,13 @@
           "index": 1,
           "section": "hero",
           "module": "hero",
-          "mappedTo": "hero"
+          "mappedTo": "hero program"
         },
         {
           "index": 2,
           "section": "value-split",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards value"
         },
         {
           "index": 3,
@@ -3071,7 +2987,7 @@
           "index": 4,
           "section": "features",
           "module": null,
-          "mappedTo": "default prose"
+          "mappedTo": "cards feature-rows"
         },
         {
           "index": 5,
@@ -3086,20 +3002,7 @@
           "mappedTo": "default cta-band"
         }
       ],
-      "fallbacks": [
-        {
-          "index": 2,
-          "section": "value-split",
-          "module": null,
-          "mappedTo": "default prose"
-        },
-        {
-          "index": 4,
-          "section": "features",
-          "module": null,
-          "mappedTo": "default prose"
-        }
-      ],
+      "fallbacks": [],
       "lint": {
         "status": "pass",
         "red": 0,
