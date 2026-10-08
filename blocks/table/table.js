@@ -68,7 +68,43 @@ function decorateAddons(block, nodes) {
   block.replaceChildren(root);
 }
 
+function decorateArticleTable(block) {
+  const rows = [...block.children];
+  const width = Math.max(...rows.map((row) => row.children.length));
+  const table = document.createElement('table');
+  const hasHead = block.classList.contains('header') && rows.length > 1;
+  if (hasHead) {
+    const thead = table.createTHead();
+    const tr = thead.insertRow();
+    [...rows.shift().children].forEach((cell) => {
+      const th = document.createElement('th');
+      th.scope = 'col';
+      th.append(...cell.childNodes);
+      tr.append(th);
+    });
+  }
+  const tbody = table.createTBody();
+  rows.forEach((row) => {
+    const tr = tbody.insertRow();
+    const cells = [...row.children];
+    if (cells.length === 1 && width > 1) tr.className = 'table-article-group';
+    cells.forEach((cell) => {
+      const td = tr.insertCell();
+      if (cells.length === 1 && width > 1) td.colSpan = width;
+      td.append(...cell.childNodes);
+    });
+  });
+  const scroll = document.createElement('div');
+  scroll.className = 'table-article-scroll';
+  scroll.append(table);
+  block.replaceChildren(scroll);
+}
+
 export default function decorate(block) {
+  if (block.classList.contains('article')) {
+    decorateArticleTable(block);
+    return;
+  }
   const sourceCompare = block.querySelector('.pb-compare-wrap, .pb-compare__scroll');
   if (sourceCompare) {
     const sourceWrap = sourceCompare.closest('.wrap') || sourceCompare;

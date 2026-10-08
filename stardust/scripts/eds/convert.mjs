@@ -262,6 +262,37 @@ function blockFor(section) {
   };
 }
 
+// DA turns an inline <table> into a block named by its first row, so emit an explicit
+// "Table (article)" name row; category rows keep only their label cell.
+function encodeInlineTables(main, doc) {
+  main.querySelectorAll('table').forEach((source) => {
+    if (source.closest('div.table, div[class^="table "]')) return;
+    const rows = [...source.querySelectorAll('tr')];
+    if (!rows.length) return;
+    const hasHead = !!source.querySelector('thead tr, tr:first-child th');
+    const width = Math.max(...rows.map((tr) => tr.children.length));
+    const table = doc.createElement('table');
+    const tbody = doc.createElement('tbody');
+    const nameRow = doc.createElement('tr');
+    nameRow.innerHTML = `<td colspan="${width}">Table (article${hasHead ? ', header' : ''})</td>`;
+    tbody.append(nameRow);
+    rows.forEach((tr) => {
+      const out = doc.createElement('tr');
+      let cells = [...tr.children];
+      if (tr.classList.contains('comp-cat-row')) cells = cells.slice(0, 1);
+      cells.forEach((cell) => {
+        const td = doc.createElement('td');
+        td.innerHTML = cell.innerHTML.trim();
+        if (cells.length === 1 && width > 1) td.setAttribute('colspan', String(width));
+        out.append(td);
+      });
+      tbody.append(out);
+    });
+    table.append(tbody);
+    source.replaceWith(table);
+  });
+}
+
 function encodePage(file) {
   const pagePath = pagePathFromFile(file);
   const source = new JSDOM(fs.readFileSync(file, 'utf8'));
@@ -279,7 +310,11 @@ function encodePage(file) {
     localize: (html) => localize(html, pagePath),
     block: (section, className) => createBlock(out, section, className, pagePath),
   };
-  source.window.document.querySelectorAll('main > section').forEach((section, index) => {
+  const directSections = [...source.window.document.querySelectorAll('main > section')];
+  const sections = directSections.length
+    ? directSections
+    : [...source.window.document.querySelectorAll('main .pb-section')];
+  sections.forEach((section, index) => {
     const picked = blockFor(section);
     main.append(picked.fn(section, ctx));
     const entry = {
@@ -291,6 +326,7 @@ function encodePage(file) {
     mapped.push(entry);
     if (picked.fallback) fallbacks.push(entry);
   });
+  encodeInlineTables(main, out);
   const contentPath = contentPathFromPage(pagePath);
   ensureDir(contentPath);
   fs.writeFileSync(path.join(root, contentPath), `${out.body.outerHTML}\n`);

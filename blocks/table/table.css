@@ -24,3 +24,50 @@
 .table .pb-compare__cta { display: inline-flex; margin-top: 8px; color: var(--color-signal-deep); font-weight: 600; }
 
 @media (width <= 900px) { .table .pb-enterprise__grid, .table .pb-export { grid-template-columns: 1fr; } }
+
+.table.article {
+  margin: 24px 0 32px;
+}
+
+.table.article .table-article-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.table.article table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: var(--body-sm);
+  line-height: 1.45;
+}
+
+.table.article th,
+.table.article td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table.article thead th {
+  background: var(--color-paper);
+  color: var(--color-ink-strong);
+  font-weight: 600;
+}
+
+.table.article tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.table.article .table-article-group td {
+  background: var(--color-paper);
+  color: var(--color-signal-deep);
+  font-weight: 600;
+}
+
+.table.article td p,
+.table.article th p {
+  margin: 0;
+}
