@@ -92,6 +92,29 @@ function preserveMediaHero(block) {
   return true;
 }
 
+function preserveMigratedHero(block) {
+  const knownGeneric = '.pb-hero__copy, .pb-program-hero__grid';
+  if (block.querySelector(knownGeneric)) return false;
+  const source = [...block.querySelectorAll('[class]')].find((el) => (
+    [...el.classList].some((cls) => /^(pb-[a-z0-9-]+)__(grid|stage|wrap|shell|copy)$/.test(cls))
+  ));
+  if (!source) return false;
+  const root = source.closest('.wrap') || source;
+  root.querySelectorAll('a').forEach((a, i) => {
+    if (!a.classList.contains('pb-button')) {
+      a.classList.add('pb-button', i === 0 ? 'pb-button--primary' : 'pb-button--secondary');
+    }
+  });
+  root.querySelectorAll('img').forEach((img, i) => {
+    if (i === 0) {
+      img.setAttribute('loading', 'eager');
+      img.setAttribute('fetchpriority', 'high');
+    }
+  });
+  block.replaceChildren(root);
+  return true;
+}
+
 export default function decorate(block) {
   if (block.classList.contains('blog')) {
     const nodes = authoredNodes(block);
@@ -174,6 +197,7 @@ export default function decorate(block) {
   }
 
   if (preserveMediaHero(block)) return;
+  if (preserveMigratedHero(block)) return;
 
   const nodes = authoredNodes(block);
   const heading = nodes.find((n) => n.matches('h1')) || nodes.find((n) => n.matches('h2'));

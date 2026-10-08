@@ -128,6 +128,19 @@ function decorateMediaTools(block, nodes) {
   return true;
 }
 
+function preserveCustomSection(block) {
+  const reusable = /^(pb-(product-tabs|stories|pricing|try-tiles|tool-crosspromo|blog|mcp|feature-row|feature-grid|section|media))$/;
+  const source = [...block.querySelectorAll('[class]')].find((el) => (
+    [...el.classList].some((cls) => {
+      const prefix = cls.match(/^(pb-[a-z0-9-]+)__/);
+      return prefix && !reusable.test(prefix[1]);
+    })
+  ));
+  if (!source) return false;
+  block.replaceChildren(source.closest('.wrap') || source);
+  return true;
+}
+
 function decorateTabs(block) {
   const nodes = authoredNodes(block);
   const root = wrap();
@@ -456,6 +469,7 @@ function decorateRelated(block) {
 
 function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   if (preserveMediaSection(block)) return;
+  if (preserveCustomSection(block)) return;
 
   const pricingCards = [...block.querySelectorAll('a.pricing-bento-card')];
   if (pricingCards.length) {
@@ -484,7 +498,7 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   const root = wrap();
   const head = document.createElement('div');
   head.className = 'pb-section__head';
-  while (nodes[0] && !nodes[0].querySelector?.('img') && !nodes[0].matches?.('h3')) {
+  while (nodes[0] && !nodes[0].querySelector?.('img') && !nodes[0].matches?.('h3, h4')) {
     head.append(nodes.shift());
     if (head.children.length > 3) break;
   }
@@ -494,7 +508,7 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   while (nodes.length) {
     let media = null;
     if (nodes[0]?.querySelector?.('img')) media = nodes.shift();
-    const headingIndex = nodes.findIndex((n) => n.matches?.('h2, h3'));
+    const headingIndex = nodes.findIndex((n) => n.matches?.('h2, h3, h4'));
     if (headingIndex < 0) break;
     const beforeHeading = nodes.splice(0, headingIndex);
     const heading = nodes.shift();
@@ -508,7 +522,7 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
       heading.querySelectorAll('a').forEach((link) => link.replaceWith(...link.childNodes));
     }
     const copy = [];
-    while (nodes[0] && !nodes[0].matches?.('h2, h3') && !nodes[0].querySelector?.('img')) {
+    while (nodes[0] && !nodes[0].matches?.('h2, h3, h4') && !nodes[0].querySelector?.('img')) {
       copy.push(nodes.shift());
     }
     if (isPricingBento) {
