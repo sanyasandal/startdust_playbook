@@ -1,0 +1,6 @@
+/pricing
+/logomaker
+/vectorizer
+/video-captions
+/video-converter
+/watermarks

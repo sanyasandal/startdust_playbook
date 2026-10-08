@@ -343,6 +343,19 @@ function decorateRelated(block) {
 }
 
 function decorateSimpleGrid(block, className = 'pb-feature-grid') {
+  const pricingCards = [...block.querySelectorAll('a.pricing-bento-card')];
+  if (pricingCards.length) {
+    const sourceHead = block.querySelector('.pb-section__head');
+    const root = wrap();
+    const grid = document.createElement('div');
+    grid.className = 'pricing-bento';
+    pricingCards.forEach((card) => grid.append(card));
+    if (sourceHead) root.append(sourceHead);
+    root.append(grid);
+    block.replaceChildren(root);
+    return;
+  }
+
   const sourceGrid = block.querySelector('.pb-try-tiles__grid, .pricing-bento');
   if (sourceGrid) {
     const sourceWrap = sourceGrid.closest('.wrap') || sourceGrid;
@@ -351,6 +364,7 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   }
 
   const nodes = authoredNodes(block);
+  const isPricingBento = /Mini-apps/i.test(block.textContent);
   const root = wrap();
   const head = document.createElement('div');
   head.className = 'pb-section__head';
@@ -360,19 +374,35 @@ function decorateSimpleGrid(block, className = 'pb-feature-grid') {
   }
   if (head.children.length) root.append(head);
   const grid = document.createElement('div');
-  grid.className = className;
+  grid.className = isPricingBento ? 'pricing-bento' : className;
   while (nodes.length) {
-    const card = document.createElement('article');
+    let media = null;
+    if (nodes[0]?.querySelector?.('img')) media = nodes.shift();
+    const headingIndex = nodes.findIndex((n) => n.matches?.('h2, h3'));
+    if (headingIndex < 0) break;
+    const beforeHeading = nodes.splice(0, headingIndex);
+    const heading = nodes.shift();
+    if (!media) media = beforeHeading.find((n) => n.querySelector?.('img'));
+    const href = heading.querySelector('a')?.href || media?.querySelector?.('a')?.href;
+    const card = document.createElement(href ? 'a' : 'article');
     card.className = 'pb-card pb-feature-item';
-    const media = nodes[0]?.querySelector?.('img') ? nodes.shift() : null;
-    const heading = nodes.find((n) => n.matches?.('h2, h3'));
-    if (heading) nodes.splice(nodes.indexOf(heading), 1);
-    const para = nodes.find((n) => n.tagName === 'P' && !n.querySelector('a, img'));
-    if (para) nodes.splice(nodes.indexOf(para), 1);
+    if (href) {
+      card.classList.add('pricing-bento-card');
+      card.href = href;
+      heading.querySelectorAll('a').forEach((link) => link.replaceWith(...link.childNodes));
+    }
+    const copy = [];
+    while (nodes[0] && !nodes[0].matches?.('h2, h3') && !nodes[0].querySelector?.('img')) {
+      copy.push(nodes.shift());
+    }
+    if (isPricingBento) {
+      copy.forEach((node, index) => {
+        node.querySelectorAll?.('a').forEach((link) => link.replaceWith(...link.childNodes));
+        if (index === 0 && node.tagName === 'P') node.className = 'pb-eyebrow';
+      });
+    }
     if (media) card.append(media.querySelector('img') || media);
-    if (heading) card.append(heading);
-    if (para) card.append(para);
-    if (!card.children.length) break;
+    card.append(heading, ...copy);
     grid.append(card);
   }
   root.append(grid);
