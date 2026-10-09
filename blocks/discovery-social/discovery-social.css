@@ -1,0 +1,84 @@
+@font-face {
+  font-family: discovery-outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/outfit-medium.ttf') format('truetype');
+}
+
+.discovery-social {
+  box-sizing: border-box;
+  min-height: 538px;
+  padding-block: 80px;
+  background: #fff;
+  color: #000;
+}
+
+.discovery-social > :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 24px 40px;
+  color: #000;
+  font-family: discovery-outfit, sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.discovery-social .discovery-social-gallery {
+  overflow: auto hidden;
+  scrollbar-width: none;
+}
+
+.discovery-social .discovery-social-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.discovery-social .discovery-social-gallery:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: -2px;
+}
+
+.discovery-social .discovery-social-list {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.discovery-social .discovery-social-item {
+  flex: 0 0 287px;
+  width: 287px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.discovery-social .discovery-social-item :is(picture, img) {
+  display: block;
+  width: 100%;
+}
+
+.discovery-social .discovery-social-item img {
+  aspect-ratio: 287 / 285;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+.discovery-social .discovery-social-item p {
+  margin: 12px;
+}
+
+@media (width < 768px) {
+  .discovery-social {
+    min-height: auto;
+    padding-block: 48px;
+  }
+
+  .discovery-social > :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
