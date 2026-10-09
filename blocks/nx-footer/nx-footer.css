@@ -1,5 +1,5 @@
 /* stylelint-disable no-descending-specificity */
-body > footer:has(.nx-footer) > .footer-wrapper { display: none; }
+body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
 
 .nx-footer {
   font-family: nx-inter, inter, system-ui, sans-serif;
