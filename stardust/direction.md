@@ -90,3 +90,15 @@ Hands-off: confirmation was auto-resolved by these named assumptions:
 ## Prep: wider re-evaluation
 
 The full 68-page crawl confirms the brand register. The blog and tutorials (45 pages) pull toward editorial, so the article archetype gets a reading column, but the site-level register holds. No new tensions came out of the wider crawl beyond T-source-defects: freelancers has 5 imgix 404s, and publish is an empty page. Both are carried as known source defects, not fabricated over.
+
+## nexcent (Figma community landing) — hands-off, 2026-10-09
+- **Named deviation:** a Figma REST decoder (files/images API + `use_absolute_bounds` exports) and a hand-built prototype replace `extract` and `prototype` for this page.
+  - Why: the source is a Figma frame, not a live site, so `extract` has nothing to crawl. The figma-to-content skill was excluded by the user.
+  - Where: `stardust/prototypes/nexcent/` (prototype) and `stardust/.work/ds/` (helpers; gitignored).
+- **Assumption (hands-off):** the Figma design is the source of truth. Flow `redesign` is retained, with the design kept 1:1.
+- **Assumption (hands-off):** lorem copy is kept verbatim as authored in Figma.
+- **Assumption (hands-off):** the page path is `/nexcent`.
+- **Assumption (hands-off):** isolated `nx-*` blocks, so the playbook blocks are not affected.
+- **Assumption (hands-off):** the Inter variable font (OFL) is self-hosted as `fonts/inter-var-latin.woff2`.
+- **Assumption (hands-off):** the newsletter form is presentational. No backend was specified; submit calls `preventDefault`.
+- **Assumption (hands-off):** nav anchors (#service, #feature …) and the CTA links are `#` placeholders, as in the design.

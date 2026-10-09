@@ -64,3 +64,16 @@ Use `stardust/.work/secsurvey.txt` as the source of truth. `∅ article-hero` ma
 - Contact/pricing source sections that already carry migrated structure are now either preserved by their owning blocks or re-encoded into safer author rows before decoration; pricing calculator/table/logos keep their migrated structures as local no-JS fallbacks.
 - Privacy remains default content per the locked model; local EDS flattens inner policy wrappers, so foundation CSS restores the red date and side-rail/table-of-contents structure from the flattened default-content shape.
 - Experience Workspace exemptions are explicit on template-owned hero/contact/table rows where migrated fallback markup is intentionally transformed into form controls, link cards, or pricing comparison UI.
+
+## 2026-10-09 nexcent (Figma node 5:573)
+- Blocks: `nx-header`, `nx-hero`, `nx-clients`, `nx-features`, `nx-split` (×2), `nx-stats`, `nx-testimonial`, `nx-posts`, `nx-cta`, `nx-footer`. All are new; no existing block matched the design.
+- Model-lint 🟡 justifications:
+  - D1 `nx-header`: page-owned chrome that moves itself into `body > header`; needs the brand logo, the mobile toggle and `aria-current`.
+  - D1 `nx-clients`: renders an evenly distributed logo strip from icon tokens, with per-logo sizing.
+  - D1 `nx-cta`: full-bleed band; appends the arrow icon to the button.
+  - D3 `nx-posts`: the intro row (1 cell) heads the card rows (2 cells: picture | text). The block recognises rows by content.
+- Repo quirks absorbed:
+  - `body > header`/`footer` carry `.header-wrapper`/`.footer-wrapper`.
+  - The global heading font, letter-spacing and `text-wrap: balance` are neutralised per block.
+  - `decorateButtons` turns `<strong>` links into `p.button-wrapper > a.button.primary`.
+- The `nx-stat-clubs` icon was rebuilt; the Figma SVG export rendered only one of the three hands.
