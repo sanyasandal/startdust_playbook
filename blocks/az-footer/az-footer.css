@@ -1,0 +1,124 @@
+@font-face {
+  font-family: az-inter;
+  src: url('/fonts/inter-var-latin.woff2') format('woff2');
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+/* az-footer relocates itself into body > footer; replace the site footer for that page */
+body > footer:has(.az-footer) {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+body > footer:has(.az-footer) > .footer {
+  display: none;
+}
+
+.az-footer {
+  --az-ink: #3c4242;
+  --az-accent: #d0006f;
+
+  padding: 39px 0 40px;
+  border-top: 1px solid #ebefee;
+  background: #fff;
+  color: var(--az-ink);
+  font-family: az-inter, Inter, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.az-footer .az-footer-inner {
+  display: flex;
+  width: min(calc(100% - 48px), 1180px);
+  flex-direction: column;
+  gap: 48px;
+  margin-inline: auto;
+}
+
+.az-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.az-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.az-footer a:hover {
+  color: var(--az-accent);
+  text-decoration: underline;
+}
+
+.az-footer .az-footer-main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 300px));
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.az-footer .az-footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.az-footer .az-footer-logo {
+  display: inline-flex;
+  align-self: flex-start;
+}
+
+.az-footer .az-footer-logo img {
+  width: 126px;
+  height: 30px;
+}
+
+.az-footer .az-footer-brand p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.az-footer .az-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.az-footer .az-footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.az-footer .az-footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.az-footer .az-footer-social a {
+  display: block;
+}
+
+.az-footer .az-footer-social img {
+  width: 20px;
+  height: 20px;
+}
+
+.az-footer .az-footer-code {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@media (width < 768px) {
+  .az-footer .az-footer-main {
+    grid-template-columns: 1fr;
+  }
+}
