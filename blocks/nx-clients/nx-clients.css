@@ -1,0 +1,55 @@
+.nx-clients {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  padding-top: 40px;
+}
+
+.nx-clients .nx-clients-inner {
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.nx-clients h2 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-clients .nx-clients-intro p {
+  margin: 8px 0 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-clients .nx-clients-logos p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  min-height: 98px;
+  margin: 16px 0 0;
+}
+
+.nx-clients .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.nx-clients .icon img {
+  width: auto;
+  height: auto;
+  max-width: none;
+}
+
+@media (width < 768px) {
+  .nx-clients .nx-clients-logos p { justify-content: center; }
+}

@@ -1,0 +1,1237 @@
+<!doctype html>
+<!-- stardust:provenance writtenBy=stardust:prototype (hands-off, Figma REST decoder) input="Figma InuUNDoinVB9983TrvNlY8 node 5:573 (Nexcent landing)" synthesized="layout CSS, responsive breakpoints, mobile nav" authored="all copy, colours, type, spacing, assets from Figma" read="figma-ml/full.json, figma-ml/full.png" -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nexcent — Manage your entire community in a single system</title>
+<style>
+:root {
+  --nx-green: #4caf4f;
+  --nx-green-tint: #e8f5e9;
+  --nx-grey-bg: #f5f7f9;
+  --nx-heading: #4d4d4d;
+  --nx-body: #717171;
+  --nx-dark: #263238;
+  --nx-muted: #88939e;
+  --nx-font: nx-inter, inter, system-ui, sans-serif;
+}
+body {
+  margin: 0;
+  font-family: var(--nx-font);
+}
+.icon { display: inline-block; }
+.icon img { display: block; }
+</style>
+<style data-block="nx-header">
+/* stylelint-disable no-descending-specificity */
+@font-face {
+  font-family: nx-inter;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/inter-var-latin.woff2') format('woff2');
+}
+
+body > header:has(.nx-header) {
+  height: auto;
+  background: #f5f7f9;
+}
+
+body > header:has(.nx-header) > .header-wrapper { display: none; }
+
+.nx-header {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  background: #f5f7f9;
+  color: #18191f;
+}
+
+.nx-header .nx-header-bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  box-sizing: content-box;
+  max-width: 1230px;
+  min-height: 84px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nx-header p { margin: 0; }
+
+.nx-header .nx-header-brand a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nx-header .nx-header-brand img {
+  display: block;
+  width: 155px;
+  height: 24px;
+}
+
+.nx-header .nx-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.nx-header .nx-header-nav ul {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nx-header .nx-header-nav a {
+  color: #18191f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.nx-header .nx-header-nav a[aria-current='page'] { font-weight: 500; }
+.nx-header .nx-header-nav a:hover { color: #4caf4f; }
+
+.nx-header .nx-header-actions {
+  justify-self: end;
+}
+
+.nx-header .nx-header-actions p {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nx-header .nx-header-actions strong { font-weight: inherit; }
+
+.nx-header .nx-header-actions a {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  color: #4caf4f;
+  background: #f5f7f9;
+}
+
+.nx-header .nx-header-actions strong a {
+  color: #fff;
+  background: #4caf4f;
+}
+
+.nx-header .nx-header-actions strong a:hover { background: #3d9140; }
+
+.nx-header .nx-header-toggle {
+  display: none;
+  justify-self: end;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 6px;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nx-header .nx-header-toggle span,
+.nx-header .nx-header-toggle span::before,
+.nx-header .nx-header-toggle span::after {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 2px;
+  margin: 0 auto;
+  background: #263238;
+  content: '';
+}
+
+.nx-header .nx-header-toggle span::before {
+  position: absolute;
+  top: -7px;
+}
+
+.nx-header .nx-header-toggle span::after {
+  position: absolute;
+  top: 7px;
+}
+
+@media (width < 1024px) {
+  .nx-header .nx-header-bar {
+    grid-template-columns: 1fr auto;
+    min-height: 72px;
+  }
+
+  .nx-header .nx-header-toggle { display: block; }
+
+  .nx-header .nx-header-nav,
+  .nx-header .nx-header-actions {
+    display: none;
+    grid-column: 1 / -1;
+    justify-self: stretch;
+  }
+
+  .nx-header.nx-header-open .nx-header-nav,
+  .nx-header.nx-header-open .nx-header-actions { display: block; }
+
+  .nx-header .nx-header-nav ul {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .nx-header .nx-header-nav a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .nx-header .nx-header-actions { padding-bottom: 20px; }
+}
+</style>
+<style data-block="nx-hero">
+.nx-hero {
+  position: relative;
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  background: #f5f7f9;
+}
+
+.nx-hero .nx-hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 104px;
+  box-sizing: content-box;
+  max-width: 1152px;
+  min-height: 407px;
+  margin: 0 auto;
+  padding: 96px 24px;
+}
+
+.nx-hero .nx-hero-text { flex: 0 1 657px; }
+
+.nx-hero h1 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: 0;
+}
+
+.nx-hero h1 em {
+  display: block;
+  color: #4caf4f;
+  font-style: normal;
+}
+
+.nx-hero p {
+  margin: 16px 0 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-hero p.button-wrapper { margin-top: 32px; }
+
+.nx-hero a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px;
+  background: #4caf4f;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.nx-hero a.button:any-link:hover { background: #3d9140; }
+.nx-hero strong { font-weight: inherit; }
+
+.nx-hero .nx-hero-media {
+  flex: 0 0 391px;
+  margin-right: 0;
+}
+
+.nx-hero .nx-hero-media p { margin: 0; }
+
+.nx-hero .nx-hero-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.nx-hero .nx-hero-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  display: flex;
+  gap: 8px;
+  transform: translateX(-50%);
+}
+
+.nx-hero .nx-hero-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4caf4f;
+  opacity: .3;
+}
+
+.nx-hero .nx-hero-dots span:first-child { opacity: 1; }
+
+@media (width < 1024px) {
+  .nx-hero .nx-hero-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    padding-block: 64px 72px;
+  }
+
+  .nx-hero .nx-hero-text { flex: none; }
+
+  .nx-hero .nx-hero-media {
+    flex: none;
+    width: min(391px, 100%);
+    align-self: center;
+  }
+}
+
+@media (width < 600px) {
+  .nx-hero h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+</style>
+<style data-block="nx-clients">
+.nx-clients {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  padding-top: 40px;
+}
+
+.nx-clients .nx-clients-inner {
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.nx-clients h2 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-clients .nx-clients-intro p {
+  margin: 8px 0 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-clients .nx-clients-logos p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  min-height: 98px;
+  margin: 16px 0 0;
+}
+
+.nx-clients .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.nx-clients .icon img {
+  width: auto;
+  height: auto;
+  max-width: none;
+}
+
+@media (width < 768px) {
+  .nx-clients .nx-clients-logos p { justify-content: center; }
+}
+</style>
+<style data-block="nx-features">
+.nx-features {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  padding-top: 40px;
+}
+
+.nx-features .nx-features-inner {
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nx-features .nx-features-intro { text-align: center; }
+
+.nx-features h2 {
+  max-width: 560px;
+  margin: 0 auto;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-features .nx-features-intro p {
+  margin: 8px 0 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-features .nx-features-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  margin-top: 16px;
+  padding: 10px 0;
+}
+
+.nx-features .nx-features-card {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 299px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 24px 26px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgb(171 190 209 / 20%);
+  text-align: center;
+}
+
+.nx-features .nx-features-card p { margin: 0; }
+
+.nx-features .icon {
+  width: 65px;
+  height: 56px;
+}
+
+.nx-features .icon img {
+  width: 65px;
+  height: 56px;
+}
+
+.nx-features h3 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.nx-features .nx-features-card p:last-child {
+  color: #717171;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (width < 900px) {
+  .nx-features .nx-features-list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nx-features .nx-features-card { flex: none; }
+}
+</style>
+<style data-block="nx-split">
+/* stylelint-disable no-descending-specificity */
+.nx-split {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  padding-top: 48px;
+}
+
+.nx-split .nx-split-inner {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nx-split .nx-split-media {
+  display: flex;
+  flex: 0 0 442px;
+  align-items: center;
+  justify-content: center;
+  min-height: 433px;
+}
+
+.nx-split .nx-split-media p { margin: 0; }
+
+.nx-split .nx-split-media img {
+  display: block;
+  width: 100%;
+  max-width: 441px;
+  height: auto;
+}
+
+.nx-split .nx-split-text { flex: 1 1 0; }
+
+.nx-split h2 {
+  max-width: 601px;
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-split p {
+  max-width: 601px;
+  margin: 16px 0 0;
+  color: #717171;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.nx-split p.button-wrapper { margin-top: 32px; }
+.nx-split strong { font-weight: inherit; }
+
+.nx-split a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px;
+  background: #4caf4f;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.nx-split a.button:any-link:hover { background: #3d9140; }
+
+@media (width < 900px) {
+  .nx-split .nx-split-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
+  }
+
+  .nx-split .nx-split-media {
+    flex: none;
+    min-height: 0;
+  }
+}
+</style>
+<style data-block="nx-stats">
+.nx-stats {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  margin-top: 48px;
+  background: #f5f7f9;
+}
+
+.nx-stats .nx-stats-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.nx-stats .nx-stats-intro { flex: 0 1 540px; }
+
+.nx-stats h2 {
+  max-width: 408px;
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-stats h2 em {
+  color: #4caf4f;
+  font-style: normal;
+}
+
+.nx-stats .nx-stats-intro p {
+  margin: 8px 0 0;
+  color: #18191f;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-stats .nx-stats-grid {
+  display: grid;
+  flex: 0 1 540px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px 30px;
+}
+
+.nx-stats .nx-stats-item {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.nx-stats .nx-stats-item p { margin: 0; }
+
+.nx-stats .nx-stats-item p:first-child {
+  grid-row: span 2;
+}
+
+.nx-stats .icon,
+.nx-stats .icon img {
+  width: 48px;
+  height: 48px;
+}
+
+.nx-stats .nx-stats-item strong {
+  display: block;
+  color: #4d4d4d;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.nx-stats .nx-stats-item p:last-child {
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (width < 900px) {
+  .nx-stats .nx-stats-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 40px;
+  }
+
+  .nx-stats .nx-stats-intro,
+  .nx-stats .nx-stats-grid { flex: none; }
+}
+
+@media (width < 480px) {
+  .nx-stats .nx-stats-grid { grid-template-columns: 1fr; }
+}
+</style>
+<style data-block="nx-testimonial">
+/* stylelint-disable no-descending-specificity */
+.nx-testimonial {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  margin-top: 48px;
+  background: #f5f7f9;
+}
+
+.nx-testimonial .nx-testimonial-inner {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.nx-testimonial .nx-testimonial-media { flex: 0 0 326px; }
+.nx-testimonial .nx-testimonial-media p { margin: 0; }
+
+.nx-testimonial .nx-testimonial-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgb(171 190 209 / 40%);
+}
+
+.nx-testimonial .nx-testimonial-body { flex: 1 1 0; }
+.nx-testimonial .nx-testimonial-quote p { margin: 0; }
+
+.nx-testimonial .nx-testimonial-quote p:first-child {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.nx-testimonial .nx-testimonial-quote p:nth-child(2) { margin-top: 16px; }
+
+.nx-testimonial .nx-testimonial-quote strong {
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.nx-testimonial .nx-testimonial-quote p:nth-child(3) {
+  margin-top: 8px;
+  color: #88939e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-testimonial .nx-testimonial-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 32px;
+  margin-top: 32px;
+}
+
+.nx-testimonial .nx-testimonial-logos { flex: 1 1 auto; }
+
+.nx-testimonial .nx-testimonial-logos p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 493px;
+  margin: 0;
+}
+
+.nx-testimonial .nx-testimonial-cta { flex: none; }
+
+.nx-testimonial .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.nx-testimonial .icon:first-child { background: #e8f5e9; }
+
+.nx-testimonial .icon img {
+  width: auto;
+  height: auto;
+  max-width: none;
+}
+
+.nx-testimonial .nx-testimonial-cta p { margin: 0; }
+
+.nx-testimonial .nx-testimonial-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.nx-testimonial .nx-testimonial-cta a img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (width < 900px) {
+  .nx-testimonial .nx-testimonial-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
+  }
+
+  .nx-testimonial .nx-testimonial-media {
+    flex: none;
+    width: min(326px, 100%);
+  }
+  .nx-testimonial .nx-testimonial-footer { flex-wrap: wrap; }
+}
+</style>
+<style data-block="nx-posts">
+.nx-posts {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  padding: 48px 0 95px;
+}
+
+.nx-posts .nx-posts-inner {
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nx-posts .nx-posts-intro { text-align: center; }
+
+.nx-posts h2 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-posts .nx-posts-intro p {
+  max-width: 628px;
+  margin: 8px auto 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-posts .nx-posts-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 368px));
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.nx-posts .nx-posts-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nx-posts .nx-posts-media {
+  width: 100%;
+}
+
+.nx-posts .nx-posts-media p { margin: 0; }
+
+.nx-posts .nx-posts-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 368 / 286;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.nx-posts .nx-posts-body {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  position: relative;
+  width: calc(100% - 51px);
+  margin-top: -96px;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f5f7f9;
+  box-shadow: 0 8px 16px rgb(171 190 209 / 40%);
+  text-align: center;
+}
+
+.nx-posts h3 {
+  margin: 0;
+  color: #717171;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.nx-posts .nx-posts-body p { margin: 0; }
+
+.nx-posts .nx-posts-body a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.nx-posts .nx-posts-body a img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (width < 900px) {
+  .nx-posts .nx-posts-list {
+    grid-template-columns: minmax(0, 420px);
+    justify-content: center;
+    gap: 40px;
+  }
+}
+</style>
+<style data-block="nx-cta">
+.nx-cta {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  background: #f5f7f9;
+}
+
+.nx-cta .nx-cta-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  box-sizing: content-box;
+  max-width: 887px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.nx-cta h2 {
+  margin: 0;
+  color: #263238;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+}
+
+.nx-cta p { margin: 0; }
+.nx-cta strong { font-weight: inherit; }
+
+.nx-cta a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px;
+  background: #4caf4f;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.nx-cta a.button:any-link:hover { background: #3d9140; }
+
+.nx-cta a.button img {
+  width: 16px;
+  height: 16px;
+}
+
+@media (width < 600px) {
+  .nx-cta h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+</style>
+<style data-block="nx-footer">
+/* stylelint-disable no-descending-specificity */
+body > footer:has(.nx-footer) > .footer-wrapper { display: none; }
+
+.nx-footer {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  background: #263238;
+  color: #f5f7f9;
+}
+
+.nx-footer .nx-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px 125px;
+  box-sizing: content-box;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.nx-footer p { margin: 0; }
+
+.nx-footer .nx-footer-info {
+  display: flex;
+  flex: 0 1 350px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.nx-footer .nx-footer-brand p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.nx-footer .nx-footer-brand p + p { margin-top: 8px; }
+.nx-footer .nx-footer-brand p:first-child + p { margin-top: 40px; }
+
+.nx-footer .nx-footer-brand a {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.nx-footer .nx-footer-brand img {
+  display: block;
+  width: 191px;
+  height: 29px;
+}
+
+.nx-footer .nx-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.nx-footer .nx-footer-social p {
+  display: flex;
+  gap: 16px;
+}
+
+.nx-footer .nx-footer-social a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.nx-footer .nx-footer-social a:hover { background: rgb(255 255 255 / 10%); }
+
+.nx-footer .nx-footer-social img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.nx-footer .nx-footer-links {
+  display: flex;
+  flex: 0 1 635px;
+  gap: 30px;
+}
+
+.nx-footer .nx-footer-col { flex: 0 0 160px; }
+.nx-footer .nx-footer-newsletter { flex: 0 1 255px; }
+
+.nx-footer h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.nx-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nx-footer ul a {
+  color: #f5f7f9;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.nx-footer ul a:hover { text-decoration: underline; }
+
+.nx-footer form {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  border-radius: 8px;
+  background: rgb(255 255 255 / 20%);
+}
+
+.nx-footer input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 40px;
+  border: 0;
+  padding: 0 12px;
+  background: transparent;
+  color: #fff;
+  font: 400 14px/20px nx-inter, inter, system-ui, sans-serif;
+}
+
+.nx-footer input::placeholder { color: #d9dbe1; }
+
+.nx-footer form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nx-footer form button img {
+  width: 18px;
+  height: 18px;
+}
+
+@media (width < 1024px) {
+  .nx-footer .nx-footer-inner { flex-direction: column; }
+  .nx-footer .nx-footer-info { flex: none; }
+
+  .nx-footer .nx-footer-links {
+    flex: none;
+    flex-wrap: wrap;
+  }
+}
+
+@media (width < 600px) {
+  .nx-footer .nx-footer-col { flex: 1 1 120px; }
+  .nx-footer .nx-footer-newsletter { flex: 1 1 100%; }
+}
+</style>
+</head>
+<body>
+<header>
+<section class="nx-header">
+  <div class="nx-header-bar">
+    <div class="nx-header-brand"><p><a href="/nexcent"><img src="/icons/nx-logo.svg" alt="" width="155" height="24"><span class="nx-sr">Nexcent</span></a></p></div>
+    <button class="nx-header-toggle" type="button" aria-controls="nx-header-menu" aria-expanded="false" aria-label="Open menu"><span></span></button>
+    <nav class="nx-header-nav" id="nx-header-menu" aria-label="Main"><ul><li><a href="/nexcent" aria-current="page">Home</a></li><li><a href="#service">Service</a></li><li><a href="#feature">Feature</a></li><li><a href="#product">Product</a></li><li><a href="#testimonial">Testimonial</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+    <div class="nx-header-actions"><p><a href="#">Login</a> <strong><a href="#">Sign up</a></strong></p></div>
+  </div>
+</section>
+</header>
+<main>
+<section class="nx-hero">
+  <div class="nx-hero-inner">
+    <div class="nx-hero-text"><h1>Lessons and insights <em>from 8 years</em></h1><p>Where to grow your business as a photographer: site or social media?</p><p class="button-wrapper"><a class="button primary" href="#">Register</a></p></div>
+    <div class="nx-hero-media"><picture><img src="assets/hero-illustration.png" alt="Illustration of a person with a laptop beside a large monitor showing code" width="782" height="814"></picture></div>
+  </div>
+  <div class="nx-hero-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+</section>
+<section class="nx-clients">
+  <div class="nx-clients-inner">
+    <div class="nx-clients-intro"><h2>Our Clients</h2><p>We have been working with some Fortune 500+ clients</p></div>
+    <div class="nx-clients-logos"><p><span class="icon icon-nx-client-1"><img src="/icons/nx-client-1.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-client-2"><img src="/icons/nx-client-2.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-client-3"><img src="/icons/nx-client-3.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-client-4"><img src="/icons/nx-client-4.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-client-5"><img src="/icons/nx-client-5.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-client-6"><img src="/icons/nx-client-6.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-client-7"><img src="/icons/nx-client-7.svg" alt="" width="16" height="16"></span></p></div>
+  </div>
+</section>
+<section class="nx-features">
+  <div class="nx-features-inner">
+    <div class="nx-features-intro"><h2>Manage your entire community in a single system</h2><p>Who is Nextcent suitable for?</p></div>
+    <div class="nx-features-list">
+      <div class="nx-features-card"><p><span class="icon icon-nx-feat-members"><img src="/icons/nx-feat-members.svg" alt="" width="16" height="16"></span></p><h3>Membership Organisations</h3><p>Our membership management software provides full automation of membership renewals and payments</p></div>
+      <div class="nx-features-card"><p><span class="icon icon-nx-feat-assoc"><img src="/icons/nx-feat-assoc.svg" alt="" width="16" height="16"></span></p><h3>National Associations</h3><p>Our membership management software provides full automation of membership renewals and payments</p></div>
+      <div class="nx-features-card"><p><span class="icon icon-nx-feat-clubs"><img src="/icons/nx-feat-clubs.svg" alt="" width="16" height="16"></span></p><h3>Clubs And Groups</h3><p>Our membership management software provides full automation of membership renewals and payments</p></div>
+    </div>
+  </div>
+</section>
+<section class="nx-split">
+  <div class="nx-split-inner">
+    <div class="nx-split-media"><picture><img src="assets/unlock-illustration.png" alt="Illustration of two people beside a large sign-in screen" width="884" height="866" loading="lazy"></picture></div>
+    <div class="nx-split-text"><h2>The unseen of spending three years at Pixelgrade</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p><p class="button-wrapper"><a class="button primary" href="#">Learn More</a></p></div>
+  </div>
+</section>
+<section class="nx-stats">
+  <div class="nx-stats-inner">
+    <div class="nx-stats-intro"><h2>Helping a local <em>business reinvent itself</em></h2><p>We reached here with our hard work and dedication</p></div>
+    <div class="nx-stats-grid">
+      <div class="nx-stats-item"><p><span class="icon icon-nx-stat-members"><img src="/icons/nx-stat-members.svg" alt="" width="16" height="16"></span></p><p><strong>2,245,341</strong></p><p>Members</p></div>
+      <div class="nx-stats-item"><p><span class="icon icon-nx-stat-clubs"><img src="/icons/nx-stat-clubs.svg" alt="" width="16" height="16"></span></p><p><strong>46,328</strong></p><p>Clubs</p></div>
+      <div class="nx-stats-item"><p><span class="icon icon-nx-stat-events"><img src="/icons/nx-stat-events.svg" alt="" width="16" height="16"></span></p><p><strong>828,867</strong></p><p>Event Bookings</p></div>
+      <div class="nx-stats-item"><p><span class="icon icon-nx-stat-payments"><img src="/icons/nx-stat-payments.svg" alt="" width="16" height="16"></span></p><p><strong>1,926,436</strong></p><p>Payments</p></div>
+    </div>
+  </div>
+</section>
+<section class="nx-split">
+  <div class="nx-split-inner">
+    <div class="nx-split-media"><picture><img src="assets/calendar-illustration.png" alt="Illustration of a person signing up on a large phone screen" width="884" height="866" loading="lazy"></picture></div>
+    <div class="nx-split-text"><h2>How to design your site footer like we did</h2><p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p><p class="button-wrapper"><a class="button primary" href="#">Learn More</a></p></div>
+  </div>
+</section>
+<section class="nx-testimonial">
+  <div class="nx-testimonial-inner">
+    <div class="nx-testimonial-media"><picture><img src="assets/testimonial.jpg" alt="Tesla logo on a glowing dark tile" width="366" height="651" loading="lazy"></picture></div>
+    <div class="nx-testimonial-body">
+      <div class="nx-testimonial-quote"><p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p><p><strong>Tim Smith</strong></p><p>British Dragon Boat Racing Association</p></div>
+      <div class="nx-testimonial-footer">
+        <div class="nx-testimonial-logos"><p><span class="icon icon-nx-cust-1"><img src="/icons/nx-cust-1.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-cust-2"><img src="/icons/nx-cust-2.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-cust-3"><img src="/icons/nx-cust-3.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-cust-4"><img src="/icons/nx-cust-4.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-cust-5"><img src="/icons/nx-cust-5.svg" alt="" width="16" height="16"></span> <span class="icon icon-nx-cust-6"><img src="/icons/nx-cust-6.svg" alt="" width="16" height="16"></span></p></div>
+        <div class="nx-testimonial-cta"><p><a href="#">Meet all customers<img src="/icons/nx-arrow-right.svg" alt="" width="24" height="24"></a></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="nx-posts">
+  <div class="nx-posts-inner">
+    <div class="nx-posts-intro"><h2>Caring is the new marketing</h2><p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.</p></div>
+    <div class="nx-posts-list">
+      <div class="nx-posts-card"><div class="nx-posts-media"><picture><img src="assets/post-1.jpg" alt="" width="736" height="491" loading="lazy"></picture></div><div class="nx-posts-body"><h3>Creating Streamlined Safeguarding Processes with OneRen</h3><p><a href="#">Readmore<img src="/icons/nx-arrow-right.svg" alt="" width="24" height="24"></a></p></div></div>
+      <div class="nx-posts-card"><div class="nx-posts-media"><picture><img src="assets/post-2.jpg" alt="" width="736" height="491" loading="lazy"></picture></div><div class="nx-posts-body"><h3>What are your safeguarding responsibilities and how can you manage them?</h3><p><a href="#">Readmore<img src="/icons/nx-arrow-right.svg" alt="" width="24" height="24"></a></p></div></div>
+      <div class="nx-posts-card"><div class="nx-posts-media"><picture><img src="assets/post-3.jpg" alt="" width="736" height="491" loading="lazy"></picture></div><div class="nx-posts-body"><h3>Revamping the Membership Model with Triathlon Australia</h3><p><a href="#">Readmore<img src="/icons/nx-arrow-right.svg" alt="" width="24" height="24"></a></p></div></div>
+    </div>
+  </div>
+</section>
+<section class="nx-cta">
+  <div class="nx-cta-inner"><h2>Pellentesque suscipit fringilla libero eu.</h2><p class="button-wrapper"><a class="button primary" href="#">Get a Demo<img src="/icons/nx-arrow-right-small.svg" alt="" width="16" height="16"></a></p></div>
+</section>
+</main>
+<footer>
+<section class="nx-footer">
+  <div class="nx-footer-inner">
+    <div class="nx-footer-info">
+      <div class="nx-footer-brand"><p><a href="/nexcent"><img src="/icons/nx-logo-white.svg" alt="" width="191" height="29"><span class="nx-sr">Nexcent</span></a></p><p>Copyright © 2020 Nexcent ltd.</p><p>All rights reserved</p></div>
+      <div class="nx-footer-social"><p><a href="#"><img src="/icons/nx-social-instagram.svg" alt="" width="32" height="32"><span class="nx-sr">Instagram</span></a> <a href="#"><img src="/icons/nx-social-dribbble.svg" alt="" width="32" height="32"><span class="nx-sr">Dribbble</span></a> <a href="#"><img src="/icons/nx-social-twitter.svg" alt="" width="32" height="32"><span class="nx-sr">Twitter</span></a> <a href="#"><img src="/icons/nx-social-youtube.svg" alt="" width="32" height="32"><span class="nx-sr">YouTube</span></a></p></div>
+    </div>
+    <div class="nx-footer-links">
+      <div class="nx-footer-col"><h3>Company</h3><ul><li><a href="#">About us</a></li><li><a href="#">Blog</a></li><li><a href="#">Contact us</a></li><li><a href="#">Pricing</a></li><li><a href="#">Testimonials</a></li></ul></div>
+      <div class="nx-footer-col"><h3>Support</h3><ul><li><a href="#">Help center</a></li><li><a href="#">Terms of service</a></li><li><a href="#">Legal</a></li><li><a href="#">Privacy policy</a></li><li><a href="#">Status</a></li></ul></div>
+      <div class="nx-footer-newsletter"><h3>Stay up to date</h3><form><p id="nx-footer-email-label" class="nx-sr">Your email address</p><input type="email" name="email" autocomplete="email" placeholder="Your email address" aria-labelledby="nx-footer-email-label"><button type="submit" aria-label="Subscribe"><img src="/icons/nx-send.svg" alt="" width="18" height="18"></button></form></div>
+    </div>
+  </div>
+</section>
+</footer>
+<script>
+const t = document.querySelector('.nx-header-toggle');
+t.addEventListener('click', () => {
+  const open = t.getAttribute('aria-expanded') !== 'true';
+  t.setAttribute('aria-expanded', String(open));
+  t.closest('.nx-header').classList.toggle('nx-header-open', open);
+});
+</script>
+</body>
+</html>
