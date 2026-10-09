@@ -235,7 +235,6 @@
 }
 
 .sign-in .alternatives a:any-link {
-  width: auto;
   background: #fff;
   color: var(--sign-in-accent);
 }

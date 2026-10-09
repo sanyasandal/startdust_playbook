@@ -90,3 +90,15 @@ Hands-off: confirmation was auto-resolved by these named assumptions:
 ## Prep: wider re-evaluation
 
 The full 68-page crawl confirms the brand register. The blog and tutorials (45 pages) pull toward editorial, so the article archetype gets a reading column, but the site-level register holds. No new tensions came out of the wider crawl beyond T-source-defects: freelancers has 5 imgix 404s, and publish is an empty page. Both are carried as known source defects, not fabricated over.
+
+## Deviation — One AZ login via stardust:deploy (hands-off)
+- **Named deviation:** the source is a local Figma file (One AZ v3.2) decoded by a custom
+  Node `.fig` reader, not `stardust:extract`/`prototype`. No Figma MCP is connected and the
+  `figma-to-content` skill was deliberately not used (user instruction).
+- **Assumption (hands-off):** requested node `13496:19404` is a design-system documentation
+  board ("Page: Login & Registration"); its only page content is the login frame
+  `13496:10760`, so that frame was converted.
+- **Assumption (hands-off):** published at the new path `/login-stardust` so the existing
+  `/login` page (PR #2) is not overwritten.
+- New block `sign-in` (David's Model + EW) replaces the key-value `login` block pattern;
+  `az-header`/`az-footer` are reused unchanged.
