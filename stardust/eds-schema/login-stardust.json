@@ -1,0 +1,92 @@
+{
+ "source": "http://localhost:8794/index.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "sign-in",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Login to your account"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Email"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Password"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Forgot your password?",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Login"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Remember me on this device"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Or"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Login with Magic Link",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Login using DocCheck",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Login with AZ Employee Email",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Don't have an account?"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Create account",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.field",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

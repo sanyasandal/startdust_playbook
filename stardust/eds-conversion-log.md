@@ -64,3 +64,8 @@ Use `stardust/.work/secsurvey.txt` as the source of truth. `∅ article-hero` ma
 - Contact/pricing source sections that already carry migrated structure are now either preserved by their owning blocks or re-encoded into safer author rows before decoration; pricing calculator/table/logos keep their migrated structures as local no-JS fallbacks.
 - Privacy remains default content per the locked model; local EDS flattens inner policy wrappers, so foundation CSS restores the red date and side-rail/table-of-contents structure from the flattened default-content shape.
 - Experience Workspace exemptions are explicit on template-owned hero/contact/table rows where migrated fallback markup is intentionally transformed into form controls, link cards, or pricing comparison UI.
+
+## login-stardust (One AZ v3.2, Figma 13496:19404 → frame 13496:10760)
+- `sign-in` (new): background picture row, h1, field rows (`**Label**` + placeholder + optional link), primary CTA + remember row, divider + `*em*` alternatives row, sign-up row. Authored nodes are moved, never rebuilt; placeholders are `@ew-exempt` (metadata).
+- `az-header` / `az-footer`: reused from `/login` unchanged.
+- `metadata`: Title / Description / Image.
