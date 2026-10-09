@@ -1,0 +1,121 @@
+.nx-posts {
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  padding: 48px 0 95px;
+}
+
+.nx-posts :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-posts p {
+  text-wrap: wrap;
+}
+
+.nx-posts .nx-posts-inner {
+  box-sizing: content-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nx-posts .nx-posts-intro { text-align: center; }
+
+.nx-posts h2 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.nx-posts .nx-posts-intro p {
+  max-width: 628px;
+  margin: 8px auto 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-posts .nx-posts-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 368px));
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.nx-posts .nx-posts-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nx-posts .nx-posts-media {
+  width: 100%;
+}
+
+.nx-posts .nx-posts-media p { margin: 0; }
+
+.nx-posts .nx-posts-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 368 / 286;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.nx-posts .nx-posts-body {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  position: relative;
+  width: calc(100% - 51px);
+  margin-top: -96px;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f5f7f9;
+  box-shadow: 0 8px 16px rgb(171 190 209 / 40%);
+  text-align: center;
+}
+
+.nx-posts h3 {
+  margin: 0;
+  color: #717171;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.nx-posts .nx-posts-body p { margin: 0; }
+
+.nx-posts .nx-posts-body a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.nx-posts .nx-posts-body a img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (width < 900px) {
+  .nx-posts .nx-posts-list {
+    grid-template-columns: minmax(0, 420px);
+    justify-content: center;
+    gap: 40px;
+  }
+}

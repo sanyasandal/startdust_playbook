@@ -8,3 +8,11 @@
 {"ts":"2026-09-29T07:08:17.929Z","skill":"stardust:dynamics","phase":"gate","event":"end","detail":"dynamic surface: 16 findings · self 11 · owner batch 3 (D1 tags, D2 index, D3 locales) · host-bound 0 · listings 0 index-backed / 1 document-first"}
 {"ts":"2026-09-29T07:08:17.929Z","skill":"stardust:prepare-migration","phase":"all","event":"end","detail":"68 pages, 7 types, 13 modules; 6 archetypes approved; assets ready; dynamics gate pass"}
 {"ts":"2026-09-30T07:05:18.704Z","skill":"stardust:migrate","phase":"all","event":"end","detail":"68 migrated (6 archetype, 61 sibling, 1 unique pricing); 0 refused; 40 deviations on 39 pages; link debt 194 targets → absolute source URLs; audits: portability, pagemap, file://, runtime OK"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"7-blocks","event":"start"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"9-content","event":"start"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"local-qa","event":"start"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"10-reconcile","event":"start"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"7-blocks","event":"end","detail":"nexcent: 10 isolated nx-* blocks lifted from stardust/prototypes/nexcent (Figma REST decode, node 5:573); stylelint+eslint clean"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"9-content","event":"end","detail":"DA nexcent.html created + previewed; 7 images on .nexcent/","artifact":"content/nexcent.html"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"local-qa","event":"end","detail":"model-lint PASS (0 red, 4 yellow justified); round-trip closed 10/10; EW 65/65 editable, 0 dead"}
+{"ts":"2026-10-09T11:50:05Z","skill":"stardust:deploy","phase":"10-reconcile","event":"end","detail":"branch preview /nexcent: all blocks loaded at 1440/768/390, no overflow/errors; 1440 height 4374 vs Figma 4376","next":"PR review + publish"}

@@ -1,0 +1,130 @@
+.nx-hero {
+  position: relative;
+  font-family: nx-inter, inter, system-ui, sans-serif;
+  background: #f5f7f9;
+}
+
+.nx-hero :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-hero .nx-hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 104px;
+  box-sizing: content-box;
+  max-width: 1152px;
+  min-height: 407px;
+  margin: 0 auto;
+  padding: 96px 24px;
+}
+
+.nx-hero .nx-hero-text { flex: 0 1 657px; }
+
+.nx-hero h1 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: 0;
+}
+
+.nx-hero h1 em {
+  display: block;
+  color: #4caf4f;
+  font-style: normal;
+}
+
+.nx-hero p {
+  text-wrap: wrap;
+  margin: 16px 0 0;
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nx-hero p.button-wrapper { margin-top: 32px; }
+
+.nx-hero a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px;
+  background: #4caf4f;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.nx-hero a.button:any-link:hover { background: #3d9140; }
+.nx-hero strong { font-weight: inherit; }
+
+.nx-hero .nx-hero-media {
+  flex: 0 0 391px;
+  margin-right: 0;
+}
+
+.nx-hero .nx-hero-media p { margin: 0; }
+
+.nx-hero .nx-hero-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.nx-hero .nx-hero-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  display: flex;
+  gap: 8px;
+  transform: translateX(-50%);
+}
+
+.nx-hero .nx-hero-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4caf4f;
+  opacity: .3;
+}
+
+.nx-hero .nx-hero-dots span:first-child { opacity: 1; }
+
+@media (width < 1024px) {
+  .nx-hero .nx-hero-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    padding-block: 64px 72px;
+  }
+
+  .nx-hero .nx-hero-text { flex: none; }
+
+  .nx-hero .nx-hero-media {
+    flex: none;
+    width: min(391px, 100%);
+    align-self: center;
+  }
+}
+
+@media (width < 600px) {
+  .nx-hero h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}

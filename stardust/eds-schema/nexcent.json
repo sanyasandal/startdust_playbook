@@ -1,0 +1,430 @@
+{
+ "source": "http://localhost:8731/stardust/prototypes/nexcent/index.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "nx-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lessons and insights"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "from 8 years"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Where to grow your business as a photographer: site or social media?"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Register",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "nx-clients",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our Clients"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We have been working with some Fortune 500+ clients"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "SPAN.icon",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "nx-features",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Manage your entire community in a single system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Who is Nextcent suitable for?"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Membership Organisations"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Our membership management software provides full automation of membership renewals and payments"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "National Associations"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Our membership management software provides full automation of membership renewals and payments"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Clubs And Groups"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Our membership management software provides full automation of membership renewals and payments"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.nx-features-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "nx-split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The unseen of spending three years at Pixelgrade"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn More",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "nx-stats",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Helping a local"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "business reinvent itself"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We reached here with our hard work and dedication"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "2,245,341"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Members"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "46,328"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Clubs"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "828,867"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Event Bookings"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "1,926,436"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Payments"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.nx-stats-item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "nx-split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How to design your site footer like we did"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn More",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "nx-testimonial",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tim Smith"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "British Dragon Boat Racing Association"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "SPAN.icon",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "nx-posts",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Caring is the new marketing"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Creating Streamlined Safeguarding Processes with OneRen"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "What are your safeguarding responsibilities and how can you manage them?"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Revamping the Membership Model with Triathlon Australia"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.nx-posts-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 3,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "nx-cta",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Pellentesque suscipit fringilla libero eu."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}
