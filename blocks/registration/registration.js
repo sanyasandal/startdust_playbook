@@ -1,5 +1,6 @@
 const ICON_BASE = `${window.hlx?.codeBasePath || ''}/icons`;
 let fieldCount = 0;
+const usedNames = new Map();
 
 function key(row) {
   return row.children[0]?.textContent.trim().toLowerCase().replace(/[^a-z]/g, '') || '';
@@ -138,7 +139,9 @@ function buildField(kind, cells) {
     }
   }
   input.id = id;
-  input.name = slug(labelText);
+  const base = slug(labelText);
+  usedNames.set(base, (usedNames.get(base) || 0) + 1);
+  input.name = usedNames.get(base) > 1 ? `${base}-${usedNames.get(base)}` : base;
   input.required = required;
 
   const error = document.createElement('p');
