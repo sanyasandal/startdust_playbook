@@ -3,6 +3,12 @@
   background: #f5f7f9;
 }
 
+.nx-cta :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-cta .nx-cta-inner {
   display: flex;
   flex-direction: column;
@@ -23,7 +29,11 @@
   line-height: 76px;
 }
 
-.nx-cta p { margin: 0; }
+.nx-cta p {
+  margin: 0;
+  text-wrap: wrap;
+}
+
 .nx-cta strong { font-weight: inherit; }
 
 .nx-cta a.button:any-link {

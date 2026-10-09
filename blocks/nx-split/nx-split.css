@@ -4,6 +4,12 @@
   padding-top: 48px;
 }
 
+.nx-split :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-split .nx-split-inner {
   display: flex;
   align-items: center;
@@ -43,6 +49,7 @@
 }
 
 .nx-split p {
+  text-wrap: wrap;
   max-width: 601px;
   margin: 16px 0 0;
   color: #717171;

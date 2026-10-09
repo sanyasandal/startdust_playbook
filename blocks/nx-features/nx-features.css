@@ -3,6 +3,16 @@
   padding-top: 40px;
 }
 
+.nx-features :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-features p {
+  text-wrap: wrap;
+}
+
 .nx-features .nx-features-inner {
   box-sizing: content-box;
   max-width: 1152px;

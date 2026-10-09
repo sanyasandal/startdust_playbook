@@ -23,6 +23,7 @@ body {
 .icon { display: inline-block; }
 .icon img { display: block; }
 </style>
+<link rel="stylesheet" href="/styles/styles.css">
 <style data-block="nx-header">
 /* stylelint-disable no-descending-specificity */
 @font-face {
@@ -46,6 +47,12 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   color: #18191f;
 }
 
+.nx-header :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-header .nx-header-bar {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -58,7 +65,11 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   padding: 0 24px;
 }
 
-.nx-header p { margin: 0; }
+.nx-header p {
+  margin: 0;
+  text-wrap: wrap;
+}
+
 
 .nx-header .nx-header-brand a {
   display: inline-flex;
@@ -204,6 +215,12 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   background: #f5f7f9;
 }
 
+.nx-hero :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-hero .nx-hero-inner {
   display: flex;
   align-items: center;
@@ -234,6 +251,7 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
 }
 
 .nx-hero p {
+  text-wrap: wrap;
   margin: 16px 0 0;
   color: #717171;
   font-size: 16px;
@@ -328,6 +346,16 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   padding-top: 40px;
 }
 
+.nx-clients :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-clients p {
+  text-wrap: wrap;
+}
+
 .nx-clients .nx-clients-inner {
   box-sizing: content-box;
   max-width: 1152px;
@@ -383,6 +411,16 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
 .nx-features {
   font-family: nx-inter, inter, system-ui, sans-serif;
   padding-top: 40px;
+}
+
+.nx-features :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-features p {
+  text-wrap: wrap;
 }
 
 .nx-features .nx-features-inner {
@@ -476,6 +514,12 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   padding-top: 48px;
 }
 
+.nx-split :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-split .nx-split-inner {
   display: flex;
   align-items: center;
@@ -515,6 +559,7 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
 }
 
 .nx-split p {
+  text-wrap: wrap;
   max-width: 601px;
   margin: 16px 0 0;
   color: #717171;
@@ -565,6 +610,16 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   font-family: nx-inter, inter, system-ui, sans-serif;
   margin-top: 48px;
   background: #f5f7f9;
+}
+
+.nx-stats :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-stats p {
+  text-wrap: wrap;
 }
 
 .nx-stats .nx-stats-inner {
@@ -662,6 +717,16 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   font-family: nx-inter, inter, system-ui, sans-serif;
   margin-top: 48px;
   background: #f5f7f9;
+}
+
+.nx-testimonial :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-testimonial p {
+  text-wrap: wrap;
 }
 
 .nx-testimonial .nx-testimonial-inner {
@@ -790,6 +855,16 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   padding: 48px 0 95px;
 }
 
+.nx-posts :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-posts p {
+  text-wrap: wrap;
+}
+
 .nx-posts .nx-posts-inner {
   box-sizing: content-box;
   max-width: 1152px;
@@ -903,6 +978,12 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   background: #f5f7f9;
 }
 
+.nx-cta :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-cta .nx-cta-inner {
   display: flex;
   flex-direction: column;
@@ -923,7 +1004,11 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
   line-height: 76px;
 }
 
-.nx-cta p { margin: 0; }
+.nx-cta p {
+  margin: 0;
+  text-wrap: wrap;
+}
+
 .nx-cta strong { font-weight: inherit; }
 
 .nx-cta a.button:any-link {
@@ -971,6 +1056,12 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
   color: #f5f7f9;
 }
 
+.nx-footer :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-footer .nx-footer-inner {
   display: flex;
   justify-content: space-between;
@@ -981,7 +1072,11 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
   padding: 64px 24px;
 }
 
-.nx-footer p { margin: 0; }
+.nx-footer p {
+  margin: 0;
+  text-wrap: wrap;
+}
+
 
 .nx-footer .nx-footer-info {
   display: flex;
@@ -1061,6 +1156,8 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
   gap: 12px;
   margin: 24px 0 0;
   padding: 0;
+  font-size: 14px;
+  line-height: 20px;
   list-style: none;
 }
 
@@ -1127,7 +1224,7 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
 }
 </style>
 </head>
-<body>
+<body class="appear">
 <header>
 <div class="nx-header-wrapper">
 <section class="nx-header">

@@ -4,6 +4,12 @@
   background: #f5f7f9;
 }
 
+.nx-hero :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
 .nx-hero .nx-hero-inner {
   display: flex;
   align-items: center;
@@ -34,6 +40,7 @@
 }
 
 .nx-hero p {
+  text-wrap: wrap;
   margin: 16px 0 0;
   color: #717171;
   font-size: 16px;

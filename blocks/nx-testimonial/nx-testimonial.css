@@ -5,6 +5,16 @@
   background: #f5f7f9;
 }
 
+.nx-testimonial :is(h1, h2, h3, h4, h5, h6) {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-wrap: wrap;
+}
+
+.nx-testimonial p {
+  text-wrap: wrap;
+}
+
 .nx-testimonial .nx-testimonial-inner {
   display: flex;
   align-items: center;
