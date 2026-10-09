@@ -446,6 +446,7 @@ body > header:has(.nx-header) > :not(.nx-header-wrapper) { display: none; }
 }
 
 .nx-features h3 {
+  max-width: 231px;
   margin: 0;
   color: #4d4d4d;
   font-size: 28px;
@@ -1128,6 +1129,7 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
 </head>
 <body>
 <header>
+<div class="nx-header-wrapper">
 <section class="nx-header">
   <div class="nx-header-bar">
     <div class="nx-header-brand"><p><a href="/nexcent"><img src="/icons/nx-logo.svg" alt="" width="155" height="24"><span class="nx-sr">Nexcent</span></a></p></div>
@@ -1136,6 +1138,7 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
     <div class="nx-header-actions"><p><a href="#">Login</a> <strong><a href="#">Sign up</a></strong></p></div>
   </div>
 </section>
+</div>
 </header>
 <main>
 <section class="nx-hero">
@@ -1211,6 +1214,7 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
 </section>
 </main>
 <footer>
+<div class="nx-footer-wrapper">
 <section class="nx-footer">
   <div class="nx-footer-inner">
     <div class="nx-footer-info">
@@ -1224,6 +1228,7 @@ body > footer:has(.nx-footer) > :not(.nx-footer-wrapper) { display: none; }
     </div>
   </div>
 </section>
+</div>
 </footer>
 <script>
 const t = document.querySelector('.nx-header-toggle');
